@@ -1,7 +1,9 @@
 #!/usr/bin/env python
 
 """
-Import a tsv file into a new vocab TOML file.
+Import the lists/*.tsv files (kanji, kana, english, level[, french]) into
+vocabulary/generated_<name>.toml. Words already in the library are skipped and
+new ones are appended, so existing notes and their translations are kept.
 """
 
 import csv
@@ -34,10 +36,15 @@ def hydrate_note(row):
     ('kanji', kanji),
     ('kana', kana),
     ('english', english),
+  ]
+  # Optional fifth column: French translation.
+  if len(row) > 4 and row[4].strip():
+    keys.append(('french', row[4].strip()))
+  keys.extend([
     ('source', 'wiktionary'),
     ('level', level),
     ('tags', ['generated', 'tsv']),
-  ]
+  ])
   return OrderedDict(keys)
 
 def tsv_to_toml_filename(filename):
@@ -65,11 +72,18 @@ def main():
         note = hydrate_note(row)
         notes.append(note)
 
-    toml = {}
-    toml[INDEX_NAME] = notes
-
     new_filename = tsv_to_toml_filename(filename)
-    print('Writing {} notes to {}'.format(len(notes), new_filename))
+    if not notes:
+      print('No new notes in {}'.format(filename))
+      continue
+
+    # NB: Append, never overwrite: the existing notes may have been edited/translated.
+    toml = {INDEX_NAME: []}
+    if os.path.exists(new_filename):
+      toml = NoteLibrary.read_notes_from_toml_file(new_filename)
+    toml[INDEX_NAME].extend(notes)
+
+    print('Adding {} notes to {}'.format(len(notes), new_filename))
     write_toml(toml, new_filename)
     note_library.add_notes_from_file(new_filename)
 

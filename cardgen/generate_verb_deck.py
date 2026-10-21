@@ -334,6 +334,11 @@ class Verb:
   # present, participe, auxiliaire, imperatif, nous) plus `pronominal` and an
   # optional `complement` placed after the verb (eg. aller *ensemble*).
 
+  FRENCH_REQUIRED = ('infinitif', 'present', 'participe', 'auxiliaire', 'imperatif', 'nous')
+
+  def has_french(self):
+    return all(str(self.french.get(key, '')).strip() for key in Verb.FRENCH_REQUIRED)
+
   def _fr_pronominal(self):
     return self.french.get('pronominal') in (True, 'oui')
 
@@ -771,6 +776,9 @@ class Note(genanki.Note):
 
 def main():
   for verb in VERB_HASH.values():
+    if not verb.has_french():
+      print('Skipping {} ({}): incomplete french-conjugated'.format(verb.kanji, verb.kana))
+      continue
     note = Note(verb)
     VERB_CARD_DECK.add_note(note)
 

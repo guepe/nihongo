@@ -22,6 +22,7 @@ def insert_blanks(notes, filename):
     ('kanji', ''),
     ('kana', ''),
     ('english', ''),
+    ('french', ''),
   ]
 
   if 'verbs' in filename:
@@ -34,8 +35,19 @@ def insert_blanks(notes, filename):
 
     conjugated = DynamicInlineTableDict(conjugated)
 
+    # See the README for what goes in each field.
+    french_conjugated = DynamicInlineTableDict(OrderedDict([
+      ('infinitif', ''),
+      ('present', ''),
+      ('participe', ''),
+      ('auxiliaire', 'avoir'),
+      ('imperatif', ''),
+      ('nous', ''),
+    ]))
+
     keys.extend([
       ('english-conjugated', conjugated),
+      ('french-conjugated', french_conjugated),
       ('verb-type', ''),
       ('transitive', False),
     ])
@@ -46,11 +58,6 @@ def insert_blanks(notes, filename):
     ('explain', ''),
     ('tags', []),
   ])
-
-  blank_note['source'] = ''
-  blank_note['level'] = ''
-  blank_note['explain'] = ''
-  blank_note['tags'] = []
 
   blank_note = OrderedDict(keys)
   notes[INDEX_NAME].insert(0, blank_note)
