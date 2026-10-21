@@ -94,7 +94,7 @@ tags = ['common', 'noun']
 frequency_scores = { anime = 658, leeds = 7592, novels = 662, wikipedia = 2627 }
 
 [[cards]]
-kanji = '経験'
+kanji = '経験する'
 kana = 'けいけんする'
 english = 'experience'
 french = 'expérience'
@@ -224,14 +224,14 @@ tags = ['common', 'fantasy', 'noun']
 frequency_scores = { anime = 709, leeds = 2720, novels = 852, wikipedia = 218 }
 
 [[cards]]
-kanji = '自身'
+kanji = '自信'
 kana = 'じしん'
 english = 'self-confidence'
-french = 'soi-même; en personne'
+french = 'confiance en soi'
 source = 'lessons; anime-frequency'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
-frequency_scores = { anime = 867, leeds = 471, novels = 459, wikipedia = 321 }
+frequency_scores = { anime = 1117, leeds = 1842, novels = 1496, wikipedia = 8737 }
 
 [[cards]]
 kanji = '～術'

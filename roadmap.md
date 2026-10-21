@@ -118,19 +118,19 @@ Quand l'anglais était faux ou incomplet, la traduction suit le japonais. Exempl
 匂い → « odeur; parfum » (l'anglais disait « mauvaise odeur ») ; 自身 → « soi-même »
 (l'anglais disait « self-confidence », qui est 自信) ; 変化 (へんか) → « changement ».
 
-### Erreurs repérées dans les données d'origine (à corriger)
+### Erreurs corrigées dans les données d'origine ✅
 
-Corriger `kanji` ou `kana` change l'identifiant de la note. Il faut donc le faire **avant**
-le premier import dans Anki, ou accepter de perdre l'historique de ces mots.
+Corrigées avant le premier import dans Anki (l'identifiant d'une note dépend de son
+kanji et de son kana) :
 
-- [ ] `kanji = 'さ'`, `kana = 'きょか'` → le kanji devrait être 許可
-- [ ] `kanji = 'お'`, `kana = 'じき'` → le kanji devrait être 直
-- [ ] 思い出 : `kana = 'おもで'` → おもいで
-- [ ] よろしい : kanji et kana inversés
-- [ ] 遠慮, 故障, 退院, 入学, 拝見 : `kana` se termine par する, mais pas `kanji`
-- [ ] 自身 : `english = 'self-confidence'` est faux (c'est 自信)
-- [ ] 用 (よう) existe en deux notes (« task » et « task; business ») avec la même
-      traduction : à fusionner
+- [x] `さ` / きょか → 許可 ; `お` / じき → 直
+- [x] 思い出 : `おもで` → おもいで ; 宜しい / よろしい : kanji et kana remis dans le bon sens
+- [x] 13 mots dont le kana finissait par する sans que le kanji le fasse (遠慮, 故障, 退院,
+      入学, 拝見, 出席, 承知, 食事, 世話, 輸出, 経験…) : `する` ajouté au kanji ;
+      相談 : kana « そうだん / そうだんする » → そうだん
+- [x] 自身 « self-confidence » (manga-and-anime) → kanji 自信, « confiance en soi »
+- [x] 用 (よう) : les deux notes sont fusionnées en une seule (« task; business »)
+- [x] `update_frequencies.py` cherche aussi les verbes en する sous leur forme nom
 
 Conventions de traduction :
 

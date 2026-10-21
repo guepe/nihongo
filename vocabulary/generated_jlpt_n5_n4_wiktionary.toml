@@ -39,7 +39,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 2661, leeds = 3301, novels = 2122, wikipedia = 1137 }
 
 [[cards]]
-kanji = '遠慮'
+kanji = '遠慮する'
 kana = 'えんりょする'
 english = 'to be reserved, to be restrained'
 french = 'se retenir; faire preuve de réserve'
@@ -462,6 +462,7 @@ french = 'se disputer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+frequency_scores = { anime = 8952, leeds = 14445 }
 
 [[cards]]
 kanji = '下宿'
@@ -533,7 +534,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 6412, leeds = 470, wikipedia = 176 }
 
 [[cards]]
-kanji = '故障'
+kanji = '故障する'
 kana = 'こしょうする'
 english = 'to break-down'
 french = 'tomber en panne'
@@ -989,7 +990,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 314, leeds = 1765, novels = 826 }
 
 [[cards]]
-kanji = '退院'
+kanji = '退院する'
 kana = 'たいいんする'
 english = 'to leave hospital'
 french = "sortir de l'hôpital"
@@ -1284,7 +1285,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 1084, leeds = 2218, novels = 1572, wikipedia = 4892 }
 
 [[cards]]
-kanji = '入学'
+kanji = '入学する'
 kana = 'にゅうがくする'
 english = 'to enter school or university'
 french = "entrer à l'école ou à l'université"
@@ -1374,7 +1375,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 9588, leeds = 10693 }
 
 [[cards]]
-kanji = '拝見'
+kanji = '拝見する'
 kana = 'はいけんする'
 english = '(humble) to look at'
 french = '(humble) voir; regarder'
@@ -1929,4 +1930,5 @@ french = 'vérifier'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
+frequency_scores = { anime = 1815, leeds = 1105, wikipedia = 5688 }
 

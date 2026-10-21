@@ -16,7 +16,7 @@ french = 'aimer'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 2923, leeds = 4362, wikipedia = 10006 }
+frequency_scores = { anime = 2923, leeds = 4362, novels = 968, wikipedia = 10006 }
 
 [[cards]]
 kanji = 'あいにく'
@@ -2112,7 +2112,7 @@ french = 'concerner; être lié à'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 35760, wikipedia = 229 }
+frequency_scores = { anime = 35760, leeds = 4729, wikipedia = 229 }
 
 [[cards]]
 kanji = '監督'
@@ -2644,13 +2644,14 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 2437, leeds = 3285, novels = 2531, wikipedia = 2681 }
 
 [[cards]]
-kanji = 'さ'
+kanji = '許可'
 kana = 'きょか'
 english = 'permission,approval'
 french = 'permission; autorisation'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
+frequency_scores = { anime = 1750, leeds = 2097, wikipedia = 1965 }
 
 [[cards]]
 kanji = '巨大'
@@ -5082,7 +5083,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 3847, leeds = 1958, wikipedia = 111 }
 
 [[cards]]
-kanji = '出席'
+kanji = '出席する'
 kana = 'しゅっせきする'
 english = 'attendance,presence, to attend'
 french = 'présence; assister (à)'
@@ -5231,7 +5232,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 4905, leeds = 1593, novels = 2389, wikipedia = 2608 }
 
 [[cards]]
-kanji = '承知'
+kanji = '承知する'
 kana = 'しょうちする'
 english = 'consent,acceptance,assent,admitting, to consent'
 french = 'consentement; accord; savoir; consentir'
@@ -5341,7 +5342,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 3853, leeds = 2135, wikipedia = 2632 }
 
 [[cards]]
-kanji = '食事'
+kanji = '食事する'
 kana = 'しょくじする'
 english = 'meal, to have a meal'
 french = 'repas; prendre un repas'
@@ -5661,14 +5662,14 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 11455, leeds = 14866 }
 
 [[cards]]
-kanji = 'お'
+kanji = '直'
 kana = 'じき'
 english = 'earnestly,immediately,exactly'
 french = 'bientôt; immédiatement; exactement'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 3444 }
+frequency_scores = { anime = 3434, leeds = 4938, novels = 1568, wikipedia = 943 }
 
 [[cards]]
 kanji = '時期'
@@ -6600,7 +6601,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 3648, leeds = 7162, novels = 2796 }
 
 [[cards]]
-kanji = '世話'
+kanji = '世話する'
 kana = 'せわする'
 english = 'looking after,help,aid,assistance, to look after'
 french = "soins; aide; s'occuper de"
@@ -6761,7 +6762,7 @@ frequency_scores = { anime = 15794, leeds = 5521, wikipedia = 2647 }
 
 [[cards]]
 kanji = '相談'
-kana = 'そうだん / そうだんする'
+kana = 'そうだん'
 english = 'consultation,discussion，to consult, to discuss'
 french = 'consultation; discussion; consulter; discuter'
 source = 'wiktionary'
@@ -7027,7 +7028,7 @@ french = "faire face à; s'opposer à; envers"
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 17753, wikipedia = 80 }
+frequency_scores = { anime = 17753, leeds = 1365, novels = 2722, wikipedia = 80 }
 
 [[cards]]
 kanji = '大戦'
@@ -7217,7 +7218,7 @@ french = 'atteindre; parvenir à'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 14011, leeds = 6108, wikipedia = 1292 }
+frequency_scores = { anime = 14011, leeds = 6108, novels = 468, wikipedia = 1292 }
 
 [[cards]]
 kanji = '唯'
@@ -8126,6 +8127,7 @@ french = 'convenir à; être adapté à'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
+frequency_scores = { anime = 27417, leeds = 14750 }
 
 [[cards]]
 kanji = '適切'
@@ -9183,6 +9185,7 @@ french = 'se passionner pour; être absorbé par'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
+frequency_scores = { anime = 10999, leeds = 10764 }
 
 [[cards]]
 kanji = '年間'
@@ -9782,7 +9785,7 @@ french = 'punir; pénaliser'
 source = 'wiktionary'
 level = 'n3'
 tags = ['generated', 'tsv']
-frequency_scores = { anime = 14448 }
+frequency_scores = { anime = 14448, leeds = 6437, wikipedia = 8877 }
 
 [[cards]]
 kanji = 'ばったり'
@@ -11641,7 +11644,7 @@ tags = ['generated', 'tsv']
 frequency_scores = { anime = 6413, leeds = 9157 }
 
 [[cards]]
-kanji = '輸出'
+kanji = '輸出する'
 kana = 'ゆしゅつする'
 english = 'export, to export'
 french = 'exportation; exporter'

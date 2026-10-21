@@ -82,6 +82,9 @@ def main():
             current_score = freq_map[note['kanji']]
           elif note['kana'] in freq_map:
             current_score = freq_map[note['kana']]
+          elif note['kanji'].endswith('する') and note['kanji'][:-2] in freq_map:
+            # Suru verbs (eg. 遠慮する) are listed by their noun.
+            current_score = freq_map[note['kanji'][:-2]]
           else:
             continue
 

@@ -2039,4 +2039,5 @@ transitive = true
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
+frequency_scores = { anime = 3633, leeds = 1957, wikipedia = 2782 }
 
