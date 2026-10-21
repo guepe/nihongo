@@ -12,6 +12,7 @@ import toml
 import unittest
 from argparse import ArgumentParser
 from collections import OrderedDict
+from functools import cached_property
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
@@ -274,7 +275,8 @@ class Note(genanki.Note):
     self.english = verb_dict['english']
     # These fields are not always populated:
     self.level = verb_dict['level'] if 'level' in verb_dict else ''
-    self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
+    # NB: Anki tags can't contain spaces, so 'suru verb' becomes 'suru_verb'.
+    self.tags = [tag.replace(' ', '_') for tag in verb_dict.get('tags', [])]
     self.frequency_highest = ''
     self.frequency_highest_source = ''
     self.frequency_anime = ''
@@ -344,7 +346,7 @@ class Note(genanki.Note):
   def guid(self):
     return genanki.guid_for(self.kanji, self.kana)
 
-  @genanki.cached_property
+  @cached_property
   def cards(self):
     # We use cached_property instead of initializing in the constructor so that
     # the user can set the model after calling __init__ and it'll still work.
@@ -410,8 +412,6 @@ for filename in glob.glob('**/*.toml', recursive=True):
       total_suspended += 1
 
     note = Note(n, suspended=suspended)
-    for card in note.cards:
-      card.suspend = True
 
     if note.make_kanji_card:
       total_kanji_only += 1

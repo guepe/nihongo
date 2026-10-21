@@ -782,6 +782,9 @@ class Note(genanki.Note):
     for conjugation in CONJUGATIONS:
       fields.extend(conjugation.map_verb_fields(verb))
 
+    # NB: genanki requires string fields; missing values (eg. no JLPT level) are None.
+    fields = ['' if f is None else f for f in fields]
+
     super().__init__(model=VERB_CARD_MODEL,
         fields=fields,
         sort_field=self.kana,

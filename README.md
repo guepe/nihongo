@@ -34,40 +34,78 @@ that can be ignored. I'll be removing it and tidying things up as I have the tim
 
 Installation
 ------------
-The scripts here are written in Python 3. Dependencies are managed with `venv`.
-Install a local venv, activate, and download dependencies as follows:
+Les scripts sont écrits en Python 3. Les dépendances s'installent dans un environnement
+virtuel (`venv`) placé dans le dossier `python/`, qui est ignoré par git :
 
-```python
+```bash
 python3 -m venv python
 source python/bin/activate
 pip install -r requirements.txt
 ```
 
-Usage
------
-(It's extremely useful to understand the difference between Anki "cards" and "notes"
-prior to reading this section. See their guide for details.)
+Utilisation
+-----------
+### Principe
 
-Since the Anki deck generation code in this repository uses stable names and UUIDs for
-the decks it generates, you can safely re-generate your decks and re-import them without
-losing your SRS timing data. This is immensely useful when making changes to the
-vocabulary (mutating, adding, or removing) or changing kanji-only configurations.
+Le vocabulaire est rédigé à la main dans des fichiers TOML, puis les scripts de `cardgen/`
+le transforment en un paquet Anki (`.apkg`) à importer :
 
-Each TOML entry in the `vocabulary` directory corresponds to an anki "note" and can have
-several cards generated for it. The "kanji" and "kana" fields of the TOML vocabulary
-entries are used to generate the note's UUID, so changes to any fields _other_ than these
-two will allow the note and respective cards to retain their SRS history. If you change
-the kanji or kana, however, all learning data will be lost and the entry will be treated
-as new / unseen.
+```
+vocabulary/**/*.toml  +  config/*.txt  ──►  cardgen/generate_vocabulary_deck.py  ──►  .apkg  ──►  Anki
+```
 
-If you change the kanji-only / furigana settings for any note, it changes which cards are
-generated for that note. This is because the generation code makes changes to the templates
-that render the undesired cards "empty"; Anki does not generate empty cards. It's important
-to mention, however, that Anki tries not to delete SRS data until you tell it. If you
-previously studied a card that you later hide (eg. by switching a furigana card to
-kanji-only), Anki will now show an "empty" front-facing card. To get rid of these (and
-purge the respective SRS data for the cards), select `Tools -> Empty Cards` (in Linux - not
-sure where this menu option lives for other OSes).
+Il est très utile de connaître la différence entre une *note* et une *carte* dans Anki
+(voir le manuel d'Anki). Chaque entrée `[[cards]]` d'un fichier TOML devient une **note**,
+et chaque note produit plusieurs **cartes** : traduction → japonais, kanji + kana → traduction, etc.
+
+### Générer et importer le deck
+
+**Lancez toujours les scripts depuis la racine du dépôt**, car ils utilisent des chemins
+relatifs comme `config/…`, `lists/…` et `vocabulary/…` :
+
+```bash
+source python/bin/activate
+python cardgen/generate_vocabulary_deck.py   # → kanji_card_deck_output.apkg
+python cardgen/generate_verb_deck.py         # → verb_card_deck_output.apkg (conjugaisons)
+```
+
+Ensuite, dans Anki : **Fichier → Importer…** et choisissez le fichier `.apkg`.
+
+### Régénérer sans perdre sa progression
+
+Les noms et identifiants du deck et du modèle sont fixes. L'identifiant de chaque note est
+calculé à partir de ses champs `kanji` et `kana` uniquement. Vous pouvez donc modifier le
+vocabulaire (ajouter, corriger ou retirer des mots, changer les réglages kanji seul), puis
+régénérer et réimporter le deck, sans perdre l'historique de révision.
+
+- Modifier n'importe quel champ **autre** que `kanji` et `kana` (traduction, tags,
+  niveau…) conserve la progression.
+- Modifier le `kanji` ou le `kana` crée une **nouvelle** note : l'historique de l'ancienne
+  est perdu.
+
+### Configuration
+
+- `config/kanji-only-vocab.txt` : un mot par ligne (valeur du champ `kanji`). Ces mots
+  n'auront pas de carte avec furigana, seulement une carte en kanji seul.
+- `config/suspended.txt` : un mot par ligne. Ses cartes sont importées **suspendues** et
+  reçoivent les tags `suspended` et `suspended_by_config`.
+
+Changer le réglage kanji seul / furigana d'un mot change les cartes générées pour ce mot :
+les templates rendent « vides » les cartes non voulues, et Anki ne crée pas de carte vide.
+En revanche, Anki ne supprime pas tout seul une carte déjà étudiée qui devient vide. Pour
+la retirer (avec son historique), utilisez **Outils → Vérifier les cartes vides**
+(*Empty Cards*).
+
+### Scripts utilitaires
+
+| Commande | Rôle |
+|---|---|
+| `python cardgen/sort.py` | Trie et normalise les fichiers TOML et `config/*.txt`. **À lancer avant chaque commit.** |
+| `python cardgen/update_frequencies.py` | Ajoute dans les TOML les scores de fréquence tirés de `lists/` (anime, Leeds, Wikipédia, romans). |
+| `python cardgen/frequency.py --jlpt n5 n4` | Liste les mots JLPT absents du vocabulaire. Aussi `--anime`, `--wanikani` et `--limit N`. |
+| `python cardgen/insert_blank_notes.py` | Ajoute une entrée vide en tête de chaque fichier pour saisir des mots à la main ; `sort.py` retire celles qui restent vides. |
+| `python cardgen/tsv_import.py` | Convertit les fichiers `lists/*.tsv` en fichiers TOML. |
+| `python cardgen/generate_verb_deck.py --test` | Lance les tests unitaires du conjugueur. |
 
 Card Templates
 --------------
