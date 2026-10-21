@@ -2,6 +2,7 @@
 kanji = '足'
 kana = 'あし'
 english = 'foot; leg'
+french = 'pied; jambe'
 level = 'n5'
 tags = ['body', 'common']
 frequency_scores = { anime = 434, leeds = 861, novels = 248, wikipedia = 1249 }
@@ -18,6 +19,7 @@ frequency_scores = { anime = 25656, leeds = 13818 }
 kanji = '頭'
 kana = 'あたま'
 english = 'head'
+french = 'tête'
 level = 'n5'
 tags = ['anatomy', 'body', 'common']
 frequency_scores = { anime = 267, leeds = 506, novels = 144, wikipedia = 593 }
@@ -42,6 +44,7 @@ frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
 kanji = 'お腹'
 kana = 'おなか'
 english = 'stomach'
+french = 'ventre'
 level = 'n5'
 tags = ['body']
 frequency_scores = { anime = 1689, leeds = 3666 }
@@ -50,6 +53,7 @@ frequency_scores = { anime = 1689, leeds = 3666 }
 kanji = '顔'
 kana = 'かお'
 english = 'face'
+french = 'visage'
 level = 'n5'
 tags = ['body']
 frequency_scores = { anime = 180, leeds = 558, novels = 71, wikipedia = 1878 }
@@ -66,6 +70,7 @@ frequency_scores = { anime = 30051 }
 kanji = '体'
 kana = 'からだ'
 english = 'body'
+french = 'corps'
 level = 'n5'
 tags = ['body']
 frequency_scores = { anime = 167, leeds = 494, novels = 219, wikipedia = 165 }
@@ -92,6 +97,7 @@ frequency_scores = { anime = 3051, leeds = 3885, wikipedia = 6311 }
 kanji = '口'
 kana = 'くち'
 english = 'mouth; opening'
+french = 'bouche; ouverture'
 level = 'n5'
 tags = ['body', 'common', 'noun']
 frequency_scores = { anime = 371, leeds = 907, novels = 136, wikipedia = 679 }
@@ -117,6 +123,7 @@ frequency_scores = { anime = 405, leeds = 2236, novels = 409, wikipedia = 2321 }
 kanji = '手'
 kana = 'て'
 english = 'hand; arm'
+french = 'main; bras'
 level = 'n5'
 tags = ['body']
 frequency_scores = { anime = 89, leeds = 281, novels = 76, wikipedia = 306 }
@@ -142,6 +149,7 @@ frequency_scores = { anime = 861, leeds = 1843, novels = 705, wikipedia = 5232 }
 kanji = '鼻'
 kana = 'はな'
 english = 'nose'
+french = 'nez'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1851, leeds = 3656, novels = 743, wikipedia = 5022 }
@@ -202,6 +210,7 @@ frequency_scores = { anime = 7640 }
 kanji = '耳'
 kana = 'みみ'
 english = 'ear'
+french = 'oreille'
 level = 'n5'
 tags = ['body', 'common', 'noun']
 frequency_scores = { anime = 1030, leeds = 1461, novels = 364, wikipedia = 3147 }
@@ -210,6 +219,7 @@ frequency_scores = { anime = 1030, leeds = 1461, novels = 364, wikipedia = 3147 
 kanji = '目'
 kana = 'め'
 english = 'eye; eyeball'
+french = 'œil'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 87, leeds = 189, novels = 80, wikipedia = 1178 }

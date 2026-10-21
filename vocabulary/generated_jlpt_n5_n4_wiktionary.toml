@@ -403,6 +403,7 @@ frequency_scores = { leeds = 562, novels = 259 }
 kanji = 'けれども'
 kana = 'けれども'
 english = 'however'
+french = 'cependant'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']
@@ -848,6 +849,7 @@ frequency_scores = { anime = 5843 }
 kanji = 'する'
 kana = 'する'
 english = 'to do'
+french = 'faire'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']
@@ -1061,6 +1063,7 @@ tags = ['generated', 'tsv']
 kanji = 'でも'
 kana = 'でも'
 english = 'but'
+french = 'mais'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']
@@ -1131,6 +1134,7 @@ frequency_scores = { anime = 130, leeds = 1234, novels = 375 }
 kanji = 'など'
 kana = 'など'
 english = 'et cetera'
+french = 'etc.'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']
@@ -1633,6 +1637,7 @@ frequency_scores = { anime = 4861, leeds = 7114, novels = 1672, wikipedia = 8304
 kanji = 'ゆっくりと'
 kana = 'ゆっくりと'
 english = 'slowly'
+french = 'lentement'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']

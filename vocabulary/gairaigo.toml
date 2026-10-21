@@ -63,6 +63,7 @@ frequency_scores = { anime = 38279 }
 kanji = '瓩'
 kana = 'キログラム'
 english = 'kilogram'
+french = 'kilogramme'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['ateji', 'common', 'dimensions', 'gairaigo', 'mass', 'noun', 'numbers', 'unit-of-measure', 'weight']
@@ -72,6 +73,7 @@ frequency_scores = { anime = 23914 }
 kanji = '粁'
 kana = 'キロメートル'
 english = 'kilometer'
+french = 'kilomètre'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['ateji', 'common', 'dimensions', 'distance', 'gairaigo', 'noun', 'numbers', 'unit-of-measure']
@@ -116,6 +118,7 @@ frequency_scores = { anime = 12468, leeds = 3070, wikipedia = 930 }
 kanji = 'コート'
 kana = 'コート'
 english = 'coat'
+french = 'manteau'
 source = 'irasshai'
 level = 'n5'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
@@ -249,6 +252,7 @@ frequency_scores = { anime = 6273, leeds = 4213, wikipedia = 2395 }
 kanji = 'テープ'
 kana = 'テープ'
 english = 'tape'
+french = 'bande; cassette'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun', 'office']
@@ -258,6 +262,7 @@ frequency_scores = { anime = 5299, leeds = 3965, wikipedia = 3837 }
 kanji = 'テープレコーダー'
 kana = 'テープレコーダー'
 english = 'tape recorder'
+french = 'magnétophone'
 level = 'n5'
 tags = ['common', 'dated', 'electronics', 'gairaigo', 'noun']
 frequency_scores = { anime = 37501 }
@@ -376,6 +381,7 @@ frequency_scores = { anime = 372, leeds = 3599, novels = 1848, wikipedia = 3595 
 kanji = 'メートル'
 kana = 'メートル'
 english = 'meter'
+french = 'mètre'
 level = 'n5'
 tags = ['common', 'dimensions', 'gairaigo', 'measure', 'noun']
 frequency_scores = { anime = 1572, leeds = 2597, novels = 678, wikipedia = 806 }
@@ -398,6 +404,7 @@ tags = ['gairaigo', 'noun', 'uncommon']
 kanji = 'ラジカセ'
 kana = 'ラジカセ'
 english = 'radio-cassette player (shortened word)'
+french = 'radiocassette (mot abrégé)'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common', 'gairaigo', 'noun', 'old-technology', 'technology']

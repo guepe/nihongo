@@ -2,6 +2,7 @@
 kanji = '上着'
 kana = 'うわぎ'
 english = 'coat'
+french = 'veste'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8853, leeds = 11932 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 8853, leeds = 11932 }
 kanji = '鞄'
 kana = 'かばん'
 english = 'bag; briefcase; basket'
+french = 'sac; cartable'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6364, leeds = 12301, novels = 2374 }
@@ -36,6 +38,7 @@ frequency_scores = { anime = 4637, leeds = 6941, novels = 2240 }
 kanji = '靴'
 kana = 'くつ'
 english = 'shoes'
+french = 'chaussures'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3681, leeds = 1110, novels = 1771, wikipedia = 5760 }
@@ -44,6 +47,7 @@ frequency_scores = { anime = 3681, leeds = 1110, novels = 1771, wikipedia = 5760
 kanji = '靴下'
 kana = 'くつした'
 english = 'socks'
+french = 'chaussettes'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12426, leeds = 11045 }
@@ -52,6 +56,7 @@ frequency_scores = { anime = 12426, leeds = 11045 }
 kanji = '財布'
 kana = 'さいふ'
 english = 'wallet'
+french = 'portefeuille'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4229, leeds = 5666 }
@@ -69,6 +74,7 @@ frequency_scores = { anime = 3284, leeds = 8440, novels = 2427 }
 kanji = '背広'
 kana = 'せびろ'
 english = 'business suit'
+french = 'costume (de ville)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 43112 }
@@ -77,6 +83,7 @@ frequency_scores = { anime = 43112 }
 kanji = '洗濯'
 kana = 'せんたく'
 english = 'laundry; washing'
+french = 'lessive; lavage'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3454, leeds = 3570 }
@@ -85,6 +92,7 @@ frequency_scores = { anime = 3454, leeds = 3570 }
 kanji = '服'
 kana = 'ふく'
 english = 'clothes (esp. Western)'
+french = 'vêtements (surtout occidentaux)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 557, leeds = 2276, novels = 628, wikipedia = 2633 }
@@ -93,6 +101,7 @@ frequency_scores = { anime = 557, leeds = 2276, novels = 628, wikipedia = 2633 }
 kanji = '帽子'
 kana = 'ぼうし'
 english = 'hat'
+french = 'chapeau'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4241, leeds = 5577, novels = 2217, wikipedia = 7662 }
@@ -119,6 +128,7 @@ frequency_scores = { anime = 3918, leeds = 7969, wikipedia = 9960 }
 kanji = '洋服'
 kana = 'ようふく'
 english = 'Western-style clothes'
+french = 'vêtements occidentaux'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10879, leeds = 6718 }
@@ -127,6 +137,7 @@ frequency_scores = { anime = 10879, leeds = 6718 }
 kanji = 'シャツ'
 kana = 'シャツ'
 english = 'shirt'
+french = 'chemise'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7359, leeds = 5601, novels = 2280, wikipedia = 6916 }
@@ -135,6 +146,7 @@ frequency_scores = { anime = 7359, leeds = 5601, novels = 2280, wikipedia = 6916
 kanji = 'スカート'
 kana = 'スカート'
 english = 'skirt'
+french = 'jupe'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4370, leeds = 7455, novels = 1600, wikipedia = 8927 }
@@ -143,6 +155,7 @@ frequency_scores = { anime = 4370, leeds = 7455, novels = 1600, wikipedia = 8927
 kanji = 'スリッパ'
 kana = 'スリッパ'
 english = 'slippers'
+french = 'chaussons'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 16824 }
@@ -151,6 +164,7 @@ frequency_scores = { anime = 16824 }
 kanji = 'ズボン'
 kana = 'ズボン'
 english = 'pants (from French)'
+french = 'pantalon (du français « jupon »)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 9373, leeds = 8349, novels = 2478 }
@@ -159,6 +173,7 @@ frequency_scores = { anime = 9373, leeds = 8349, novels = 2478 }
 kanji = 'セーター'
 kana = 'セーター'
 english = 'sweater'
+french = 'pull'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 34781, leeds = 12776 }
@@ -167,6 +182,7 @@ frequency_scores = { anime = 34781, leeds = 12776 }
 kanji = 'ネクタイ'
 kana = 'ネクタイ'
 english = 'necktie'
+french = 'cravate'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12782, leeds = 9284 }
@@ -175,6 +191,7 @@ frequency_scores = { anime = 12782, leeds = 9284 }
 kanji = 'ハンカチ'
 kana = 'ハンカチ'
 english = 'handkerchief'
+french = 'mouchoir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8824, leeds = 13821 }
@@ -183,6 +200,7 @@ frequency_scores = { anime = 8824, leeds = 13821 }
 kanji = 'ボタン'
 kana = 'ボタン'
 english = 'button'
+french = 'bouton'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3803, leeds = 2464, novels = 2627, wikipedia = 2812 }
@@ -191,6 +209,7 @@ frequency_scores = { anime = 3803, leeds = 2464, novels = 2627, wikipedia = 2812
 kanji = 'ポケット'
 kana = 'ポケット'
 english = 'pocket'
+french = 'poche'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5027, leeds = 5168, novels = 1454, wikipedia = 7161 }
@@ -199,6 +218,7 @@ frequency_scores = { anime = 5027, leeds = 5168, novels = 1454, wikipedia = 7161
 kanji = 'ワイシャツ'
 kana = 'ワイシャツ'
 english = 'business shirt (lit. white shirt)'
+french = 'chemise de costume (litt. « chemise blanche »)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 23882 }

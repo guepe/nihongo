@@ -9,6 +9,7 @@ frequency_scores = { anime = 949, wikipedia = 5234 }
 kanji = '鳥'
 kana = 'とり'
 english = 'bird'
+french = 'oiseau'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1662, leeds = 2011, novels = 1315, wikipedia = 1788 }

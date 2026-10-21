@@ -2,6 +2,7 @@
 kanji = '果物'
 kana = 'くだもの'
 english = 'fruit'
+french = 'fruit'
 level = 'n5'
 tags = ['common', 'food', 'fruit', 'noun']
 frequency_scores = { anime = 11149, leeds = 6877 }

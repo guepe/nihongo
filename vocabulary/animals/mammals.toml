@@ -2,6 +2,7 @@
 kanji = '犬'
 kana = 'いぬ'
 english = 'dog'
+french = 'chien'
 level = 'n5'
 tags = ['common', 'mammal']
 frequency_scores = { anime = 566, leeds = 1214, novels = 892, wikipedia = 1772 }
@@ -114,6 +115,7 @@ frequency_scores = { anime = 3418, leeds = 7306, novels = 2301, wikipedia = 2411
 kanji = '猫'
 kana = 'ねこ'
 english = 'cat'
+french = 'chat'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 574, leeds = 1618, novels = 1100, wikipedia = 2461 }

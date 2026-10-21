@@ -2,6 +2,7 @@
 kanji = '医者'
 kana = 'いしゃ'
 english = 'doctor'
+french = 'médecin'
 level = 'n5'
 tags = ['common', 'people']
 frequency_scores = { anime = 1985, leeds = 2696, novels = 1957, wikipedia = 7400 }
@@ -18,6 +19,7 @@ tags = ['common', 'noun', 'people', 'profession']
 kanji = '薬'
 kana = 'くすり'
 english = 'medicine'
+french = 'médicament'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1403, leeds = 1543, novels = 1649, wikipedia = 1879 }

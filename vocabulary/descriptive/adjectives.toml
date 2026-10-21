@@ -2,6 +2,7 @@
 kanji = '明るい'
 kana = 'あかるい'
 english = 'bright; well-lit'
+french = 'lumineux; bien éclairé'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'i-adjective']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 2574, leeds = 1980, novels = 1005, wikipedia = 3602
 kanji = '明るい'
 kana = 'あかるい'
 english = 'light; bright; well-lit; cheerful'
+french = 'clair; lumineux; gai'
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
 frequency_scores = { anime = 2574, leeds = 1980, novels = 1005, wikipedia = 3602 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 2574, leeds = 1980, novels = 1005, wikipedia = 3602
 kanji = '新しい'
 kana = 'あたらしい'
 english = 'new'
+french = 'nouveau'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 496, leeds = 357, novels = 701, wikipedia = 629 }
@@ -27,6 +30,7 @@ frequency_scores = { anime = 496, leeds = 357, novels = 701, wikipedia = 629 }
 kanji = '熱い'
 kana = 'あつい'
 english = 'hot (thing); passionate'
+french = 'chaud (objet); passionné'
 level = 'n5'
 tags = ['common', 'i-adjectives', 'temperature']
 frequency_scores = { anime = 1269, leeds = 2406, novels = 879, wikipedia = 9287 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 1269, leeds = 2406, novels = 879, wikipedia = 9287 
 kanji = '危ない'
 kana = 'あぶない'
 english = 'dangerous; watch out!'
+french = 'dangereux; attention !'
 level = 'n5'
 tags = ['common', 'expressions', 'i-adjectives']
 frequency_scores = { anime = 628, leeds = 4753, novels = 2891 }
@@ -52,6 +57,7 @@ frequency_scores = { anime = 1860, leeds = 4743, novels = 2762 }
 kanji = '忙しい'
 kana = 'いそがしい'
 english = 'busy; hectic'
+french = 'occupé; débordé'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1072, leeds = 1790, novels = 2838 }
@@ -60,6 +66,7 @@ frequency_scores = { anime = 1072, leeds = 1790, novels = 2838 }
 kanji = '色々'
 kana = 'いろいろ'
 english = 'various'
+french = 'divers'
 level = 'n5'
 tags = ['adverb', 'na-adjective', 'no-adjective', 'noun']
 frequency_scores = { anime = 883, leeds = 1179, novels = 731, wikipedia = 5604 }
@@ -68,6 +75,7 @@ frequency_scores = { anime = 883, leeds = 1179, novels = 731, wikipedia = 5604 }
 kanji = '煩い'
 kana = 'うるさい'
 english = 'loud; annoying'
+french = 'bruyant; agaçant'
 level = 'n5'
 tags = ['i-adjective']
 frequency_scores = { anime = 10110, leeds = 5333, novels = 2309 }
@@ -76,6 +84,7 @@ frequency_scores = { anime = 10110, leeds = 5333, novels = 2309 }
 kanji = '多い'
 kana = 'おおい'
 english = 'many'
+french = 'nombreux'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 450, leeds = 190, novels = 491, wikipedia = 77 }
@@ -84,6 +93,7 @@ frequency_scores = { anime = 450, leeds = 190, novels = 491, wikipedia = 77 }
 kanji = '大きい'
 kana = 'おおきい'
 english = 'big'
+french = 'grand'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 438, leeds = 324, novels = 251, wikipedia = 249 }
@@ -101,6 +111,7 @@ frequency_scores = { anime = 6849, leeds = 13718, novels = 897 }
 kanji = '遅い'
 kana = 'おそい'
 english = 'slow ; late'
+french = 'lent; tard'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 401, leeds = 1480, novels = 1081, wikipedia = 3177 }
@@ -109,6 +120,7 @@ frequency_scores = { anime = 401, leeds = 1480, novels = 1081, wikipedia = 3177 
 kanji = '重い'
 kana = 'おもい'
 english = 'heavy'
+french = 'lourd'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1000, leeds = 1573, novels = 794, wikipedia = 3086 }
@@ -117,6 +129,7 @@ frequency_scores = { anime = 1000, leeds = 1573, novels = 794, wikipedia = 3086 
 kanji = '面白い'
 kana = 'おもしろい'
 english = 'interesting; amusing'
+french = 'intéressant; amusant'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 423, leeds = 580, novels = 1161, wikipedia = 6886 }
@@ -125,6 +138,7 @@ frequency_scores = { anime = 423, leeds = 580, novels = 1161, wikipedia = 6886 }
 kanji = '軽い'
 kana = 'かるい'
 english = 'light (weight); non-serious'
+french = 'léger (poids); pas sérieux'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1363, leeds = 1725, novels = 568, wikipedia = 4744 }
@@ -133,6 +147,7 @@ frequency_scores = { anime = 1363, leeds = 1725, novels = 568, wikipedia = 4744 
 kanji = '可愛い'
 kana = 'かわいい'
 english = 'cute; adorable'
+french = 'mignon'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 554, leeds = 2737, novels = 2069 }
@@ -149,6 +164,7 @@ frequency_scores = { anime = 464, leeds = 579, novels = 884, wikipedia = 3094 }
 kanji = '汚い'
 kana = 'きたない'
 english = 'dirty; messy'
+french = 'sale; en désordre'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1844, leeds = 5914, novels = 2557 }
@@ -166,6 +182,7 @@ frequency_scores = { anime = 1507, leeds = 1193, novels = 2941, wikipedia = 2213
 kanji = '綺麗'
 kana = 'きれい'
 english = 'pretty; clean; tidy'
+french = 'joli; propre'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 1107, leeds = 2756, novels = 2029, wikipedia = 9041 }
@@ -190,6 +207,7 @@ frequency_scores = { anime = 17855 }
 kanji = '静か'
 kana = 'しずか'
 english = 'quiet; peaceful'
+french = 'calme; paisible'
 level = 'n5'
 tags = ['common', 'na-adjectives']
 frequency_scores = { anime = 922, leeds = 2382, novels = 607, wikipedia = 7273 }
@@ -198,6 +216,7 @@ frequency_scores = { anime = 922, leeds = 2382, novels = 607, wikipedia = 7273 }
 kanji = '上手'
 kana = 'じょうず'
 english = 'skillful'
+french = 'doué'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 1682, leeds = 3101 }
@@ -215,6 +234,7 @@ frequency_scores = { anime = 17840 }
 kanji = '少ない'
 kana = 'すくない'
 english = 'few; scarce'
+french = 'peu nombreux'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1513, leeds = 520, novels = 1249, wikipedia = 504 }
@@ -223,6 +243,7 @@ frequency_scores = { anime = 1513, leeds = 520, novels = 1249, wikipedia = 504 }
 kanji = '狭い'
 kana = 'せまい'
 english = 'narrow; confined; cramped'
+french = 'étroit; exigu'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 2432, leeds = 2402, novels = 1375, wikipedia = 3168 }
@@ -231,6 +252,7 @@ frequency_scores = { anime = 2432, leeds = 2402, novels = 1375, wikipedia = 3168
 kanji = '大切'
 kana = 'たいせつ'
 english = 'important; necessary'
+french = 'important; précieux'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 507, leeds = 756, novels = 1614, wikipedia = 7201 }
@@ -239,6 +261,7 @@ frequency_scores = { anime = 507, leeds = 756, novels = 1614, wikipedia = 7201 }
 kanji = '高い'
 kana = 'たかい'
 english = 'tall; high; expensive'
+french = 'haut; cher'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 325, leeds = 267, novels = 330, wikipedia = 172 }
@@ -255,6 +278,7 @@ frequency_scores = { anime = 1095, leeds = 1002, novels = 1280, wikipedia = 3330
 kanji = '大丈夫'
 kana = 'だいじょうぶ'
 english = 'safe; alright; OK; no thanks'
+french = "ça va; d'accord; non merci"
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective']
 frequency_scores = { anime = 74, leeds = 1623, novels = 664 }
@@ -263,6 +287,7 @@ frequency_scores = { anime = 74, leeds = 1623, novels = 664 }
 kanji = '大好き'
 kana = 'だいすき'
 english = 'lovable; like very much'
+french = "adoré; qu'on aime beaucoup"
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 724, leeds = 1584, wikipedia = 9407 }
@@ -271,6 +296,7 @@ frequency_scores = { anime = 724, leeds = 1584, wikipedia = 9407 }
 kanji = '小さい'
 kana = 'ちいさい'
 english = 'small; little'
+french = 'petit'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 771, leeds = 1037, novels = 470, wikipedia = 1425 }
@@ -279,6 +305,7 @@ frequency_scores = { anime = 771, leeds = 1037, novels = 470, wikipedia = 1425 }
 kanji = '近い'
 kana = 'ちかい'
 english = 'near; close by'
+french = 'proche'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 757, leeds = 847, novels = 616, wikipedia = 757 }
@@ -287,6 +314,7 @@ frequency_scores = { anime = 757, leeds = 847, novels = 616, wikipedia = 757 }
 kanji = '詰らない'
 kana = 'つまらない'
 english = 'dull; uninteresting; boring; insignificant'
+french = 'ennuyeux; insignifiant'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 2989, leeds = 4691 }
@@ -295,6 +323,7 @@ frequency_scores = { anime = 2989, leeds = 4691 }
 kanji = '強い'
 kana = 'つよい'
 english = 'strong; powerful'
+french = 'fort; puissant'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 152, leeds = 360, novels = 316, wikipedia = 408 }
@@ -311,6 +340,7 @@ frequency_scores = { anime = 4310, leeds = 3183 }
 kanji = '遠い'
 kana = 'とおい'
 english = 'far; distant'
+french = 'loin'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 620, leeds = 1778, novels = 632, wikipedia = 4701 }
@@ -319,6 +349,7 @@ frequency_scores = { anime = 620, leeds = 1778, novels = 632, wikipedia = 4701 }
 kanji = '長い'
 kana = 'ながい'
 english = 'long (distance)'
+french = 'long'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 490, leeds = 519, novels = 284, wikipedia = 437 }
@@ -336,6 +367,7 @@ frequency_scores = { anime = 4185, leeds = 10763 }
 kanji = '賑やか'
 kana = 'にぎやか'
 english = 'bustling; busy; lively'
+french = 'animé'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 6815, leeds = 12655 }
@@ -353,6 +385,7 @@ frequency_scores = { anime = 1349, leeds = 805, wikipedia = 587 }
 kanji = '温い'
 kana = 'ぬるい'
 english = 'lukewarm'
+french = 'tiède'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 17159 }
@@ -370,6 +403,7 @@ frequency_scores = { anime = 2216, leeds = 4845 }
 kanji = '早い'
 kana = 'はやい'
 english = 'quick; fast; early (in the day)'
+french = 'tôt; rapide'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 102, leeds = 541, novels = 283, wikipedia = 1912 }
@@ -387,6 +421,7 @@ frequency_scores = { anime = 36010 }
 kanji = '低い'
 kana = 'ひくい'
 english = 'short (height); low (rank, value)'
+french = 'bas; petit (taille)'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 2139, leeds = 1098, novels = 751, wikipedia = 972 }
@@ -395,6 +430,7 @@ frequency_scores = { anime = 2139, leeds = 1098, novels = 751, wikipedia = 972 }
 kanji = '広い'
 kana = 'ひろい'
 english = 'wide; vast; spacious'
+french = 'large; spacieux'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1706, leeds = 1146, novels = 939, wikipedia = 703 }
@@ -412,6 +448,7 @@ frequency_scores = { anime = 691, leeds = 919, novels = 437, wikipedia = 1267 }
 kanji = '古い'
 kana = 'ふるい'
 english = 'old (things not people); aged; ancient'
+french = 'vieux (objets, pas les personnes); ancien'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1695, leeds = 1362, novels = 1175, wikipedia = 1229 }
@@ -420,6 +457,7 @@ frequency_scores = { anime = 1695, leeds = 1362, novels = 1175, wikipedia = 1229
 kanji = '下手'
 kana = 'へた'
 english = 'unskilled; unskillful'
+french = 'maladroit; mauvais (à quelque chose)'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 1773, leeds = 4170 }
@@ -437,6 +475,7 @@ frequency_scores = { anime = 301, leeds = 1811, novels = 899, wikipedia = 3807 }
 kanji = '便利'
 kana = 'べんり'
 english = 'convenient; handy; useful'
+french = 'pratique'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 3153, leeds = 1798, wikipedia = 8237 }
@@ -445,6 +484,7 @@ frequency_scores = { anime = 3153, leeds = 1798, wikipedia = 8237 }
 kanji = '欲しい'
 kana = 'ほしい'
 english = 'desired; want; wished for; need'
+french = 'désiré; vouloir'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 343, leeds = 639, novels = 952, wikipedia = 3663 }
@@ -453,6 +493,7 @@ frequency_scores = { anime = 343, leeds = 639, novels = 952, wikipedia = 3663 }
 kanji = '丸い'
 kana = 'まるい'
 english = 'round; circular'
+french = 'rond'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 4528, leeds = 6037, novels = 1608, wikipedia = 6163 }
@@ -461,6 +502,7 @@ frequency_scores = { anime = 4528, leeds = 6037, novels = 1608, wikipedia = 6163
 kanji = '短い'
 kana = 'みじかい'
 english = 'short (length or distance, not height)'
+french = 'court (longueur, distance ; pas la taille)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 2175, leeds = 1820, novels = 1094, wikipedia = 1599 }
@@ -497,6 +539,7 @@ frequency_scores = { anime = 429, leeds = 2083, novels = 1439, wikipedia = 6274 
 kanji = '易しい'
 kana = 'やさしい'
 english = 'easy; simple'
+french = 'facile'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 28519, leeds = 3676, novels = 2187 }
@@ -505,6 +548,7 @@ frequency_scores = { anime = 28519, leeds = 3676, novels = 2187 }
 kanji = '安い'
 kana = 'やすい'
 english = 'cheap; inexpensive'
+french = 'bon marché'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 2040, leeds = 1025, novels = 1717, wikipedia = 5391 }
@@ -513,6 +557,7 @@ frequency_scores = { anime = 2040, leeds = 1025, novels = 1717, wikipedia = 5391
 kanji = '有名'
 kana = 'ゆうめい'
 english = 'famous'
+french = 'célèbre'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 1998, leeds = 1150, novels = 2976, wikipedia = 667 }
@@ -521,6 +566,7 @@ frequency_scores = { anime = 1998, leeds = 1150, novels = 2976, wikipedia = 667 
 kanji = '弱い'
 kana = 'よわい'
 english = 'weak; frail'
+french = 'faible'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 613, leeds = 1783, novels = 1834, wikipedia = 3406 }
@@ -529,6 +575,7 @@ frequency_scores = { anime = 613, leeds = 1783, novels = 1834, wikipedia = 3406 
 kanji = '立派'
 kana = 'りっぱ'
 english = 'splendid; fine; handsome'
+french = 'splendide; remarquable'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 1234, leeds = 3090, novels = 1632 }
@@ -537,6 +584,7 @@ frequency_scores = { anime = 1234, leeds = 3090, novels = 1632 }
 kanji = '悪い'
 kana = 'わるい'
 english = 'bad; poor; inferior; evil'
+french = 'mauvais'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 94, leeds = 370, novels = 235, wikipedia = 1997 }

@@ -2,6 +2,7 @@
 kanji = '青'
 kana = 'あお'
 english = 'blue'
+french = 'bleu'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
 frequency_scores = { anime = 1391, leeds = 2851, novels = 1279, wikipedia = 1325 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 1391, leeds = 2851, novels = 1279, wikipedia = 1325
 kanji = '青い'
 kana = 'あおい'
 english = 'blue'
+french = 'bleu'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 frequency_scores = { anime = 2450, leeds = 3762, novels = 1098, wikipedia = 4295 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 2450, leeds = 3762, novels = 1098, wikipedia = 4295
 kanji = '赤'
 kana = 'あか'
 english = 'red'
+french = 'rouge'
 level = 'n5'
 tags = ['color', 'common', 'no-adjective', 'noun']
 frequency_scores = { anime = 1009, leeds = 2106, novels = 1051, wikipedia = 925 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 1009, leeds = 2106, novels = 1051, wikipedia = 925 
 kanji = '赤い'
 kana = 'あかい'
 english = 'red'
+french = 'rouge'
 level = 'n5'
 tags = ['color', 'common', 'i-adjective']
 frequency_scores = { anime = 1215, leeds = 2795, novels = 586, wikipedia = 2915 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 1215, leeds = 2795, novels = 586, wikipedia = 2915 
 kanji = '色'
 kana = 'いろ'
 english = 'color'
+french = 'couleur'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 767, leeds = 772, novels = 310, wikipedia = 454 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 767, leeds = 772, novels = 310, wikipedia = 454 }
 kanji = '黄色'
 kana = 'きいろ'
 english = 'yellow'
+french = 'jaune'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 7085, leeds = 6093, wikipedia = 4120 }
@@ -50,6 +56,7 @@ frequency_scores = { anime = 7085, leeds = 6093, wikipedia = 4120 }
 kanji = '黄色い'
 kana = 'きいろい'
 english = 'yellow'
+french = 'jaune'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 9685, leeds = 7289, wikipedia = 9358 }
@@ -58,6 +65,7 @@ frequency_scores = { anime = 9685, leeds = 7289, wikipedia = 9358 }
 kanji = '黒'
 kana = 'くろ'
 english = 'black'
+french = 'noir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 718, leeds = 2022, novels = 604, wikipedia = 952 }
@@ -66,6 +74,7 @@ frequency_scores = { anime = 718, leeds = 2022, novels = 604, wikipedia = 952 }
 kanji = '黒い'
 kana = 'くろい'
 english = 'black'
+french = 'noir'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1774, leeds = 3318, novels = 439, wikipedia = 3244 }
@@ -74,6 +83,7 @@ frequency_scores = { anime = 1774, leeds = 3318, novels = 439, wikipedia = 3244 
 kanji = '白'
 kana = 'しろ'
 english = 'white'
+french = 'blanc'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 494, leeds = 1964, novels = 838, wikipedia = 903 }
@@ -82,6 +92,7 @@ frequency_scores = { anime = 494, leeds = 1964, novels = 838, wikipedia = 903 }
 kanji = '白い'
 kana = 'しろい'
 english = 'white'
+french = 'blanc'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1688, leeds = 2088, novels = 293, wikipedia = 2895 }
@@ -96,6 +107,7 @@ tags = ['common', 'no-adjective', 'noun']
 kanji = '茶色'
 kana = 'ちゃいろ'
 english = 'brown'
+french = 'marron'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 18992, leeds = 10627 }
@@ -112,6 +124,7 @@ frequency_scores = { anime = 10148, leeds = 10853, novels = 2200, wikipedia = 68
 kanji = '緑'
 kana = 'みどり'
 english = 'green'
+french = 'vert'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 989, leeds = 2715, novels = 1838, wikipedia = 1991 }

@@ -2,6 +2,7 @@
 kanji = 'お茶'
 kana = 'おちゃ'
 english = 'tea (usu. green)'
+french = 'thé (en général vert)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1167, leeds = 2878, novels = 1833 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 1167, leeds = 2878, novels = 1833 }
 kanji = '牛乳'
 kana = 'ぎゅうにゅう'
 english = "(cow's) milk"
+french = 'lait (de vache)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3260, leeds = 5306, wikipedia = 9486 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 3260, leeds = 5306, wikipedia = 9486 }
 kanji = '紅茶'
 kana = 'こうちゃ'
 english = 'black tea'
+french = 'thé noir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6128, leeds = 6610 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 6128, leeds = 6610 }
 kanji = '飲み物'
 kana = 'のみもの'
 english = 'drink; beverage'
+french = 'boisson'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3591, leeds = 6818 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 3591, leeds = 6818 }
 kanji = '～杯'
 kana = '～はい'
 english = 'counter for cupfuls'
+french = 'compteur pour tasses et verres'
 level = 'n5'
 tags = []
 
@@ -41,6 +46,7 @@ tags = []
 kanji = '水'
 kana = 'みず'
 english = 'water'
+french = 'eau'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 462, leeds = 437, novels = 287, wikipedia = 294 }
@@ -67,6 +73,7 @@ frequency_scores = { anime = 14623, leeds = 4908, wikipedia = 4212 }
 kanji = 'コップ'
 kana = 'コップ'
 english = 'cup'
+french = 'verre (à boire)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10676, leeds = 9323 }
@@ -75,6 +82,7 @@ frequency_scores = { anime = 10676, leeds = 9323 }
 kanji = '珈琲'
 kana = 'コーヒー'
 english = 'coffee'
+french = 'café'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 27231, leeds = 12732, novels = 2286, wikipedia = 5181 }

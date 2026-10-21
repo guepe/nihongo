@@ -2,6 +2,7 @@
 kanji = '朝ご飯'
 kana = 'あさごはん'
 english = 'breakfast'
+french = 'petit-déjeuner'
 level = 'n5'
 tags = ['common', 'food']
 
@@ -9,6 +10,7 @@ tags = ['common', 'food']
 kanji = '喫茶店'
 kana = 'きっさてん'
 english = 'coffee shop'
+french = 'café (salon de thé)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4559, leeds = 6882 }
@@ -25,6 +27,7 @@ frequency_scores = { anime = 19577 }
 kanji = 'ご飯'
 kana = 'ごはん'
 english = 'cooked rice; meal'
+french = 'riz cuit; repas'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 816, leeds = 2712 }
@@ -33,6 +36,7 @@ frequency_scores = { anime = 816, leeds = 2712 }
 kanji = '塩'
 kana = 'しお'
 english = 'salt'
+french = 'sel'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2873, leeds = 3197, wikipedia = 1721 }
@@ -48,6 +52,7 @@ frequency_scores = { anime = 18252, leeds = 4987 }
 kanji = '食堂'
 kana = 'しょくどう'
 english = 'cafeteria; dining hall'
+french = 'cantine; salle à manger'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5238, leeds = 5046, novels = 2968, wikipedia = 6474 }
@@ -87,6 +92,7 @@ tags = ['common', 'kitchen', 'noun']
 kanji = '食べ物'
 kana = 'たべもの'
 english = 'food'
+french = 'nourriture'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2710, leeds = 3011 }
@@ -95,6 +101,7 @@ frequency_scores = { anime = 2710, leeds = 3011 }
 kanji = '台所'
 kana = 'だいどころ'
 english = 'kitchen'
+french = 'cuisine (pièce)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10217, leeds = 6905, novels = 2463 }
@@ -103,6 +110,7 @@ frequency_scores = { anime = 10217, leeds = 6905, novels = 2463 }
 kanji = '冷たい'
 kana = 'つめたい'
 english = 'cold (to the touch); coldhearted'
+french = 'froid (au toucher); froid (personne)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1469, leeds = 3526, novels = 882 }
@@ -120,6 +128,7 @@ frequency_scores = { anime = 626, leeds = 817, novels = 1000, wikipedia = 189 }
 kanji = '晩御飯'
 kana = 'ばんごはん'
 english = 'dinner'
+french = 'dîner'
 level = 'n5'
 tags = []
 
@@ -127,6 +136,7 @@ tags = []
 kanji = '昼御飯'
 kana = 'ひるごはん'
 english = 'lunch'
+french = 'déjeuner'
 source = 'wiktionary'
 level = 'n5'
 tags = ['food', 'noun', 'uncommon']
@@ -135,6 +145,7 @@ tags = ['food', 'noun', 'uncommon']
 kanji = '昼ご飯'
 kana = 'ひるはん'
 english = 'lunch'
+french = 'déjeuner'
 level = 'n5'
 tags = []
 
@@ -142,6 +153,7 @@ tags = []
 kanji = '八百屋'
 kana = 'やおや'
 english = 'greengrocer'
+french = 'marchand de légumes'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 23473 }
@@ -150,6 +162,7 @@ frequency_scores = { anime = 23473 }
 kanji = '夕飯'
 kana = 'ゆうはん'
 english = 'evening meal (5-7pmish)'
+french = 'repas du soir (vers 17-19 h)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4265, leeds = 9721 }
@@ -158,6 +171,7 @@ frequency_scores = { anime = 4265, leeds = 9721 }
 kanji = '料理'
 kana = 'りょうり'
 english = 'cooking; cuisine'
+french = 'cuisine (plats, art culinaire)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 508, leeds = 836, novels = 1666, wikipedia = 1462 }
@@ -166,6 +180,7 @@ frequency_scores = { anime = 508, leeds = 836, novels = 1666, wikipedia = 1462 }
 kanji = '冷蔵庫'
 kana = 'れいぞうこ'
 english = 'refrigerator'
+french = 'réfrigérateur'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4726, leeds = 5381 }
@@ -174,6 +189,7 @@ frequency_scores = { anime = 4726, leeds = 5381 }
 kanji = 'カップ'
 kana = 'カップ'
 english = 'cup'
+french = 'tasse'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5011, leeds = 3554, novels = 2336, wikipedia = 1727 }
@@ -182,6 +198,7 @@ frequency_scores = { anime = 5011, leeds = 3554, novels = 2336, wikipedia = 1727
 kanji = 'カレー'
 kana = 'カレー'
 english = 'curry'
+french = 'curry'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1340, leeds = 3195, wikipedia = 7105 }
@@ -197,6 +214,7 @@ frequency_scores = { anime = 4992, leeds = 12003 }
 kanji = 'バター'
 kana = 'バター'
 english = 'butter'
+french = 'beurre'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10181, leeds = 8699 }
@@ -205,6 +223,7 @@ frequency_scores = { anime = 10181, leeds = 8699 }
 kanji = 'パン'
 kana = 'パン'
 english = 'bread'
+french = 'pain'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 915, leeds = 1830, novels = 1909, wikipedia = 2993 }
@@ -213,6 +232,7 @@ frequency_scores = { anime = 915, leeds = 1830, novels = 1909, wikipedia = 2993 
 kanji = 'レストラン'
 kana = 'レストラン'
 english = 'restaurant'
+french = 'restaurant'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6864, leeds = 2178, wikipedia = 3660 }

@@ -25,6 +25,7 @@ frequency_scores = { leeds = 3348, novels = 2928 }
 kanji = '其れから'
 kana = 'それから'
 english = 'after that (chronological order)'
+french = 'ensuite (ordre chronologique)'
 level = 'n5'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'expression']
@@ -34,6 +35,7 @@ frequency_scores = { leeds = 749, novels = 379 }
 kanji = '其れでは'
 kana = 'それでは'
 english = 'well then...; in that case...'
+french = 'bon, alors...; dans ce cas...'
 level = 'n5'
 tags = ['common', 'expression']
 frequency_scores = { leeds = 2266, novels = 2165 }
@@ -75,6 +77,7 @@ frequency_scores = { leeds = 3309, novels = 999 }
 kanji = 'もう一度'
 kana = 'もういちど'
 english = 'one more time; once again'
+french = 'encore une fois'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'count', 'expression', 'numbers']

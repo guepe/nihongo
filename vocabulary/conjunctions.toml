@@ -25,6 +25,7 @@ frequency_scores = { leeds = 151, novels = 140, wikipedia = 8386 }
 kanji = '然し'
 kana = 'しかし'
 english = 'however (start of sentence; formal/storytelling)'
+french = 'cependant (en début de phrase ; soutenu / narratif)'
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
@@ -43,6 +44,7 @@ frequency_scores = { leeds = 600, novels = 566, wikipedia = 4132 }
 kanji = 'じゃあ'
 kana = 'じゃあ'
 english = 'well then...'
+french = 'bon, alors...'
 level = 'n5'
 tags = ['common', 'conjunction']
 frequency_scores = { leeds = 2603, novels = 445 }
@@ -60,6 +62,7 @@ frequency_scores = { leeds = 2620, novels = 707, wikipedia = 7946 }
 kanji = '然うして'
 kana = 'そうして'
 english = 'and then (does not imply chronological order)'
+french = "et puis (sans idée d'ordre chronologique)"
 level = 'n5'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'conjunction']
@@ -69,6 +72,7 @@ frequency_scores = { leeds = 6103, novels = 1437 }
 kanji = 'そして'
 kana = 'そして'
 english = 'and'
+french = 'et'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'conjunction', 'grammar']
@@ -101,6 +105,7 @@ frequency_scores = { leeds = 910, novels = 205 }
 kanji = 'では'
 kana = 'では'
 english = 'then'
+french = 'alors'
 source = 'irasshai; anime'
 level = 'n5'
 tags = ['common', 'conjunction']
@@ -110,6 +115,7 @@ frequency_scores = { leeds = 1676, novels = 893 }
 kanji = 'でも、'
 kana = 'でも、'
 english = 'but (start of sentence; casual)'
+french = 'mais (en début de phrase ; familier)'
 level = 'n5'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']

@@ -32,6 +32,7 @@ frequency_scores = { anime = 15776, leeds = 14442 }
 kanji = '野菜'
 kana = 'やさい'
 english = 'vegetable'
+french = 'légume'
 level = 'n5'
 tags = ['common', 'food', 'no-adjective', 'noun', 'vegetable']
 frequency_scores = { anime = 2871, leeds = 2086, wikipedia = 5815 }

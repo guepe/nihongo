@@ -11,6 +11,7 @@ frequency_scores = { anime = 703, leeds = 1205, novels = 1488, wikipedia = 3331 
 kanji = '甘い'
 kana = 'あまい'
 english = 'sweet-tasting'
+french = 'sucré'
 level = 'n5'
 tags = ['common', 'food', 'i-adjectives']
 frequency_scores = { anime = 504, leeds = 1951, novels = 1252, wikipedia = 6637 }
@@ -19,6 +20,7 @@ frequency_scores = { anime = 504, leeds = 1951, novels = 1252, wikipedia = 6637 
 kanji = '薄い'
 kana = 'うすい'
 english = 'thin; weak (eg. taste)'
+french = 'fin; léger (ex. goût)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 2809, leeds = 2790, novels = 1420, wikipedia = 3603 }
@@ -27,6 +29,7 @@ frequency_scores = { anime = 2809, leeds = 2790, novels = 1420, wikipedia = 3603
 kanji = '美味しい'
 kana = 'おいしい'
 english = 'delicious'
+french = 'délicieux'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1007, leeds = 1634, novels = 2591 }
@@ -35,6 +38,7 @@ frequency_scores = { anime = 1007, leeds = 1634, novels = 2591 }
 kanji = '辛い'
 kana = 'からい'
 english = 'spicy; hot; salty'
+french = 'épicé; piquant; salé'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 1319, leeds = 2415, wikipedia = 7626 }
@@ -61,6 +65,7 @@ frequency_scores = { anime = 4185, leeds = 10763 }
 kanji = '不味い'
 kana = 'まずい'
 english = 'unappetising; unpleasant taste'
+french = 'mauvais (goût)'
 level = 'n5'
 tags = ['common', 'food', 'i-adjective', 'taste']
 frequency_scores = { anime = 7118, leeds = 4489, novels = 2220 }

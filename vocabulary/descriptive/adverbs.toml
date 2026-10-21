@@ -28,6 +28,7 @@ frequency_scores = { anime = 439, leeds = 1082, novels = 1352, wikipedia = 3357 
 kanji = '少し'
 kana = 'すこし'
 english = 'small quantity; little; few'
+french = 'un peu'
 level = 'n5'
 tags = ['adverb', 'common', 'noun']
 frequency_scores = { anime = 193, leeds = 329, novels = 196, wikipedia = 2957 }
@@ -61,6 +62,7 @@ frequency_scores = { leeds = 572, novels = 2117, wikipedia = 618 }
 kanji = '多分'
 kana = 'たぶん'
 english = 'perhaps; probably'
+french = 'peut-être; probablement'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 838, leeds = 1774, novels = 1826 }
@@ -69,6 +71,7 @@ frequency_scores = { anime = 838, leeds = 1774, novels = 1826 }
 kanji = '段々'
 kana = 'だんだん'
 english = 'gradually; little by little'
+french = 'peu à peu'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 15419, leeds = 14725, novels = 2517 }
@@ -77,6 +80,7 @@ frequency_scores = { anime = 15419, leeds = 14725, novels = 2517 }
 kanji = '丁度'
 kana = 'ちょうど'
 english = 'exactly; right'
+french = 'exactement; juste'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 7811, leeds = 6444, novels = 908, wikipedia = 5566 }
@@ -85,6 +89,7 @@ frequency_scores = { anime = 7811, leeds = 6444, novels = 908, wikipedia = 5566 
 kanji = '一寸'
 kana = 'ちょっと'
 english = 'a little; somewhat; excuse me!'
+french = 'un peu; excusez-moi !'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 16954, leeds = 253, novels = 225 }
@@ -102,6 +107,7 @@ frequency_scores = { anime = 798, leeds = 362, novels = 1354, wikipedia = 242 }
 kanji = '初めて'
 kana = 'はじめて'
 english = 'for the first time'
+french = 'pour la première fois'
 level = 'n5'
 tags = ['adverb', 'common', 'no-adjective']
 frequency_scores = { anime = 293, leeds = 601, novels = 584, wikipedia = 396 }
@@ -149,6 +155,7 @@ frequency_scores = { anime = 8024, leeds = 6822, novels = 653, wikipedia = 1807 
 kanji = '未だ'
 kana = 'まだ'
 english = 'not yet; still; besides'
+french = 'pas encore; encore'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 6761, leeds = 5734, novels = 150, wikipedia = 1381 }
@@ -157,6 +164,7 @@ frequency_scores = { anime = 6761, leeds = 5734, novels = 150, wikipedia = 1381 
 kanji = '真っ直ぐ'
 kana = 'まっすぐ'
 english = 'straight ahead; direct'
+french = 'tout droit'
 level = 'n5'
 tags = ['adverb', 'common', 'na-adjective', 'noun']
 frequency_scores = { anime = 6109, leeds = 12790, novels = 1844 }
@@ -165,6 +173,7 @@ frequency_scores = { anime = 6109, leeds = 12790, novels = 1844 }
 kanji = 'もう'
 kana = 'もう'
 english = 'already; again'
+french = 'déjà; encore'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 36, leeds = 210, novels = 92, wikipedia = 1279 }
@@ -173,6 +182,7 @@ frequency_scores = { anime = 36, leeds = 210, novels = 92, wikipedia = 1279 }
 kanji = 'もっと'
 kana = 'もっと'
 english = 'more; longer; further'
+french = 'plus; davantage'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 160, leeds = 433, novels = 338, wikipedia = 4916 }
@@ -181,6 +191,7 @@ frequency_scores = { anime = 160, leeds = 433, novels = 338, wikipedia = 4916 }
 kanji = 'ゆっくり'
 kana = 'ゆっくり'
 english = 'slowly; at ease'
+french = 'lentement; tranquillement'
 level = 'n5'
 tags = ['adverb', 'common', 'noun', 'suru-verb']
 frequency_scores = { anime = 909, leeds = 1846, novels = 456, wikipedia = 8825 }
@@ -189,6 +200,7 @@ frequency_scores = { anime = 909, leeds = 1846, novels = 456, wikipedia = 8825 }
 kanji = '良く'
 kana = 'よく'
 english = 'well; skillfully; frequently'
+french = 'bien; souvent'
 level = 'n5'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 26311, leeds = 630, novels = 336 }

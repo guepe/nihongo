@@ -19,6 +19,7 @@ frequency_scores = { anime = 973, leeds = 3361, novels = 354, wikipedia = 7173 }
 kanji = '痛い'
 kana = 'いたい'
 english = 'painful ; sore'
+french = 'douloureux; avoir mal'
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 305, leeds = 1883, novels = 862 }
@@ -35,6 +36,7 @@ frequency_scores = { anime = 1857, leeds = 790, novels = 1531, wikipedia = 402 }
 kanji = '風邪'
 kana = 'かぜ'
 english = 'cold; illness'
+french = 'rhume'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1477, leeds = 3103 }
@@ -59,6 +61,7 @@ frequency_scores = { anime = 1718, leeds = 4812, novels = 2085, wikipedia = 3297
 kanji = '元気'
 kana = 'げんき'
 english = 'lively; healthy'
+french = "en forme; plein d'énergie"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 440, leeds = 1373, novels = 1263, wikipedia = 6329 }
@@ -67,6 +70,7 @@ frequency_scores = { anime = 440, leeds = 1373, novels = 1263, wikipedia = 6329 
 kanji = '声'
 kana = 'こえ'
 english = 'voice'
+french = 'voix'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 237, leeds = 472, novels = 78, wikipedia = 935 }
@@ -75,6 +79,7 @@ frequency_scores = { anime = 237, leeds = 472, novels = 78, wikipedia = 935 }
 kanji = '丈夫'
 kana = 'じょうぶ'
 english = 'healthy; strong; solid; robust'
+french = 'robuste; solide; en bonne santé'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6059, leeds = 10434 }
@@ -83,6 +88,7 @@ frequency_scores = { anime = 6059, leeds = 10434 }
 kanji = '背'
 kana = 'せい'
 english = 'height'
+french = 'taille (hauteur)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2716, leeds = 4364, novels = 642, wikipedia = 3554 }
@@ -100,6 +106,7 @@ frequency_scores = { anime = 1442, leeds = 4037, novels = 512, wikipedia = 6854 
 kanji = '煙草'
 kana = 'たばこ'
 english = 'tabacco; cigarettes'
+french = 'tabac; cigarettes'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6652, leeds = 7346, novels = 1847, wikipedia = 3920 }
@@ -108,6 +115,7 @@ frequency_scores = { anime = 6652, leeds = 7346, novels = 1847, wikipedia = 3920
 kanji = '歯'
 kana = 'は'
 english = 'tooth'
+french = 'dent'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3083, leeds = 3192, novels = 1318, wikipedia = 3429 }
@@ -116,6 +124,7 @@ frequency_scores = { anime = 3083, leeds = 3192, novels = 1318, wikipedia = 3429
 kanji = '灰皿'
 kana = 'はいざら'
 english = 'ashtray'
+french = 'cendrier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 26550 }
@@ -124,6 +133,7 @@ frequency_scores = { anime = 26550 }
 kanji = '病気'
 kana = 'びょうき'
 english = 'sickness; illness; disease'
+french = 'maladie'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2271, leeds = 1650, novels = 1837, wikipedia = 3005 }
@@ -132,6 +142,7 @@ frequency_scores = { anime = 2271, leeds = 1650, novels = 1837, wikipedia = 3005
 kanji = '太い'
 kana = 'ふとい'
 english = 'fat; thick'
+french = 'gros; épais'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 2344, leeds = 5439, novels = 1459, wikipedia = 6169 }
@@ -140,6 +151,7 @@ frequency_scores = { anime = 2344, leeds = 5439, novels = 1459, wikipedia = 6169
 kanji = '細い'
 kana = 'ほそい'
 english = 'thin; slender'
+french = 'mince; fin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4089, leeds = 4567, novels = 981, wikipedia = 5556 }
@@ -148,6 +160,7 @@ frequency_scores = { anime = 4089, leeds = 4567, novels = 981, wikipedia = 5556 
 kanji = '眼鏡'
 kana = 'めがね'
 english = 'eyeglasses'
+french = 'lunettes'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3320, leeds = 7420, novels = 2571, wikipedia = 7441 }
