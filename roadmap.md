@@ -92,14 +92,15 @@ Dans `cardgen/generate_vocabulary_deck.py` :
 > de champs et de cartes sans passer d'abord par l'interface d'Anki : le deck va être
 > importé, et une modification ferait perdre la progression ou créerait un modèle en double.
 
-## Phase 2 : outil de suivi
+## Phase 2 : outil de suivi ✅
 
-- [ ] Nouveau script `cardgen/translation_status.py` :
-  - nombre d'entrées traduites / total, par fichier et par niveau JLPT ;
-  - `--missing [--level n5] [--limit 50]` : liste des entrées sans `french` ;
-  - `--export fichier.tsv` / `--import fichier.tsv` : faire l'aller-retour
-    `kanji, kana, english, french` par tableur ou par LLM, puis réinjecter le résultat
-    sans toucher à la mise en forme des toml (en s'appuyant sur `library.write_toml`).
+- [x] `cardgen/translation_status.py` (voir la section « Traduire en français » du README) :
+  - sans option : avancement par fichier et par niveau JLPT ;
+  - `--missing [--level n5] [--limit 50]` : mots sans `french` ;
+  - `--export fichier.tsv [--level n5] [--limit N] [--all]` /
+    `--import fichier.tsv` : aller-retour par tableur ou par LLM. Chaque mot est identifié
+    par `kanji` + `kana` + `english` : il y a 24 doublons kanji+kana, dont certains avec
+    des sens différents. Seules les lignes `french` changent dans les fichiers TOML.
 
 ## Phase 3 : traduction du vocabulaire (données)
 

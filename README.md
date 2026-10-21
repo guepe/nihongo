@@ -107,6 +107,24 @@ la retirer (avec son historique), utilisez **Outils → Vérifier les cartes vid
 | `python cardgen/tsv_import.py` | Convertit les fichiers `lists/*.tsv` en fichiers TOML. |
 | `python cardgen/generate_verb_deck.py --test` | Lance les tests unitaires du conjugueur. |
 
+### Traduire en français
+
+Le script `cardgen/translation_status.py` sert à suivre et à faire la traduction :
+
+```bash
+python cardgen/translation_status.py                         # avancement par fichier et par niveau JLPT
+python cardgen/translation_status.py --missing --level n5    # mots n5 pas encore traduits
+python cardgen/translation_status.py --export n5.tsv --level n5 --limit 200
+#   … remplir la colonne « french » (tableur, LLM…), sans toucher aux autres colonnes …
+python cardgen/translation_status.py --import n5.tsv         # réécrit `french` dans les TOML
+python cardgen/generate_vocabulary_deck.py                   # puis réimporter dans Anki
+```
+
+Le TSV contient les colonnes `kanji`, `kana`, `level`, `english`, `french` et `file`.
+L'import retrouve chaque mot grâce au trio `kanji` + `kana` + `english`, puis place `french`
+juste après `english`. Un mot présent dans plusieurs fichiers est mis à jour partout.
+`--export --all` inclut aussi les mots déjà traduits, pour les relire.
+
 Card Templates
 --------------
 
