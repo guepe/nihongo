@@ -65,7 +65,7 @@ relatifs comme `config/…`, `lists/…` et `vocabulary/…` :
 
 ```bash
 source python/bin/activate
-python cardgen/generate_vocabulary_deck.py   # → kanji_card_deck_output.apkg
+python cardgen/generate_vocabulary_deck.py   # → japonais_fr.apkg (deck « Japonais généré »)
 python cardgen/generate_verb_deck.py         # → verb_card_deck_output.apkg (conjugaisons)
 ```
 
@@ -117,6 +117,7 @@ Card Templates
 kanji = '' # Kanji. If gairaigo, katakana (which is also duplicated in kana for now).
 kana = '' # Hiragana or katakana to function as furigana.
 english = '' # English translation. Multiple definitions typically separated with ';'
+french = '' # Traduction française, affichée sur les cartes. Sans elle, l'anglais est affiché et la note reçoit le tag 'a_traduire'.
 source = '' # Where this vocabulary word originated from
 level = 'n[1-5]' # JLPT level: n1, n2, n3, n4, n5. Omitted if not in JLPT.
 explain = '' # Optional URL for further reading
@@ -130,6 +131,7 @@ tags = [] # grab bag of tags. 'common' is a tag used to denote frequent useage w
 kanji = '' # Kanji. If gairaigo, katakana (which is also duplicated in kana for now).
 kana = '' # Hiragana or katakana to function as furigana.
 english = ''# English translation. Multiple definitions typically separated with ';'. If transitive, there is a '~' present.
+french = '' # Traduction française (infinitif, sans « to »). Garder le '~' si transitif.
 english-conjugated = { base = '', past = '', plural = '', continous = '' } # Conjugations
 verb-type = '' # ichidan, godan-mu, godan-bu, etc.
 transitive = false # whether the verb is transitive or not
@@ -143,7 +145,13 @@ Anki Foo
 Search for all _cards_ without a JLPT level,
 
 ```
-"note:Generated Japanese Model" -level:n1 -level:n2 -level:n3 -level:n4 -level:n5 card:1
+"note:Modèle japonais (FR)" -level:n1 -level:n2 -level:n3 -level:n4 -level:n5 card:1
+```
+
+Lister les notes pas encore traduites en français :
+
+```
+tag:a_traduire
 ```
 
 Learning Kanji

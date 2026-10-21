@@ -70,27 +70,27 @@ On pourra supprimer `english` à la toute fin (phase 6), si on le souhaite.
 - [ ] (Phase 4) Les tests `test_field_ordering` et `test_field_mapping` échouent depuis 2019 :
       ils ne connaissent pas les champs `*_english_*`. À réécrire avec les champs français.
 
-## Phase 1 : deck vocabulaire en français (code)
+## Phase 1 : deck vocabulaire en français (code) ✅
 
 Dans `cardgen/generate_vocabulary_deck.py` :
 
-- [ ] Lire `french`, avec repli sur `english` et le tag `a_traduire` si le français manque.
-- [ ] **Nouveau deck et nouveau modèle Anki.** Le code avertit qu'il ne faut pas toucher aux
-      IDs `2000001234` / `2000001235` ni ajouter de champs en dehors de l'interface d'Anki.
-      Ce conseil vaut pour quelqu'un qui a déjà importé le deck. Si on part de zéro dans Anki,
-      le plus simple est de créer **de nouveaux IDs**, générés une seule fois avec
-      `random.randrange(1 << 30, 1 << 31)` puis figés, et de nouveaux noms :
-      - deck : `Japonais généré`
-      - modèle : `Modèle japonais (FR)`
-      - champ `English` → `Français`, et noms de cartes en français
-        (`Français → 日本語`, `Kanji + Kana`, `Kanji seul`, …)
-- [ ] Traduire les libellés des templates (footer, fréquences : `(anime)` reste tel quel).
-- [ ] Ajouter au résumé final : `notes traduites : X / Y`.
-- [ ] Renommer le fichier de sortie, par exemple `japonais_fr.apkg`, et le mettre dans `.gitignore`.
+- [x] Lire `french`, avec repli sur `english` et le tag `a_traduire` si le français manque.
+- [x] **Nouveau deck et nouveau modèle Anki.** Aucun deck n'avait été importé, donc on part
+      de zéro avec de nouveaux IDs, figés :
+      - deck `2080406641` : `Japonais généré`
+      - modèle `1405375075` : `Modèle japonais (FR)`
+      - champs : `Kanji`, `Kana`, `Français`, `Carte furigana ?`, `Carte kanji seul ?`,
+        `Carte kana seul ?`, `Niveau`, `Fréquence max`, `Source fréquence`, `Fréquence anime`
+      - cartes : `Français → Japonais`, `Kanji + Kana`, `Kanji seul (optionnel)`,
+        `Kana seul (optionnel)`
+- [x] Templates traduits (`(anime)` reste tel quel).
+- [x] Le résumé final affiche `notes translated to French: X / Y`.
+- [x] Fichier de sortie : `japonais_fr.apkg` (ignoré par git).
+- [x] README : schéma TOML avec `french`, recherche `tag:a_traduire`.
 
-> ⚠️ Si un deck a déjà été importé dans Anki avec l'ancien modèle, il faut d'abord renommer
-> le champ dans l'interface d'Anki (Outils → Gérer les types de notes → Champs), puis
-> régénérer. Sinon, Anki crée un doublon `Generated Japanese Model-xxxx`.
+> ⚠️ À partir de maintenant, **ne plus changer** les IDs, l'ordre des champs ni les noms
+> de champs et de cartes sans passer d'abord par l'interface d'Anki : le deck va être
+> importé, et une modification ferait perdre la progression ou créerait un modèle en double.
 
 ## Phase 2 : outil de suivi
 

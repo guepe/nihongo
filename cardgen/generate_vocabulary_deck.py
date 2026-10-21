@@ -20,58 +20,58 @@ from update_frequencies import ANIME_FREQUENCY_SUBFIELD
 from update_frequencies import FREQUENCY_FIELD
 from update_frequencies import calculate_highest_frequency
 
-OUTPUT_FILENAME = 'kanji_card_deck_output.apkg'
+OUTPUT_FILENAME = 'japonais_fr.apkg'
 
 # use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
 # and hardcode it into your Model definition.
 
 KANJI_CARD_DECK = genanki.Deck(
-  2000001234, # XXX: DO NOT CHANGE
-  'Generated Japanese') # XXX: DO NOT CHANGE
+  2080406641, # XXX: DO NOT CHANGE
+  'Japonais généré') # XXX: DO NOT CHANGE
 
 KANJI_CARD_MODEL = genanki.Model(
-  2000001235, # XXX: DO NOT CHANGE
-  'Generated Japanese Model', # The name of the model can change.
+  1405375075, # XXX: DO NOT CHANGE
+  'Modèle japonais (FR)', # The name of the model can change.
   fields=[
     # NB: Make changes to the Anki deck model fields using the
     # Anki interface first, or imports won't work as expected.
     # Even additive changes MUST be made in Anki's UI first, or
-    # you wind up with a new deck 'Generated Japanese Model-{hash}'
+    # you wind up with a new deck 'Modèle japonais (FR)-{hash}'
     {'name': 'Kanji'},
     {'name': 'Kana'},
-    {'name': 'English'},
-    {'name': 'Make Furigana Card?'},
-    {'name': 'Make Kanji Card?'},
-    {'name': 'Make Hiragana-only Card?'},
-    {'name': 'Level'},
-    {'name': 'Highest Frequency'},
-    {'name': 'Highest Frequency Source'},
-    {'name': 'Frequency Anime'},
+    {'name': 'Français'},
+    {'name': 'Carte furigana ?'},
+    {'name': 'Carte kanji seul ?'},
+    {'name': 'Carte kana seul ?'},
+    {'name': 'Niveau'},
+    {'name': 'Fréquence max'},
+    {'name': 'Source fréquence'},
+    {'name': 'Fréquence anime'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
   templates=[
-    # Card 1 - Front: English; Back: English + Kanji + Kana
+    # Card 1 - Front: French; Back: French + Kanji + Kana
     {
-      'name': 'English',
+      'name': 'Français → Japonais',
       'qfmt': '''
-{{English}}
+{{Français}}
 
 <footer>
-  <div class="level level-{{Level}}">{{Level}}</div>
-  {{#Highest Frequency}}
+  <div class="level level-{{Niveau}}">{{Niveau}}</div>
+  {{#Fréquence max}}
     <div class="frequency">
-      {{Highest Frequency}} ({{Highest Frequency Source}})
-      {{#Frequency Anime}}
+      {{Fréquence max}} ({{Source fréquence}})
+      {{#Fréquence anime}}
         <br />
-        {{Frequency Anime}} (anime)
-      {{/Frequency Anime}}
+        {{Fréquence anime}} (anime)
+      {{/Fréquence anime}}
     </div>
-  {{/Highest Frequency}}
+  {{/Fréquence max}}
 </footer>
 ''',
       'afmt': '''
-{{English}}
+{{Français}}
 
 <hr id="answer">
 
@@ -79,20 +79,20 @@ KANJI_CARD_MODEL = genanki.Model(
 <div id="hint">{{Kana}}</div>
 
 <footer>
-  <div class="level level-{{Level}}">{{Level}}</div>
-  {{#Highest Frequency}}
+  <div class="level level-{{Niveau}}">{{Niveau}}</div>
+  {{#Fréquence max}}
     <div class="frequency">
-      {{Highest Frequency}} ({{Highest Frequency Source}})
-      {{#Frequency Anime}}
+      {{Fréquence max}} ({{Source fréquence}})
+      {{#Fréquence anime}}
         <br />
-        {{Frequency Anime}} (anime)
-      {{/Frequency Anime}}
+        {{Fréquence anime}} (anime)
+      {{/Fréquence anime}}
     </div>
-  {{/Highest Frequency}}
+  {{/Fréquence max}}
 </footer>
 '''
     },
-    # Card 2 (Optional) - Furigana (Kanji + Kana); Back: English + Kanji + Kana
+    # Card 2 (Optional) - Furigana (Kanji + Kana); Back: French + Kanji + Kana
     # This exists as an independent card instead of using doubly nested mustache
     # conditionals due to weirdness in Anki about not generating cards when imports
     # happen. This is the most clear-cut way to ensure card generation happens.
@@ -102,68 +102,68 @@ KANJI_CARD_MODEL = genanki.Model(
     {
       'name': 'Kanji + Kana',
       'qfmt': '''
-{{#Make Furigana Card?}}
+{{#Carte furigana ?}}
   <div>{{Kanji}}</div>
   <div id="hint">({{Kana}})</div>
 
   <footer>
-    <div class="level level-{{Level}}">{{Level}}</div>
-    {{#Highest Frequency}}
+    <div class="level level-{{Niveau}}">{{Niveau}}</div>
+    {{#Fréquence max}}
       <div class="frequency">
-        {{Highest Frequency}} ({{Highest Frequency Source}})
-        {{#Frequency Anime}}
+        {{Fréquence max}} ({{Source fréquence}})
+        {{#Fréquence anime}}
           <br />
-          {{Frequency Anime}} (anime)
-        {{/Frequency Anime}}
+          {{Fréquence anime}} (anime)
+        {{/Fréquence anime}}
       </div>
-    {{/Highest Frequency}}
+    {{/Fréquence max}}
   </footer>
-{{/Make Furigana Card?}}
+{{/Carte furigana ?}}
 ''',
       'afmt': '''
-{{#Make Furigana Card?}}
+{{#Carte furigana ?}}
   <div>{{Kanji}}</div>
   <div id="hint">({{Kana}})</div>
-{{/Make Furigana Card?}}
+{{/Carte furigana ?}}
 
 <hr id="answer">
 
-<div>{{English}}</div>
+<div>{{Français}}</div>
 
 <footer>
-  <div class="level level-{{Level}}">{{Level}}</div>
-  {{#Highest Frequency}}
+  <div class="level level-{{Niveau}}">{{Niveau}}</div>
+  {{#Fréquence max}}
     <div class="frequency">
-      {{Highest Frequency}} ({{Highest Frequency Source}})
-      {{#Frequency Anime}}
+      {{Fréquence max}} ({{Source fréquence}})
+      {{#Fréquence anime}}
         <br />
-        {{Frequency Anime}} (anime)
-      {{/Frequency Anime}}
+        {{Fréquence anime}} (anime)
+      {{/Fréquence anime}}
     </div>
-  {{/Highest Frequency}}
+  {{/Fréquence max}}
 </footer>
 '''
     },
-    # Card 3 (Optional) - Front: Kanji (only); Back: English + Kanji + Kana
+    # Card 3 (Optional) - Front: Kanji (only); Back: French + Kanji + Kana
     {
-      'name': 'Kanji-only (optional)',
+      'name': 'Kanji seul (optionnel)',
       'qfmt': '''
-{{#Make Kanji Card?}}
+{{#Carte kanji seul ?}}
   {{Kanji}}
 
   <footer>
-    <div class="level level-{{Level}}">{{Level}}</div>
-    {{#Highest Frequency}}
+    <div class="level level-{{Niveau}}">{{Niveau}}</div>
+    {{#Fréquence max}}
       <div class="frequency">
-        {{Highest Frequency}} ({{Highest Frequency Source}})
-        {{#Frequency Anime}}
+        {{Fréquence max}} ({{Source fréquence}})
+        {{#Fréquence anime}}
           <br />
-          {{Frequency Anime}} (anime)
-        {{/Frequency Anime}}
+          {{Fréquence anime}} (anime)
+        {{/Fréquence anime}}
       </div>
-    {{/Highest Frequency}}
+    {{/Fréquence max}}
   </footer>
-{{/Make Kanji Card?}}
+{{/Carte kanji seul ?}}
 ''',
       'afmt': '''
 <div>{{Kanji}}</div>
@@ -172,42 +172,42 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <div id="hint">({{Kana}})</div>
 
-<div>{{English}}</div>
+<div>{{Français}}</div>
 
 <footer>
-  <div class="level level-{{Level}}">{{Level}}</div>
-  {{#Highest Frequency}}
+  <div class="level level-{{Niveau}}">{{Niveau}}</div>
+  {{#Fréquence max}}
     <div class="frequency">
-      {{Highest Frequency}} ({{Highest Frequency Source}})
-      {{#Frequency Anime}}
+      {{Fréquence max}} ({{Source fréquence}})
+      {{#Fréquence anime}}
         <br />
-        {{Frequency Anime}} (anime)
-      {{/Frequency Anime}}
+        {{Fréquence anime}} (anime)
+      {{/Fréquence anime}}
     </div>
-  {{/Highest Frequency}}
+  {{/Fréquence max}}
 </footer>
 '''
     },
-    # Card 3 (Optional) - Front: Hiragana (only); Back: English + Kanji + Kana
+    # Card 4 (Optional) - Front: Hiragana (only); Back: French + Kanji + Kana
     {
-      'name': 'Hiragana-only (optional)',
+      'name': 'Kana seul (optionnel)',
       'qfmt': '''
-{{#Make Hiragana-only Card?}}
+{{#Carte kana seul ?}}
   {{Kana}}
 
   <footer>
-    <div class="level level-{{Level}}">{{Level}}</div>
-    {{#Highest Frequency}}
+    <div class="level level-{{Niveau}}">{{Niveau}}</div>
+    {{#Fréquence max}}
       <div class="frequency">
-        {{Highest Frequency}} ({{Highest Frequency Source}})
-        {{#Frequency Anime}}
+        {{Fréquence max}} ({{Source fréquence}})
+        {{#Fréquence anime}}
           <br />
-          {{Frequency Anime}} (anime)
-        {{/Frequency Anime}}
+          {{Fréquence anime}} (anime)
+        {{/Fréquence anime}}
       </div>
-    {{/Highest Frequency}}
+    {{/Fréquence max}}
   </footer>
-{{/Make Hiragana-only Card?}}
+{{/Carte kana seul ?}}
 ''',
       'afmt': '''
 <div>{{Kana}}</div>
@@ -216,19 +216,19 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <div id="hint">({{Kanji}})</div>
 
-<div>{{English}}</div>
+<div>{{Français}}</div>
 
 <footer>
-  <div class="level level-{{Level}}">{{Level}}</div>
-  {{#Highest Frequency}}
+  <div class="level level-{{Niveau}}">{{Niveau}}</div>
+  {{#Fréquence max}}
     <div class="frequency">
-      {{Highest Frequency}} ({{Highest Frequency Source}})
-      {{#Frequency Anime}}
+      {{Fréquence max}} ({{Source fréquence}})
+      {{#Fréquence anime}}
         <br />
-        {{Frequency Anime}} (anime)
-      {{/Frequency Anime}}
+        {{Fréquence anime}} (anime)
+      {{/Fréquence anime}}
     </div>
-  {{/Highest Frequency}}
+  {{/Fréquence max}}
 </footer>
 '''
     },
@@ -272,11 +272,18 @@ class Note(genanki.Note):
     # These fields are always populated:
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
-    self.english = verb_dict['english']
     # These fields are not always populated:
     self.level = verb_dict['level'] if 'level' in verb_dict else ''
     # NB: Anki tags can't contain spaces, so 'suru verb' becomes 'suru_verb'.
     self.tags = [tag.replace(' ', '_') for tag in verb_dict.get('tags', [])]
+
+    # Fall back to English until the note is translated; search 'tag:a_traduire' in Anki.
+    self.translated = bool(verb_dict.get('french', '').strip())
+    if self.translated:
+      self.french = verb_dict['french']
+    else:
+      self.french = verb_dict['english']
+      self.tags.append('a_traduire')
     self.frequency_highest = ''
     self.frequency_highest_source = ''
     self.frequency_anime = ''
@@ -326,7 +333,7 @@ class Note(genanki.Note):
     fields = [
       self.kanji,
       self.kana,
-      self.english,
+      self.french,
       self.make_furigana_card,
       self.make_kanji_card,
       self.make_hiragana_only_card,
@@ -388,6 +395,7 @@ total_disabled = 0 # TODO: Deprecate and remove
 total_suspended = 0
 total_kanji_only = 0
 total_hiragana_only = 0
+total_translated = 0
 
 for filename in glob.glob('**/*.toml', recursive=True):
   if 'cardgen' in filename or 'temp/' in filename:
@@ -417,6 +425,8 @@ for filename in glob.glob('**/*.toml', recursive=True):
       total_kanji_only += 1
     if note.make_hiragana_only_card:
       total_hiragana_only += 1
+    if note.translated:
+      total_translated += 1
 
     KANJI_CARD_DECK.add_note(note)
     total_notes += 1
@@ -428,6 +438,7 @@ print('  > notes disabled (deprecated): {0}'.format(total_disabled))
 print('  > notes suspended: {0}'.format(total_suspended))
 print('  > notes /w kanji-only cards: {0}'.format(total_kanji_only))
 print('  > notes w/ hiragana-only cards: {0}'.format(total_hiragana_only))
+print('  > notes translated to French: {0} / {1}'.format(total_translated, total_notes))
 print('Output file: {0}'.format(OUTPUT_FILENAME))
 
 genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
