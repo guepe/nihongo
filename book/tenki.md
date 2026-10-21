@@ -1,7 +1,6 @@
-天気 (てんき) / Weather
-=======================
+天気 (てんき) / Météo
+=====================
 
-Temperature
+Température
 -----------
-- 暖かい (あたた)    warm, mild (refers to air temperature)
-
+- 暖かい (あたたかい)    chaud, doux (température de l'air)

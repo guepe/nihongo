@@ -1,29 +1,28 @@
-形容詞 (けいようし) / adjectives
-================================
+形容詞 (けいようし) / Adjectifs
+===============================
 
-Note that: 
+À noter :
 
-- All vocabulary are n5 unless otherwise labeled.
-- All adjectives are i-adjectives unless otherwise stated.
+- Tout le vocabulaire est de niveau n5, sauf indication contraire.
+- Tous les adjectifs sont des adjectifs en -i, sauf indication contraire.
 
-色 (いろ) / color
------------------
+色 (いろ) / Couleurs
+--------------------
 
-- 赤い (あかい)          red
-- 緑 (みどり)            green (no-adjective)
-- 青い (あおい)          blue
-- 黄色い (きいろい)      yellow
-- 茶色い (ちゃいろい)    light brown [n2]
-- 紫 (むらさき)          purple (no-adjective) [n2]
-- ピンク                 pink (no-adjective) [n2]
-- オレンジ               orange (no-adjective) [n1]
-- 橙色 (だいだいいろ)    orange (no-adjective) [unranked]
-- 黒い (くろい)          black
-- 白い (しろい)          white
-- 灰色 (はいいろ)        gray (no-adjective) [n2]
+- 赤い (あかい)          rouge
+- 緑 (みどり)            vert (adjectif en -no)
+- 青い (あおい)          bleu
+- 黄色い (きいろい)      jaune
+- 茶色い (ちゃいろい)    marron clair [n2]
+- 紫 (むらさき)          violet (adjectif en -no) [n2]
+- ピンク                 rose (adjectif en -no) [n2]
+- オレンジ               orange (adjectif en -no) [n1]
+- 橙色 (だいだいいろ)    orange (adjectif en -no) [non classé]
+- 黒い (くろい)          noir
+- 白い (しろい)          blanc
+- 灰色 (はいいろ)        gris (adjectif en -no) [n2]
 
-Appearance
-----------
-- 明るい (あかるい)    light, bright, well-lit
-- 暗い (くらい)        dark, gloomy; depressed mood
-
+Apparence
+---------
+- 明るい (あかるい)    clair, lumineux, bien éclairé
+- 暗い (くらい)        sombre, lugubre ; déprimé (humeur)

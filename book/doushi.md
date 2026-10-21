@@ -1,101 +1,100 @@
-動詞 (どうし) / Verbs
-=====================
+動詞 (どうし) / Verbes
+======================
 
-Irregular
----------
+Irréguliers
+-----------
 
-- 来る (くる)    to come, to arrive (intransitive) [n5]
-- 為る (する)    to do [n5]
+- 来る (くる)    venir, arriver (intransitif) [n5]
+- 為る (する)    faire [n5]
 
 一段 (いちだん)
 ---------------
 
-- 上げる (あげる)      to raise, to elevate (transitive) [n5]
-- 出来る (できる)      to complete, to be capable, to be good at [n5]
-- 増える (ふえる)      to increase, to multiply (intransitive) [n4]
-- 壊れる (こわれる)    to break, to be broken (intransitive) [n4]
-- 居る (いる)          to be (animate objects), to exist (animate objects) (intransitive) [n5]
-- 忘れる (わすれる)    to forget, to leave (transitive) [n5]
-- 教える (おしえる)    to teach, to inform (transitive) [n5]
-- 着る (きる)          to wear, to put on (transitive) [n5]
-- 見せる (みせる)      to show (transitive) [n5]
-- 見る (みる)          to see, to watch, to look at (transitive) [n5]
-- 覚える (おぼえる)    to remember, to memorize, to learn (transitive) [n5]
-- 起きる (おきる)      to get up, to wake up, to stay awake (intransitive) [n5]
-- 開ける (あける)      to open (a door), to open (for business), to unlock (transitive) [n5]
-- 食べる (たべる)      to eat (transitive) [n5]
+- 上げる (あげる)      lever, élever (transitif) [n5]
+- 出来る (できる)      être terminé, pouvoir, être doué pour (intransitif) [n5]
+- 増える (ふえる)      augmenter, se multiplier (intransitif) [n4]
+- 壊れる (こわれる)    se casser, être cassé (intransitif) [n4]
+- 居る (いる)          être, exister (êtres animés) (intransitif) [n5]
+- 忘れる (わすれる)    oublier, laisser (quelque part) (transitif) [n5]
+- 教える (おしえる)    enseigner, informer (transitif) [n5]
+- 着る (きる)          porter, mettre (un vêtement) (transitif) [n5]
+- 見せる (みせる)      montrer (transitif) [n5]
+- 見る (みる)          voir, regarder (transitif) [n5]
+- 覚える (おぼえる)    se souvenir, mémoriser, apprendre (transitif) [n5]
+- 起きる (おきる)      se lever, se réveiller, rester éveillé (intransitif) [n5]
+- 開ける (あける)      ouvrir (une porte), ouvrir (un commerce), déverrouiller (transitif) [n5]
+- 食べる (たべる)      manger (transitif) [n5]
 
 五段 (ごだん)
 -------------
 
 ### -u
 
-- 会う (あう)      to meet, to see (someone) (intransitive) [n5]
-- 使う (つかう)    to use, to make use of (transitive) [n5]
-- 吸う (すう)      to smoke, to inhale (transitive) [n5]
-- 思う (おもう)    to think, to believe, to feel (transitive) [n4]
-- 歌う (うたう)    to sing (transitive) [n5]
-- 習う (ならう)    to take lessons in, to be taught, to learn (from a teacher) (transitive) [n5]
-- 言う (いう)      to say, to declare, to name, to call [n5]
-- 貰う (もらう)    to receive, to take, to accept (transitive) [n3]
-- 買う (かう)      to buy (transitive) [n5]
+- 会う (あう)      rencontrer, voir (quelqu'un) (intransitif) [n5]
+- 使う (つかう)    utiliser, se servir de (transitif) [n5]
+- 吸う (すう)      fumer, inspirer (transitif) [n5]
+- 思う (おもう)    penser, croire, ressentir (transitif) [n4]
+- 歌う (うたう)    chanter (transitif) [n5]
+- 習う (ならう)    prendre des cours de, apprendre (auprès d'un professeur) (transitif) [n5]
+- 言う (いう)      dire, déclarer, nommer, appeler [n5]
+- 貰う (もらう)    recevoir, prendre, accepter (transitif) [n3]
+- 買う (かう)      acheter (transitif) [n5]
 
 ### -ku
 
-- 引く (ひく)      to pull, to tug (transitive) [n5]
-- 描く (えがく)    to draw, to paint, to sketch (transitive) [n3]
-- 書く (かく)      to write, to compose (transitive) [n5]
-- 歩く (あるく)    to walk (intransitive) [n5]
-- 築く (きずく)    to build, to construct, to amass (eg. fortune) (transitive) [n1]
-- 聞く (きく)      to hear, to listen (eg. music) (transitive) [n5]
-- 行く (いく)      to go, to move (somewhere), to head (towards) (intransitive) [n5]
+- 引く (ひく)      tirer (transitif) [n5]
+- 描く (えがく)    dessiner, peindre, esquisser (transitif) [n3]
+- 書く (かく)      écrire, rédiger (transitif) [n5]
+- 歩く (あるく)    marcher (intransitif) [n5]
+- 築く (きずく)    bâtir, construire, amasser (ex. une fortune) (transitif) [n1]
+- 聞く (きく)      entendre, écouter (ex. de la musique) (transitif) [n5]
+- 行く (いく)      aller, se rendre (quelque part), se diriger (vers) (intransitif) [n5]
 
 ### -gu
 
-- 脱ぐ (ぬぐ)    to take off (clothes), to undress (transitive) [n5]
+- 脱ぐ (ぬぐ)    enlever (un vêtement), se déshabiller (transitif) [n5]
 
 ### -su
 
-- 押す (おす)      to push, to press (transitive) [n5]
-- 探す (さがす)    to search, to look for (transitive) [n4]
-- 殺す (ころす)    to kill (transitive) [n3]
-- 治す (なおす)    to fix, to repair, to heal, to cure (transitive) [n4]
-- 訳す (やくす)    to translate, to interpret (transitive) [n2]
-- 話す (はなす)    to talk, to chat, to explain, to speak (a language) (transitive) [n5]
-- 貸す (かす)      to lend, to loan, to rent (transitive) [n5]
+- 押す (おす)      pousser, appuyer (transitif) [n5]
+- 探す (さがす)    chercher (transitif) [n4]
+- 殺す (ころす)    tuer (transitif) [n3]
+- 治す (なおす)    réparer, soigner, guérir (transitif) [n4]
+- 訳す (やくす)    traduire, interpréter (transitif) [n2]
+- 話す (はなす)    parler, bavarder, expliquer, parler (une langue) (transitif) [n5]
+- 貸す (かす)      prêter, louer (à quelqu'un) (transitif) [n5]
 
 ### -tsu
 
-- 勝つ (かつ)    to win, to be victorious (intransitive) [n4]
-- 持つ (もつ)    to hold (in hand), to take, to carry, to possess [n5]
+- 勝つ (かつ)    gagner, être victorieux (intransitif) [n4]
+- 持つ (もつ)    tenir (en main), prendre, porter, posséder [n5]
 
 ### -bu
- 
-- 遊ぶ (あそぶ)    to play, to have a good time [n5]
-- 選ぶ (えらぶ)    to choose, to select (transitive) [n4]
-- 飛ぶ (とぶ)      to fly, to soar, to jump, to leap (intransitive) [n5]
+
+- 遊ぶ (あそぶ)    jouer, s'amuser [n5]
+- 選ぶ (えらぶ)    choisir, sélectionner (transitif) [n4]
+- 飛ぶ (とぶ)      voler, s'envoler, sauter, bondir (intransitif) [n5]
 
 ### -mu
 
-- 盗む (ぬすむ)    to steal (transitive) [n4]
-- 読む (よむ)      to read (transitive) [n5]
-- 飲む (のむ)      to drink, to swallow, to take (medicine) (transitive) [n5]
+- 盗む (ぬすむ)    voler, dérober (transitif) [n4]
+- 読む (よむ)      lire (transitif) [n5]
+- 飲む (のむ)      boire, avaler, prendre (un médicament) (transitif) [n5]
 
 ### -ru
 
-- 下がる (さがる)    to get lower, to come down, to hang (intransitive) [n4]
-- 作る (つくる)      to make, to build, to prepare (food) (transitive) [n5]
-- 光る (ひかる)      to shine, to glitter, to be bright (intransitive) [n4]
-- 切る (きる)        to cut, to turn off (eg. light), to end conversation (transitive) [n5]
-- 取る (とる)        to take, to pick up (transitive) [n5]
-- 守る (まもる)      to protect, to defend (transitive) [n3]
-- 帰る (かえる)      to return, to come home, to go back (intransitive) [n5]
-- 怒る (おこる)      to get angry (intransitive) [n4]
-- 有る (ある)        to be (inanimate), to exist (inanimate) (intransitive) [n5]
-- 減る (へる)        to decrease (in number), to diminish, to abate (intransitive) [n3]
-- 眠る (ねむる)      to sleep (intransitive) [n4]
-- 贈る (おくる)      to give (as gift), to bestow (transitive) [n4]
-- 走る (はしる)      to run (intransitive) [n5]
-- 踊る (おどる)      to dance (intransitive) [n4]
-- 送る (おくる)      to send (something), to dispatch, to escort (transitive) [n4]
-
+- 下がる (さがる)    baisser, descendre, pendre (intransitif) [n4]
+- 作る (つくる)      faire, fabriquer, préparer (un plat) (transitif) [n5]
+- 光る (ひかる)      briller, scintiller, être lumineux (intransitif) [n4]
+- 切る (きる)        couper, éteindre (ex. la lumière), mettre fin (à une conversation) (transitif) [n5]
+- 取る (とる)        prendre, ramasser (transitif) [n5]
+- 守る (まもる)      protéger, défendre (transitif) [n3]
+- 帰る (かえる)      revenir, rentrer chez soi, retourner (intransitif) [n5]
+- 怒る (おこる)      se mettre en colère (intransitif) [n4]
+- 有る (ある)        être, exister (choses inanimées) (intransitif) [n5]
+- 減る (へる)        diminuer (en nombre), baisser, s'atténuer (intransitif) [n3]
+- 眠る (ねむる)      dormir (intransitif) [n4]
+- 贈る (おくる)      offrir (en cadeau), décerner (transitif) [n4]
+- 走る (はしる)      courir (intransitif) [n5]
+- 踊る (おどる)      danser (intransitif) [n4]
+- 送る (おくる)      envoyer (quelque chose), expédier, raccompagner (transitif) [n4]

@@ -177,20 +177,30 @@ et éventuellement `pronominal` et `complement`. Les 200 verbes sont remplis.
 - [ ] Le passif des verbes intransitifs reste littéral (« être allé ensemble ») ; en
       japonais, c'est un passif de gêne, rarement utilisé avec ces verbes.
 
-## Phase 5 : scripts d'édition
+## Phase 5 : scripts d'édition ✅
 
-- [ ] `insert_blank_notes.py` : ajouter `('french', '')` (et `french-conjugated` pour les verbes).
-- [ ] `tsv_import.py` : accepter une colonne `french` facultative.
-- [ ] `frequency.py`, `update_frequencies.py` : rien à changer, ils ne travaillent que sur le japonais.
+- [x] `insert_blank_notes.py` : ajoute `('french', '')`, et `french-conjugated` pour les verbes.
+- [x] `tsv_import.py` : accepte une 5ᵉ colonne `french` facultative. Il **ajoute** désormais
+      les nouveaux mots au fichier `generated_*.toml` au lieu de l'écraser : une relance
+      effaçait toutes les notes existantes, traductions comprises.
+- [x] `generate_verb_deck.py` ignore, avec un avertissement, un verbe sans
+      `french-conjugated` complet.
+- [x] `frequency.py`, `update_frequencies.py` : rien à changer, ils ne travaillent que sur le
+      japonais.
+- [ ] À noter : relancer `tsv_import.py` ajouterait aujourd'hui 2 mots n3, les noms 入学 et
+      遠慮. Ils étaient masqués par les verbes du même kanji avant que ceux-ci reçoivent
+      leur する. À ajouter et traduire si on les veut.
 
-## Phase 6 : documentation et nettoyage
+## Phase 6 : documentation et nettoyage ✅
 
-- [ ] Réécrire le `README.md` en français : installation, utilisation, schéma toml avec
-      `french`, conventions de traduction.
-- [ ] Traduire `book/*.md` (~200 lignes).
-- [ ] Facultatif : une fois tout traduit, supprimer `english` des toml, ou le renommer en
-      `english_ref` pour garder la référence.
-- [ ] Facultatif : supprimer `temp/` et les autres reliquats signalés dans le README.
+- [x] `README.md` entièrement en français : présentation du fork, organisation des
+      fichiers, installation, utilisation, traduction, conventions, format TOML (avec
+      `french` et `french-conjugated`), recherches Anki, kanji, JLPT, liens.
+- [x] `book/*.md` traduits (et lecture de 暖かい corrigée : あたたかい).
+- [ ] Facultatif : supprimer `english` des TOML, ou le renommer `english_ref`. **Déconseillé**
+      pour l'instant : il sert de référence et facilite la reprise des nouveautés du
+      projet d'origine.
+- [ ] Facultatif : supprimer `temp/` et les autres reliquats du projet d'origine.
 
 ## Définition de « terminé »
 

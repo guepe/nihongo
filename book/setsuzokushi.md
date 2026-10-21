@@ -1,28 +1,27 @@
-接続詞 (せつぞくし) / Conjunctions
+接続詞 (せつぞくし) / Conjonctions
 ==================================
 
-### and
+### Et
 
-- 然して (そして)    and, and then, thus, finally
+- 然して (そして)    et, et puis, ainsi, finalement
 
-### because
+### Parce que
 
-- だって    after all, because
+- だって    après tout, parce que
 
-### therefore
+### Donc
 
-- だから    so, therefore
+- だから    donc, par conséquent
 
-### furthermore
+### De plus
 
-- 更に (さらに)    furthermore, again, after all, moreover
+- 更に (さらに)    de plus, encore, en outre
 
-### however
+### Mais
 
-- でも             but, however, nevertheless, still, yet
-- けど             "[...], although..." Similar to でも, but can omit second clause or 
-                   end a sentence this way.
-- 然し (しかし)    (more formal) however
-- だけど           however
-- なのに           and yet, despite this, but even so, however, nevertheless
-
+- でも             mais, cependant, néanmoins, quand même, pourtant
+- けど             « [...], bien que... » Proche de でも, mais on peut omettre la seconde
+                   proposition et terminer la phrase ainsi.
+- 然し (しかし)    (plus soutenu) cependant
+- だけど           pourtant
+- なのに           et pourtant, malgré cela, mais même ainsi, cependant, néanmoins

@@ -1,38 +1,37 @@
-代名詞 (だいめいし) / Pronouns
-==============================
+代名詞 (だいめいし) / Pronoms
+=============================
 
-Notes:
+Notes :
 
-- All words are n5 unless otherwise mentioned.
-- All words are pronouns unless otherwise mentioned.
+- Tous les mots sont de niveau n5, sauf indication contraire.
+- Tous les mots sont des pronoms, sauf indication contraire.
 
-Primary vocabulary
-------------------
+Vocabulaire principal
+---------------------
 
-### Singular
+### Singulier
 
-- 私 (わたし)        I, me
-- 僕 (ぼく)          I, me (male language) [n4]
-- 君 (きみ)          you (male language, familiar language) [n4]
-- 貴方 (あなた)      you (used for equal or lower status persons); dear (female language) [n5]
-- 自分 (じぶん)      myself, youself, oneself
-- 彼女 (かのじょ)    she, her
-- 彼 (かれ)          he, him
+- 私 (わたし)        je, moi
+- 僕 (ぼく)          je, moi (langage masculin) [n4]
+- 君 (きみ)          tu, toi (langage masculin, familier) [n4]
+- 貴方 (あなた)      vous, tu (envers un égal ou une personne de rang inférieur) ; chéri (langage féminin) [n5]
+- 自分 (じぶん)      moi-même, toi-même, soi-même
+- 彼女 (かのじょ)    elle
+- 彼 (かれ)          il, lui
 
-### Plural
+### Pluriel
 
-- 私たち (わたしたち)    we, us [unranked]
-- 皆さん (みなさん)      everyone (honorific/polite) [n5]
+- 私たち (わたしたち)    nous [non classé]
+- 皆さん (みなさん)      tout le monde (honorifique / poli) [n5]
 
-Slang
+Argot
 -----
 
-### Singular
+### Singulier
 
-- 此奴 (こいつ)          this guy, this person (impolite) [unranked]
-- 貴様 (きさま)          you (very impolite and rude/offensive) [unranked]
+- 此奴 (こいつ)          ce type, cette personne (impoli) [non classé]
+- 貴様 (きさま)          toi (très impoli, grossier, insultant) [non classé]
 
-### Plural
+### Pluriel
 
-- こいつ等 (こいつら)    these guys, these people (impolite) [unranked]
-
+- こいつ等 (こいつら)    ces types, ces gens (impoli) [non classé]
