@@ -8,6 +8,79 @@ sont conservées (champ `english`) comme référence et pour faciliter la repris
 nouveautés du projet d'origine. L'avancement de l'adaptation est suivi dans
 [roadmap.md](roadmap.md).
 
+Démarrage rapide (débutants)
+----------------------------
+Pas besoin de Python ni de ligne de commande : il suffit d'installer Anki et d'importer
+deux fichiers.
+
+### 1. Installer Anki
+
+Anki est un logiciel de cartes de révision (flashcards) qui vous fait réviser chaque mot
+juste avant que vous l'oubliiez.
+
+| Appareil | Application | Prix | Lien |
+|---|---|---|---|
+| Windows 10 / 11 | Anki | gratuit | [apps.ankiweb.net](https://apps.ankiweb.net/) |
+| Mac (macOS 13 ou plus récent) | Anki | gratuit | [apps.ankiweb.net](https://apps.ankiweb.net/) |
+| Linux | Anki | gratuit | [apps.ankiweb.net](https://apps.ankiweb.net/) |
+| iPhone / iPad | AnkiMobile | payant | [App Store](https://apps.apple.com/app/ankimobile-flashcards/id373493387) |
+| Android | AnkiDroid | gratuit | [Google Play](https://play.google.com/store/apps/details?id=com.ichi2.anki) |
+
+- **Windows** : sur [apps.ankiweb.net](https://apps.ankiweb.net/), cliquez sur **Windows**
+  (*x64* pour la plupart des PC, *ARM* seulement pour les PC à processeur ARM). Lancez le
+  fichier téléchargé et suivez l'installation en gardant les options par défaut.
+- **Mac** : sur [apps.ankiweb.net](https://apps.ankiweb.net/), choisissez **Apple Silicon**
+  si votre Mac a une puce Apple (M1, M2…), sinon **Intel**. Pour le savoir : menu Pomme () →
+  **À propos de ce Mac**. Ouvrez le fichier `.dmg` téléchargé et glissez Anki dans le dossier
+  **Applications**. Au premier lancement, si macOS bloque l'ouverture, faites un clic droit
+  sur Anki → **Ouvrir**.
+- **Téléphone** : installez l'application depuis l'App Store ou Google Play.
+
+Au premier lancement, Anki demande la langue de l'interface : choisissez **Français**.
+Le [guide officiel](https://docs.ankiweb.net/) (en anglais) détaille l'installation.
+
+### 2. Télécharger les decks
+
+| Deck | Contenu | Téléchargement |
+|---|---|---|
+| Japonais généré | ~3 200 mots de vocabulaire (JLPT n5 à n1) | [japonais_fr.apkg](https://github.com/guepe/nihongo/releases/latest/download/japonais_fr.apkg) |
+| Japonais généré - conjugaison | ~200 verbes, 13 formes de conjugaison | [japonais_conjugaison_fr.apkg](https://github.com/guepe/nihongo/releases/latest/download/japonais_conjugaison_fr.apkg) |
+
+Toutes les versions sont sur la page [Releases](https://github.com/guepe/nihongo/releases).
+
+### 3. Importer les decks
+
+- **Sur ordinateur** : double-cliquez sur le fichier `.apkg` téléchargé, ou dans Anki :
+  **Fichier → Importer…** puis choisissez le fichier. Faites-le pour les deux fichiers.
+- **Sur téléphone**, deux possibilités :
+  - **Le plus simple** : importez d'abord les decks sur ordinateur, créez un compte gratuit
+    sur [AnkiWeb](https://ankiweb.net/), cliquez sur **Synchroniser** dans Anki, puis
+    connectez-vous avec le même compte dans l'application mobile et synchronisez. Vos
+    révisions restent ensuite synchronisées entre tous vos appareils.
+  - **Sans ordinateur** : téléchargez le fichier `.apkg` sur le téléphone, ouvrez-le et
+    choisissez AnkiDroid ou AnkiMobile pour l'importer.
+
+C'est tout : cliquez sur un deck puis sur **Étudier**. Comptez 10 à 20 nouvelles cartes
+par jour pour commencer.
+
+### Mettre à jour les decks
+
+Quand une nouvelle version est publiée, téléchargez à nouveau les fichiers et importez-les
+de la même façon. **Votre progression est conservée.** Si Anki propose une option pour
+les notes existantes, choisissez de les **mettre à jour**.
+
+### Générer les decks soi-même
+
+Pour générer les fichiers à partir du vocabulaire du dépôt (par exemple après l'avoir
+modifié), il faut [Python 3](https://www.python.org/downloads/). Ensuite, un seul script
+fait tout, y compris l'installation au premier lancement :
+
+- **Mac / Linux** : dans un terminal, depuis le dossier du dépôt, lancez `./generer.sh`.
+- **Windows** : double-cliquez sur `generer.bat`.
+
+Les fichiers `.apkg` sont créés dans le dossier du dépôt. Pour le détail, voir
+[Générer les fichiers `.apkg`](#générer-les-fichiers-apkg).
+
 Organisation des fichiers
 -------------------------
 - `vocabulary/` : fichiers TOML contenant le vocabulaire annoté, rangé par thème ou par
@@ -47,6 +120,114 @@ source python/bin/activate
 pip install -r requirements.txt
 ```
 
+Cette installation ne se fait qu'une fois.
+
+Générer les fichiers `.apkg`
+----------------------------
+Les fichiers `.apkg` sont les paquets qu'on importe dans Anki. Ils ne sont **pas** dans le
+dépôt (ils sont ignorés par git) : il faut les générer soi-même, la première fois puis
+après chaque modification du vocabulaire.
+
+### En bref
+
+Depuis la racine du dépôt :
+
+```bash
+source python/bin/activate
+python cardgen/generate_vocabulary_deck.py
+python cardgen/generate_verb_deck.py
+```
+
+Puis, dans Anki, **Fichier → Importer…** pour chacun des deux fichiers créés.
+
+Les scripts `generer.sh` (Mac / Linux) et `generer.bat` (Windows) font la même chose et
+installent l'environnement Python au premier lancement.
+
+### Étape par étape
+
+1. **Ouvrir un terminal à la racine du dépôt**, c'est-à-dire dans le dossier qui contient
+   ce `README.md` :
+
+   ```bash
+   cd chemin/vers/nihongo
+   ```
+
+   C'est indispensable : les scripts lisent `config/`, `lists/` et `vocabulary/` avec des
+   chemins relatifs.
+
+2. **Activer l'environnement virtuel** (créé lors de l'installation, voir ci-dessus) :
+
+   ```bash
+   source python/bin/activate
+   ```
+
+   L'invite du terminal affiche alors `(python)`. À refaire dans chaque nouveau terminal.
+
+3. **Facultatif, mais conseillé si vous avez modifié des fichiers TOML** : les normaliser.
+
+   ```bash
+   python cardgen/sort.py
+   ```
+
+4. **Générer le deck de vocabulaire** :
+
+   ```bash
+   python cardgen/generate_vocabulary_deck.py
+   ```
+
+   Le script liste les fichiers lus, puis affiche un résumé qui se termine ainsi :
+
+   ```
+   Total cards: 6394
+   Total notes: 3197
+     > notes disabled (deprecated): 8
+     > notes suspended: 6
+     > notes /w kanji-only cards: 464
+     > notes w/ hiragana-only cards: 0
+     > notes translated to French: 3197 / 3197
+   Output file: japonais_fr.apkg
+   ```
+
+5. **Générer le deck de conjugaison** :
+
+   ```bash
+   python cardgen/generate_verb_deck.py
+   ```
+
+   Le script liste les fichiers de `vocabulary/verbs/` qu'il lit et crée
+   `japonais_conjugaison_fr.apkg`. Une ligne `Skipping … incomplete french-conjugated`
+   signale un verbe ignoré parce que ses formes françaises sont incomplètes (voir
+   [Format des fichiers TOML](#format-des-fichiers-toml)).
+
+6. **Importer dans Anki** : **Fichier → Importer…**, choisir `japonais_fr.apkg`, valider,
+   puis recommencer avec `japonais_conjugaison_fr.apkg`. Si Anki propose une option pour
+   les notes existantes, choisissez de les **mettre à jour**, sinon vos corrections de
+   traduction ne seront pas prises en compte.
+
+### Fichiers produits
+
+Les deux fichiers sont créés à la racine du dépôt et remplacés à chaque génération.
+
+| Fichier | Script | Deck dans Anki | Contenu |
+|---|---|---|---|
+| `japonais_fr.apkg` | `generate_vocabulary_deck.py` | Japonais généré | ~3 200 mots, 2 à 3 cartes par mot (français → japonais, kanji + kana → français, kanji seul…) |
+| `japonais_conjugaison_fr.apkg` | `generate_verb_deck.py` | Japonais généré - conjugaison | ~200 verbes, 96 cartes par verbe (13 formes, affirmatif et négatif, neutre et poli, dans les deux sens) |
+
+### Après une modification du vocabulaire
+
+Refaites les étapes 2 à 6. Réimporter un deck **conserve votre progression** dans Anki,
+tant que le `kanji` et le `kana` des mots ne changent pas (voir
+[Régénérer sans perdre sa progression](#régénérer-sans-perdre-sa-progression)).
+
+### En cas de problème
+
+| Message | Cause | Solution |
+|---|---|---|
+| `ModuleNotFoundError: No module named 'genanki'` | L'environnement virtuel n'est pas activé, ou les dépendances ne sont pas installées. | `source python/bin/activate`, et si besoin `pip install -r requirements.txt`. |
+| `FileNotFoundError: … 'config/kanji-only-vocab.txt'` | Le script n'est pas lancé depuis la racine du dépôt. | `cd` vers le dossier qui contient ce `README.md`, puis relancer avec `python cardgen/…`. |
+| `Skipping … incomplete french-conjugated` | Un verbe n'a pas toutes ses formes françaises. | Compléter son champ `french-conjugated`. Les autres verbes sont générés normalement. |
+| Une erreur `toml` (`TomlDecodeError`…) | Un fichier TOML a été mal édité (guillemet, crochet…). | Le message indique la ligne ; corriger le fichier, puis lancer `python cardgen/sort.py`. |
+
 Utilisation
 -----------
 ### Principe
@@ -62,18 +243,8 @@ Il est très utile de connaître la différence entre une *note* et une *carte* 
 (voir le manuel d'Anki). Chaque entrée `[[cards]]` d'un fichier TOML devient une **note**,
 et chaque note produit plusieurs **cartes** : français → japonais, kanji + kana → français, etc.
 
-### Générer et importer les decks
-
-**Lancez toujours les scripts depuis la racine du dépôt**, car ils utilisent des chemins
-relatifs comme `config/…`, `lists/…` et `vocabulary/…` :
-
-```bash
-source python/bin/activate
-python cardgen/generate_vocabulary_deck.py   # → japonais_fr.apkg (deck « Japonais généré »)
-python cardgen/generate_verb_deck.py         # → japonais_conjugaison_fr.apkg (deck « Japonais généré - conjugaison »)
-```
-
-Ensuite, dans Anki : **Fichier → Importer…** et choisissez le fichier `.apkg`.
+Pour produire les decks, voir [Générer les fichiers `.apkg`](#générer-les-fichiers-apkg).
+Comme pour ces scripts, **lancez toujours les autres scripts depuis la racine du dépôt**.
 
 Le deck de conjugaison propose, pour chaque verbe, 13 formes (présent, passé, volitif,
 impératif, conditionnels, potentiel, causatif, passif…), à la forme affirmative et
