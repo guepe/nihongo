@@ -4,6 +4,7 @@ kana = 'あう'
 english = 'to meet'
 french = "rencontrer; voir (quelqu'un)"
 english-conjugated = { base = 'meet', past = 'met', plural = 'meets', continuous = 'meeting' }
+french-conjugated = { infinitif = 'rencontrer', present = 'rencontre', participe = 'rencontré', auxiliaire = 'avoir', imperatif = 'rencontre', nous = 'rencontrons' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'
@@ -17,6 +18,7 @@ kana = 'あう'
 english = 'to do together; to match'
 french = 'aller ensemble; correspondre'
 english-conjugated = { base = 'do together', past = 'did together', plural = 'does together', continuous = 'doing together' }
+french-conjugated = { infinitif = 'aller', present = 'va', participe = 'allé', auxiliaire = 'être', imperatif = 'va', nous = 'allons', complement = 'ensemble' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n4'
@@ -31,6 +33,7 @@ kana = 'あがる'
 english = 'to rise'
 french = "monter; s'élever"
 english-conjugated = { base = 'rise', past = 'rose', plural = 'rises', continuous = 'rising' }
+french-conjugated = { infinitif = 'monter', present = 'monte', participe = 'monté', auxiliaire = 'être', imperatif = 'monte', nous = 'montons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -44,6 +47,7 @@ kana = 'あく'
 english = 'to be empty or open (eg. seat)'
 french = 'se libérer; être vide (ex. siège)'
 english-conjugated = { base = 'be empty', past = 'was empty', plural = 'are empty', continuous = 'being empty' }
+french-conjugated = { infinitif = 'libérer', present = 'libère', participe = 'libéré', auxiliaire = 'avoir', imperatif = 'libère', nous = 'libérons', pronominal = true }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n4'
@@ -58,6 +62,7 @@ kana = 'あく'
 english = 'to become open (eg. door); to become open (eg. business)'
 french = "s'ouvrir (ex. porte); ouvrir (ex. magasin)"
 english-conjugated = { base = 'become open (eg. door)', past = 'became open (eg. door)', plural = 'becomes open (eg. doors)', continuous = 'becoming open (eg. door)' }
+french-conjugated = { infinitif = 'ouvrir', present = 'ouvre', participe = 'ouvert', auxiliaire = 'avoir', imperatif = 'ouvre', nous = 'ouvrons', pronominal = true }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -70,6 +75,7 @@ kana = 'あける'
 english = 'to open ~ (eg. a door); to open ~ (eg. for business)'
 french = 'ouvrir ~ (ex. porte); ouvrir ~ (ex. magasin)'
 english-conjugated = { base = 'open', past = 'opened', plural = 'opens', continuous = 'opening' }
+french-conjugated = { infinitif = 'ouvrir', present = 'ouvre', participe = 'ouvert', auxiliaire = 'avoir', imperatif = 'ouvre', nous = 'ouvrons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -82,6 +88,7 @@ kana = 'あげる'
 english = 'to raise ~; to give ~'
 french = 'lever ~; donner ~'
 english-conjugated = { base = 'raise', past = 'raised', plural = 'raises', continuous = 'raising' }
+french-conjugated = { infinitif = 'lever', present = 'lève', participe = 'levé', auxiliaire = 'avoir', imperatif = 'lève', nous = 'levons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -94,6 +101,7 @@ kana = 'あそぶ'
 english = 'to play'
 french = "jouer; s'amuser"
 english-conjugated = { base = 'play', past = 'played', plural = 'plays', continuous = 'playing' }
+french-conjugated = { infinitif = 'jouer', present = 'joue', participe = 'joué', auxiliaire = 'avoir', imperatif = 'joue', nous = 'jouons' }
 verb-type = 'godan-bu'
 transitive = false
 level = 'n5'
@@ -106,6 +114,7 @@ kana = 'あつめる'
 english = 'to gather ~; to assemble ~'
 french = 'rassembler ~; collecter ~'
 english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continuous = 'gathering' }
+french-conjugated = { infinitif = 'rassembler', present = 'rassemble', participe = 'rassemblé', auxiliaire = 'avoir', imperatif = 'rassemble', nous = 'rassemblons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -119,6 +128,7 @@ kana = 'あてる'
 english = 'to hit ~; to guess ~'
 french = 'toucher ~ (atteindre); deviner ~'
 english-conjugated = { base = 'hit', past = 'had hit', continuous = 'hitting', plural = 'hits' }
+french-conjugated = { infinitif = 'toucher', present = 'touche', participe = 'touché', auxiliaire = 'avoir', imperatif = 'touche', nous = 'touchons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani'
@@ -132,6 +142,7 @@ kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
 french = 'être baigné de ~ (ex. eau, lumière); prendre ~ (ex. douche)'
 english-conjugated = { base = 'bathe', past = 'bathed', plural = 'bathes', continuous = 'bathing' }
+french-conjugated = { infinitif = 'prendre', present = 'prend', participe = 'pris', auxiliaire = 'avoir', imperatif = 'prends', nous = 'prenons', complement = 'une douche' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -144,6 +155,7 @@ kana = 'あやまる'
 english = 'to apologize'
 french = "s'excuser"
 english-conjugated = { base = 'apologize', past = 'apologized', plural = 'apologizes', continuous = 'apologizing' }
+french-conjugated = { infinitif = 'excuser', present = 'excuse', participe = 'excusé', auxiliaire = 'avoir', imperatif = 'excuse', nous = 'excusons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 source = 'jlptstudy.net'
@@ -157,6 +169,7 @@ kana = 'あらう'
 english = 'to wash ~'
 french = 'laver ~'
 english-conjugated = { base = 'wash', past = 'washed', plural = 'washes', continuous = 'washing' }
+french-conjugated = { infinitif = 'laver', present = 'lave', participe = 'lavé', auxiliaire = 'avoir', imperatif = 'lave', nous = 'lavons' }
 verb-type = 'godan-u'
 transitive = true
 level = 'n5'
@@ -169,6 +182,7 @@ kana = 'ある'
 english = 'to be, to exist, to have (inanimate)'
 french = 'être; exister; avoir (inanimé)'
 english-conjugated = { base = 'exist', past = 'existed', plural = 'exists', continuous = 'existing' }
+french-conjugated = { infinitif = 'exister', present = 'existe', participe = 'existé', auxiliaire = 'avoir', imperatif = 'existe', nous = 'existons' }
 verb-type = 'irregular'
 transitive = false
 level = 'n5'
@@ -181,6 +195,7 @@ kana = 'いきる'
 english = 'to live; to exist'
 french = 'vivre; exister'
 english-conjugated = { base = 'live', past = 'lived', plural = 'lives', continuous = 'living' }
+french-conjugated = { infinitif = 'vivre', present = 'vit', participe = 'vécu', auxiliaire = 'avoir', imperatif = 'vis', nous = 'vivons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -194,6 +209,7 @@ kana = 'いく'
 english = 'to go'
 french = 'aller'
 english-conjugated = { continuous = 'going', base = 'go', plural = 'goes', past = 'went' }
+french-conjugated = { infinitif = 'aller', present = 'va', participe = 'allé', auxiliaire = 'être', imperatif = 'va', nous = 'allons' }
 verb-type = 'godan-ku'
 verb-type2 = 'todo-godan-iku-yuku-special-class'
 transitive = false
@@ -208,6 +224,7 @@ kana = 'いじめる'
 english = 'to bully ~'
 french = 'maltraiter ~; harceler ~'
 english-conjugated = { base = 'bully', past = 'bullied', plural = 'bullies', continuous = 'bullying' }
+french-conjugated = { infinitif = 'maltraiter', present = 'maltraite', participe = 'maltraité', auxiliaire = 'avoir', imperatif = 'maltraite', nous = 'maltraitons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -221,6 +238,7 @@ kana = 'いそぐ'
 english = 'to hurry ~; to rush ~'
 french = 'se dépêcher; presser ~'
 english-conjugated = { base = 'hurry', past = 'hurried', plural = 'hurries', continuous = 'hurrying' }
+french-conjugated = { infinitif = 'dépêcher', present = 'dépêche', participe = 'dépêché', auxiliaire = 'avoir', imperatif = 'dépêche', nous = 'dépêchons', pronominal = true }
 verb-type = 'godan-gu'
 transitive = true
 source = 'jlptstudy.net'
@@ -234,6 +252,7 @@ kana = 'いたす'
 english = 'to do ~ (kenjougo)'
 french = 'faire ~ (humble)'
 english-conjugated = { base = 'do', past = 'did', plural = 'does', continuous = 'doing' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'jlptstudy.net'
@@ -247,6 +266,7 @@ kana = 'いただく'
 english = 'to receive ~ (kenjougo); to accept ~ (kenjougo); to eat/drink ~ (kenjougo)'
 french = 'recevoir ~ (humble); manger / boire ~ (humble)'
 english-conjugated = { base = 'receive', past = 'received', plural = 'receives', continuous = 'receiving' }
+french-conjugated = { infinitif = 'recevoir', present = 'reçoit', participe = 'reçu', auxiliaire = 'avoir', imperatif = 'reçois', nous = 'recevons' }
 verb-type = 'godan-ku'
 transitive = true
 source = 'jlptstudy.net'
@@ -260,6 +280,7 @@ kana = 'いのる'
 english = 'to pray ~; to wish ~'
 french = 'prier ~; souhaiter ~'
 english-conjugated = { base = 'pray', past = 'prayed', plural = 'prays', continuous = 'praying' }
+french-conjugated = { infinitif = 'prier', present = 'prie', participe = 'prié', auxiliaire = 'avoir', imperatif = 'prie', nous = 'prions' }
 verb-type = 'godan-ru'
 transitive = true
 level = 'n4'
@@ -273,6 +294,7 @@ kana = 'いらっしゃる'
 english = 'to come (sonkeigo); to go (sonkeigo)'
 french = 'venir (honorifique); aller (honorifique); être (honorifique)'
 english-conjugated = { base = 'come', past = 'came', plural = 'comes', continuous = 'coming' }
+french-conjugated = { infinitif = 'venir', present = 'vient', participe = 'venu', auxiliaire = 'être', imperatif = 'viens', nous = 'venons' }
 verb-type = 'godan-aru-special'
 transitive = false
 source = 'jlptstudy.net'
@@ -286,6 +308,7 @@ kana = 'いる'
 english = 'to be (animate)'
 french = 'être (animé)'
 english-conjugated = { plural = 'are', past = 'was', continuous = 'being', base = 'be' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'là' }
 verb-type = 'ichidan'
 transitive = false
 source = 'irasshai'
@@ -299,6 +322,7 @@ kana = 'いれる'
 english = 'to put inside ~'
 french = 'mettre ~ dedans'
 english-conjugated = { base = 'put inside', past = 'put inside', plural = 'puts inside', continuous = 'putting inside' }
+french-conjugated = { infinitif = 'mettre', present = 'met', participe = 'mis', auxiliaire = 'avoir', imperatif = 'mets', nous = 'mettons', complement = 'dedans' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -311,6 +335,7 @@ kana = 'うえる'
 english = 'to plant ~; to grow ~; to insert ~'
 french = 'planter ~; cultiver ~'
 english-conjugated = { base = 'plant', past = 'planted', plural = 'plants', continuous = 'planting' }
+french-conjugated = { infinitif = 'planter', present = 'plante', participe = 'planté', auxiliaire = 'avoir', imperatif = 'plante', nous = 'plantons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'jlptstudy.net'
@@ -324,6 +349,7 @@ kana = 'うえる'
 english = 'to starve; to be famished; to be hungry'
 french = 'être affamé; mourir de faim'
 english-conjugated = { base = 'starve', past = 'starved', plural = 'starves', continuous = 'starving' }
+french-conjugated = { infinitif = 'mourir', present = 'meurt', participe = 'mort', auxiliaire = 'être', imperatif = 'meurs', nous = 'mourons', complement = 'de faim' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n2'
@@ -336,6 +362,7 @@ kana = 'うごく'
 english = 'to move'
 french = 'bouger'
 english-conjugated = { plural = 'moves', past = 'moved', base = 'move', continuous = 'moving' }
+french-conjugated = { infinitif = 'bouger', present = 'bouge', participe = 'bougé', auxiliaire = 'avoir', imperatif = 'bouge', nous = 'bougeons' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'howls moving castle'
@@ -349,6 +376,7 @@ kana = 'うしなう'
 english = 'to lose ~'
 french = 'perdre ~'
 english-conjugated = { base = 'lose', plural = 'loses', continuous = 'losing', past = 'lost' }
+french-conjugated = { infinitif = 'perdre', present = 'perd', participe = 'perdu', auxiliaire = 'avoir', imperatif = 'perds', nous = 'perdons' }
 verb-type = 'godan-u'
 transitive = true
 source = 'wanikani'
@@ -362,6 +390,7 @@ kana = 'うつ'
 english = 'to shoot ~'
 french = 'tirer sur ~'
 english-conjugated = { base = 'shoot', past = 'shot', plural = 'shoots', continuous = 'shooting' }
+french-conjugated = { infinitif = 'tirer', present = 'tire', participe = 'tiré', auxiliaire = 'avoir', imperatif = 'tire', nous = 'tirons' }
 verb-type = 'godan-tsu'
 transitive = true
 level = 'n3'
@@ -374,6 +403,7 @@ kana = 'うまれる'
 english = 'to be born'
 french = 'naître'
 english-conjugated = { base = 'be born', past = 'been born', plural = 'be born', continuous = 'being born' }
+french-conjugated = { infinitif = 'naître', present = 'naît', participe = 'né', auxiliaire = 'être', imperatif = 'nais', nous = 'naissons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -386,6 +416,7 @@ kana = 'うむ'
 english = 'to give birth to ~'
 french = 'donner naissance à ~'
 english-conjugated = { base = 'give birth', past = 'gave birth', plural = 'gives birth', continuous = 'giving birth' }
+french-conjugated = { infinitif = 'donner', present = 'donne', participe = 'donné', auxiliaire = 'avoir', imperatif = 'donne', nous = 'donnons', complement = 'naissance' }
 verb-type = 'godan-mu'
 transitive = true
 level = 'n1'
@@ -398,6 +429,7 @@ kana = 'うる'
 english = 'to sell ~'
 french = 'vendre ~'
 english-conjugated = { base = 'sell', past = 'sold', plural = 'sells', continuous = 'selling' }
+french-conjugated = { infinitif = 'vendre', present = 'vend', participe = 'vendu', auxiliaire = 'avoir', imperatif = 'vends', nous = 'vendons' }
 verb-type = 'godan-ru'
 transitive = true
 level = 'n5'
@@ -410,6 +442,7 @@ kana = 'おきる'
 english = 'to wake up'
 french = 'se réveiller; se lever'
 english-conjugated = { plural = 'wakes up', continuous = 'waking up', base = 'wake up', past = 'woke up' }
+french-conjugated = { infinitif = 'réveiller', present = 'réveille', participe = 'réveillé', auxiliaire = 'avoir', imperatif = 'réveille', nous = 'réveillons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'irasshai'
@@ -423,6 +456,7 @@ kana = 'おく'
 english = 'to put ~; to place ~'
 french = 'poser ~; placer ~'
 english-conjugated = { base = 'put', past = 'put', plural = 'puts', continuous = 'putting' }
+french-conjugated = { infinitif = 'poser', present = 'pose', participe = 'posé', auxiliaire = 'avoir', imperatif = 'pose', nous = 'posons' }
 verb-type = 'godan-ku'
 transitive = true
 source = 'n5-study'
@@ -436,6 +470,7 @@ kana = 'おこなう'
 english = 'to perform ~; to carry out ~'
 french = 'effectuer ~; réaliser ~'
 english-conjugated = { base = 'perform', past = 'performed', plural = 'performs', continuous = 'performing' }
+french-conjugated = { infinitif = 'effectuer', present = 'effectue', participe = 'effectué', auxiliaire = 'avoir', imperatif = 'effectue', nous = 'effectuons' }
 verb-type = 'godan-u'
 transitive = true
 source = 'wanikani'
@@ -449,6 +484,7 @@ kana = 'おしえる'
 english = 'to teach ~; to instruct ~'
 french = 'enseigner ~; indiquer ~'
 english-conjugated = { plural = 'teaches', past = 'taught', base = 'teach', continuous = 'teaching' }
+french-conjugated = { infinitif = 'enseigner', present = 'enseigne', participe = 'enseigné', auxiliaire = 'avoir', imperatif = 'enseigne', nous = 'enseignons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'n5-study'
@@ -462,6 +498,7 @@ kana = 'おす'
 english = 'to push; to press'
 french = 'pousser; appuyer'
 english-conjugated = { continuous = 'pushing', past = 'pushed', base = 'push', plural = 'pushes' }
+french-conjugated = { infinitif = 'pousser', present = 'pousse', participe = 'poussé', auxiliaire = 'avoir', imperatif = 'pousse', nous = 'poussons' }
 verb-type = 'godan-su'
 transitive = false
 source = 'n5-wiki'
@@ -475,6 +512,7 @@ kana = 'おちる'
 english = 'to fall down'
 french = 'tomber'
 english-conjugated = { base = 'fall down', past = 'fell down', plural = 'falls down', continuous = 'falling down' }
+french-conjugated = { infinitif = 'tomber', present = 'tombe', participe = 'tombé', auxiliaire = 'être', imperatif = 'tombe', nous = 'tombons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -487,6 +525,7 @@ kana = 'おどる'
 english = 'to dance'
 french = 'danser'
 english-conjugated = { base = 'dance', plural = 'dances', past = 'danced', continuous = 'dancing' }
+french-conjugated = { infinitif = 'danser', present = 'danse', participe = 'dansé', auxiliaire = 'avoir', imperatif = 'danse', nous = 'dansons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -500,6 +539,7 @@ kana = 'おぼえる'
 english = 'to memorize ~'
 french = 'mémoriser ~; apprendre ~ par cœur'
 english-conjugated = { continuous = 'memorizing', base = 'memorize', plural = 'memorizes', past = 'memorized' }
+french-conjugated = { infinitif = 'mémoriser', present = 'mémorise', participe = 'mémorisé', auxiliaire = 'avoir', imperatif = 'mémorise', nous = 'mémorisons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'
@@ -513,6 +553,7 @@ kana = 'およぐ'
 english = 'to swim'
 french = 'nager'
 english-conjugated = { base = 'swim', past = 'swam', plural = 'swims', continuous = 'swimming' }
+french-conjugated = { infinitif = 'nager', present = 'nage', participe = 'nagé', auxiliaire = 'avoir', imperatif = 'nage', nous = 'nageons' }
 verb-type = 'godan-gu'
 transitive = false
 level = 'n5'
@@ -525,6 +566,7 @@ kana = 'おりる'
 english = 'to descend'
 french = "descendre (d'un véhicule)"
 english-conjugated = { base = 'descend', continuous = 'descending', past = 'descended', plural = 'descends' }
+french-conjugated = { infinitif = 'descendre', present = 'descend', participe = 'descendu', auxiliaire = 'être', imperatif = 'descends', nous = 'descendons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'wiki-n5'
@@ -538,6 +580,7 @@ kana = 'おわる'
 english = 'to end; to finish'
 french = 'se terminer; finir'
 english-conjugated = { base = 'end', past = 'ended', continuous = 'ending', plural = 'ends' }
+french-conjugated = { infinitif = 'terminer', present = 'termine', participe = 'terminé', auxiliaire = 'avoir', imperatif = 'termine', nous = 'terminons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -551,6 +594,7 @@ kana = 'おわる'
 english = 'to finish; to end'
 french = 'finir; se terminer'
 english-conjugated = { past = 'finished', continuous = 'finishing', plural = 'finishes', base = 'finish' }
+french-conjugated = { infinitif = 'finir', present = 'finit', participe = 'fini', auxiliaire = 'avoir', imperatif = 'finis', nous = 'finissons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -564,6 +608,7 @@ kana = 'かう'
 english = 'to buy ~'
 french = 'acheter ~'
 english-conjugated = { base = 'buy', past = 'bought', plural = 'buys', continuous = 'buying' }
+french-conjugated = { infinitif = 'acheter', present = 'achète', participe = 'acheté', auxiliaire = 'avoir', imperatif = 'achète', nous = 'achetons' }
 verb-type = 'godan-u'
 transitive = true
 level = 'n5'
@@ -576,6 +621,7 @@ kana = 'かえす'
 english = 'to return ~ (something); to restore ~; to put back ~'
 french = 'rendre ~; remettre ~ en place'
 english-conjugated = { base = 'return', past = 'returned', plural = 'returns', continuous = 'returning' }
+french-conjugated = { infinitif = 'rendre', present = 'rend', participe = 'rendu', auxiliaire = 'avoir', imperatif = 'rends', nous = 'rendons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -588,6 +634,7 @@ kana = 'かえる'
 english = 'to return; to go home'
 french = 'rentrer; retourner'
 english-conjugated = { past = 'returned', plural = 'returns', continuous = 'returning', base = 'return' }
+french-conjugated = { infinitif = 'rentrer', present = 'rentre', participe = 'rentré', auxiliaire = 'être', imperatif = 'rentre', nous = 'rentrons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -601,6 +648,7 @@ kana = 'かく'
 english = 'to write or compose ~'
 french = 'écrire ~; rédiger ~'
 english-conjugated = { base = 'write', past = 'wrote', plural = 'writes', continuous = 'writing' }
+french-conjugated = { infinitif = 'écrire', present = 'écrit', participe = 'écrit', auxiliaire = 'avoir', imperatif = 'écris', nous = 'écrivons' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
@@ -613,6 +661,7 @@ kana = 'かくす'
 english = 'to hide ~'
 french = 'cacher ~'
 english-conjugated = { base = 'hide', past = 'hid', plural = 'hides', continuous = 'hiding' }
+french-conjugated = { infinitif = 'cacher', present = 'cache', participe = 'caché', auxiliaire = 'avoir', imperatif = 'cache', nous = 'cachons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n3'
@@ -626,6 +675,7 @@ kana = 'かける'
 english = 'to lack'
 french = 'manquer; être ébréché'
 english-conjugated = { base = 'lack', past = 'lacked', plural = 'lacks', continuous = 'lacking' }
+french-conjugated = { infinitif = 'manquer', present = 'manque', participe = 'manqué', auxiliaire = 'avoir', imperatif = 'manque', nous = 'manquons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'wanikani'
@@ -639,6 +689,7 @@ kana = 'かざる'
 english = 'to decorate ~'
 french = 'décorer ~'
 english-conjugated = { plural = 'decorates', past = 'decorated', continuous = 'decorating', base = 'decorate' }
+french-conjugated = { infinitif = 'décorer', present = 'décore', participe = 'décoré', auxiliaire = 'avoir', imperatif = 'décore', nous = 'décorons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'wiki-n4'
@@ -652,6 +703,7 @@ kana = 'かす'
 english = 'to lend ~'
 french = 'prêter ~'
 english-conjugated = { base = 'lend', past = 'lent', plural = 'lends', continuous = 'lending' }
+french-conjugated = { infinitif = 'prêter', present = 'prête', participe = 'prêté', auxiliaire = 'avoir', imperatif = 'prête', nous = 'prêtons' }
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
@@ -664,6 +716,7 @@ kana = 'かつ'
 english = 'to win'
 french = 'gagner'
 english-conjugated = { base = 'win', past = 'won', plural = 'wins', continuous = 'winning' }
+french-conjugated = { infinitif = 'gagner', present = 'gagne', participe = 'gagné', auxiliaire = 'avoir', imperatif = 'gagne', nous = 'gagnons' }
 verb-type = 'godan-tsu'
 transitive = false
 level = 'n4'
@@ -676,6 +729,7 @@ kana = 'かりる'
 english = 'to borrow ~; to rent ~; to have a loan for ~'
 french = 'emprunter ~; louer ~'
 english-conjugated = { base = 'borrow', past = 'borrowed', continuous = 'borrowing', plural = 'borrows' }
+french-conjugated = { infinitif = 'emprunter', present = 'emprunte', participe = 'emprunté', auxiliaire = 'avoir', imperatif = 'emprunte', nous = 'empruntons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'wiki-n5'
@@ -689,6 +743,7 @@ kana = 'かわる'
 english = 'to change; to be transformed'
 french = 'changer; se transformer'
 english-conjugated = { base = 'change', continuous = 'changing', past = 'changed', plural = 'changes' }
+french-conjugated = { infinitif = 'changer', present = 'change', participe = 'changé', auxiliaire = 'avoir', imperatif = 'change', nous = 'changeons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'anime-freq'
@@ -702,6 +757,7 @@ kana = 'かんがえる'
 english = 'to think about ~'
 french = 'réfléchir à ~'
 english-conjugated = { continuous = 'thinking about', base = 'think about', past = 'thought about', plural = 'thinks about' }
+french-conjugated = { infinitif = 'réfléchir', present = 'réfléchit', participe = 'réfléchi', auxiliaire = 'avoir', imperatif = 'réfléchis', nous = 'réfléchissons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'
@@ -715,6 +771,7 @@ kana = 'がんばる'
 english = 'to persevere'
 french = 'persévérer; faire de son mieux'
 english-conjugated = { past = 'persevered', continuous = 'persevering', plural = 'perseveres', base = 'persevere' }
+french-conjugated = { infinitif = 'persévérer', present = 'persévère', participe = 'persévéré', auxiliaire = 'avoir', imperatif = 'persévère', nous = 'persévérons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai; anime'
@@ -727,6 +784,7 @@ kana = 'きえる'
 english = 'to vanish; to disappear'
 french = "s'éteindre; disparaître"
 english-conjugated = { past = 'vanished', base = 'vanish', plural = 'vanishes', continuous = 'vanishing' }
+french-conjugated = { infinitif = 'disparaître', present = 'disparaît', participe = 'disparu', auxiliaire = 'avoir', imperatif = 'disparais', nous = 'disparaissons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'wiki-n5'
@@ -740,6 +798,7 @@ kana = 'きく'
 english = 'to hear ~'
 french = 'entendre ~; écouter ~; demander ~'
 english-conjugated = { past = 'heard', continuous = 'hearing', base = 'hear', plural = 'hears' }
+french-conjugated = { infinitif = 'entendre', present = 'entend', participe = 'entendu', auxiliaire = 'avoir', imperatif = 'entends', nous = 'entendons' }
 verb-type = 'godan-ku'
 transitive = true
 source = 'irasshai'
@@ -753,6 +812,7 @@ kana = 'きずく'
 english = 'to build ~; to construct ~'
 french = 'bâtir ~; construire ~'
 english-conjugated = { base = 'build', plural = 'builds', past = 'built', continuous = 'building' }
+french-conjugated = { infinitif = 'bâtir', present = 'bâtit', participe = 'bâti', auxiliaire = 'avoir', imperatif = 'bâtis', nous = 'bâtissons' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n1'
@@ -765,6 +825,7 @@ kana = 'きる'
 english = 'to cut ~'
 french = 'couper ~'
 english-conjugated = { base = 'cut', past = 'had cut', continuous = 'cutting', plural = 'cuts' }
+french-conjugated = { infinitif = 'couper', present = 'coupe', participe = 'coupé', auxiliaire = 'avoir', imperatif = 'coupe', nous = 'coupons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'irasshai'
@@ -778,6 +839,7 @@ kana = 'くすぐ'
 english = 'to tickle ~'
 french = 'chatouiller ~'
 english-conjugated = { base = 'tickle', past = 'tickled', plural = 'tickles', continuous = 'tickling' }
+french-conjugated = { infinitif = 'chatouiller', present = 'chatouille', participe = 'chatouillé', auxiliaire = 'avoir', imperatif = 'chatouille', nous = 'chatouillons' }
 verb-type = 'godan-ru'
 transitive = true
 tags = ['common']
@@ -789,6 +851,7 @@ kana = 'くもる'
 english = 'to get cloudy'
 french = 'se couvrir (ciel)'
 english-conjugated = { base = 'get cloudy', past = 'got cloudy', plural = 'gets cloudy', continuous = 'getting cloudy' }
+french-conjugated = { infinitif = 'couvrir', present = 'couvre', participe = 'couvert', auxiliaire = 'avoir', imperatif = 'couvre', nous = 'couvrons', pronominal = true }
 level = 'n5'
 verb-type = 'godan-ru'
 transitive = false
@@ -801,6 +864,7 @@ kana = 'くる'
 english = 'to come'
 french = 'venir'
 english-conjugated = { past = 'came', plural = 'comes', base = 'come', continuous = 'coming' }
+french-conjugated = { infinitif = 'venir', present = 'vient', participe = 'venu', auxiliaire = 'être', imperatif = 'viens', nous = 'venons' }
 verb-type = 'godan-ru'
 verb-type2 = 'todo-kuru-verb-special-class'
 transitive = false
@@ -815,6 +879,7 @@ kana = 'くるしむ'
 english = 'to suffer'
 french = 'souffrir'
 english-conjugated = { base = 'suffer', past = 'suffered', plural = 'suffers', continuous = 'suffering' }
+french-conjugated = { infinitif = 'souffrir', present = 'souffre', participe = 'souffert', auxiliaire = 'avoir', imperatif = 'souffre', nous = 'souffrons' }
 verb-type = 'godan-mu'
 transitive = false
 source = 'wanikani'
@@ -828,6 +893,7 @@ kana = 'けす'
 english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
 french = 'effacer ~; rayer ~; éteindre ~'
 english-conjugated = { base = 'delete', past = 'deleted', plural = 'deletes', continuous = 'deleting' }
+french-conjugated = { infinitif = 'effacer', present = 'efface', participe = 'effacé', auxiliaire = 'avoir', imperatif = 'efface', nous = 'effaçons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -840,6 +906,7 @@ kana = 'こえる'
 english = 'to pass over ~; to cross over ~; to go beyond ~'
 french = 'passer par-dessus ~; franchir ~; dépasser ~'
 english-conjugated = { base = 'cross over', past = 'crossed over', plural = 'crosses over', continuous = 'crossing over' }
+french-conjugated = { infinitif = 'franchir', present = 'franchit', participe = 'franchi', auxiliaire = 'avoir', imperatif = 'franchis', nous = 'franchissons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani'
@@ -853,6 +920,7 @@ kana = 'こまる'
 english = 'to be troubled; to have difficulty'
 french = 'être embarrassé; avoir des difficultés'
 english-conjugated = { continuous = 'being troubled', past = 'been troubled', base = 'be troubled', plural = 'are troubled' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'embarrassé' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wiki-n5'
@@ -866,6 +934,7 @@ kana = 'こむ'
 english = 'to be crowded'
 french = 'être bondé'
 english-conjugated = { base = 'be crowded', past = 'was crowded', plural = 'are crowded', continuous = 'is crowded' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'bondé' }
 verb-type = 'godan-mu'
 transitive = false
 source = 'wiki-n4'
@@ -879,6 +948,7 @@ kana = 'ころす'
 english = 'to kill ~'
 french = 'tuer ~'
 english-conjugated = { continuous = 'killing', base = 'kill', past = 'killed', plural = 'kills' }
+french-conjugated = { infinitif = 'tuer', present = 'tue', participe = 'tué', auxiliaire = 'avoir', imperatif = 'tue', nous = 'tuons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'anime'
@@ -892,6 +962,7 @@ kana = 'さがす'
 english = 'to search'
 french = 'chercher'
 english-conjugated = { base = 'search', past = 'searched', plural = 'searches', continuous = 'searching' }
+french-conjugated = { infinitif = 'chercher', present = 'cherche', participe = 'cherché', auxiliaire = 'avoir', imperatif = 'cherche', nous = 'cherchons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n4'
@@ -904,6 +975,7 @@ kana = 'さく'
 english = 'to bloom'
 french = 'fleurir'
 english-conjugated = { plural = 'blooms', continuous = 'blooming', past = 'bloomed', base = 'bloom' }
+french-conjugated = { infinitif = 'fleurir', present = 'fleurit', participe = 'fleuri', auxiliaire = 'avoir', imperatif = 'fleuris', nous = 'fleurissons' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'wiki-n5'
@@ -917,6 +989,7 @@ kana = 'さける'
 english = 'to avoid ~'
 french = 'éviter ~'
 english-conjugated = { base = 'avoid', plural = 'avoids', continuous = 'avoiding', past = 'avoided' }
+french-conjugated = { infinitif = 'éviter', present = 'évite', participe = 'évité', auxiliaire = 'avoir', imperatif = 'évite', nous = 'évitons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'anime-freq'
@@ -930,6 +1003,7 @@ kana = 'ささえる'
 english = 'to support ~'
 french = 'soutenir ~'
 english-conjugated = { base = 'support', past = 'supported', plural = 'supports', continuous = 'supporting' }
+french-conjugated = { infinitif = 'soutenir', present = 'soutient', participe = 'soutenu', auxiliaire = 'avoir', imperatif = 'soutiens', nous = 'soutenons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani'
@@ -943,6 +1017,7 @@ kana = 'さす'
 english = 'to raise hands; to hold (an umbrella) overhead'
 french = 'lever (la main); tenir (un parapluie) au-dessus de soi'
 english-conjugated = { past = 'raised', base = 'raise', plural = 'raises', continuous = 'raising' }
+french-conjugated = { infinitif = 'lever', present = 'lève', participe = 'levé', auxiliaire = 'avoir', imperatif = 'lève', nous = 'levons', complement = 'la main' }
 verb-type = 'godan-su'
 transitive = false
 source = 'wiki-n5'
@@ -957,6 +1032,7 @@ kana = 'しぬ'
 english = 'to die'
 french = 'mourir'
 english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', base = 'die' }
+french-conjugated = { infinitif = 'mourir', present = 'meurt', participe = 'mort', auxiliaire = 'être', imperatif = 'meurs', nous = 'mourons' }
 verb-type = 'godan-nu'
 transitive = false
 source = 'n5-study'
@@ -970,6 +1046,7 @@ kana = 'しまる'
 english = 'to shut; to close; to be closed'
 french = 'se fermer; être fermé'
 english-conjugated = { base = 'shut', continuous = 'shutting', plural = 'shuts', past = 'had shut' }
+french-conjugated = { infinitif = 'fermer', present = 'ferme', participe = 'fermé', auxiliaire = 'avoir', imperatif = 'ferme', nous = 'fermons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -983,6 +1060,7 @@ kana = 'しめる'
 english = 'to tie ~; to tighten; to fasten ~ (eg necktie or belt)'
 french = 'nouer ~; serrer ~; attacher ~ (ex. cravate, ceinture)'
 english-conjugated = { continuous = 'tightening', base = 'tighten', plural = 'tightens', past = 'tightened' }
+french-conjugated = { infinitif = 'serrer', present = 'serre', participe = 'serré', auxiliaire = 'avoir', imperatif = 'serre', nous = 'serrons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wiki-n5-vocab'
@@ -996,6 +1074,7 @@ kana = 'しらべる'
 english = 'to investigate ~'
 french = 'examiner ~; rechercher ~'
 english-conjugated = { plural = 'investigates', base = 'investigate', past = 'investigated', continuous = 'investigating' }
+french-conjugated = { infinitif = 'examiner', present = 'examine', participe = 'examiné', auxiliaire = 'avoir', imperatif = 'examine', nous = 'examinons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'
@@ -1009,6 +1088,7 @@ kana = 'すう'
 english = 'to smoke ~; to inhale ~'
 french = 'fumer ~; aspirer ~'
 english-conjugated = { continuous = 'smoking', base = 'smoke', plural = 'smokes', past = 'smoked' }
+french-conjugated = { infinitif = 'fumer', present = 'fume', participe = 'fumé', auxiliaire = 'avoir', imperatif = 'fume', nous = 'fumons' }
 verb-type = 'godan-u'
 transitive = true
 source = 'stay-in-japan'
@@ -1022,6 +1102,7 @@ kana = 'すべる'
 english = 'to glide; to slide'
 french = 'glisser'
 english-conjugated = { continuous = 'gliding', base = 'glide', past = 'glided', plural = 'glides' }
+french-conjugated = { infinitif = 'glisser', present = 'glisse', participe = 'glissé', auxiliaire = 'avoir', imperatif = 'glisse', nous = 'glissons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wiki-n4'
@@ -1035,6 +1116,7 @@ kana = 'すむ'
 english = 'to reside; to live'
 french = 'habiter; résider'
 english-conjugated = { base = 'reside', past = 'resided', plural = 'resides', continuous = 'residing' }
+french-conjugated = { infinitif = 'habiter', present = 'habite', participe = 'habité', auxiliaire = 'avoir', imperatif = 'habite', nous = 'habitons' }
 verb-type = 'godan-mu'
 transitive = false
 source = 'irasshai'
@@ -1048,6 +1130,7 @@ kana = 'すわる'
 english = 'to sit'
 french = "s'asseoir"
 english-conjugated = { base = 'sit', past = 'sat', plural = 'sits', continuous = 'sitting' }
+french-conjugated = { infinitif = 'asseoir', present = 'assied', participe = 'assis', auxiliaire = 'avoir', imperatif = 'assieds', nous = 'asseyons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1060,6 +1143,7 @@ kana = 'そそぐ'
 english = 'to pour ~'
 french = 'verser ~'
 english-conjugated = { base = 'pour', past = 'poured', plural = 'pours', continuous = 'pouring' }
+french-conjugated = { infinitif = 'verser', present = 'verse', participe = 'versé', auxiliaire = 'avoir', imperatif = 'verse', nous = 'versons' }
 verb-type = 'godan-gu'
 transitive = true
 source = 'wanikani'
@@ -1073,6 +1157,7 @@ kana = 'そだつ'
 english = 'to be raised; to be brought up'
 french = 'grandir; être élevé'
 english-conjugated = { base = 'raised', past = 'been raised', plural = 'are raised', continuous = 'being raised' }
+french-conjugated = { infinitif = 'grandir', present = 'grandit', participe = 'grandi', auxiliaire = 'avoir', imperatif = 'grandis', nous = 'grandissons' }
 verb-type = 'godan-tsu'
 transitive = false
 level = 'n3'
@@ -1086,6 +1171,7 @@ kana = 'たす'
 english = 'to add ~ (numbers); to add ~ (to something)'
 french = 'ajouter ~; additionner ~'
 english-conjugated = { base = 'add', past = 'added', plural = 'adds', continuous = 'adding' }
+french-conjugated = { infinitif = 'ajouter', present = 'ajoute', participe = 'ajouté', auxiliaire = 'avoir', imperatif = 'ajoute', nous = 'ajoutons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'nihongo-charenji-n4-kotoba'
@@ -1099,6 +1185,7 @@ kana = 'たすける'
 english = 'to save ~; to rescue ~'
 french = 'sauver ~; secourir ~'
 english-conjugated = { base = 'save', past = 'saved', plural = 'saves', continuous = 'saving' }
+french-conjugated = { infinitif = 'sauver', present = 'sauve', participe = 'sauvé', auxiliaire = 'avoir', imperatif = 'sauve', nous = 'sauvons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai; anime'
@@ -1112,6 +1199,7 @@ kana = 'たたかう'
 english = 'to make war; to do battle; to compete'
 french = 'faire la guerre; combattre; affronter'
 english-conjugated = { plural = 'makes war', base = 'make war', continuous = 'making war', past = 'made war' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'la guerre' }
 verb-type = 'godan-u'
 transitive = false
 source = 'anime-freq'
@@ -1125,6 +1213,7 @@ kana = 'ただす'
 english = 'to correct ~; to rectify ~'
 french = 'corriger ~; rectifier ~'
 english-conjugated = { base = 'correct', past = 'corrected', plural = 'corrects', continuous = 'correcting' }
+french-conjugated = { infinitif = 'corriger', present = 'corrige', participe = 'corrigé', auxiliaire = 'avoir', imperatif = 'corrige', nous = 'corrigeons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'wanikani'
@@ -1137,6 +1226,7 @@ kana = 'たつ'
 english = 'to stand'
 french = 'se lever; être debout'
 english-conjugated = { base = 'stand', past = 'stood', plural = 'stands', continuous = 'standing' }
+french-conjugated = { infinitif = 'lever', present = 'lève', participe = 'levé', auxiliaire = 'avoir', imperatif = 'lève', nous = 'levons', pronominal = true }
 verb-type = 'godan-tsu'
 transitive = false
 level = 'n5'
@@ -1149,6 +1239,7 @@ kana = 'たてる'
 english = 'to stand up ~'
 french = 'dresser ~; mettre debout ~'
 english-conjugated = { base = 'stand up', past = 'stood up', plural = 'stands up', continuous = 'standing up' }
+french-conjugated = { infinitif = 'dresser', present = 'dresse', participe = 'dressé', auxiliaire = 'avoir', imperatif = 'dresse', nous = 'dressons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -1162,6 +1253,7 @@ kana = 'たのむ'
 english = 'to request ~; to beg ~'
 french = 'demander ~; prier ~'
 english-conjugated = { past = 'requested', continuous = 'requesting', base = 'request', plural = 'requests' }
+french-conjugated = { infinitif = 'demander', present = 'demande', participe = 'demandé', auxiliaire = 'avoir', imperatif = 'demande', nous = 'demandons' }
 verb-type = 'godan-mu'
 transitive = true
 source = 'anime-freq'
@@ -1175,6 +1267,7 @@ kana = 'たりる'
 english = 'to be sufficient; to be enough'
 french = 'suffire; être suffisant'
 english-conjugated = { base = 'be sufficient', past = 'been sufficient', plural = 'are sufficient', continuous = 'being sufficient' }
+french-conjugated = { infinitif = 'suffire', present = 'suffit', participe = 'suffi', auxiliaire = 'avoir', imperatif = 'suffis', nous = 'suffisons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'nihongo-charenji-n4-kotoba'
@@ -1188,6 +1281,7 @@ kana = 'だす'
 english = 'to take out ~'
 french = 'sortir ~'
 english-conjugated = { base = 'take out', past = 'taken out', plural = 'takes out', continuous = 'taking out' }
+french-conjugated = { infinitif = 'sortir', present = 'sort', participe = 'sorti', auxiliaire = 'avoir', imperatif = 'sors', nous = 'sortons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -1200,6 +1294,7 @@ kana = 'ちがう'
 english = 'to differ from; to be incorrect'
 french = 'être différent; être faux'
 english-conjugated = { plural = 'differs', base = 'differ', continuous = 'differing', past = 'differed' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'différent' }
 verb-type = 'godan-u'
 transitive = false
 source = 'irasshai'
@@ -1213,6 +1308,7 @@ kana = 'ちまう'
 english = 'to do completely ~ (kantou dialect)'
 french = 'finir par faire ~ complètement (dialecte du Kantō)'
 english-conjugated = { past = 'did completely', base = 'do completely', plural = 'does completely', continuous = 'doing completely' }
+french-conjugated = { infinitif = 'finir', present = 'finit', participe = 'fini', auxiliaire = 'avoir', imperatif = 'finis', nous = 'finissons', complement = 'complètement' }
 verb-type = 'godan-u'
 transitive = true
 source = 'anime-freq'
@@ -1225,6 +1321,7 @@ kana = 'つかう'
 english = 'to use ~ (colloquial)'
 french = 'utiliser ~'
 english-conjugated = { base = 'use', past = 'used', plural = 'uses', continuous = 'using' }
+french-conjugated = { infinitif = 'utiliser', present = 'utilise', participe = 'utilisé', auxiliaire = 'avoir', imperatif = 'utilise', nous = 'utilisons' }
 level = 'n5'
 verb-type = 'godan-u'
 transitive = true
@@ -1237,6 +1334,7 @@ kana = 'つかれる'
 english = 'to get tired'
 french = 'se fatiguer; être fatigué'
 english-conjugated = { past = 'got tired', continuous = 'getting tired', plural = 'gets tired', base = 'get tired' }
+french-conjugated = { infinitif = 'fatiguer', present = 'fatigue', participe = 'fatigué', auxiliaire = 'avoir', imperatif = 'fatigue', nous = 'fatiguons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'irasshai'
@@ -1250,6 +1348,7 @@ kana = 'つく'
 english = 'to arrive'
 french = 'arriver'
 english-conjugated = { base = 'arrive', continuous = 'arriving', plural = 'arrives', past = 'arrived' }
+french-conjugated = { infinitif = 'arriver', present = 'arrive', participe = 'arrivé', auxiliaire = 'être', imperatif = 'arrive', nous = 'arrivons' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'anime-freq'
@@ -1263,6 +1362,7 @@ kana = 'つくる'
 english = 'to make ~'
 french = 'faire ~; fabriquer ~'
 english-conjugated = { plural = 'makes', base = 'make', continuous = 'making', past = 'made' }
+french-conjugated = { infinitif = 'fabriquer', present = 'fabrique', participe = 'fabriqué', auxiliaire = 'avoir', imperatif = 'fabrique', nous = 'fabriquons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'irasshai'
@@ -1276,6 +1376,7 @@ kana = 'つづく'
 english = 'to continue; to be continued'
 french = 'continuer; durer'
 english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
+french-conjugated = { infinitif = 'continuer', present = 'continue', participe = 'continué', auxiliaire = 'avoir', imperatif = 'continue', nous = 'continuons' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'wiktionary; anime'
@@ -1289,6 +1390,7 @@ kana = 'つづける'
 english = 'to continue ~; to keep up ~'
 french = 'continuer ~; poursuivre ~'
 english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
+french-conjugated = { infinitif = 'poursuivre', present = 'poursuit', participe = 'poursuivi', auxiliaire = 'avoir', imperatif = 'poursuis', nous = 'poursuivons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'anime-freq'
@@ -1302,6 +1404,7 @@ kana = 'つとめる'
 english = 'to work for ~; to be employed at ~; to serve in ~'
 french = 'travailler pour ~; être employé à ~'
 english-conjugated = { base = 'work for', continuous = 'working for', plural = 'works for', past = 'worked for' }
+french-conjugated = { infinitif = 'travailler', present = 'travaille', participe = 'travaillé', auxiliaire = 'avoir', imperatif = 'travaille', nous = 'travaillons', complement = 'pour une entreprise' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai; wiki-n5'
@@ -1315,6 +1418,7 @@ kana = 'でかける'
 english = 'to go out; to set out'
 french = 'sortir; partir'
 english-conjugated = { base = 'go out', past = 'went out', plural = 'goes out', continuous = 'going out' }
+french-conjugated = { infinitif = 'sortir', present = 'sort', participe = 'sorti', auxiliaire = 'être', imperatif = 'sors', nous = 'sortons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -1327,6 +1431,7 @@ kana = 'できる'
 english = 'to be able to do'
 french = 'pouvoir; savoir faire'
 english-conjugated = { past = 'was able', base = 'be able', plural = 'are able', continuous = 'being able' }
+french-conjugated = { infinitif = 'réussir', present = 'réussit', participe = 'réussi', auxiliaire = 'avoir', imperatif = 'réussis', nous = 'réussissons', complement = 'à le faire' }
 verb-type = 'ichidan'
 transitive = false
 source = 'irasshai'
@@ -1340,6 +1445,7 @@ kana = 'でる'
 english = 'to exit'
 french = 'sortir'
 english-conjugated = { base = 'exit', past = 'exited', plural = 'exits', continuous = 'exiting' }
+french-conjugated = { infinitif = 'sortir', present = 'sort', participe = 'sorti', auxiliaire = 'être', imperatif = 'sors', nous = 'sortons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -1352,6 +1458,7 @@ kana = 'とおる'
 english = 'to pass'
 french = 'passer'
 english-conjugated = { base = 'pass', past = 'passed', plural = 'passes', continuous = 'going past' }
+french-conjugated = { infinitif = 'passer', present = 'passe', participe = 'passé', auxiliaire = 'être', imperatif = 'passe', nous = 'passons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -1365,6 +1472,7 @@ kana = 'とどける'
 english = 'to report ~; to deliver ~'
 french = 'livrer ~; déclarer ~ (aux autorités)'
 english-conjugated = { base = 'report', past = 'reported', continuous = 'reporting', plural = 'reports' }
+french-conjugated = { infinitif = 'déclarer', present = 'déclare', participe = 'déclaré', auxiliaire = 'avoir', imperatif = 'déclare', nous = 'déclarons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -1377,6 +1485,7 @@ kana = 'とぶ'
 english = 'to fly; to jump'
 french = 'voler; sauter'
 english-conjugated = { base = 'fly', past = 'flew', plural = 'flies', continuous = 'flying' }
+french-conjugated = { infinitif = 'voler', present = 'vole', participe = 'volé', auxiliaire = 'avoir', imperatif = 'vole', nous = 'volons' }
 verb-type = 'godan-bu'
 transitive = false
 level = 'n5'
@@ -1389,6 +1498,7 @@ kana = 'とまる'
 english = 'to stop (moving, doing, ...); to come to a halt'
 french = "s'arrêter"
 english-conjugated = { base = 'stop', past = 'stopped', plural = 'stops', continuous = 'stopping' }
+french-conjugated = { infinitif = 'arrêter', present = 'arrête', participe = 'arrêté', auxiliaire = 'avoir', imperatif = 'arrête', nous = 'arrêtons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1401,6 +1511,7 @@ kana = 'とめる'
 english = 'to stop ~'
 french = 'arrêter ~'
 english-conjugated = { base = 'stop', past = 'stopped', plural = 'stop', continuous = 'stopping' }
+french-conjugated = { infinitif = 'arrêter', present = 'arrête', participe = 'arrêté', auxiliaire = 'avoir', imperatif = 'arrête', nous = 'arrêtons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n4'
@@ -1413,6 +1524,7 @@ kana = 'とりかえる'
 english = 'to exchange ~'
 french = 'échanger ~; remplacer ~'
 english-conjugated = { continuous = 'exchanging', base = 'exchange', past = 'exchanged', plural = 'exchanges' }
+french-conjugated = { infinitif = 'échanger', present = 'échange', participe = 'échangé', auxiliaire = 'avoir', imperatif = 'échange', nous = 'échangeons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'jlpt-study'
@@ -1426,6 +1538,7 @@ kana = 'とる'
 english = 'to take ~ (eg a photo)'
 french = 'prendre ~ (ex. une photo)'
 english-conjugated = { base = 'take a photo', plural = 'takes a photo', past = 'took a photo', continuous = 'taking a photo' }
+french-conjugated = { infinitif = 'prendre', present = 'prend', participe = 'pris', auxiliaire = 'avoir', imperatif = 'prends', nous = 'prenons', complement = 'une photo' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'irasshai'
@@ -1439,6 +1552,7 @@ kana = 'とる'
 english = 'to take ~; to pick up ~; ...'
 french = 'prendre ~; ramasser ~'
 english-conjugated = { past = 'took', continuous = 'taking', plural = 'takes', base = 'take' }
+french-conjugated = { infinitif = 'prendre', present = 'prend', participe = 'pris', auxiliaire = 'avoir', imperatif = 'prends', nous = 'prenons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'irasshai'
@@ -1452,6 +1566,7 @@ kana = 'なおす'
 english = 'to fix ~'
 french = 'réparer ~; corriger ~'
 english-conjugated = { base = 'fix', past = 'fixed', plural = 'fixes', continuous = 'fixining' }
+french-conjugated = { infinitif = 'réparer', present = 'répare', participe = 'réparé', auxiliaire = 'avoir', imperatif = 'répare', nous = 'réparons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n4'
@@ -1464,6 +1579,7 @@ kana = 'なおる'
 english = 'to be fixed'
 french = 'être réparé; être corrigé'
 english-conjugated = { base = 'be fixed', past = 'been fixed', plural = 'be fixed', continuous = 'being fixed' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'réparé' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wanikani'
@@ -1477,6 +1593,7 @@ kana = 'なく'
 english = 'to sing (bird); to chirp'
 french = 'chanter (oiseau); gazouiller'
 english-conjugated = { plural = 'chrips', past = 'chirped', base = 'chirp', continuous = 'chirping' }
+french-conjugated = { infinitif = 'gazouiller', present = 'gazouille', participe = 'gazouillé', auxiliaire = 'avoir', imperatif = 'gazouille', nous = 'gazouillons' }
 verb-type = 'godan-ku'
 transitive = false
 source = 'wanikani'
@@ -1490,6 +1607,7 @@ kana = 'なくす'
 english = 'to lose ~ (something)'
 french = 'perdre ~'
 english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuous = 'losing' }
+french-conjugated = { infinitif = 'perdre', present = 'perd', participe = 'perdu', auxiliaire = 'avoir', imperatif = 'perds', nous = 'perdons' }
 level = 'n5'
 verb-type = 'godan-su'
 transitive = true
@@ -1502,6 +1620,7 @@ kana = 'ならう'
 english = 'to be taught ~; to take lessons in ~'
 french = 'apprendre ~; prendre des cours de ~'
 english-conjugated = { plural = 'are taught', base = 'be taught', past = 'been taught', continuous = 'being taught' }
+french-conjugated = { infinitif = 'apprendre', present = 'apprend', participe = 'appris', auxiliaire = 'avoir', imperatif = 'apprends', nous = 'apprenons' }
 verb-type = 'godan-u'
 transitive = true
 source = 'irasshai'
@@ -1515,6 +1634,7 @@ kana = 'ならぶ'
 english = 'to line up'
 french = 'faire la queue; être aligné'
 english-conjugated = { plural = 'lines up', continuous = 'lining up', base = 'line up', past = 'lined up' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'la queue' }
 verb-type = 'godan-bu'
 transitive = false
 source = 'wiki-n5'
@@ -1528,6 +1648,7 @@ kana = 'なる'
 english = 'to become; to reach'
 french = 'devenir; atteindre'
 english-conjugated = { base = 'become', past = 'became', plural = 'becomes', continuous = 'becoming' }
+french-conjugated = { infinitif = 'devenir', present = 'devient', participe = 'devenu', auxiliaire = 'être', imperatif = 'deviens', nous = 'devenons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1540,6 +1661,7 @@ kana = 'ぬぐ'
 english = 'to undress ~; to take off ~ (clothes, shoes)'
 french = 'enlever ~; ôter ~ (vêtements, chaussures)'
 english-conjugated = { base = 'undress', past = 'undressed', plural = 'undresses', continuous = 'undressing' }
+french-conjugated = { infinitif = 'déshabiller', present = 'déshabille', participe = 'déshabillé', auxiliaire = 'avoir', imperatif = 'déshabille', nous = 'déshabillons', pronominal = true }
 verb-type = 'godan-gu'
 transitive = true
 source = 'wiki-n5'
@@ -1553,6 +1675,7 @@ kana = 'ぬすむ'
 english = 'to steal ~'
 french = 'voler ~ (dérober)'
 english-conjugated = { base = 'steal', past = 'stole', plural = 'steals', continuous = 'stealing' }
+french-conjugated = { infinitif = 'voler', present = 'vole', participe = 'volé', auxiliaire = 'avoir', imperatif = 'vole', nous = 'volons' }
 verb-type = 'godan-mu'
 transitive = true
 level = 'n4'
@@ -1565,6 +1688,7 @@ kana = 'ねる'
 english = 'to lie down; to sleep (lying down)'
 french = 'se coucher; dormir'
 english-conjugated = { base = 'lie down', continuous = 'lying down', past = 'lied down', plural = 'lies down' }
+french-conjugated = { infinitif = 'coucher', present = 'couche', participe = 'couché', auxiliaire = 'avoir', imperatif = 'couche', nous = 'couchons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'irasshai'
@@ -1578,6 +1702,7 @@ kana = 'のこる'
 english = 'to remain; to be left'
 french = 'rester'
 english-conjugated = { base = 'remain', past = 'remained', plural = 'remains', continuous = 'remaining' }
+french-conjugated = { infinitif = 'rester', present = 'reste', participe = 'resté', auxiliaire = 'être', imperatif = 'reste', nous = 'restons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'nihongo-charenji-n4-kotoba'
@@ -1591,6 +1716,7 @@ kana = 'のぼる'
 english = 'to climb'
 french = 'monter; grimper'
 english-conjugated = { base = 'climb', past = 'climbed', plural = 'climbs', continuous = 'climbing' }
+french-conjugated = { infinitif = 'monter', present = 'monte', participe = 'monté', auxiliaire = 'être', imperatif = 'monte', nous = 'montons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1603,6 +1729,7 @@ kana = 'のる'
 english = 'to ride (train, car, plane, bus...)'
 french = 'monter (dans un véhicule); prendre (train, voiture, avion, bus...)'
 english-conjugated = { plural = 'rides', continuous = 'riding', base = 'ride', past = 'rode' }
+french-conjugated = { infinitif = 'monter', present = 'monte', participe = 'monté', auxiliaire = 'être', imperatif = 'monte', nous = 'montons', complement = 'à bord' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -1616,6 +1743,7 @@ kana = 'はいる'
 english = 'to enter'
 french = 'entrer'
 english-conjugated = { plural = 'enters', base = 'enter', past = 'entered', continuous = 'entering' }
+french-conjugated = { infinitif = 'entrer', present = 'entre', participe = 'entré', auxiliaire = 'être', imperatif = 'entre', nous = 'entrons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'irasshai'
@@ -1629,6 +1757,7 @@ kana = 'はえる'
 english = 'to grow'
 french = 'pousser (plantes, poils)'
 english-conjugated = { base = 'grow', past = 'grew', plural = 'grows', continuous = 'growing' }
+french-conjugated = { infinitif = 'pousser', present = 'pousse', participe = 'poussé', auxiliaire = 'avoir', imperatif = 'pousse', nous = 'poussons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'wanikani'
@@ -1642,6 +1771,7 @@ kana = 'はじまる'
 english = 'to begin'
 french = 'commencer'
 english-conjugated = { base = 'begin', past = 'began', plural = 'begins', continuous = 'beginning' }
+french-conjugated = { infinitif = 'commencer', present = 'commence', participe = 'commencé', auxiliaire = 'avoir', imperatif = 'commence', nous = 'commençons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1654,6 +1784,7 @@ kana = 'はずれる'
 english = 'to be disconnected'
 french = 'se détacher; se déconnecter; manquer (la cible)'
 english-conjugated = { base = 'be disconnected', past = 'been disconnected', plural = 'be disconnected', continuous = 'being disconnected' }
+french-conjugated = { infinitif = 'déconnecter', present = 'déconnecte', participe = 'déconnecté', auxiliaire = 'avoir', imperatif = 'déconnecte', nous = 'déconnectons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 level = 'n2'
@@ -1666,6 +1797,7 @@ kana = 'はたらく'
 english = 'to work'
 french = 'travailler'
 english-conjugated = { base = 'work', past = 'worked', plural = 'works', continuous = 'working' }
+french-conjugated = { infinitif = 'travailler', present = 'travaille', participe = 'travaillé', auxiliaire = 'avoir', imperatif = 'travaille', nous = 'travaillons' }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -1678,6 +1810,7 @@ kana = 'はなす'
 english = 'to release ~'
 french = 'lâcher ~; relâcher ~'
 english-conjugated = { base = 'release', past = 'released', plural = 'releases', continuous = 'releasing' }
+french-conjugated = { infinitif = 'lâcher', present = 'lâche', participe = 'lâché', auxiliaire = 'avoir', imperatif = 'lâche', nous = 'lâchons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'wanikani'
@@ -1691,6 +1824,7 @@ kana = 'はる'
 english = 'to stick ~; to paste ~; to affix ~'
 french = 'coller ~; fixer ~; tendre ~'
 english-conjugated = { continuous = 'sticking', base = 'stick', past = 'stuck', plural = 'sticks' }
+french-conjugated = { infinitif = 'coller', present = 'colle', participe = 'collé', auxiliaire = 'avoir', imperatif = 'colle', nous = 'collons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'wiki-n5'
@@ -1704,6 +1838,7 @@ kana = 'はれる'
 english = 'to be sunny; to stop raining; to clear up'
 french = "faire beau; s'éclaircir; cesser de pleuvoir"
 english-conjugated = { plural = 'clears up', past = 'cleared up', base = 'clear up', continuous = 'clearing up' }
+french-conjugated = { infinitif = 'éclaircir', present = 'éclaircit', participe = 'éclairci', auxiliaire = 'avoir', imperatif = 'éclaircis', nous = 'éclaircissons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'wiki-n5'
@@ -1717,6 +1852,7 @@ kana = 'ばける'
 english = 'to transform'
 french = 'se transformer; se déguiser'
 english-conjugated = { plural = 'transforms', base = 'transform', continuous = 'transforming', past = 'transformed' }
+french-conjugated = { infinitif = 'transformer', present = 'transforme', participe = 'transformé', auxiliaire = 'avoir', imperatif = 'transforme', nous = 'transformons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'wanikani'
@@ -1730,6 +1866,7 @@ kana = 'ひかる'
 english = 'to shine'
 french = 'briller'
 english-conjugated = { plural = 'shines', base = 'shine', continuous = 'shining', past = 'shined' }
+french-conjugated = { infinitif = 'briller', present = 'brille', participe = 'brillé', auxiliaire = 'avoir', imperatif = 'brille', nous = 'brillons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -1742,6 +1879,7 @@ kana = 'ひく'
 english = 'to pull ~; to subtract ~'
 french = 'tirer ~; soustraire ~'
 english-conjugated = { base = 'pull', past = 'pulled', plural = 'pulls', continuous = 'pulling' }
+french-conjugated = { infinitif = 'tirer', present = 'tire', participe = 'tiré', auxiliaire = 'avoir', imperatif = 'tire', nous = 'tirons' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n5'
@@ -1754,6 +1892,7 @@ kana = 'ふく'
 english = 'to blow ~ (eg. wind)'
 french = 'souffler (ex. vent)'
 english-conjugated = { past = 'blew', plural = 'blows', base = 'blow', continuous = 'blowing' }
+french-conjugated = { infinitif = 'souffler', present = 'souffle', participe = 'soufflé', auxiliaire = 'avoir', imperatif = 'souffle', nous = 'soufflons' }
 verb-type = 'godan-ku'
 transitive = true
 source = 'irasshai'
@@ -1767,6 +1906,7 @@ kana = 'ふとる'
 english = 'to get fat'
 french = 'grossir'
 english-conjugated = { base = 'get fat', past = 'got fat', plural = 'gets fat', continuous = 'getting fat' }
+french-conjugated = { infinitif = 'grossir', present = 'grossit', participe = 'grossi', auxiliaire = 'avoir', imperatif = 'grossis', nous = 'grossissons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -1779,6 +1919,7 @@ kana = 'ふる'
 english = 'to fall (rain, snow, etc.)'
 french = 'tomber (pluie, neige, etc.)'
 english-conjugated = { base = 'fall', continuous = 'falling', plural = 'falls', past = 'fell' }
+french-conjugated = { infinitif = 'tomber', present = 'tombe', participe = 'tombé', auxiliaire = 'être', imperatif = 'tombe', nous = 'tombons' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wiki-n5'
@@ -1792,6 +1933,7 @@ kana = 'まがる'
 english = 'to bend'
 french = 'se plier; se courber'
 english-conjugated = { plural = 'bends', base = 'bend', continuous = 'bending', past = 'bent' }
+french-conjugated = { infinitif = 'courber', present = 'courbe', participe = 'courbé', auxiliaire = 'avoir', imperatif = 'courbe', nous = 'courbons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wanikani; wiki-n5'
@@ -1805,6 +1947,7 @@ kana = 'まがる'
 english = 'to bend; to twist; to turn'
 french = 'se plier; se tordre; tourner'
 english-conjugated = { base = 'twist', past = 'twisted', plural = 'twists', continuous = 'twising' }
+french-conjugated = { infinitif = 'tordre', present = 'tord', participe = 'tordu', auxiliaire = 'avoir', imperatif = 'tords', nous = 'tordons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -1817,6 +1960,7 @@ kana = 'まける'
 english = 'to lose'
 french = 'perdre (match)'
 english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuous = 'losing' }
+french-conjugated = { infinitif = 'perdre', present = 'perd', participe = 'perdu', auxiliaire = 'avoir', imperatif = 'perds', nous = 'perdons' }
 verb-type = 'ichidan'
 transitive = false
 source = 'anime'
@@ -1830,6 +1974,7 @@ kana = 'まぜる'
 english = 'to mix ~; to stir ~; to blend ~'
 french = 'mélanger ~; remuer ~'
 english-conjugated = { base = 'mix', past = 'mixed', plural = 'mixes', continuous = 'mixing' }
+french-conjugated = { infinitif = 'mélanger', present = 'mélange', participe = 'mélangé', auxiliaire = 'avoir', imperatif = 'mélange', nous = 'mélangeons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'sekai-wa-fushigi-2'
@@ -1843,6 +1988,7 @@ kana = 'まつ'
 english = 'to wait; to wait on ~'
 french = 'attendre; attendre ~'
 english-conjugated = { base = 'wait', past = 'waited', plural = 'waits', continuous = 'waiting' }
+french-conjugated = { infinitif = 'attendre', present = 'attend', participe = 'attendu', auxiliaire = 'avoir', imperatif = 'attends', nous = 'attendons' }
 verb-type = 'godan-tsu'
 transitive = true
 level = 'n5'
@@ -1856,6 +2002,7 @@ kana = 'まなぶ'
 english = 'to study; to learn'
 french = 'étudier; apprendre'
 english-conjugated = { base = 'study', past = 'studied', plural = 'studies', continuous = 'studying' }
+french-conjugated = { infinitif = 'étudier', present = 'étudie', participe = 'étudié', auxiliaire = 'avoir', imperatif = 'étudie', nous = 'étudions' }
 verb-type = 'godan-bu'
 transitive = false
 level = 'n3'
@@ -1868,6 +2015,7 @@ kana = 'まもる'
 english = 'to protect'
 french = 'protéger'
 english-conjugated = { base = 'protect', past = 'protected', plural = 'protects', continuous = 'protecting' }
+french-conjugated = { infinitif = 'protéger', present = 'protège', participe = 'protégé', auxiliaire = 'avoir', imperatif = 'protège', nous = 'protégeons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n3'
@@ -1880,6 +2028,7 @@ kana = 'みがく'
 english = 'to brush ~ (eg teeth); to polish ~'
 french = 'brosser ~ (ex. dents); polir ~'
 english-conjugated = { plural = 'polishes', continuous = 'polishing', past = 'polished', base = 'polish' }
+french-conjugated = { infinitif = 'polir', present = 'polit', participe = 'poli', auxiliaire = 'avoir', imperatif = 'polis', nous = 'polissons' }
 verb-type = 'godan-ku'
 transitive = true
 source = 'wiki-n5'
@@ -1893,6 +2042,7 @@ kana = 'むかう'
 english = 'to face'
 french = 'faire face à; se diriger vers'
 english-conjugated = { base = 'face', past = 'faced', plural = 'faces', continuous = 'facing' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'face' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n4'
@@ -1906,6 +2056,7 @@ kana = 'もちいる'
 english = 'to use ~; to utilize ~ (literary)'
 french = 'utiliser ~; employer ~ (littéraire)'
 english-conjugated = { base = 'use', past = 'used', plural = 'uses', continuous = 'using' }
+french-conjugated = { infinitif = 'employer', present = 'emploie', participe = 'employé', auxiliaire = 'avoir', imperatif = 'emploie', nous = 'employons' }
 verb-type = 'ichidan'
 transitive = true
 explain = 'https://www.japanesepod101.com/blog/yomi-and-breakdown-of-the-words/'
@@ -1919,6 +2070,7 @@ kana = 'もつ'
 english = 'to hold ~ (in hand)'
 french = 'tenir ~ (en main); avoir ~'
 english-conjugated = { continuous = 'holding', base = 'hold', plural = 'holds', past = 'held' }
+french-conjugated = { infinitif = 'tenir', present = 'tient', participe = 'tenu', auxiliaire = 'avoir', imperatif = 'tiens', nous = 'tenons' }
 verb-type = 'godan-tsu'
 transitive = true
 source = 'irasshai'
@@ -1932,6 +2084,7 @@ kana = 'もどる'
 english = 'to turn back (eg halfway)'
 french = 'revenir; faire demi-tour'
 english-conjugated = { base = 'turn back', continuous = 'turning back', past = 'turned back', plural = 'turns back' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'demi-tour' }
 verb-type = 'godan-ru'
 transitive = false
 source = 'anime-freq'
@@ -1945,6 +2098,7 @@ kana = 'やすむ'
 english = 'to rest; to take a break; to take a day off'
 french = 'se reposer; faire une pause; prendre un jour de congé'
 english-conjugated = { base = 'rest', past = 'rested', plural = 'rests', continuous = 'resting' }
+french-conjugated = { infinitif = 'reposer', present = 'repose', participe = 'reposé', auxiliaire = 'avoir', imperatif = 'repose', nous = 'reposons', pronominal = true }
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'
@@ -1957,6 +2111,7 @@ kana = 'やめる'
 english = 'to stop ~'
 french = 'arrêter ~; cesser ~'
 english-conjugated = { past = 'stopped', base = 'stop', plural = 'stops', continuous = 'stopping' }
+french-conjugated = { infinitif = 'cesser', present = 'cesse', participe = 'cessé', auxiliaire = 'avoir', imperatif = 'cesse', nous = 'cessons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'anime'
@@ -1970,6 +2125,7 @@ kana = 'やる'
 english = 'to do ~ (casual)'
 french = 'faire ~ (familier)'
 english-conjugated = { base = 'do', past = 'did', plural = 'does', continuous = 'doing' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons' }
 verb-type = 'godan-ru'
 transitive = true
 level = 'n1'
@@ -1982,6 +2138,7 @@ kana = 'よぶ'
 english = 'to call out to ~; to summon ~; to invite ~'
 french = 'appeler ~; convoquer ~; inviter ~'
 english-conjugated = { base = 'call out', plural = 'calls out', past = 'called out', continuous = 'calling out' }
+french-conjugated = { infinitif = 'appeler', present = 'appelle', participe = 'appelé', auxiliaire = 'avoir', imperatif = 'appelle', nous = 'appelons' }
 verb-type = 'godan-bu'
 transitive = true
 source = 'anime-freq'
@@ -1995,6 +2152,7 @@ kana = 'よる'
 english = 'to approach'
 french = "s'approcher; passer (chez quelqu'un)"
 english-conjugated = { base = 'approach', past = 'approached', continuous = 'approaching', plural = 'approaches' }
+french-conjugated = { infinitif = 'approcher', present = 'approche', participe = 'approché', auxiliaire = 'avoir', imperatif = 'approche', nous = 'approchons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 source = 'wiki-n4'
@@ -2008,6 +2166,7 @@ kana = 'わける'
 english = 'to separate ~; to divide ~'
 french = 'séparer ~; diviser ~'
 english-conjugated = { base = 'separate', past = 'separated', plural = 'separates', continuous = 'separating' }
+french-conjugated = { infinitif = 'séparer', present = 'sépare', participe = 'séparé', auxiliaire = 'avoir', imperatif = 'sépare', nous = 'séparons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n3'
@@ -2021,6 +2180,7 @@ kana = 'わたす'
 english = 'to ferry across ~ (eg river); to traverse ~'
 french = 'faire traverser ~ (ex. rivière); remettre ~ (donner)'
 english-conjugated = { plural = 'traverses', continuous = 'traversing', past = 'traversed', base = 'traverse' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'traverser' }
 verb-type = 'godan-su'
 transitive = true
 source = 'wiki-n5'
@@ -2034,6 +2194,7 @@ kana = 'コピーする'
 english = 'to make a copy'
 french = 'faire une copie; photocopier'
 english-conjugated = { past = 'made a copy', continuous = 'making a copy', base = 'make a copy', plural = 'makes a copy' }
+french-conjugated = { infinitif = 'copier', present = 'copie', participe = 'copié', auxiliaire = 'avoir', imperatif = 'copie', nous = 'copions' }
 verb-type = 'suru-verb'
 transitive = true
 source = 'irasshai'

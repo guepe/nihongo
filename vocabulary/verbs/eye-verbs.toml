@@ -4,6 +4,7 @@ kana = 'みえる'
 english = 'to be able to see'
 french = 'être visible; se voir'
 english-conjugated = { base = 'be able to see', past = 'was able to see', plural = 'are able to see', continuous = 'being able to see' }
+french-conjugated = { infinitif = 'être', present = 'est', participe = 'été', auxiliaire = 'avoir', imperatif = 'sois', nous = 'soyons', complement = 'visible' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n4'
@@ -16,6 +17,7 @@ kana = 'みせる'
 english = 'to show ~'
 french = 'montrer ~'
 english-conjugated = { base = 'show', past = 'showed', plural = 'shows', continuous = 'showing' }
+french-conjugated = { infinitif = 'montrer', present = 'montre', participe = 'montré', auxiliaire = 'avoir', imperatif = 'montre', nous = 'montrons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -28,6 +30,7 @@ kana = 'みつける'
 english = 'to find ~; to discover ~'
 french = 'trouver ~; découvrir ~'
 english-conjugated = { past = 'found', base = 'find', continuous = 'finding', plural = 'finds' }
+french-conjugated = { infinitif = 'trouver', present = 'trouve', participe = 'trouvé', auxiliaire = 'avoir', imperatif = 'trouve', nous = 'trouvons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani; anime; wiktionary'
@@ -41,6 +44,7 @@ kana = 'みる'
 english = 'to see ~'
 french = 'voir ~; regarder ~'
 english-conjugated = { base = 'see', past = 'saw', plural = 'sees', continuous = 'seeing' }
+french-conjugated = { infinitif = 'voir', present = 'voit', participe = 'vu', auxiliaire = 'avoir', imperatif = 'vois', nous = 'voyons' }
 verb-type = 'ichidan'
 transitive = true
 level = 'n5'
@@ -53,6 +57,7 @@ kana = 'よむ'
 english = 'to read'
 french = 'lire'
 english-conjugated = { base = 'read', past = 'read', plural = 'reads', continuous = 'reading' }
+french-conjugated = { infinitif = 'lire', present = 'lit', participe = 'lu', auxiliaire = 'avoir', imperatif = 'lis', nous = 'lisons' }
 verb-type = 'godan-mu'
 transitive = false
 level = 'n5'

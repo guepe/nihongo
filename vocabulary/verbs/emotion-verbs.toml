@@ -4,6 +4,7 @@ kana = 'おこる'
 english = 'to get angry'
 french = 'se fâcher; se mettre en colère'
 english-conjugated = { base = 'get angry', past = 'got angry', plural = 'gets angry', continuous = 'getting angry' }
+french-conjugated = { infinitif = 'fâcher', present = 'fâche', participe = 'fâché', auxiliaire = 'avoir', imperatif = 'fâche', nous = 'fâchons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n4'
@@ -16,6 +17,7 @@ kana = 'なく'
 english = 'to cry'
 french = 'pleurer'
 english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continuous = 'crying' }
+french-conjugated = { infinitif = 'pleurer', present = 'pleure', participe = 'pleuré', auxiliaire = 'avoir', imperatif = 'pleure', nous = 'pleurons' }
 level = 'n4'
 verb-type = 'godan-ku'
 transitive = false
@@ -28,6 +30,7 @@ kana = 'なやむ'
 english = 'to be worried'
 french = "s'inquiéter; être tourmenté"
 english-conjugated = { continuous = 'being worried', past = 'was worried', plural = 'are worried', base = 'be worried' }
+french-conjugated = { infinitif = 'inquiéter', present = 'inquiète', participe = 'inquiété', auxiliaire = 'avoir', imperatif = 'inquiète', nous = 'inquiétons', pronominal = true }
 verb-type = 'godan-mu'
 transitive = false
 source = 'bonobono-anime'
@@ -41,6 +44,7 @@ kana = 'よろこぶ'
 english = 'to be delighted'
 french = 'se réjouir; être ravi'
 english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continuous = 'being delighted' }
+french-conjugated = { infinitif = 'réjouir', present = 'réjouit', participe = 'réjoui', auxiliaire = 'avoir', imperatif = 'réjouis', nous = 'réjouissons', pronominal = true }
 verb-type = 'godan-bu'
 transitive = false
 level = 'n4'

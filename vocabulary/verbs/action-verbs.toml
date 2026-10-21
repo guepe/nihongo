@@ -4,6 +4,7 @@ kana = 'うつ'
 english = 'to hit ~; to strike ~'
 french = 'frapper ~; taper ~'
 english-conjugated = { base = 'hit', plural = 'hits', continuous = 'hitting', past = 'had hit' }
+french-conjugated = { infinitif = 'frapper', present = 'frappe', participe = 'frappé', auxiliaire = 'avoir', imperatif = 'frappe', nous = 'frappons' }
 verb-type = 'godan-tsu'
 transitive = true
 source = 'wanikani'
@@ -17,6 +18,7 @@ kana = 'きめる'
 english = 'to decide ~'
 french = 'décider ~'
 english-conjugated = { plural = 'decides', base = 'decide', continuous = 'decides', past = 'decided' }
+french-conjugated = { infinitif = 'décider', present = 'décide', participe = 'décidé', auxiliaire = 'avoir', imperatif = 'décide', nous = 'décidons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani'
@@ -30,6 +32,7 @@ kana = 'さす'
 english = 'to point'
 french = 'montrer du doigt; désigner'
 english-conjugated = { base = 'point', past = 'pointed', plural = 'points', continuous = 'pointing' }
+french-conjugated = { infinitif = 'montrer', present = 'montre', participe = 'montré', auxiliaire = 'avoir', imperatif = 'montre', nous = 'montrons', complement = 'du doigt' }
 verb-type = 'godan-su'
 transitive = true
 source = 'wanikani'
@@ -43,6 +46,7 @@ kana = 'ちかづく'
 english = 'to get close to; to approach'
 french = "s'approcher de; approcher"
 english-conjugated = { base = 'get close', past = 'got close', plural = 'gets close', continuous = 'getting close' }
+french-conjugated = { infinitif = 'approcher', present = 'approche', participe = 'approché', auxiliaire = 'avoir', imperatif = 'approche', nous = 'approchons', pronominal = true }
 verb-type = 'godan-ku'
 transitive = false
 source = 'wanikani'
@@ -56,6 +60,7 @@ kana = 'なげる'
 english = 'to throw ~'
 french = 'lancer ~'
 english-conjugated = { base = 'throw', plural = 'throws', continuous = 'throwing', past = 'threw' }
+french-conjugated = { infinitif = 'lancer', present = 'lance', participe = 'lancé', auxiliaire = 'avoir', imperatif = 'lance', nous = 'lançons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani'
@@ -69,6 +74,7 @@ kana = 'ならべる'
 english = 'to line up ~; to enumerate ~'
 french = 'aligner ~; énumérer ~'
 english-conjugated = { plural = 'lines up', base = 'line up', continuous = 'lining up', past = 'lined up' }
+french-conjugated = { infinitif = 'aligner', present = 'aligne', participe = 'aligné', auxiliaire = 'avoir', imperatif = 'aligne', nous = 'alignons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'n4-list'
@@ -82,6 +88,7 @@ kana = 'にげる'
 english = 'to escape; to run away'
 french = "s'enfuir; s'échapper"
 english-conjugated = { base = 'escape', past = 'escaped', plural = 'escapes', continuous = 'escaping' }
+french-conjugated = { infinitif = 'enfuir', present = 'enfuit', participe = 'enfui', auxiliaire = 'être', imperatif = 'enfuis', nous = 'enfuyons', pronominal = true }
 verb-type = 'ichidan'
 transitive = false
 source = 'wanikani'

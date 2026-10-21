@@ -14,7 +14,7 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
-OUTPUT_FILENAME = 'verb_card_deck_output.apkg'
+OUTPUT_FILENAME = 'japonais_conjugaison_fr.apkg'
 
 def read_verbs():
   def read_notes(filename):
@@ -36,6 +36,17 @@ def read_verbs():
   return all_notes
 
 verbs = read_verbs()
+
+# Words starting with an aspirated 'h' don't take elision (ne hurle pas, se hâter).
+H_ASPIRE_PREFIXES = ('hach', 'haï', 'hair', 'hal', 'hant', 'harcel', 'hasard', 'hât',
+    'hauss', 'heurt', 'hiss', 'hont', 'hurl')
+
+def elide(word, following):
+  """elide('ne', 'aime') -> "n'aime"; elide('se', 'lever') -> 'se lever'."""
+  first = following[:1].lower()
+  if first in 'aàâeéèêëiîïoôuùûyœ' or (first == 'h' and not following.lower().startswith(H_ASPIRE_PREFIXES)):
+    return word[:-1] + "'" + following
+  return word + ' ' + following
 
 class Verb:
   # Godan Ending -> Masu Stem
@@ -122,13 +133,8 @@ class Verb:
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
 
-    self.english_summary = verb_dict['english']
-
-    english = {}
-    if 'english-conjugated' in verb_dict:
-      english = verb_dict['english-conjugated']
-
-    self.english = english
+    self.french_summary = verb_dict.get('french') or verb_dict['english']
+    self.french = verb_dict.get('french-conjugated', {})
 
   def present_indicative(self, polite=False, positive=False, kanji=False):
     """
@@ -146,12 +152,6 @@ class Verb:
       else:
         return self._nai(kanji=kanji)
 
-  def english_present_indicative(self, positive=False):
-    if positive:
-      return 'will ' + self.english['base']
-    else:
-      return 'won\'t ' + self.english['base']
-
   def presumptive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Presumptive form.
@@ -160,12 +160,6 @@ class Verb:
     verb = self.present_indicative(polite=False, positive=positive, kanji=kanji)
     suffix = "でしょう" if polite else "だろう"
     return verb + suffix
-
-  def english_presumptive(self, positive=False):
-    if positive:
-      return 'will probably ' + self.english['base']
-    else:
-      return 'probably won\'t ' + self.english['base']
 
   def volitional(self, polite=False, kanji=False):
     """
@@ -182,9 +176,6 @@ class Verb:
         for godan_end, ending in Verb.GODAN_TO_PLAIN_VOLITIONAL.items():
           if verb.endswith(godan_end):
             return re.sub(godan_end + '$', ending, verb)
-
-  def english_volitional(self):
-    return 'let\'s ' + self.english['base']
 
   def imperative(self, polite=False, positive=False, kanji=False):
     """
@@ -212,12 +203,6 @@ class Verb:
         dictionary = self.kanji if kanji else self.kana
         return dictionary + 'な'
 
-  def english_imperative(self, positive=False):
-    if positive:
-      return 'do {}!'.format(self.english['base'])
-    else:
-      return 'don\'t {}!'.format(self.english['base'])
-
   def past_indicative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Indicative form.
@@ -236,15 +221,6 @@ class Verb:
         verb = self.present_indicative(positive=False, polite=False, kanji=kanji)
         return re.sub('い$', 'かった', verb)
 
-  def english_past_indicative(self, positive=False):
-    if positive:
-      return self.english['past']
-    else:
-      past = 'didn\'t {}'.format(self.english['base'])
-      # fix bad grammar
-      past = re.sub("didn't be\\b", "wasn't", past)
-      return past
-
   def past_presumptive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Presumptive form.
@@ -253,16 +229,6 @@ class Verb:
     verb = self.past_indicative(polite=False, positive=positive, kanji=kanji)
     suffix = 'でしょう' if polite else 'だろう'
     return verb + suffix
-
-  def english_past_presumptive(self, positive=False):
-    if positive:
-      past = 'probably {}'.format(self.english['past'])
-      past = re.sub('probably was\\b', 'was probably', past) # better wording
-      return past
-    else:
-      past = 'probably didn\'t {}'.format(self.english['base'])
-      past = re.sub('didn\'t be\\b', 'wasn\'t', past) # fix bad grammar
-      return past
 
   def present_progressive(self, polite=False, positive=False, kanji=False):
     """
@@ -276,12 +242,6 @@ class Verb:
       suffix = 'いる' if positive else 'いない'
     return te_form_base + suffix
 
-  def english_present_progressive(self, positive=False):
-    if positive:
-      return self.english['continuous']
-    else:
-      return 'not {}'.format(self.english['continuous'])
-
   def past_progressive(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Past Progressive form.
@@ -293,12 +253,6 @@ class Verb:
     else:
       suffix = 'いた' if positive else 'いなかった'
     return te_form_base + suffix
-
-  def english_past_progressive(self, positive=False):
-    if positive:
-      return 'was {}'.format(self.english['continuous'])
-    else:
-      return 'wasn\'t {}'.format(self.english['continuous'])
 
   def provisional(self, positive=False, kanji=False):
     """
@@ -315,15 +269,6 @@ class Verb:
       verb = self.present_indicative(polite=False, positive=False, kanji=kanji)
       return re.sub('い$', 'ければ', verb)
 
-  def english_provisional(self, positive=False):
-    # NB: Currently the same as english_conditional
-    if positive:
-      provisional = 'if one {}'.format(self.english['plural'])
-      return re.sub('one are\\b', 'one is', provisional) # fix bad grammar
-    else:
-      provisional = 'if one doesn\'t {}'.format(self.english['base'])
-      return re.sub('doesn\'t be\\b', 'isn\'t', provisional) # fix bad grammar
-
   def conditional(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Conditional form.
@@ -331,15 +276,6 @@ class Verb:
     """
     base = self.past_indicative(polite=polite, positive=positive, kanji=kanji)
     return base + 'ら'
-
-  def english_conditional(self, positive=False):
-    # NB: Currently the same as english_provisional
-    if positive:
-      conditional= 'if one {}'.format(self.english['plural'])
-      return re.sub('one are\\b', 'one is', conditional) # fix bad grammar
-    else:
-      conditional = 'if one doesn\'t {}'.format(self.english['base'])
-      return re.sub('doesn\'t be\\b', 'isn\'t', conditional) # fix bad grammar
 
   def potential(self, polite=False, positive=False, kanji=False):
     """
@@ -359,12 +295,6 @@ class Verb:
     else:
       return base + 'る' if positive else base + 'ない'
 
-  def english_potential(self, positive=False):
-    if positive:
-      return 'can {}'.format(self.english['base'])
-    else:
-      return 'can\'t {}'.format(self.english['base'])
-
   def causative(self, polite=False, positive=False, kanji=False):
     """
     Return the verb in Causative form.
@@ -381,13 +311,6 @@ class Verb:
     else:
       suffix = 'せる' if positive else 'せない'
     return base + suffix
-
-  def english_causative(self, positive=False):
-    if positive:
-      causative = 'make {}'.format(self.english['base'])
-    else:
-      causative = 'not make {}'.format(self.english['base'])
-    return re.sub('\\sbe\\s', ' ', causative) # fix bad grammar
 
   def passive(self, polite=False, positive=False, kanji=False):
     """
@@ -406,13 +329,93 @@ class Verb:
       suffix = 'れる' if positive else 'れない'
     return base + suffix
 
-  def english_passive(self, positive=False):
+  # ==== French ====
+  # Built from `french-conjugated` in the TOML: the bare verb forms (infinitif,
+  # present, participe, auxiliaire, imperatif, nous) plus `pronominal` and an
+  # optional `complement` placed after the verb (eg. aller *ensemble*).
+
+  def _fr_pronominal(self):
+    return self.french.get('pronominal') in (True, 'oui')
+
+  def _fr_tail(self, phrase):
+    complement = self.french.get('complement', '').strip()
+    return '{} {}'.format(phrase, complement) if complement else phrase
+
+  def _fr_conj(self, verb, positive, reflexive=False, adverb=None):
+    """Conjugated verb with optional 'se', negation and adverb: 'ne s'est sans doute pas'."""
+    if reflexive:
+      verb = elide('se', verb)
     if positive:
-      passive = 'be {}'.format(self.english['past'])
-      return re.sub('be was\\b', 'be', passive) # fix bad grammar
+      return '{} {}'.format(verb, adverb) if adverb else verb
+    verb = elide('ne', verb)
+    return '{} {} pas'.format(verb, adverb) if adverb else verb + ' pas'
+
+  def _fr_infinitive(self, reflexive=True):
+    infinitive = self.french['infinitif']
+    if reflexive and self._fr_pronominal():
+      infinitive = elide('se', infinitive)
+    return self._fr_tail(infinitive)
+
+  def _fr_auxiliary(self):
+    return 'est' if self._fr_pronominal() or self.french['auxiliaire'] == 'être' else 'a'
+
+  def french_present_indicative(self, positive=False):
+    return self._fr_tail(self._fr_conj(self.french['present'], positive, self._fr_pronominal()))
+
+  def french_presumptive(self, positive=False):
+    return '{} {}'.format(self._fr_conj('va', positive, adverb='sans doute'), self._fr_infinitive())
+
+  def french_volitional(self):
+    verb = self.french['nous'] + ('-nous' if self._fr_pronominal() else '')
+    return self._fr_tail(verb) + ' !'
+
+  def french_imperative(self, positive=False):
+    verb = self.french['imperatif']
+    if self._fr_pronominal():
+      verb = verb + '-toi' if positive else elide('ne', elide('te', verb)) + ' pas'
+    elif not positive:
+      verb = elide('ne', verb) + ' pas'
+    return self._fr_tail(verb) + ' !'
+
+  def french_past_indicative(self, positive=False):
+    auxiliary = self._fr_conj(self._fr_auxiliary(), positive, self._fr_pronominal())
+    return self._fr_tail('{} {}'.format(auxiliary, self.french['participe']))
+
+  def french_past_presumptive(self, positive=False):
+    auxiliary = self._fr_conj(self._fr_auxiliary(), positive, self._fr_pronominal(), 'sans doute')
+    return self._fr_tail('{} {}'.format(auxiliary, self.french['participe']))
+
+  def french_present_progressive(self, positive=False):
+    return '{} en train {}'.format(self._fr_conj('est', positive), elide('de', self._fr_infinitive()))
+
+  def french_past_progressive(self, positive=False):
+    return '{} en train {}'.format(self._fr_conj('était', positive), elide('de', self._fr_infinitive()))
+
+  def french_provisional(self, positive=False):
+    # NB: Same as french_conditional; the cards tell them apart with a ～ば / ～たら hint.
+    return 'si on ' + self.french_present_indicative(positive)
+
+  def french_conditional(self, positive=False):
+    return 'si on ' + self.french_present_indicative(positive)
+
+  def french_potential(self, positive=False):
+    return '{} {}'.format(self._fr_conj('peut', positive), self._fr_infinitive())
+
+  def french_causative(self, positive=False):
+    if self.french['infinitif'] == 'être':
+      causative = 'obliger à ' + self._fr_infinitive() # not 'faire être là'
     else:
-      passive = 'not be {}'.format(self.english['past'])
-      return re.sub('be was\\b', 'be', passive) # fix bad grammar
+      # 'faire approcher' rather than 'faire s'approcher'
+      causative = 'faire ' + self._fr_infinitive(reflexive=False)
+    return causative if positive else 'ne pas ' + causative
+
+  def french_passive(self, positive=False):
+    if self.french['infinitif'] == 'être':
+      # Adversity passive; 'être été là' isn't French.
+      passive = 'subir le fait ' + elide('de', self._fr_infinitive())
+    else:
+      passive = self._fr_tail('être ' + self.french['participe'])
+    return passive if positive else 'ne pas ' + passive
 
   def _masu(self, kanji=False):
     base = self.kanji if kanji else self.kana
@@ -468,27 +471,27 @@ class Verb:
 VERB_HASH = { verb['kanji'] : Verb(verb) for verb in verbs }
 
 class Conjugation:
-  def __init__(self, name, has_negative=True, has_polite=True):
+  def __init__(self, name, label, has_negative=True, has_polite=True, hint=None):
     self.name = name
+    self.label = label # French name shown in Anki
     self.has_negative = has_negative
     self.has_polite = has_polite
+    self.hint = hint # Tells apart forms with the same French, eg. ～ば / ～たら
 
   def conjugation_name(self):
     return self.name.strip().lower().replace(' ', '_')
 
-  # TODO: Test
   def field_names(self):
     # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
-    # I have not tested this, but Anki has the potential to lose SRS data
-    # or get cards/fields out of sync if the field numbers change. The
-    # ordering here directly maps to field numberings.
+    # Anki has the potential to lose SRS data or get cards/fields out of sync
+    # if the field numbers change. The ordering here directly maps to field numberings.
     fields = []
 
     prefix = self.conjugation_name() + '_'
 
-    fields.append(prefix + 'english_positive')
+    fields.append(prefix + 'french_positive')
     if self.has_negative:
-      fields.append(prefix + 'english_negative')
+      fields.append(prefix + 'french_negative')
 
     fields.extend([
       prefix + 'plain_positive_kanji',
@@ -515,117 +518,81 @@ class Conjugation:
     return fields
 
   def map_verb_fields(self, verb):
-    # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
-    # I have not tested this, but Anki has the potential to lose SRS data
-    # or get cards/fields out of sync if the field numbers change. The
-    # ordering here directly maps to field numberings.
+    # NB: DO NOT CHANGE THE ORDER. APPEND ONLY. Must match field_names().
     field_values = []
 
     # TODO: Instead of having one monolithic class 'Verb', have a base class
     # and then subclasses that implement each conjugation's rules. Then we
     # don't need to dynamic dispatch, you can just call `conjugate(...)`.
     method_name = self.conjugation_name()
-    english_method_name = 'english_' + method_name
     method = getattr(verb, method_name)
-    english_method = getattr(verb, english_method_name)
+    french_method = getattr(verb, 'french_' + method_name)
 
-    if self.has_polite:
-      if self.has_negative:
-        field_values.extend([
-          english_method(positive=True),
-          english_method(positive=False),
-          method(polite=False, positive=True, kanji=True),
-          method(polite=False, positive=True, kanji=False),
-          method(polite=False, positive=False, kanji=True),
-          method(polite=False, positive=False, kanji=False),
-          method(polite=True, positive=True, kanji=True),
-          method(polite=True, positive=True, kanji=False),
-          method(polite=True, positive=False, kanji=True),
-          method(polite=True, positive=False, kanji=False),
-        ])
-      else:
-        field_values.extend([
-          english_method(),
-          method(polite=False, kanji=True),
-          method(polite=False, kanji=False),
-          method(polite=True, kanji=True),
-          method(polite=True, kanji=False),
-        ])
+    if self.has_negative:
+      field_values.extend([
+        french_method(positive=True),
+        french_method(positive=False),
+      ])
     else:
-      if self.has_negative:
+      field_values.append(french_method())
+
+    for polite in ([False, True] if self.has_polite else [None]):
+      for positive in ([True, False] if self.has_negative else [None]):
+        kwargs = {}
+        if polite is not None:
+          kwargs['polite'] = polite
+        if positive is not None:
+          kwargs['positive'] = positive
         field_values.extend([
-          english_method(positive=True),
-          english_method(positive=False),
-          method(positive=True, kanji=True),
-          method(positive=True, kanji=False),
-          method(positive=False, kanji=True),
-          method(positive=False, kanji=False),
-        ])
-      else:
-        field_values.extend([
-          english_method(),
-          method(kanji=True),
-          method(kanji=False),
+          method(kanji=True, **kwargs),
+          method(kanji=False, **kwargs),
         ])
 
     return field_values
 
-  # TODO: Test
-  # FIXME: cleanup
   def templates(self):
     # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
     templates = []
-
     prefix = self.conjugation_name() + '_'
-
-    templates.extend(self.card_templates(prefix + 'english_positive', prefix + 'plain_positive_'))
-
-    if self.has_negative:
-      templates.extend(self.card_templates(prefix + 'english_negative', prefix + 'plain_negative_'))
-
-
-    if self.has_polite:
-      templates.extend(self.card_templates(prefix + 'english_positive', prefix + 'polite_positive_'))
-
-      if self.has_negative:
-        templates.extend(self.card_templates(prefix + 'english_negative',
-          prefix + 'polite_negative_'))
-
+    registers = ['plain', 'polite'] if self.has_polite else ['plain']
+    polarities = ['positive', 'negative'] if self.has_negative else ['positive']
+    for register in registers:
+      for polarity in polarities:
+        french_field = prefix + 'french_' + polarity
+        japanese_field = '{}{}_{}_'.format(prefix, register, polarity)
+        for from_french in (True, False):
+          templates.append(self.card_template(
+              french_field, japanese_field, register, polarity, from_french))
     return templates
 
-  def card_templates(self, question_field, answer_field):
-    templates = []
-    templates.append(self.card_template(question_field, answer_field))
-    templates.append(self.card_template(answer_field, question_field))
-    return templates
+  def card_template(self, french_field, japanese_field, register, polarity, from_french):
+    register_label = 'poli' if register == 'polite' else 'neutre'
+    details = [register_label] + ([self.hint] if self.hint else [])
 
-  # TODO/FIXME: This is really gross, but I want to finish this...
-  def card_template(self, question_field, answer_field):
-    card_name = question_field # FIXME: Gross.
+    french = '{{{{{}}}}}'.format(french_field)
+    japanese = ('<span class="kanji">{{{{{0}kanji}}}}</span> '
+        '<span class="kana">{{{{{0}kana}}}}</span>').format(japanese_field)
 
-    question = question_field
-    if question_field.endswith('_'): # FIXME: Awful heuristic
-      question = '<span class="kanji">{{{{{}kanji}}}}</span> '.format(question) + \
-          '<span class="kana">{{{{{}kana}}}}</span>'.format(question)
-
-    answer = answer_field
-    if answer_field.endswith('_'):
-      answer = '<span class="kanji">{{{{{}kanji}}}}</span> '.format(answer) + \
-          '<span class="kana">{{{{{}kana}}}}</span>'.format(answer)
+    if from_french:
+      question = '{} <span class="register">({})</span>'.format(french, ', '.join(details))
+      answer = japanese
     else:
-      # English
-      answer = '{{{{{}}}}}'.format(answer)
+      question = japanese
+      answer = french
 
-    # English prompts
-    if 'polite' in answer:
-      question = '{{{{{}}}}} (polite)'.format(question)
-    elif 'plain' in answer:
-      question = '{{{{{}}}}} (plain)'.format(question)
+    name = '{} {} {} : {}'.format(
+        self.label,
+        'affirmatif' if polarity == 'positive' else 'négatif',
+        register_label,
+        'FR → JP' if from_french else 'JP → FR')
 
     return {
-      'name': card_name,
+      'name': name,
       'qfmt': '<span class="question">' + question + '</span>',
-      'afmt': '''
+      'afmt': ANSWER_TEMPLATE.format(question=question, answer=answer, label=self.label),
+    }
+
+ANSWER_TEMPLATE = '''
 <span class="question">{question}</span>
 
 <hr id="answer">
@@ -637,6 +604,10 @@ class Conjugation:
 
 <table>
   <tr>
+    <th>forme</th>
+    <td>{label}</td>
+  </tr>
+  <tr>
     <th>kanji</th>
     <td>{{{{base_kanji}}}}</td>
   </tr>
@@ -645,56 +616,52 @@ class Conjugation:
     <td>{{{{base_kana}}}}</td>
   </tr>
   <tr>
-    <th>group</th>
-    <td>{{{{base_kana}}}}</td>
+    <th>groupe</th>
+    <td>{{{{group}}}}</td>
   </tr>
   <tr>
-    <th>def</th>
-    <td>{{{{base_english}}}}</td>
+    <th>sens</th>
+    <td>{{{{base_french}}}}</td>
   </tr>
   <tr>
-    <th>level</th>
+    <th>niveau</th>
     <td>{{{{level}}}}</td>
   </tr>
 </table>
-'''.format(question=question, answer=answer),
-  }
+'''
 
-
-# TODO: Test that order does not change.
 # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
-# I have not tested this, but Anki has the potential to lose SRS data
-# or get cards/fields out of sync if the field numbers change. The
-# ordering here directly maps to field numberings.
+# Anki has the potential to lose SRS data or get cards/fields out of sync if
+# the field numbers change. The ordering here directly maps to field numberings.
 CONJUGATIONS = [
-  Conjugation('Present Indicative'),
-  Conjugation('Presumptive'),
-  Conjugation('Volitional', has_negative=False),
-  Conjugation('Imperative'),
-  Conjugation('Past Indicative'),
-  Conjugation('Past Presumptive'),
-  Conjugation('Present Progressive'),
-  Conjugation('Past Progressive'),
-  Conjugation('Provisional', has_polite=False),
-  Conjugation('Conditional'),
-  Conjugation('Potential'),
-  Conjugation('Causative'),
-  Conjugation('Passive'),
+  Conjugation('Present Indicative', 'Présent'),
+  Conjugation('Presumptive', 'Présomptif'),
+  Conjugation('Volitional', 'Volitif', has_negative=False),
+  Conjugation('Imperative', 'Impératif'),
+  Conjugation('Past Indicative', 'Passé'),
+  Conjugation('Past Presumptive', 'Passé présomptif'),
+  Conjugation('Present Progressive', 'Présent progressif'),
+  Conjugation('Past Progressive', 'Passé progressif'),
+  Conjugation('Provisional', 'Conditionnel en ～ば', has_polite=False, hint='～ば'),
+  Conjugation('Conditional', 'Conditionnel en ～たら', hint='～たら'),
+  Conjugation('Potential', 'Potentiel'),
+  Conjugation('Causative', 'Causatif'),
+  Conjugation('Passive', 'Passif'),
 ]
 
 # use random.randrange(1 << 30, 1 << 31) to generate a suitable model_id,
 # and hardcode it into your Model definition.
 
 VERB_CARD_DECK = genanki.Deck(
-  2000002000, # XXX: DO NOT CHANGE
-  'Generated Japanese Verb Conjugation') # XXX: DO NOT CHANGE
+  1461826981, # XXX: DO NOT CHANGE
+  'Japonais généré - conjugaison') # XXX: DO NOT CHANGE
 
 MODEL_FIELDS = [
   # NB: Make changes to the Anki deck model fields using the
   # Anki interface first, or imports won't work as expected.
   {'name': 'base_kanji'},
   {'name': 'base_kana'},
-  {'name': 'base_english'},
+  {'name': 'base_french'},
   {'name': 'group'},
   {'name': 'level'},
 ]
@@ -710,10 +677,10 @@ for conjugation in CONJUGATIONS:
 
 VERB_CARD_MODEL = genanki.Model(
   # XXX: DO NOT CHANGE
-  2000002001,
+  1275647302,
 
   # The name of the model can change.
-  'Generated Japanese Verb Conjugation Model',
+  'Modèle conjugaison japonaise (FR)',
 
   # NB: Make changes to the Anki deck model fields using the
   # Anki interface first, or imports won't work as expected.
@@ -732,16 +699,13 @@ VERB_CARD_MODEL = genanki.Model(
   background-color: white;
 }
 
-#hint {
-  color: #00f;
-}
-
-#hint div {
-  display: inline;
-}
-
 .question {
   font-size: 1.5em;
+}
+
+.register {
+  color: #888;
+  font-size: 0.6em;
 }
 
 .kana {
@@ -762,7 +726,7 @@ class Note(genanki.Note):
     self.kanji = verb.kanji
     self.kana = verb.kana
     self.group = verb.group
-    self.english_summary = verb.english_summary
+    self.french_summary = verb.french_summary
     self.level = verb.level
     #self.tags = verb_dict['tags'] if 'tags' in verb_dict else []
     self.tags = ['verb']
@@ -774,7 +738,7 @@ class Note(genanki.Note):
     fields = [
       self.kanji,
       self.kana,
-      self.english_summary,
+      self.french_summary,
       self.group,
       self.level,
     ]

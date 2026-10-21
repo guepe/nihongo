@@ -4,6 +4,7 @@ kana = 'あるく'
 english = 'to walk'
 french = 'marcher'
 english-conjugated = { base = 'walk', past = 'walked', plural = 'walks', continuous = 'walking' }
+french-conjugated = { infinitif = 'marcher', present = 'marche', participe = 'marché', auxiliaire = 'avoir', imperatif = 'marche', nous = 'marchons' }
 verb-type = 'godan-ku'
 transitive = false
 level = 'n5'
@@ -16,6 +17,7 @@ kana = 'はしる'
 english = 'to run'
 french = 'courir'
 english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continuous = 'running' }
+french-conjugated = { infinitif = 'courir', present = 'court', participe = 'couru', auxiliaire = 'avoir', imperatif = 'cours', nous = 'courons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'

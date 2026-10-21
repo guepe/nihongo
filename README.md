@@ -66,7 +66,7 @@ relatifs comme `config/…`, `lists/…` et `vocabulary/…` :
 ```bash
 source python/bin/activate
 python cardgen/generate_vocabulary_deck.py   # → japonais_fr.apkg (deck « Japonais généré »)
-python cardgen/generate_verb_deck.py         # → verb_card_deck_output.apkg (conjugaisons)
+python cardgen/generate_verb_deck.py         # → japonais_conjugaison_fr.apkg (deck « Japonais généré - conjugaison »)
 ```
 
 Ensuite, dans Anki : **Fichier → Importer…** et choisissez le fichier `.apkg`.
@@ -151,12 +151,30 @@ kana = '' # Hiragana or katakana to function as furigana.
 english = ''# English translation. Multiple definitions typically separated with ';'. If transitive, there is a '~' present.
 french = '' # Traduction française (infinitif, sans « to »). Garder le '~' si transitif.
 english-conjugated = { base = '', past = '', plural = '', continous = '' } # Conjugations
+french-conjugated = { infinitif = '', present = '', participe = '', auxiliaire = 'avoir', imperatif = '', nous = '' } # Formes de base pour le deck de conjugaison (voir ci-dessous)
 verb-type = '' # ichidan, godan-mu, godan-bu, etc.
 transitive = false # whether the verb is transitive or not
 level = 'n[1-5]' # JLPT level: n1, n2, n3, n4, n5. Omitted if not in JLPT.
 explain = '' # Optional URL for further reading
 tags = [] # grab bag of tags. 'common' is a tag used to denote frequent useage words
 ```
+
+Dans `french-conjugated`, chaque valeur est une forme nue du verbe français (sans
+pronom, sans « se », sans complément) :
+
+| Clé | Contenu | Exemple (s'approcher) |
+|---|---|---|
+| `infinitif` | infinitif | `approcher` |
+| `present` | présent, 3ᵉ personne du singulier | `approche` |
+| `participe` | participe passé, masculin singulier | `approché` |
+| `auxiliaire` | `avoir` ou `être` (les verbes pronominaux prennent `être` automatiquement) | `avoir` |
+| `imperatif` | impératif, 2ᵉ personne du singulier | `approche` |
+| `nous` | impératif, 1ʳᵉ personne du pluriel (« approchons ! ») | `approchons` |
+| `pronominal` | `true` pour un verbe pronominal (facultatif) | `true` |
+| `complement` | mots placés après le verbe (facultatif) : `ensemble`, `du doigt` | |
+
+`generate_verb_deck.py` en tire les 13 formes françaises du deck (« s'est approché »,
+« ne t'approche pas ! », « va sans doute s'approcher »…), avec la négation et l'élision.
 
 Anki Foo
 --------

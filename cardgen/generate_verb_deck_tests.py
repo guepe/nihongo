@@ -12,6 +12,8 @@ from toml.encoder import TomlEncoder
 from generate_verb_deck import CONJUGATIONS
 from generate_verb_deck import Conjugation
 from generate_verb_deck import VERB_HASH
+from generate_verb_deck import Verb
+from generate_verb_deck import elide
 
 class TestJapaneseVerbConjugation(unittest.TestCase):
 
@@ -232,311 +234,101 @@ class TestJapaneseVerbConjugation(unittest.TestCase):
     self.assertEqual(v('飲む', False, False, True), '飲まれない')
     self.assertEqual(v('飲む', False, False, False), 'のまれない')
 
-class TestEnglishVerbConjugation(unittest.TestCase):
+def french_verb(**french):
+  """A verb with only the data the French builders need."""
+  return Verb({
+    'kanji': '歩く', 'kana': 'あるく', 'verb-type': 'godan-ku', 'english': 'to walk',
+    'french-conjugated': french,
+  })
 
-  def test_english_present_indicative(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_present_indicative(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'will walk')
-    self.assertEqual(v('歩く', False), "won't walk")
-    self.assertEqual(v('走る', True), 'will run')
-    self.assertEqual(v('走る', False), "won't run")
-    # do verbs
-    self.assertEqual(v('合う', True), 'will do together')
-    self.assertEqual(v('合う', False), "won't do together")
-    # be verbs
-    self.assertEqual(v('悩む', True), 'will be worried')
-    self.assertEqual(v('悩む', False), "won't be worried")
-    self.assertEqual(v('見える', True), 'will be able to see')
-    self.assertEqual(v('見える', False), "won't be able to see")
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'will get close')
-    self.assertEqual(v('近づく', False), "won't get close")
-    self.assertEqual(v('信じる', True), 'will believe in')
-    self.assertEqual(v('信じる', False), "won't believe in")
-    self.assertEqual(v('出す', True), 'will take out')
-    self.assertEqual(v('出す', False), "won't take out")
+MARCHER = french_verb(infinitif='marcher', present='marche', participe='marché',
+    auxiliaire='avoir', imperatif='marche', nous='marchons')
+AIMER = french_verb(infinitif='aimer', present='aime', participe='aimé',
+    auxiliaire='avoir', imperatif='aime', nous='aimons')
+ALLER_ENSEMBLE = french_verb(infinitif='aller', present='va', participe='allé',
+    auxiliaire='être', imperatif='va', nous='allons', complement='ensemble')
+SE_LEVER = french_verb(infinitif='lever', present='lève', participe='levé',
+    auxiliaire='avoir', imperatif='lève', nous='levons', pronominal=True)
+S_HABILLER = french_verb(infinitif='habiller', present='habille', participe='habillé',
+    auxiliaire='avoir', imperatif='habille', nous='habillons', pronominal=True)
+HURLER = french_verb(infinitif='hurler', present='hurle', participe='hurlé',
+    auxiliaire='avoir', imperatif='hurle', nous='hurlons')
+ETRE_LA = french_verb(infinitif='être', present='est', participe='été',
+    auxiliaire='avoir', imperatif='sois', nous='soyons', complement='là')
 
-  def test_english_presumptive(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_presumptive(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'will probably walk')
-    self.assertEqual(v('歩く', False), "probably won't walk")
-    self.assertEqual(v('走る', True), 'will probably run')
-    self.assertEqual(v('走る', False), "probably won't run")
-    # do verbs
-    self.assertEqual(v('合う', True), 'will probably do together')
-    self.assertEqual(v('合う', False), "probably won't do together")
-    # be verbs
-    self.assertEqual(v('悩む', True), 'will probably be worried')
-    self.assertEqual(v('悩む', False), "probably won't be worried")
-    self.assertEqual(v('見える', True), 'will probably be able to see')
-    self.assertEqual(v('見える', False), "probably won't be able to see")
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'will probably get close')
-    self.assertEqual(v('近づく', False), "probably won't get close")
-    self.assertEqual(v('信じる', True), 'will probably believe in')
-    self.assertEqual(v('信じる', False), "probably won't believe in")
-    self.assertEqual(v('出す', True), 'will probably take out')
-    self.assertEqual(v('出す', False), "probably won't take out")
+class TestFrenchVerbConjugation(unittest.TestCase):
 
-  def test_english_volitional(self):
-    def v(verb):
-      return VERB_HASH[verb].english_volitional()
-    # simple verbs
-    self.assertEqual(v('歩く'), "let's walk")
-    self.assertEqual(v('走る'), "let's run")
-    # do verbs
-    self.assertEqual(v('合う'), "let's do together")
-    # be verbs
-    self.assertEqual(v('悩む'), "let's be worried")
-    self.assertEqual(v('見える'), "let's be able to see")
-    # multi word verbs
-    self.assertEqual(v('近づく'), "let's get close")
-    self.assertEqual(v('信じる'), "let's believe in")
-    self.assertEqual(v('出す'), "let's take out")
+  def test_elide(self):
+    self.assertEqual(elide('ne', 'aime'), "n'aime")
+    self.assertEqual(elide('ne', 'marche'), 'ne marche')
+    self.assertEqual(elide('se', 'habiller'), "s'habiller")
+    self.assertEqual(elide('ne', 'hurle'), 'ne hurle') # h aspiré
+    self.assertEqual(elide('de', 'être'), "d'être")
 
-  def test_english_imperative(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_imperative(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'do walk!')
-    self.assertEqual(v('歩く', False), "don't walk!")
-    self.assertEqual(v('走る', True), 'do run!')
-    self.assertEqual(v('走る', False), "don't run!")
-    # do verbs
-    self.assertEqual(v('合う', True), 'do do together!')
-    self.assertEqual(v('合う', False), "don't do together!")
-    # be verbs
-    self.assertEqual(v('悩む', True), 'do be worried!')
-    self.assertEqual(v('悩む', False), "don't be worried!")
-    self.assertEqual(v('見える', True), 'do be able to see!')
-    self.assertEqual(v('見える', False), "don't be able to see!")
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'do get close!')
-    self.assertEqual(v('近づく', False), "don't get close!")
-    self.assertEqual(v('信じる', True), 'do believe in!')
-    self.assertEqual(v('信じる', False), "don't believe in!")
-    self.assertEqual(v('出す', True), 'do take out!')
-    self.assertEqual(v('出す', False), "don't take out!")
+  def test_french_present_indicative(self):
+    self.assertEqual(MARCHER.french_present_indicative(True), 'marche')
+    self.assertEqual(MARCHER.french_present_indicative(False), 'ne marche pas')
+    self.assertEqual(AIMER.french_present_indicative(False), "n'aime pas")
+    self.assertEqual(HURLER.french_present_indicative(False), 'ne hurle pas')
+    self.assertEqual(ALLER_ENSEMBLE.french_present_indicative(False), 'ne va pas ensemble')
+    self.assertEqual(SE_LEVER.french_present_indicative(True), 'se lève')
+    self.assertEqual(SE_LEVER.french_present_indicative(False), 'ne se lève pas')
+    self.assertEqual(S_HABILLER.french_present_indicative(False), "ne s'habille pas")
 
-  def test_english_past_indicative(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_past_indicative(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'walked')
-    self.assertEqual(v('歩く', False), "didn't walk")
-    self.assertEqual(v('走る', True), 'ran')
-    self.assertEqual(v('走る', False), "didn't run")
-    # do verbs
-    self.assertEqual(v('合う', True), 'did together')
-    self.assertEqual(v('合う', False), "didn't do together")
-    # be verbs
-    self.assertEqual(v('悩む', True), 'was worried')
-    self.assertEqual(v('悩む', False), "wasn't worried")
-    self.assertEqual(v('見える', True), 'was able to see')
-    self.assertEqual(v('見える', False), "wasn't able to see")
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'got close')
-    self.assertEqual(v('近づく', False), "didn't get close")
-    self.assertEqual(v('信じる', True), 'believed in')
-    self.assertEqual(v('信じる', False), "didn't believe in")
-    self.assertEqual(v('出す', True), 'taken out')
-    self.assertEqual(v('出す', False), "didn't take out")
+  def test_french_presumptive(self):
+    self.assertEqual(MARCHER.french_presumptive(True), 'va sans doute marcher')
+    self.assertEqual(MARCHER.french_presumptive(False), 'ne va sans doute pas marcher')
+    self.assertEqual(S_HABILLER.french_presumptive(True), "va sans doute s'habiller")
 
-  def test_english_past_presumptive(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_past_presumptive(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'probably walked')
-    self.assertEqual(v('歩く', False), "probably didn't walk")
-    self.assertEqual(v('走る', True), 'probably ran')
-    self.assertEqual(v('走る', False), "probably didn't run")
-    # do verbs
-    self.assertEqual(v('合う', True), 'probably did together')
-    self.assertEqual(v('合う', False), "probably didn't do together")
-    # be verbs
-    self.assertEqual(v('悩む', True), 'was probably worried')
-    self.assertEqual(v('悩む', False), "probably wasn't worried")
-    self.assertEqual(v('見える', True), 'was probably able to see')
-    self.assertEqual(v('見える', False), "probably wasn't able to see")
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'probably got close')
-    self.assertEqual(v('近づく', False), "probably didn't get close")
-    self.assertEqual(v('信じる', True), 'probably believed in')
-    self.assertEqual(v('信じる', False), "probably didn't believe in")
-    self.assertEqual(v('出す', True), 'probably taken out')
-    self.assertEqual(v('出す', False), "probably didn't take out")
+  def test_french_volitional(self):
+    self.assertEqual(MARCHER.french_volitional(), 'marchons !')
+    self.assertEqual(ALLER_ENSEMBLE.french_volitional(), 'allons ensemble !')
+    self.assertEqual(SE_LEVER.french_volitional(), 'levons-nous !')
 
-  def test_english_present_progressive(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_present_progressive(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'walking')
-    self.assertEqual(v('歩く', False), 'not walking')
-    self.assertEqual(v('走る', True), 'running')
-    self.assertEqual(v('走る', False), 'not running')
-    # do verbs
-    self.assertEqual(v('合う', True), 'doing together')
-    self.assertEqual(v('合う', False), 'not doing together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'being worried')
-    self.assertEqual(v('悩む', False), 'not being worried')
-    self.assertEqual(v('見える', True), 'being able to see')
-    self.assertEqual(v('見える', False), 'not being able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'getting close')
-    self.assertEqual(v('近づく', False), 'not getting close')
-    self.assertEqual(v('信じる', True), 'believing in')
-    self.assertEqual(v('信じる', False), 'not believing in')
-    self.assertEqual(v('出す', True), 'taking out')
-    self.assertEqual(v('出す', False), 'not taking out')
+  def test_french_imperative(self):
+    self.assertEqual(MARCHER.french_imperative(True), 'marche !')
+    self.assertEqual(AIMER.french_imperative(False), "n'aime pas !")
+    self.assertEqual(SE_LEVER.french_imperative(True), 'lève-toi !')
+    self.assertEqual(SE_LEVER.french_imperative(False), 'ne te lève pas !')
+    self.assertEqual(S_HABILLER.french_imperative(False), "ne t'habille pas !")
 
-  def test_english_past_progressive(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_past_progressive(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'was walking')
-    self.assertEqual(v('歩く', False), 'wasn\'t walking')
-    self.assertEqual(v('走る', True), 'was running')
-    self.assertEqual(v('走る', False), 'wasn\'t running')
-    # do verbs
-    self.assertEqual(v('合う', True), 'was doing together')
-    self.assertEqual(v('合う', False), 'wasn\'t doing together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'was being worried')
-    self.assertEqual(v('悩む', False), 'wasn\'t being worried')
-    self.assertEqual(v('見える', True), 'was being able to see')
-    self.assertEqual(v('見える', False), 'wasn\'t being able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'was getting close')
-    self.assertEqual(v('近づく', False), 'wasn\'t getting close')
-    self.assertEqual(v('信じる', True), 'was believing in')
-    self.assertEqual(v('信じる', False), 'wasn\'t believing in')
-    self.assertEqual(v('出す', True), 'was taking out')
-    self.assertEqual(v('出す', False), 'wasn\'t taking out')
+  def test_french_past_indicative(self):
+    self.assertEqual(MARCHER.french_past_indicative(True), 'a marché')
+    self.assertEqual(MARCHER.french_past_indicative(False), "n'a pas marché")
+    self.assertEqual(ALLER_ENSEMBLE.french_past_indicative(True), 'est allé ensemble')
+    self.assertEqual(SE_LEVER.french_past_indicative(True), "s'est levé")
+    self.assertEqual(SE_LEVER.french_past_indicative(False), "ne s'est pas levé")
 
-  def test_english_provisional(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_provisional(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'if one walks')
-    self.assertEqual(v('歩く', False), 'if one doesn\'t walk')
-    self.assertEqual(v('走る', True), 'if one runs')
-    self.assertEqual(v('走る', False), 'if one doesn\'t run')
-    # do verbs
-    self.assertEqual(v('合う', True), 'if one does together')
-    self.assertEqual(v('合う', False), 'if one doesn\'t do together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'if one is worried')
-    self.assertEqual(v('悩む', False), 'if one isn\'t worried')
-    self.assertEqual(v('見える', True), 'if one is able to see')
-    self.assertEqual(v('見える', False), 'if one isn\'t able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'if one gets close')
-    self.assertEqual(v('近づく', False), 'if one doesn\'t get close')
-    self.assertEqual(v('信じる', True), 'if one believes in')
-    self.assertEqual(v('信じる', False), 'if one doesn\'t believe in')
-    self.assertEqual(v('出す', True), 'if one takes out')
-    self.assertEqual(v('出す', False), 'if one doesn\'t take out')
+  def test_french_past_presumptive(self):
+    self.assertEqual(MARCHER.french_past_presumptive(True), 'a sans doute marché')
+    self.assertEqual(MARCHER.french_past_presumptive(False), "n'a sans doute pas marché")
+    self.assertEqual(SE_LEVER.french_past_presumptive(False), "ne s'est sans doute pas levé")
 
-  def test_english_conditional(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_conditional(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'if one walks')
-    self.assertEqual(v('歩く', False), 'if one doesn\'t walk')
-    self.assertEqual(v('走る', True), 'if one runs')
-    self.assertEqual(v('走る', False), 'if one doesn\'t run')
-    # do verbs
-    self.assertEqual(v('合う', True), 'if one does together')
-    self.assertEqual(v('合う', False), 'if one doesn\'t do together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'if one is worried')
-    self.assertEqual(v('悩む', False), 'if one isn\'t worried')
-    self.assertEqual(v('見える', True), 'if one is able to see')
-    self.assertEqual(v('見える', False), 'if one isn\'t able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'if one gets close')
-    self.assertEqual(v('近づく', False), 'if one doesn\'t get close')
-    self.assertEqual(v('信じる', True), 'if one believes in')
-    self.assertEqual(v('信じる', False), 'if one doesn\'t believe in')
-    self.assertEqual(v('出す', True), 'if one takes out')
-    self.assertEqual(v('出す', False), 'if one doesn\'t take out')
+  def test_french_progressive(self):
+    self.assertEqual(MARCHER.french_present_progressive(True), 'est en train de marcher')
+    self.assertEqual(AIMER.french_present_progressive(False), "n'est pas en train d'aimer")
+    self.assertEqual(SE_LEVER.french_past_progressive(True), 'était en train de se lever')
+    self.assertEqual(MARCHER.french_past_progressive(False), "n'était pas en train de marcher")
 
-  def test_english_potential(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_potential(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'can walk')
-    self.assertEqual(v('歩く', False), 'can\'t walk')
-    self.assertEqual(v('走る', True), 'can run')
-    self.assertEqual(v('走る', False), 'can\'t run')
-    # do verbs
-    self.assertEqual(v('合う', True), 'can do together')
-    self.assertEqual(v('合う', False), 'can\'t do together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'can be worried')
-    self.assertEqual(v('悩む', False), 'can\'t be worried')
-    self.assertEqual(v('見える', True), 'can be able to see')
-    self.assertEqual(v('見える', False), 'can\'t be able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'can get close')
-    self.assertEqual(v('近づく', False), 'can\'t get close')
-    self.assertEqual(v('信じる', True), 'can believe in')
-    self.assertEqual(v('信じる', False), 'can\'t believe in')
-    self.assertEqual(v('出す', True), 'can take out')
-    self.assertEqual(v('出す', False), 'can\'t take out')
+  def test_french_conditionals(self):
+    self.assertEqual(MARCHER.french_provisional(True), 'si on marche')
+    self.assertEqual(AIMER.french_conditional(False), "si on n'aime pas")
+    self.assertEqual(SE_LEVER.french_conditional(True), 'si on se lève')
 
-  def test_english_causative(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_causative(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'make walk')
-    self.assertEqual(v('歩く', False), 'not make walk')
-    self.assertEqual(v('走る', True), 'make run')
-    self.assertEqual(v('走る', False), 'not make run')
-    # do verbs
-    self.assertEqual(v('合う', True), 'make do together')
-    self.assertEqual(v('合う', False), 'not make do together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'make worried')
-    self.assertEqual(v('悩む', False), 'not make worried')
-    self.assertEqual(v('見える', True), 'make able to see')
-    self.assertEqual(v('見える', False), 'not make able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'make get close')
-    self.assertEqual(v('近づく', False), 'not make get close')
-    self.assertEqual(v('信じる', True), 'make believe in')
-    self.assertEqual(v('信じる', False), 'not make believe in')
-    self.assertEqual(v('出す', True), 'make take out')
-    self.assertEqual(v('出す', False), 'not make take out')
+  def test_french_potential(self):
+    self.assertEqual(MARCHER.french_potential(True), 'peut marcher')
+    self.assertEqual(SE_LEVER.french_potential(False), 'ne peut pas se lever')
 
-  def test_english_passive(self):
-    def v(verb, positive):
-      return VERB_HASH[verb].english_passive(positive)
-    # simple verbs
-    self.assertEqual(v('歩く', True), 'be walked')
-    self.assertEqual(v('歩く', False), 'not be walked')
-    self.assertEqual(v('走る', True), 'be ran')
-    self.assertEqual(v('走る', False), 'not be ran')
-    # do verbs
-    self.assertEqual(v('合う', True), 'be did together')
-    self.assertEqual(v('合う', False), 'not be did together')
-    # be verbs
-    self.assertEqual(v('悩む', True), 'be worried')
-    self.assertEqual(v('悩む', False), 'not be worried')
-    self.assertEqual(v('見える', True), 'be able to see')
-    self.assertEqual(v('見える', False), 'not be able to see')
-    # multi word verbs
-    self.assertEqual(v('近づく', True), 'be got close')
-    self.assertEqual(v('近づく', False), 'not be got close')
-    self.assertEqual(v('信じる', True), 'be believed in')
-    self.assertEqual(v('信じる', False), 'not be believed in')
-    self.assertEqual(v('出す', True), 'be taken out')
-    self.assertEqual(v('出す', False), 'not be taken out')
+  def test_french_causative(self):
+    self.assertEqual(MARCHER.french_causative(True), 'faire marcher')
+    self.assertEqual(MARCHER.french_causative(False), 'ne pas faire marcher')
+    self.assertEqual(SE_LEVER.french_causative(True), 'faire lever')
+    self.assertEqual(ETRE_LA.french_causative(True), 'obliger à être là')
+
+  def test_french_passive(self):
+    self.assertEqual(AIMER.french_passive(True), 'être aimé')
+    self.assertEqual(AIMER.french_passive(False), 'ne pas être aimé')
+    self.assertEqual(ETRE_LA.french_passive(True), "subir le fait d'être là")
 
 class TestAllJapaneseVerbConjugation(unittest.TestCase):
 
@@ -568,28 +360,22 @@ class TestAllJapaneseVerbConjugation(unittest.TestCase):
         self.assertIsInstance(verb.volitional(polite=polite, kanji=kanji), str)
         self.assertIsInstance(verb.provisional(positive=positive, kanji=kanji), str)
 
-      for i in range(2):
-        positive = i % 2 == 0
-        self.assertIsInstance(verb.english_present_indicative(positive=positive), str)
-        self.assertIsInstance(verb.english_presumptive(positive=positive), str)
-        self.assertIsInstance(verb.english_imperative(positive=positive), str)
-        self.assertIsInstance(verb.english_past_indicative(positive=positive), str)
-        self.assertIsInstance(verb.english_past_presumptive(positive=positive), str)
-        self.assertIsInstance(verb.english_present_progressive(positive=positive), str)
-        self.assertIsInstance(verb.english_past_progressive(positive=positive), str)
-        self.assertIsInstance(verb.english_provisional(positive=positive), str)
-        self.assertIsInstance(verb.english_conditional(positive=positive), str)
-        self.assertIsInstance(verb.english_potential(positive=positive), str)
-        self.assertIsInstance(verb.english_causative(positive=positive), str)
-        self.assertIsInstance(verb.english_passive(positive=positive), str)
-
-      self.assertIsInstance(verb.english_volitional(), str)
+  def test_all_vocab_has_french(self):
+    for verb in VERB_HASH.values():
+      for conjugation in CONJUGATIONS:
+        method = getattr(verb, 'french_' + conjugation.conjugation_name())
+        forms = [method(positive=True), method(positive=False)] if conjugation.has_negative else [method()]
+        for form in forms:
+          self.assertIsInstance(form, str)
+          self.assertNotIn('~', form)
 
 class TestConjugator(unittest.TestCase):
 
   def test_field_ordering(self):
-    c = Conjugation('Present Indicative')
+    c = Conjugation('Present Indicative', 'Présent')
     self.assertListEqual(c.field_names(), [
+        'present_indicative_french_positive',
+        'present_indicative_french_negative',
         'present_indicative_plain_positive_kanji',
         'present_indicative_plain_positive_kana',
         'present_indicative_plain_negative_kanji',
@@ -600,31 +386,37 @@ class TestConjugator(unittest.TestCase):
         'present_indicative_polite_negative_kana',
       ])
 
-    c = Conjugation('Volitional', has_negative=False)
+    c = Conjugation('Volitional', 'Volitif', has_negative=False)
     self.assertListEqual(c.field_names(), [
+        'volitional_french_positive',
         'volitional_plain_positive_kanji',
         'volitional_plain_positive_kana',
         'volitional_polite_positive_kanji',
         'volitional_polite_positive_kana',
       ])
 
-    c = Conjugation('Provisional', has_polite=False)
+    c = Conjugation('Provisional', 'Conditionnel en ～ば', has_polite=False)
     self.assertListEqual(c.field_names(), [
+        'provisional_french_positive',
+        'provisional_french_negative',
         'provisional_plain_positive_kanji',
         'provisional_plain_positive_kana',
         'provisional_plain_negative_kanji',
         'provisional_plain_negative_kana',
       ])
 
-    c = Conjugation('Fake Verb Form', has_polite=False, has_negative=False)
+    c = Conjugation('Fake Verb Form', 'Faux', has_polite=False, has_negative=False)
     self.assertListEqual(c.field_names(), [
+        'fake_verb_form_french_positive',
         'fake_verb_form_plain_positive_kanji',
         'fake_verb_form_plain_positive_kana',
       ])
 
   def test_field_mapping(self):
-    c = Conjugation('Present Indicative')
+    c = Conjugation('Present Indicative', 'Présent')
     self.assertListEqual(c.map_verb_fields(VERB_HASH['歩く']), [
+        'marche',
+        'ne marche pas',
         '歩く',
         'あるく',
         '歩かない',
@@ -635,16 +427,19 @@ class TestConjugator(unittest.TestCase):
         'あるきません',
       ])
 
-    c = Conjugation('Volitional', has_negative=False)
+    c = Conjugation('Volitional', 'Volitif', has_negative=False)
     self.assertListEqual(c.map_verb_fields(VERB_HASH['信じる']), [
+        'croyons !',
         '信じよう',
         'しんじよう',
         '信じましょう',
         'しんじましょう',
       ])
 
-    c = Conjugation('Provisional', has_polite=False)
+    c = Conjugation('Provisional', 'Conditionnel en ～ば', has_polite=False)
     self.assertListEqual(c.map_verb_fields(VERB_HASH['合う']), [
+        'si on va ensemble',
+        'si on ne va pas ensemble',
         '合えば',
         'あえば',
         '合わなければ',

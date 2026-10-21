@@ -4,6 +4,7 @@ kana = 'いう'
 english = 'to say (quoting); to call something (its name)'
 french = 'dire (citation); appeler (nommer)'
 english-conjugated = { base = 'say', past = 'said', plural = 'says', continuous = 'saying' }
+french-conjugated = { infinitif = 'dire', present = 'dit', participe = 'dit', auxiliaire = 'avoir', imperatif = 'dis', nous = 'disons' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'
@@ -17,6 +18,7 @@ kana = 'うたう'
 english = 'to sing'
 french = 'chanter'
 english-conjugated = { base = 'sing', past = 'sang', plural = 'sings', continuous = 'singing' }
+french-conjugated = { infinitif = 'chanter', present = 'chante', participe = 'chanté', auxiliaire = 'avoir', imperatif = 'chante', nous = 'chantons' }
 verb-type = 'godan-u'
 transitive = false
 level = 'n5'
@@ -29,6 +31,7 @@ kana = 'かむ'
 english = 'to bite ~; to chew ~'
 french = 'mordre ~; mâcher ~'
 english-conjugated = { base = 'bite', plural = 'bites', past = 'bit', continuous = 'biting' }
+french-conjugated = { infinitif = 'mordre', present = 'mord', participe = 'mordu', auxiliaire = 'avoir', imperatif = 'mords', nous = 'mordons' }
 verb-type = 'godan-mu'
 transitive = true
 source = 'n4vocab'
@@ -42,6 +45,7 @@ kana = 'こたえる'
 english = 'to answer'
 french = 'répondre'
 english-conjugated = { base = 'answer', past = 'answered', plural = 'answers', continuous = 'answering' }
+french-conjugated = { infinitif = 'répondre', present = 'répond', participe = 'répondu', auxiliaire = 'avoir', imperatif = 'réponds', nous = 'répondons' }
 verb-type = 'ichidan'
 transitive = false
 level = 'n5'
@@ -54,6 +58,7 @@ kana = 'しゃべる'
 english = 'to talk (chat); to chat; to chatter'
 french = 'parler; bavarder; jacasser'
 english-conjugated = { base = 'chat', past = 'chatted', plural = 'chats', continuous = 'chatting' }
+french-conjugated = { infinitif = 'bavarder', present = 'bavarde', participe = 'bavardé', auxiliaire = 'avoir', imperatif = 'bavarde', nous = 'bavardons' }
 level = 'n3'
 verb-type = 'godan-ru'
 transitive = false
@@ -67,6 +72,7 @@ kana = 'たべる'
 english = 'to eat ~'
 french = 'manger ~'
 english-conjugated = { continuous = 'eating', base = 'eat', plural = 'eats', past = 'ate' }
+french-conjugated = { infinitif = 'manger', present = 'mange', participe = 'mangé', auxiliaire = 'avoir', imperatif = 'mange', nous = 'mangeons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'
@@ -80,6 +86,7 @@ kana = 'のむ'
 english = 'to drink ~; to swallow ~'
 french = 'boire ~; avaler ~'
 english-conjugated = { base = 'drink', past = 'drank', plural = 'drinks', continuous = 'drinking' }
+french-conjugated = { infinitif = 'boire', present = 'boit', participe = 'bu', auxiliaire = 'avoir', imperatif = 'bois', nous = 'buvons' }
 verb-type = 'godan-mu'
 transitive = true
 level = 'n5'
@@ -92,6 +99,7 @@ kana = 'はなす'
 english = 'to speak ~; to talk ~'
 french = 'parler ~; raconter ~'
 english-conjugated = { base = 'speak', past = 'spoke', plural = 'speaks', continuous = 'speaking' }
+french-conjugated = { infinitif = 'parler', present = 'parle', participe = 'parlé', auxiliaire = 'avoir', imperatif = 'parle', nous = 'parlons' }
 verb-type = 'godan-su'
 transitive = true
 level = 'n5'
@@ -104,6 +112,7 @@ kana = 'わらう'
 english = 'to laugh'
 french = 'rire'
 english-conjugated = { base = 'laugh', past = 'laughed', continuous = 'laughing', plural = 'laughs' }
+french-conjugated = { infinitif = 'rire', present = 'rit', participe = 'ri', auxiliaire = 'avoir', imperatif = 'ris', nous = 'rions' }
 verb-type = 'godan-u'
 transitive = false
 source = 'jlpt-study'

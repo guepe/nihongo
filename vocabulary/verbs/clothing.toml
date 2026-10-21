@@ -4,6 +4,7 @@ kana = 'きる'
 english = 'to put on or wear ~ (from the shoulders down)'
 french = 'mettre ~; porter ~ (vêtement, des épaules vers le bas)'
 english-conjugated = { continuous = 'wearing', base = 'wear', past = 'wore', plural = 'wears' }
+french-conjugated = { infinitif = 'porter', present = 'porte', participe = 'porté', auxiliaire = 'avoir', imperatif = 'porte', nous = 'portons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wiki-n5'
@@ -17,6 +18,7 @@ kana = 'はく'
 english = 'to put on or wear ~ (lower-body clothing)'
 french = 'mettre, porter ~ (vêtement du bas, chaussures)'
 english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continuous = 'wearing' }
+french-conjugated = { infinitif = 'porter', present = 'porte', participe = 'porté', auxiliaire = 'avoir', imperatif = 'porte', nous = 'portons' }
 verb-type = 'godan-ku'
 transitive = true
 level = 'n3'

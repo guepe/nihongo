@@ -4,6 +4,7 @@ kana = 'かよう'
 english = 'to commute'
 french = 'faire la navette; aller régulièrement à'
 english-conjugated = { past = 'commuted', base = 'commute', continuous = 'commuting', plural = 'commutes' }
+french-conjugated = { infinitif = 'faire', present = 'fait', participe = 'fait', auxiliaire = 'avoir', imperatif = 'fais', nous = 'faisons', complement = 'la navette' }
 verb-type = 'godan-u'
 transitive = false
 source = 'wanikani; wiktionary'

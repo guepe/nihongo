@@ -4,6 +4,7 @@ kana = 'えらぶ'
 english = 'to choose ~; to select ~'
 french = 'choisir ~; sélectionner ~'
 english-conjugated = { base = 'choose', past = 'chose', plural = 'choses', continuous = 'choosing' }
+french-conjugated = { infinitif = 'choisir', present = 'choisit', participe = 'choisi', auxiliaire = 'avoir', imperatif = 'choisis', nous = 'choisissons' }
 verb-type = 'godan-bu'
 transitive = true
 source = 'jlpt-test; irasshai'
@@ -17,6 +18,7 @@ kana = 'おもいだす'
 english = 'to remember ~; to recollect ~'
 french = 'se souvenir de ~; se rappeler ~'
 english-conjugated = { base = 'remember', past = 'remembered', plural = 'remembers', continuous = 'remembering' }
+french-conjugated = { infinitif = 'souvenir', present = 'souvient', participe = 'souvenu', auxiliaire = 'être', imperatif = 'souviens', nous = 'souvenons', pronominal = true }
 verb-type = 'godan-su'
 transitive = true
 source = 'irasshai; anime'
@@ -30,6 +32,7 @@ kana = 'おもう'
 english = 'to think ~'
 french = 'penser ~'
 english-conjugated = { base = 'think', plural = 'thinks', past = 'thought', continuous = 'thinking' }
+french-conjugated = { infinitif = 'penser', present = 'pense', participe = 'pensé', auxiliaire = 'avoir', imperatif = 'pense', nous = 'pensons' }
 verb-type = 'godan-u'
 transitive = true
 source = 'irasshai'
@@ -43,6 +46,7 @@ kana = 'しる'
 english = 'to know ~; to be aware of ~'
 french = 'connaître ~; savoir ~'
 english-conjugated = { plural = 'knows', base = 'know', past = 'knew', continuous = 'knowing' }
+french-conjugated = { infinitif = 'savoir', present = 'sait', participe = 'su', auxiliaire = 'avoir', imperatif = 'sache', nous = 'sachons' }
 verb-type = 'godan-ru'
 transitive = true
 source = 'n5-study'
@@ -56,6 +60,7 @@ kana = 'しんじる'
 english = 'to believe in ~'
 french = 'croire en ~'
 english-conjugated = { base = 'believe in', past = 'believed in', plural = 'believes in', continuous = 'believing in' }
+french-conjugated = { infinitif = 'croire', present = 'croit', participe = 'cru', auxiliaire = 'avoir', imperatif = 'crois', nous = 'croyons' }
 verb-type = 'ichidan'
 transitive = true
 source = 'wanikani; anime'
@@ -69,6 +74,7 @@ kana = 'みなおす'
 english = 'to reevaluate ~; to look at ~ again'
 french = 'réévaluer ~; revoir ~'
 english-conjugated = { base = 'reevaluate', past = 'reevaluated', plural = 'reevaluates', continuous = 'reevaluating' }
+french-conjugated = { infinitif = 'réévaluer', present = 'réévalue', participe = 'réévalué', auxiliaire = 'avoir', imperatif = 'réévalue', nous = 'réévaluons' }
 verb-type = 'godan-su'
 transitive = true
 source = 'wanikani'
@@ -82,6 +88,7 @@ kana = 'わかる'
 english = 'to understand'
 french = 'comprendre'
 english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continuous = 'understanding' }
+french-conjugated = { infinitif = 'comprendre', present = 'comprend', participe = 'compris', auxiliaire = 'avoir', imperatif = 'comprends', nous = 'comprenons' }
 verb-type = 'godan-ru'
 transitive = false
 level = 'n5'
@@ -94,6 +101,7 @@ kana = 'わすれる'
 english = 'to forget ~'
 french = 'oublier ~'
 english-conjugated = { base = 'forget', past = 'forgot', plural = 'forgets', continuous = 'forgetting' }
+french-conjugated = { infinitif = 'oublier', present = 'oublie', participe = 'oublié', auxiliaire = 'avoir', imperatif = 'oublie', nous = 'oublions' }
 verb-type = 'ichidan'
 transitive = true
 source = 'irasshai'

@@ -149,44 +149,33 @@ Conventions de traduction :
 - [ ] Mettre ces conventions dans le README une fois qu'elles sont validées.
 - [ ] Les 54 liens `explain` pointent vers des sites anglophones. On les laisse : ils restent utiles.
 
-## Phase 4 : verbes et deck de conjugaison
+## Phase 4 : verbes et deck de conjugaison ✅
 
-C'est la partie la plus délicate. L'anglais forme ses temps avec des auxiliaires
-(`will`, `didn't`, `can`), ce que le code exploite en assemblant
-`base / past / plural / continuous`. Le français a besoin de vraies formes conjuguées.
+Finalement, **option A** (formes saisies et stockées) plutôt que `verbecc` : beaucoup de
+sens sont des tournures (« aller ensemble », « se réveiller », « montrer du doigt ») qu'un
+conjugueur automatique gère mal. Chaque verbe a donc un champ `french-conjugated` (voir
+le README) avec ses formes nues : infinitif, présent, participe, auxiliaire, impératifs,
+et éventuellement `pronominal` et `complement`. Les 200 verbes sont remplis.
 
-Options :
-
-| Option | Principe | Avantage | Inconvénient |
-|---|---|---|---|
-| **A. Formes saisies à la main** | `french-conjugated = { infinitif, present, passe, futur, participe, imperatif }` à la 3ᵉ personne (« il mange », « il a mangé ») | Contrôle total | ~200 × 6 formes à saisir |
-| **B. Conjugueur automatique** | Bibliothèque Python [`verbecc`](https://pypi.org/project/verbecc/) pour générer les formes depuis l'infinitif | Presque rien à saisir | Dépendance de plus ; choix de l'auxiliaire et cas pronominaux à vérifier |
-| **C. Tournures à l'infinitif** | `ne pas ~`, `pouvoir ~`, `faire ~`, `être ~é` | Seul l'infinitif est nécessaire | Moins naturel pour le présent, le passé et le volitif |
-
-**Recommandation : B avec A en secours.** Le script conjugue avec `verbecc`, et un champ
-`french-conjugated` facultatif permet de corriger un cas particulier à la main.
-
-Correspondance des formes japonaises (voir les méthodes `english_*` de `generate_verb_deck.py`) :
-
-| Forme | Exemple EN actuel | FR proposé |
-|---|---|---|
-| present_indicative | will eat / won't eat | (il) mange / ne mange pas |
-| presumptive | will probably eat | va sans doute manger |
-| volitional | let's eat | mangeons ! |
-| imperative | eat! / don't eat! | mange ! / ne mange pas ! |
-| past_indicative | ate / didn't eat | a mangé / n'a pas mangé |
-| past_presumptive | probably ate | a sans doute mangé |
-| present_progressive | eating / not eating | est en train de manger / ne mange pas |
-| past_progressive | was eating | était en train de manger |
-| provisional / conditional | if one eats | si on mange / si on ne mange pas |
-| potential | can eat | peut manger / ne peut pas manger |
-| causative | make eat | faire manger |
-| passive | be eaten | être mangé |
-
-- [ ] Réécrire les méthodes `english_*` en `french_*` (en gardant les noms de champs Anki
-      existants, ou avec de nouveaux IDs comme en phase 1 si on part de zéro).
-- [ ] Adapter `generate_verb_deck_tests.py`, puis lancer `python cardgen/generate_verb_deck.py --test`.
-- [ ] Traduire `english` (le résumé) des 200 verbes, comme en phase 3.
+- [x] Méthodes `french_*` dans `generate_verb_deck.py` : négation, élision (n', s', t', d'),
+      h aspiré, verbes pronominaux (« s'est levé », « lève-toi ! », « ne te lève pas ! »),
+      compléments, et cas particulier des tournures en « être » (« obliger à être là »,
+      « subir le fait d'être là »).
+- [x] Nouveau deck `1461826981` « Japonais généré - conjugaison » et nouveau modèle
+      `1275647302` « Modèle conjugaison japonaise (FR) » ; champs `*_french_*` et
+      `base_french` ; 96 cartes aux noms français uniques (« Passé négatif poli : FR → JP »).
+- [x] Les cartes FR → JP indiquent « (neutre) » ou « (poli) » ; les deux conditionnels,
+      identiques en français, sont distingués par « ～ば » et « ～たら ».
+- [x] Le tableau de réponse est en français et affiche bien le groupe du verbe (il
+      affichait le kana).
+- [x] Fichier de sortie : `japonais_conjugaison_fr.apkg`.
+- [x] Tests : les 13 tests anglais sont remplacés par des tests des formes françaises ;
+      `test_field_ordering` et `test_field_mapping` réparés. 30 / 30 OK.
+- [ ] Limite connue : `VERB_HASH` est indexé par kanji, donc les verbes en double
+      (終わる, …) ne donnent qu'une note : 197 notes pour 200 verbes. Ils ont de toute façon
+      le même identifiant Anki (kanji + kana + groupe).
+- [ ] Le passif des verbes intransitifs reste littéral (« être allé ensemble ») ; en
+      japonais, c'est un passif de gêne, rarement utilisé avec ces verbes.
 
 ## Phase 5 : scripts d'édition
 
