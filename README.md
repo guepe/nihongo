@@ -36,8 +36,6 @@ Organisation des fichiers
 
 - `book/` : notes de cours (pronoms, verbes, adjectifs, conjonctions, météo).
 
-Le reste (`temp/`, etc.) est un héritage du projet d'origine et peut être ignoré.
-
 Installation
 ------------
 Les scripts sont écrits en Python 3. Les dépendances s'installent dans un environnement

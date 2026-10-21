@@ -200,7 +200,8 @@ et éventuellement `pronominal` et `complement`. Les 200 verbes sont remplis.
 - [ ] Facultatif : supprimer `english` des TOML, ou le renommer `english_ref`. **Déconseillé**
       pour l'instant : il sert de référence et facilite la reprise des nouveautés du
       projet d'origine.
-- [ ] Facultatif : supprimer `temp/` et les autres reliquats du projet d'origine.
+- [x] `temp/` supprimé (anciens decks `.apkg`, brouillons de vocabulaire et de grammaire
+      du projet d'origine ; toujours consultables dans l'historique git).
 
 ## Définition de « terminé »
 
