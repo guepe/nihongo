@@ -2,6 +2,7 @@
 kanji = '蟻'
 kana = 'あり'
 english = 'ant'
+french = 'fourmi'
 tags = ['common', 'insect', 'noun']
 frequency_scores = { anime = 12401, leeds = 3761, wikipedia = 5382 }
 
@@ -9,6 +10,7 @@ frequency_scores = { anime = 12401, leeds = 3761, wikipedia = 5382 }
 kanji = '蜘蛛'
 kana = 'くも'
 english = 'spider'
+french = 'araignée'
 tags = ['animals', 'common', 'insects', 'noun']
 frequency_scores = { anime = 5775, wikipedia = 7372 }
 
@@ -16,12 +18,14 @@ frequency_scores = { anime = 5775, wikipedia = 7372 }
 kanji = '蜚蠊'
 kana = 'ごきぶり'
 english = 'cockroach'
+french = 'cafard'
 tags = ['common', 'insect', 'noun']
 
 [[cards]]
 kanji = '蝶'
 kana = 'ちょう'
 english = 'butterfly'
+french = 'papillon'
 level = 'n1'
 tags = ['animals', 'common', 'noun']
 frequency_scores = { anime = 2191, leeds = 9389, novels = 900, wikipedia = 5528 }
@@ -30,6 +34,7 @@ frequency_scores = { anime = 2191, leeds = 9389, novels = 900, wikipedia = 5528 
 kanji = '蜻蛉'
 kana = 'とんぼ'
 english = 'dragonfly'
+french = 'libellule'
 source = 'japan-trip'
 tags = ['animals', 'common', 'noun']
 frequency_scores = { anime = 24130 }
@@ -38,6 +43,7 @@ frequency_scores = { anime = 24130 }
 kanji = '蜂'
 kana = 'はち'
 english = 'bee; wasp; hornet'
+french = 'abeille; guêpe; frelon'
 tags = ['animals', 'common', 'insects', 'noun']
 frequency_scores = { anime = 8081, leeds = 12956, wikipedia = 4347 }
 
@@ -45,6 +51,7 @@ frequency_scores = { anime = 8081, leeds = 12956, wikipedia = 4347 }
 kanji = '蛍'
 kana = 'ほたる'
 english = 'firefly'
+french = 'luciole'
 tags = ['common', 'insect', 'noun']
 frequency_scores = { anime = 2150 }
 
@@ -52,6 +59,7 @@ frequency_scores = { anime = 2150 }
 kanji = '蚯蚓'
 kana = 'みみず'
 english = 'earthworm'
+french = 'ver de terre'
 tags = ['insect', 'noun', 'uncommon']
 frequency_scores = { anime = 27866 }
 
@@ -59,6 +67,7 @@ frequency_scores = { anime = 27866 }
 kanji = '虫'
 kana = 'むし'
 english = 'insect'
+french = 'insecte'
 level = 'n4'
 tags = ['animals', 'common', 'noun']
 frequency_scores = { anime = 1262, leeds = 3963, novels = 1898, wikipedia = 3121 }

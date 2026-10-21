@@ -2,6 +2,7 @@
 kanji = '枝'
 kana = 'えだ'
 english = 'branch'
+french = 'branche'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'nature', 'noun']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 4160, leeds = 5334, novels = 1402, wikipedia = 2300
 kanji = '木'
 kana = 'き'
 english = 'tree; wood'
+french = 'arbre; bois'
 level = 'n5'
 tags = ['common', 'nature', 'noun']
 frequency_scores = { anime = 697, leeds = 754, novels = 650, wikipedia = 425 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 697, leeds = 754, novels = 650, wikipedia = 425 }
 kanji = '植物'
 kana = 'しょくぶつ'
 english = 'plant'
+french = 'plante'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'plants']
@@ -28,6 +31,7 @@ frequency_scores = { anime = 6099, leeds = 2516, wikipedia = 1153 }
 kanji = '葉'
 kana = 'は'
 english = 'leaf'
+french = 'feuille'
 source = 'wanikani; n4-wiki'
 level = 'n4'
 tags = ['biology', 'botany', 'common', 'nature', 'noun', 'plants']
@@ -37,6 +41,7 @@ frequency_scores = { anime = 345, leeds = 2819, novels = 912, wikipedia = 1236 }
 kanji = '花'
 kana = 'はな'
 english = 'flower'
+french = 'fleur'
 level = 'n5'
 tags = ['common', 'nature', 'noun', 'plants']
 frequency_scores = { anime = 297, leeds = 979, novels = 537, wikipedia = 637 }
@@ -45,6 +50,7 @@ frequency_scores = { anime = 297, leeds = 979, novels = 537, wikipedia = 637 }
 kanji = '林'
 kana = 'はやし'
 english = 'woods; forest'
+french = 'bois; bosquet'
 level = 'n4'
 tags = ['common', 'nature', 'places', 'plants']
 frequency_scores = { anime = 5266, leeds = 2735, novels = 1804, wikipedia = 865 }
@@ -53,6 +59,7 @@ frequency_scores = { anime = 5266, leeds = 2735, novels = 1804, wikipedia = 865 
 kanji = '森'
 kana = 'もり'
 english = 'big forest'
+french = 'forêt'
 level = 'n4'
 tags = ['common', 'nature', 'noun']
 frequency_scores = { anime = 929, leeds = 1576, novels = 606, wikipedia = 827 }

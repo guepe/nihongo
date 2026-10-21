@@ -2,6 +2,7 @@
 kanji = '選ぶ'
 kana = 'えらぶ'
 english = 'to choose ~; to select ~'
+french = 'choisir ~; sélectionner ~'
 english-conjugated = { base = 'choose', past = 'chose', plural = 'choses', continuous = 'choosing' }
 verb-type = 'godan-bu'
 transitive = true
@@ -14,6 +15,7 @@ frequency_scores = { anime = 409, leeds = 730, novels = 959, wikipedia = 548 }
 kanji = '思い出す'
 kana = 'おもいだす'
 english = 'to remember ~; to recollect ~'
+french = 'se souvenir de ~; se rappeler ~'
 english-conjugated = { base = 'remember', past = 'remembered', plural = 'remembers', continuous = 'remembering' }
 verb-type = 'godan-su'
 transitive = true
@@ -26,6 +28,7 @@ frequency_scores = { anime = 611, leeds = 1230, novels = 527 }
 kanji = '思う'
 kana = 'おもう'
 english = 'to think ~'
+french = 'penser ~'
 english-conjugated = { base = 'think', plural = 'thinks', past = 'thought', continuous = 'thinking' }
 verb-type = 'godan-u'
 transitive = true
@@ -38,6 +41,7 @@ frequency_scores = { anime = 35, leeds = 49, novels = 43, wikipedia = 462 }
 kanji = '知る'
 kana = 'しる'
 english = 'to know ~; to be aware of ~'
+french = 'connaître ~; savoir ~'
 english-conjugated = { plural = 'knows', base = 'know', past = 'knew', continuous = 'knowing' }
 verb-type = 'godan-ru'
 transitive = true
@@ -50,6 +54,7 @@ frequency_scores = { anime = 54, leeds = 191, novels = 90, wikipedia = 156 }
 kanji = '信じる'
 kana = 'しんじる'
 english = 'to believe in ~'
+french = 'croire en ~'
 english-conjugated = { base = 'believe in', past = 'believed in', plural = 'believes in', continuous = 'believing in' }
 verb-type = 'ichidan'
 transitive = true
@@ -62,6 +67,7 @@ frequency_scores = { anime = 220, leeds = 937, novels = 413, wikipedia = 6182 }
 kanji = '見直す'
 kana = 'みなおす'
 english = 'to reevaluate ~; to look at ~ again'
+french = 'réévaluer ~; revoir ~'
 english-conjugated = { base = 'reevaluate', past = 'reevaluated', plural = 'reevaluates', continuous = 'reevaluating' }
 verb-type = 'godan-su'
 transitive = true
@@ -74,6 +80,7 @@ frequency_scores = { anime = 6756, leeds = 3749, wikipedia = 4165 }
 kanji = '分かる'
 kana = 'わかる'
 english = 'to understand'
+french = 'comprendre'
 english-conjugated = { base = 'understand', past = 'understood', plural = 'understands', continuous = 'understanding' }
 verb-type = 'godan-ru'
 transitive = false
@@ -85,6 +92,7 @@ frequency_scores = { anime = 45, leeds = 337, novels = 458, wikipedia = 1468 }
 kanji = '忘れる'
 kana = 'わすれる'
 english = 'to forget ~'
+french = 'oublier ~'
 english-conjugated = { base = 'forget', past = 'forgot', plural = 'forgets', continuous = 'forgetting' }
 verb-type = 'ichidan'
 transitive = true

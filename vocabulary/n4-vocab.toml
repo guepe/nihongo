@@ -2,6 +2,7 @@
 kanji = '挨拶'
 kana = 'あいさつ'
 english = 'greeting; salutation'
+french = 'salutation'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 1517, leeds = 2257, novels = 1421, wikipedia = 6535
 kanji = '間'
 kana = 'あいだ'
 english = 'space or time between; gap; interval'
+french = 'intervalle; espace (entre); pendant'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 323, leeds = 254, novels = 156, wikipedia = 123 }
 kanji = '浅い'
 kana = 'あさい'
 english = 'shallow; superficial'
+french = 'peu profond; superficiel'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'i-adjective']
@@ -29,6 +32,7 @@ frequency_scores = { anime = 4470, leeds = 5922, novels = 2703, wikipedia = 5850
 kanji = '明日'
 kana = 'あす'
 english = 'tomorrow (more formal)'
+french = 'demain (soutenu)'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['alternate', 'common', 'formal', 'temporal-noun']
@@ -38,6 +42,7 @@ frequency_scores = { anime = 205, leeds = 746, novels = 875, wikipedia = 5183 }
 kanji = '安心'
 kana = 'あんしん'
 english = 'relief'
+french = 'soulagement'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
@@ -47,6 +52,7 @@ frequency_scores = { anime = 589, leeds = 1465, novels = 1143 }
 kanji = '安全'
 kana = 'あんぜん'
 english = 'safety; security'
+french = 'sécurité; sûreté'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'na-adjective', 'noun']
@@ -56,6 +62,7 @@ frequency_scores = { anime = 1162, leeds = 760, novels = 1660, wikipedia = 1037 
 kanji = '意見'
 kana = 'いけん'
 english = 'opinion; view'
+french = 'opinion; avis'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -65,6 +72,7 @@ frequency_scores = { anime = 1951, leeds = 377, novels = 1652, wikipedia = 1621 
 kanji = '石'
 kana = 'いし'
 english = 'stone'
+french = 'pierre'
 level = 'n4'
 tags = ['common', 'noun']
 frequency_scores = { anime = 644, leeds = 1936, novels = 704, wikipedia = 378 }
@@ -73,6 +81,7 @@ frequency_scores = { anime = 644, leeds = 1936, novels = 704, wikipedia = 378 }
 kanji = '一度'
 kana = 'いちど'
 english = 'once; one time; on one occasion'
+french = 'une fois'
 level = 'n4'
 source = 'irasshai'
 tags = ['adverbial noun', 'common']
@@ -82,6 +91,7 @@ frequency_scores = { anime = 1112, leeds = 1522, novels = 1032 }
 kanji = '一生懸命'
 kana = 'いっしょうけんめい'
 english = 'very hard; with utmost effort; for dear life'
+french = 'de toutes ses forces; avec acharnement'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'na-adjective', 'noun']
 frequency_scores = { anime = 2195, leeds = 3109 }
@@ -90,6 +100,7 @@ frequency_scores = { anime = 2195, leeds = 3109 }
 kanji = '受付'
 kana = 'うけつけ'
 english = 'reception (desk); information desk'
+french = 'réception; accueil'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['building', 'common', 'noun']
@@ -99,6 +110,7 @@ frequency_scores = { anime = 6665, leeds = 3626, wikipedia = 9928 }
 kanji = '嘘'
 kana = 'うそ'
 english = 'lie'
+french = 'mensonge'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 354, leeds = 2744, novels = 849, wikipedia = 7797 }
@@ -107,6 +119,7 @@ frequency_scores = { anime = 354, leeds = 2744, novels = 849, wikipedia = 7797 }
 kanji = '美しい'
 kana = 'うつくしい'
 english = 'beautiful; lovely'
+french = 'beau; joli'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'i-adjective']
@@ -116,6 +129,7 @@ frequency_scores = { anime = 972, leeds = 1067, novels = 581, wikipedia = 2739 }
 kanji = '裏'
 kana = 'うら'
 english = 'opposite side; other side; underside; bottom; behind'
+french = 'envers; dessous; derrière'
 level = 'n4'
 source = 'zelda'
 tags = ['common', 'directions', 'noun']
@@ -125,6 +139,7 @@ frequency_scores = { anime = 911, leeds = 1559, novels = 993, wikipedia = 1676 }
 kanji = '運転手'
 kana = 'うんてんしゅ'
 english = 'driver; chauffer'
+french = 'chauffeur; conducteur'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'job', 'noun', 'people']
@@ -134,6 +149,7 @@ frequency_scores = { leeds = 4352, wikipedia = 9506 }
 kanji = 'お祝い'
 kana = 'おいわい'
 english = 'congratulation; celebration; festival; celebatory gift'
+french = 'félicitations; fête; cadeau de félicitations'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'suru-verb']
@@ -143,6 +159,7 @@ frequency_scores = { anime = 4058, leeds = 6824 }
 kanji = '会議'
 kana = 'かいぎ'
 english = 'meeting; conference'
+french = 'réunion; conférence'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -152,6 +169,7 @@ frequency_scores = { anime = 1174, leeds = 704, novels = 2563, wikipedia = 554 }
 kanji = '会議室'
 kana = 'かいぎしつ'
 english = 'conference room'
+french = 'salle de réunion'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'noun', 'office', 'place']
@@ -160,6 +178,7 @@ tags = ['common', 'noun', 'office', 'place']
 kanji = '関係'
 kana = 'かんけい'
 english = 'relationship; connection'
+french = 'relation; rapport'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -169,6 +188,7 @@ frequency_scores = { anime = 285, leeds = 196, novels = 436, wikipedia = 180 }
 kanji = '気'
 kana = 'き'
 english = 'spirit; mind; heart; nature; feelings'
+french = 'esprit; humeur; sentiment'
 level = 'n4'
 tags = ['common', 'noun']
 frequency_scores = { anime = 62, leeds = 204, novels = 111, wikipedia = 1258 }
@@ -177,6 +197,7 @@ frequency_scores = { anime = 62, leeds = 204, novels = 111, wikipedia = 1258 }
 kanji = '機会'
 kana = 'きかい'
 english = 'chance; opportunity'
+french = 'occasion; opportunité'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'noun']
@@ -186,6 +207,7 @@ frequency_scores = { anime = 1675, leeds = 924, novels = 1767, wikipedia = 1747 
 kanji = '危険'
 kana = 'きけん'
 english = 'danger; peril'
+french = 'danger'
 source = 'n4-study'
 level = 'n4'
 tags = ['na-adjective', 'noun']
@@ -195,6 +217,7 @@ frequency_scores = { anime = 539, leeds = 1075, novels = 718, wikipedia = 1741 }
 kanji = '近所'
 kana = 'きんじょ'
 english = 'neighborhood'
+french = 'voisinage; quartier'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['no-adjective', 'noun', 'places']
@@ -204,6 +227,7 @@ frequency_scores = { anime = 3108, leeds = 2339, novels = 2197 }
 kanji = '具合'
 kana = 'ぐあい'
 english = 'condition; state'
+french = 'état; condition'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'noun']
@@ -213,6 +237,7 @@ frequency_scores = { anime = 2226, leeds = 3119, novels = 2440, wikipedia = 5852
 kanji = '政治'
 kana = 'せいじ'
 english = 'politics'
+french = 'politique'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun', 'politics', 'profession']
@@ -222,6 +247,7 @@ frequency_scores = { anime = 5395, leeds = 477, novels = 2550, wikipedia = 273 }
 kanji = '西洋'
 kana = 'せいよう'
 english = 'the West; western countries'
+french = 'Occident; pays occidentaux'
 source = 'n4-wikipedia; wanikani'
 level = 'n4'
 tags = ['common', 'geography', 'no-adjective', 'noun']
@@ -231,6 +257,7 @@ frequency_scores = { anime = 16609, leeds = 3889, wikipedia = 2929 }
 kanji = '戦争'
 kana = 'せんそう'
 english = 'war'
+french = 'guerre'
 source = 'anime; wikipedia-n4'
 level = 'n4'
 tags = ['common', 'fighting', 'noun', 'suru-verb', 'war']
@@ -240,6 +267,7 @@ frequency_scores = { anime = 881, leeds = 647, novels = 941, wikipedia = 212 }
 kanji = '注意'
 kana = 'ちゅうい'
 english = 'caution; being careful'
+french = 'attention; prudence'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
@@ -249,6 +277,7 @@ frequency_scores = { anime = 1638, leeds = 945, novels = 1266, wikipedia = 2204 
 kanji = '途中'
 kana = 'とちゅう'
 english = 'on the way; en route'
+french = 'en chemin; en cours de route'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'travel']
@@ -258,6 +287,7 @@ frequency_scores = { anime = 1055, leeds = 1125, novels = 995, wikipedia = 907 }
 kanji = '二階建て'
 kana = 'にかいだて'
 english = 'two-story building'
+french = 'bâtiment à deux étages'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['buildings', 'common', 'noun', 'places']
@@ -266,6 +296,7 @@ tags = ['buildings', 'common', 'noun', 'places']
 kanji = '筈'
 kana = 'はず'
 english = 'expectation that something will or would have taken place'
+french = 'devoir (normalement); être censé (attente logique)'
 source = 'anime-frequency'
 level = 'n4'
 explain = 'http://maggiesensei.com/2012/11/14/request-lesson-how-and-when-to-use-%E3%81%AF%E3%81%9Ahazu/'
@@ -276,6 +307,7 @@ frequency_scores = { anime = 9113, leeds = 5553, novels = 1850 }
 kanji = '発音'
 kana = 'はつおん'
 english = 'pronunciation'
+french = 'prononciation'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'language', 'noun', 'speaking', 'suru-verb']
@@ -285,6 +317,7 @@ frequency_scores = { anime = 10684, leeds = 3383, wikipedia = 3089 }
 kanji = '船'
 kana = 'ふね'
 english = 'boat'
+french = 'bateau; navire'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
@@ -294,6 +327,7 @@ frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
 kanji = '不便'
 kana = 'ふべん'
 english = 'inconvenience'
+french = 'incommodité; peu pratique'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
@@ -303,6 +337,7 @@ frequency_scores = { anime = 8103, leeds = 6343 }
 kanji = '法律'
 kana = 'ほうりつ'
 english = 'law'
+french = 'loi'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'government', 'no-adjective', 'noun', 'profession']
@@ -312,6 +347,7 @@ frequency_scores = { anime = 9784, leeds = 661, wikipedia = 962 }
 kanji = '真ん中'
 kana = 'まんなか'
 english = 'midpoint; center; heart'
+french = 'milieu; centre'
 source = 'bonobono-anime'
 level = 'n4'
 tags = ['common', 'noun']
@@ -321,6 +357,7 @@ frequency_scores = { anime = 3031, leeds = 4371, novels = 2672 }
 kanji = 'やっと'
 kana = 'やっと'
 english = "barely!; by the skin of one's teeth"
+french = 'enfin; de justesse'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['adverb', 'common', 'onomatopoeia']
@@ -330,6 +367,7 @@ frequency_scores = { anime = 708, leeds = 1638, novels = 1026 }
 kanji = '用事'
 kana = 'ようじ'
 english = 'tasks; things to do'
+french = 'course; chose à faire'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun']
@@ -339,6 +377,7 @@ frequency_scores = { anime = 2035, leeds = 7093 }
 kanji = '理由'
 kana = 'りゆう'
 english = 'reason; motive'
+french = 'raison; motif'
 source = 'n4'
 level = 'n4study'
 tags = ['common', 'noun']
@@ -348,6 +387,7 @@ frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
 kanji = '両方'
 kana = 'りょうほう'
 english = 'both; both sides'
+french = 'les deux; les deux côtés'
 source = 'n4study'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
@@ -357,6 +397,7 @@ frequency_scores = { anime = 3150, leeds = 2161, novels = 2839, wikipedia = 2536
 kanji = '留守'
 kana = 'るす'
 english = 'absent; away from home'
+french = 'absence (de chez soi)'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -366,6 +407,7 @@ frequency_scores = { anime = 4593, leeds = 9928, wikipedia = 9235 }
 kanji = '訳'
 kana = 'わけ'
 english = 'draw conclusion from reasoning'
+french = "raison; sens (conclusion tirée d'un raisonnement)"
 source = 'anime-frequency'
 level = 'n4'
 explain = 'http://www.guidetojapanese.org/learn/grammar/reasoning'
@@ -376,6 +418,7 @@ frequency_scores = { anime = 764, leeds = 797, novels = 1166, wikipedia = 2115 }
 kanji = '忘れ物'
 kana = 'わすれもの'
 english = 'lost item; something forgotten'
+french = 'objet oublié'
 source = 'jlpt-study'
 level = 'n4'
 tags = ['common', 'noun']
@@ -385,6 +428,7 @@ frequency_scores = { anime = 3259 }
 kanji = '割合'
 kana = 'わりあい'
 english = 'rate; ratio; percentage'
+french = 'proportion; taux; pourcentage'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['adverb', 'common', 'math', 'noun']
@@ -394,6 +438,7 @@ frequency_scores = { anime = 16726, leeds = 2798 }
 kanji = 'アクセサリー'
 kana = 'アクセサリー'
 english = 'accessory'
+french = 'accessoire'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'gairaigo']
@@ -403,6 +448,7 @@ frequency_scores = { anime = 16663, leeds = 8001 }
 kanji = 'アジア'
 kana = 'アジア'
 english = 'Asia'
+french = 'Asie'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
@@ -412,6 +458,7 @@ frequency_scores = { anime = 15197, leeds = 1253, wikipedia = 649 }
 kanji = 'アルバイト'
 kana = 'アルバイト'
 english = 'part-time job (from German)'
+french = 'petit boulot; job (à temps partiel)'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
 frequency_scores = { anime = 6902, leeds = 4093, wikipedia = 7199 }

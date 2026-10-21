@@ -2,6 +2,7 @@
 kanji = '段落'
 kana = 'だんらく'
 english = 'paragraph'
+french = 'paragraphe'
 source = 'lessons'
 tags = ['common', 'noun', 'writing']
 frequency_scores = { anime = 21073, leeds = 11648 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 21073, leeds = 11648 }
 kanji = '聴解'
 kana = 'ちょうかい'
 english = 'listening comprehension'
+french = 'compréhension orale'
 source = 'lessons; jlpt'
 tags = ['noun', 'suru-verb', 'uncommon']
 
@@ -17,6 +19,7 @@ tags = ['noun', 'suru-verb', 'uncommon']
 kanji = '読解'
 kana = 'どっかい'
 english = 'reading comprehension'
+french = 'compréhension écrite'
 source = 'lessons; jlpt'
 tags = ['noun', 'suru-verb', 'uncommon']
 frequency_scores = { anime = 32887, leeds = 12054 }
@@ -25,6 +28,7 @@ frequency_scores = { anime = 32887, leeds = 12054 }
 kanji = '能力'
 kana = 'のうりょく'
 english = 'ability'
+french = 'capacité'
 source = 'jlpt; anime-frequency'
 level = 'n3'
 tags = ['common', 'noun']
@@ -34,6 +38,7 @@ frequency_scores = { anime = 273, leeds = 729, novels = 885, wikipedia = 665 }
 kanji = '理解'
 kana = 'りかい'
 english = 'comprehension, understanding'
+french = 'compréhension'
 source = 'lessons; jlpt; wiktionary'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']

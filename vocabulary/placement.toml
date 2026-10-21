@@ -2,6 +2,7 @@
 kanji = '上'
 kana = 'うえ'
 english = 'above; up; on top of'
+french = 'dessus; en haut; sur'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'noun', 'noun-suffix']
 frequency_scores = { anime = 175, leeds = 171, novels = 109, wikipedia = 208 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 175, leeds = 171, novels = 109, wikipedia = 208 }
 kanji = '後ろ'
 kana = 'うしろ'
 english = 'behind'
+french = 'derrière'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 893, leeds = 2287, novels = 564, wikipedia = 4519 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 893, leeds = 2287, novels = 564, wikipedia = 4519 }
 kanji = '表'
 kana = 'おもて'
 english = 'surface; front; outside; face'
+french = 'surface; recto; extérieur; devant'
 source = 'wanikani; anime'
 level = 'n4'
 tags = ['common', 'noun']
@@ -27,6 +30,7 @@ frequency_scores = { anime = 2476, leeds = 1317, novels = 1582, wikipedia = 1016
 kanji = '下'
 kana = 'した'
 english = 'below; under; bottom'
+french = 'dessous; en bas; sous'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun', 'noun-prefix']
 frequency_scores = { anime = 414, leeds = 453, novels = 183, wikipedia = 347 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 414, leeds = 453, novels = 183, wikipedia = 347 }
 kanji = '外'
 kana = 'そと'
 english = 'outside; exterior'
+french = 'dehors; extérieur'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 328, leeds = 612, novels = 243, wikipedia = 266 }
@@ -43,6 +48,7 @@ frequency_scores = { anime = 328, leeds = 612, novels = 243, wikipedia = 266 }
 kanji = '側'
 kana = 'そば'
 english = 'near; close; vicinity'
+french = 'près; à côté; voisinage'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 846, leeds = 424, novels = 554, wikipedia = 1766 }
@@ -51,6 +57,7 @@ frequency_scores = { anime = 846, leeds = 424, novels = 554, wikipedia = 1766 }
 kanji = '近く'
 kana = 'ちかく'
 english = 'near; vicinity'
+french = 'près; environs'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective']
 frequency_scores = { anime = 789, leeds = 809, novels = 699, wikipedia = 2364 }
@@ -59,6 +66,7 @@ frequency_scores = { anime = 789, leeds = 809, novels = 699, wikipedia = 2364 }
 kanji = '中'
 kana = 'なか'
 english = 'inside; middle; center; among'
+french = 'intérieur; milieu; centre; parmi'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 67, leeds = 90, novels = 63, wikipedia = 86 }
@@ -67,6 +75,7 @@ frequency_scores = { anime = 67, leeds = 90, novels = 63, wikipedia = 86 }
 kanji = '前'
 kana = 'まえ'
 english = 'before; in front of'
+french = 'avant; devant'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'suffix', 'temporal-noun']
 frequency_scores = { anime = 66, leeds = 144, novels = 83, wikipedia = 513 }
@@ -75,6 +84,7 @@ frequency_scores = { anime = 66, leeds = 144, novels = 83, wikipedia = 513 }
 kanji = '向こう'
 kana = 'むこう'
 english = 'opposite side; far away; beyond; over there'
+french = 'en face; au loin; au-delà; là-bas'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 587, leeds = 2627, novels = 742 }

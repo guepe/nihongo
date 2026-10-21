@@ -2,6 +2,7 @@
 kanji = '気をつける'
 kana = 'きをつける'
 english = 'to be careful; to take care'
+french = 'faire attention'
 level = 'n2'
 tags = ['common', 'expression', 'ichidan-verb']
 
@@ -9,6 +10,7 @@ tags = ['common', 'expression', 'ichidan-verb']
 kanji = 'すれば'
 kana = 'すれば'
 english = 'if so'
+french = "dans ce cas; si c'est ainsi"
 source = 'wanikani; anime'
 tags = ['common', 'expression']
 
@@ -16,6 +18,7 @@ tags = ['common', 'expression']
 kanji = 'そう言えば'
 kana = 'そういえば'
 english = 'if you say so; now that you mention it'
+french = 'à propos; maintenant que tu le dis'
 level = 'n2'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['common', 'expression']
@@ -44,6 +47,7 @@ frequency_scores = { leeds = 2266, novels = 2165 }
 kanji = '努めて'
 kana = 'つとめて'
 english = 'as much as possible'
+french = 'autant que possible'
 source = 'wanikani'
 level = 'n1'
 tags = ['adverb', 'common']
@@ -52,6 +56,7 @@ tags = ['adverb', 'common']
 kanji = '取りあえず'
 kana = 'とりあえず'
 english = 'first of all'
+french = 'pour commencer; en attendant'
 source = 'anime-freq'
 level = 'n1'
 tags = ['adverb', 'common', 'expression']
@@ -61,6 +66,7 @@ frequency_scores = { anime = 3680, leeds = 1199, novels = 1726 }
 kanji = 'どれ位'
 kana = 'どれくらい / どれぐらい'
 english = 'how much; how long; how far'
+french = 'combien; combien de temps; à quelle distance'
 source = 'irasshai'
 tags = ['adverbial-noun', 'common', 'expression']
 
@@ -68,6 +74,7 @@ tags = ['adverbial-noun', 'common', 'expression']
 kanji = 'なる程'
 kana = 'なるほど'
 english = 'I see; indeed; I should have known'
+french = 'je vois; en effet; effectivement'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['adverb', 'common', 'expression']

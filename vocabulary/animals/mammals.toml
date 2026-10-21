@@ -11,6 +11,7 @@ frequency_scores = { anime = 566, leeds = 1214, novels = 892, wikipedia = 1772 }
 kanji = '牛'
 kana = 'うし'
 english = 'cow'
+french = 'vache; bœuf'
 level = 'n3'
 tags = ['common', 'noun']
 frequency_scores = { anime = 3218, leeds = 2459, novels = 2819, wikipedia = 2170 }
@@ -19,6 +20,7 @@ frequency_scores = { anime = 3218, leeds = 2459, novels = 2819, wikipedia = 2170
 kanji = '馬'
 kana = 'うま'
 english = 'horse'
+french = 'cheval'
 source = 'irasshai'
 level = 'n3'
 tags = ['animal', 'common', 'domesticated', 'mammal', 'noun']
@@ -28,6 +30,7 @@ frequency_scores = { anime = 1029, leeds = 1656, novels = 517, wikipedia = 286 }
 kanji = '狼'
 kana = 'おおかみ'
 english = 'wolf'
+french = 'loup'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1968, leeds = 7678, novels = 2716, wikipedia = 5400 }
 
@@ -35,6 +38,7 @@ frequency_scores = { anime = 1968, leeds = 7678, novels = 2716, wikipedia = 5400
 kanji = '狐'
 kana = 'きつね'
 english = 'fox'
+french = 'renard'
 tags = ['common', 'noun']
 frequency_scores = { anime = 2063, leeds = 13915, wikipedia = 7735 }
 
@@ -42,6 +46,7 @@ frequency_scores = { anime = 2063, leeds = 13915, wikipedia = 7735 }
 kanji = '屈狸'
 kana = 'くずり'
 english = 'wolverine'
+french = 'glouton (carcajou)'
 source = 'bonobono-anime'
 tags = ['animal', 'mammal', 'noun', 'uncommon']
 
@@ -49,6 +54,7 @@ tags = ['animal', 'mammal', 'noun', 'uncommon']
 kanji = '熊'
 kana = 'くま'
 english = 'bear'
+french = 'ours'
 tags = ['common', 'noun']
 frequency_scores = { anime = 4068, leeds = 6819, novels = 2860, wikipedia = 2833 }
 
@@ -56,6 +62,7 @@ frequency_scores = { anime = 4068, leeds = 6819, novels = 2860, wikipedia = 2833
 kanji = '子犬'
 kana = 'こいぬ'
 english = 'puppy'
+french = 'chiot'
 tags = ['common', 'noun']
 frequency_scores = { anime = 10402, leeds = 13510 }
 
@@ -63,6 +70,7 @@ frequency_scores = { anime = 10402, leeds = 13510 }
 kanji = '子牛'
 kana = 'こうし'
 english = 'calf'
+french = 'veau'
 level = 'n2'
 tags = ['common', 'noun']
 
@@ -70,6 +78,7 @@ tags = ['common', 'noun']
 kanji = '子猫'
 kana = 'こねこ'
 english = 'kitten'
+french = 'chaton'
 tags = ['common', 'noun']
 frequency_scores = { anime = 6293 }
 
@@ -77,6 +86,7 @@ frequency_scores = { anime = 6293 }
 kanji = '猿'
 kana = 'さる'
 english = 'monkey'
+french = 'singe'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
 frequency_scores = { anime = 2106, leeds = 6391, novels = 1278, wikipedia = 3464 }
@@ -85,6 +95,7 @@ frequency_scores = { anime = 2106, leeds = 6391, novels = 1278, wikipedia = 3464
 kanji = '鹿'
 kana = 'しか'
 english = 'deer'
+french = 'cerf'
 tags = ['common', 'noun']
 frequency_scores = { anime = 3594, leeds = 7448, novels = 206, wikipedia = 3337 }
 
@@ -92,6 +103,7 @@ frequency_scores = { anime = 3594, leeds = 7448, novels = 206, wikipedia = 3337 
 kanji = '獅子'
 kana = 'しし'
 english = 'lion'
+french = 'lion'
 tags = ['common', 'mammal', 'noun']
 frequency_scores = { anime = 8174, leeds = 13380, wikipedia = 6788 }
 
@@ -99,6 +111,7 @@ frequency_scores = { anime = 8174, leeds = 13380, wikipedia = 6788 }
 kanji = '象'
 kana = 'ぞう'
 english = 'elephant'
+french = 'éléphant'
 level = 'n3'
 tags = ['common', 'mammal', 'noun']
 frequency_scores = { anime = 11332, leeds = 8709, novels = 1713, wikipedia = 4389 }
@@ -107,6 +120,7 @@ frequency_scores = { anime = 11332, leeds = 8709, novels = 1713, wikipedia = 438
 kanji = '虎'
 kana = 'とら'
 english = 'tiger'
+french = 'tigre'
 level = 'n3'
 tags = ['animal', 'common', 'noun']
 frequency_scores = { anime = 3418, leeds = 7306, novels = 2301, wikipedia = 2411 }
@@ -124,6 +138,7 @@ frequency_scores = { anime = 574, leeds = 1618, novels = 1100, wikipedia = 2461 
 kanji = '鼠'
 kana = 'ねずみ'
 english = 'mouse; rat'
+french = 'souris; rat'
 source = 'lessons; wiktionary'
 level = 'n3'
 tags = ['animal', 'common', 'mammal', 'noun']
@@ -133,6 +148,7 @@ frequency_scores = { anime = 9132, leeds = 13756, wikipedia = 5811 }
 kanji = '羊'
 kana = 'ひつじ'
 english = 'sheep'
+french = 'mouton'
 source = 'wanikani'
 tags = ['animal', 'common', 'noun']
 frequency_scores = { anime = 3609, leeds = 5637, wikipedia = 6172 }
@@ -141,6 +157,7 @@ frequency_scores = { anime = 3609, leeds = 5637, wikipedia = 6172 }
 kanji = '豚'
 kana = 'ぶた'
 english = 'pig'
+french = 'cochon'
 tags = ['animals', 'common', 'noun']
 frequency_scores = { anime = 1924, leeds = 4401, wikipedia = 5600 }
 
@@ -148,6 +165,7 @@ frequency_scores = { anime = 1924, leeds = 4401, wikipedia = 5600 }
 kanji = 'パンダ'
 kana = 'パンダ'
 english = 'panda'
+french = 'panda'
 source = 'anime-freq'
 tags = ['animal', 'common', 'mammal', 'noun']
 frequency_scores = { anime = 577, leeds = 12204 }

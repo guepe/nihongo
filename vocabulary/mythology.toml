@@ -2,6 +2,7 @@
 kanji = '悪魔'
 kana = 'あくま'
 english = 'devil; demon'
+french = 'diable; démon'
 source = 'anime; jisho'
 level = 'n3'
 tags = ['common', 'monster', 'mythical', 'noun']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 710, leeds = 4603, novels = 2157, wikipedia = 3876 
 kanji = '鬼'
 kana = 'おに'
 english = 'demon; ogre'
+french = 'démon; ogre (oni)'
 source = 'majoras mask'
 level = 'n3'
 tags = ['common', 'monster', 'mythical', 'noun']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 677, leeds = 3680, novels = 1141, wikipedia = 2323 
 kanji = '怪獣'
 kana = 'かいじゅう'
 english = 'monster'
+french = 'monstre'
 source = 'films'
 level = 'n1'
 tags = ['common', 'monster', 'mythical', 'noun']
@@ -29,6 +32,7 @@ frequency_scores = { anime = 4990, leeds = 10154, wikipedia = 4129 }
 kanji = '神'
 kana = 'かみ'
 english = 'god; deity; spirit'
+french = 'dieu; divinité; esprit'
 source = 'anime'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'noun-prefix', 'religion']
@@ -38,6 +42,7 @@ frequency_scores = { anime = 184, leeds = 694, novels = 362, wikipedia = 364 }
 kanji = '幽霊'
 kana = 'ゆうれい'
 english = 'specter; phantom'
+french = 'fantôme; spectre'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
@@ -47,6 +52,7 @@ frequency_scores = { anime = 1830, leeds = 8719, novels = 2279, wikipedia = 9403
 kanji = '妖怪'
 kana = 'ようかい'
 english = 'ghost'
+french = 'yokai; esprit; monstre'
 source = 'games'
 tags = ['common', 'noun']
 frequency_scores = { anime = 3737, leeds = 11053, wikipedia = 6299 }

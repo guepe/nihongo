@@ -2,6 +2,7 @@
 kanji = '椅子'
 kana = 'いす'
 english = 'chair; stool'
+french = 'chaise; tabouret'
 level = 'n5'
 tags = ['common', 'furniture', 'home']
 frequency_scores = { anime = 5691, leeds = 3850, novels = 817, wikipedia = 3999 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 5691, leeds = 3850, novels = 817, wikipedia = 3999 
 kanji = '家具'
 kana = 'かぐ'
 english = 'furniture'
+french = 'meuble(s)'
 level = 'n3'
 tags = ['common', 'furniture']
 frequency_scores = { anime = 17418, leeds = 3867, novels = 925, wikipedia = 7130 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 17418, leeds = 3867, novels = 925, wikipedia = 7130
 kanji = '寝台'
 kana = 'しんだい'
 english = 'bed; couch'
+french = 'lit; couchette'
 level = 'n2'
 tags = ['common', 'furniture']
 frequency_scores = { anime = 33291, wikipedia = 7267 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 33291, wikipedia = 7267 }
 kanji = '箪笥'
 kana = 'たんす'
 english = 'dresser; chest'
+french = 'commode; coffre à tiroirs'
 level = 'n2'
 tags = ['common', 'furniture']
 frequency_scores = { anime = 20971 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 20971 }
 kanji = '本棚'
 kana = 'ほんだな'
 english = 'bookcase'
+french = 'bibliothèque (meuble)'
 level = 'n5'
 tags = ['books', 'common', 'furniture', 'noun', 'reading']
 frequency_scores = { anime = 12480, leeds = 8427 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 12480, leeds = 8427 }
 kanji = 'ソファ'
 kana = 'ソファ'
 english = 'sofa'
+french = 'canapé'
 level = 'n3'
 tags = ['common', 'furniture', 'gairaigo', 'noun']
 frequency_scores = { anime = 23107, leeds = 12082 }
@@ -50,6 +56,7 @@ frequency_scores = { anime = 23107, leeds = 12082 }
 kanji = 'テーブル'
 kana = 'テーブル'
 english = 'table'
+french = 'table'
 level = 'n5'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 frequency_scores = { anime = 6189, leeds = 2366, novels = 787, wikipedia = 4481 }
@@ -58,6 +65,7 @@ frequency_scores = { anime = 6189, leeds = 2366, novels = 787, wikipedia = 4481 
 kanji = 'ベッド'
 kana = 'ベッド'
 english = 'bed'
+french = 'lit'
 level = 'n5'
 tags = ['bedroom', 'common', 'gairaigo', 'noun']
 frequency_scores = { anime = 3554, leeds = 2907, novels = 686, wikipedia = 9160 }

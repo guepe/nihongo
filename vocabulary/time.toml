@@ -2,6 +2,7 @@
 kanji = '秋'
 kana = 'あき'
 english = 'autumn; fall'
+french = 'automne'
 level = 'n5'
 tags = ['common', 'noun', 'season', 'time']
 frequency_scores = { anime = 1768, leeds = 1904, novels = 1941, wikipedia = 804 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 1768, leeds = 1904, novels = 1941, wikipedia = 804 
 kanji = '朝'
 kana = 'あさ'
 english = 'morning'
+french = 'matin'
 level = 'n5'
 tags = ['common', 'time']
 frequency_scores = { anime = 456, leeds = 581, novels = 626, wikipedia = 358 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 456, leeds = 581, novels = 626, wikipedia = 358 }
 kanji = '明後日'
 kana = 'あさって'
 english = 'day after tomorrow'
+french = 'après-demain'
 level = 'n5'
 tags = ['common', 'time']
 frequency_scores = { anime = 7488, leeds = 11290 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 7488, leeds = 11290 }
 kanji = '明日'
 kana = 'あした'
 english = 'tomorrow'
+french = 'demain'
 level = 'n5'
 tags = ['common', 'time']
 frequency_scores = { anime = 205, leeds = 746, novels = 875, wikipedia = 5183 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 205, leeds = 746, novels = 875, wikipedia = 5183 }
 kanji = '後'
 kana = 'あと'
 english = 'after; in the future'
+french = 'après; plus tard'
 level = 'n5'
 tags = ['common', 'places']
 frequency_scores = { anime = 190, leeds = 198, novels = 216, wikipedia = 50 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 190, leeds = 198, novels = 216, wikipedia = 50 }
 kanji = '以後'
 kana = 'いご'
 english = 'from now on; hereafter'
+french = 'désormais; à partir de maintenant'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'temporal-noun']
@@ -51,6 +57,7 @@ frequency_scores = { anime = 5947, leeds = 4013, wikipedia = 758 }
 kanji = '一日'
 kana = 'いちにち'
 english = 'one day (duration)'
+french = 'une journée (durée)'
 level = 'n5'
 tags = ['common', 'duration', 'time']
 
@@ -58,6 +65,7 @@ tags = ['common', 'duration', 'time']
 kanji = '五日'
 kana = 'いつか'
 english = 'five days; fifth day of the month'
+french = 'cinq jours; le 5 du mois'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 531, leeds = 3852, novels = 2196 }
@@ -66,6 +74,7 @@ frequency_scores = { anime = 531, leeds = 3852, novels = 2196 }
 kanji = '何時も'
 kana = 'いつも'
 english = 'always'
+french = 'toujours'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 20544, leeds = 466, novels = 298, wikipedia = 6007 }
@@ -74,6 +83,7 @@ frequency_scores = { anime = 20544, leeds = 466, novels = 298, wikipedia = 6007 
 kanji = '今'
 kana = 'いま'
 english = 'now'
+french = 'maintenant'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 38, leeds = 130, novels = 107, wikipedia = 1084 }
@@ -82,6 +92,7 @@ frequency_scores = { anime = 38, leeds = 130, novels = 107, wikipedia = 1084 }
 kanji = '一昨日'
 kana = 'おととい'
 english = 'day before yesterday'
+french = 'avant-hier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8970, leeds = 7223 }
@@ -90,6 +101,7 @@ frequency_scores = { anime = 8970, leeds = 7223 }
 kanji = '一昨年'
 kana = 'おととし'
 english = 'year before last'
+french = 'il y a deux ans'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 13051, leeds = 7565 }
@@ -98,6 +110,7 @@ frequency_scores = { anime = 13051, leeds = 7565 }
 kanji = '開始'
 kana = 'かいし'
 english = 'start (literary?)'
+french = 'début; commencement'
 source = 'wanikani; frequency'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
@@ -107,6 +120,7 @@ frequency_scores = { anime = 956, leeds = 952, novels = 2218, wikipedia = 151 }
 kanji = '～か月'
 kana = '～かげつ'
 english = 'counter for number of months'
+french = 'compteur pour les mois (durée)'
 level = 'n5'
 tags = []
 
@@ -114,6 +128,7 @@ tags = []
 kanji = '火曜日'
 kana = 'かようび'
 english = 'Tuesday'
+french = 'mardi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 22571, leeds = 5083, wikipedia = 7872 }
@@ -122,6 +137,7 @@ frequency_scores = { anime = 22571, leeds = 5083, wikipedia = 7872 }
 kanji = '～月'
 kana = '～がつ'
 english = 'month of the year'
+french = "mois de l'année (～ = numéro du mois)"
 level = 'n5'
 tags = []
 
@@ -129,6 +145,7 @@ tags = []
 kanji = '季節'
 kana = 'きせつ'
 english = 'season; time of year'
+french = 'saison'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'seasons']
@@ -138,6 +155,7 @@ frequency_scores = { anime = 2803, leeds = 2035, wikipedia = 4736 }
 kanji = '昨日'
 kana = 'きのう'
 english = 'yesterday'
+french = 'hier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 329, leeds = 512, novels = 930 }
@@ -146,6 +164,7 @@ frequency_scores = { anime = 329, leeds = 512, novels = 930 }
 kanji = '今日'
 kana = 'きょう'
 english = 'today'
+french = "aujourd'hui"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 73, leeds = 194, novels = 292, wikipedia = 1341 }
@@ -154,6 +173,7 @@ frequency_scores = { anime = 73, leeds = 194, novels = 292, wikipedia = 1341 }
 kanji = '去年'
 kana = 'きょねん'
 english = 'last year'
+french = "l'année dernière"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1757, leeds = 2118, novels = 2413 }
@@ -162,6 +182,7 @@ frequency_scores = { anime = 1757, leeds = 2118, novels = 2413 }
 kanji = '近日'
 kana = 'きんじつ'
 english = 'in a few days; soon'
+french = 'dans quelques jours; prochainement'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 frequency_scores = { anime = 19263, leeds = 12973 }
@@ -170,6 +191,7 @@ frequency_scores = { anime = 19263, leeds = 12973 }
 kanji = '近年'
 kana = 'きんねん'
 english = 'recent years'
+french = 'ces dernières années'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 frequency_scores = { anime = 17594, leeds = 3840, wikipedia = 892 }
@@ -178,6 +200,7 @@ frequency_scores = { anime = 17594, leeds = 3840, wikipedia = 892 }
 kanji = '金曜日'
 kana = 'きんようび'
 english = 'Friday'
+french = 'vendredi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 15551, leeds = 3535, wikipedia = 3974 }
@@ -186,6 +209,7 @@ frequency_scores = { anime = 15551, leeds = 3535, wikipedia = 3974 }
 kanji = '今朝'
 kana = 'けさ'
 english = 'this morning'
+french = 'ce matin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2296, leeds = 3246, novels = 2682 }
@@ -194,6 +218,7 @@ frequency_scores = { anime = 2296, leeds = 3246, novels = 2682 }
 kanji = '月末'
 kana = 'げつまつ'
 english = 'end of the month'
+french = 'fin du mois'
 source = 'wanikani'
 level = 'n2'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
@@ -203,6 +228,7 @@ frequency_scores = { anime = 22588, leeds = 11098 }
 kanji = '月曜日'
 kana = 'げつようび'
 english = 'Monday'
+french = 'lundi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6809, leeds = 3880, wikipedia = 5281 }
@@ -211,6 +237,7 @@ frequency_scores = { anime = 6809, leeds = 3880, wikipedia = 5281 }
 kanji = '現在'
 kana = 'げんざい'
 english = 'present time'
+french = 'présent; moment actuel'
 source = 'wikipedia 10k frequent'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
@@ -220,6 +247,7 @@ frequency_scores = { anime = 1090, leeds = 249, novels = 1075, wikipedia = 49 }
 kanji = '九日'
 kana = 'ここのか'
 english = 'the ninth of the month; nine days'
+french = 'le 9 du mois; neuf jours'
 level = 'n5'
 tags = []
 
@@ -227,6 +255,7 @@ tags = []
 kanji = '今年'
 kana = 'ことし'
 english = 'this year'
+french = 'cette année'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 918, leeds = 537, novels = 2603 }
@@ -235,6 +264,7 @@ frequency_scores = { anime = 918, leeds = 537, novels = 2603 }
 kanji = '古来'
 kana = 'こらい'
 english = 'ancient; from time immemorial'
+french = 'depuis des temps immémoriaux; ancien'
 source = 'wanikani'
 tags = ['adverb', 'common', 'no-adjective', 'noun', 'time']
 frequency_scores = { anime = 13447, leeds = 11040, wikipedia = 7798 }
@@ -243,6 +273,7 @@ frequency_scores = { anime = 13447, leeds = 11040, wikipedia = 7798 }
 kanji = '今回'
 kana = 'こんかい'
 english = 'this time; lately'
+french = 'cette fois-ci; récemment'
 level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/52295'
 tags = ['adverbial-noun', 'anime', 'common', 'temporal-noun']
@@ -252,6 +283,7 @@ frequency_scores = { anime = 387, leeds = 265, novels = 1589, wikipedia = 4395 }
 kanji = '今月'
 kana = 'こんげつ'
 english = 'this month'
+french = 'ce mois-ci'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4781, leeds = 2758 }
@@ -260,6 +292,7 @@ frequency_scores = { anime = 4781, leeds = 2758 }
 kanji = '今週'
 kana = 'こんしゅう'
 english = 'this week'
+french = 'cette semaine'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3882, leeds = 1906 }
@@ -268,6 +301,7 @@ frequency_scores = { anime = 3882, leeds = 1906 }
 kanji = '今度'
 kana = 'こんど'
 english = 'this time (or next time)'
+french = 'cette fois; la prochaine fois'
 source = 'anime'
 level = 'n4'
 explain = 'https://japanese.stackexchange.com/a/52295'
@@ -278,6 +312,7 @@ frequency_scores = { anime = 280, leeds = 903, novels = 422, wikipedia = 5070 }
 kanji = '今晩'
 kana = 'こんばん'
 english = 'tonight; this evening (7-10pmish)'
+french = 'ce soir (vers 19-22 h)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5611, leeds = 8450 }
@@ -286,6 +321,7 @@ frequency_scores = { anime = 5611, leeds = 8450 }
 kanji = '今夜'
 kana = 'こんや'
 english = 'tonight (more formal / in writing)'
+french = "ce soir (soutenu / à l'écrit)"
 source = 'nihongo-charenji-n4-kotoba'
 level = 'n4'
 tags = ['common']
@@ -295,6 +331,7 @@ frequency_scores = { anime = 1292, leeds = 4422, novels = 1193 }
 kanji = '午後'
 kana = 'ごご'
 english = 'afternoon; P.M.'
+french = 'après-midi; P.M.'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2525, leeds = 893, novels = 1464, wikipedia = 2258 }
@@ -303,6 +340,7 @@ frequency_scores = { anime = 2525, leeds = 893, novels = 1464, wikipedia = 2258 
 kanji = '午前'
 kana = 'ごぜん'
 english = 'morning; A.M.'
+french = 'matin; A.M.'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4625, leeds = 1266, wikipedia = 2419 }
@@ -311,6 +349,7 @@ frequency_scores = { anime = 4625, leeds = 1266, wikipedia = 2419 }
 kanji = '最近'
 kana = 'さいきん'
 english = 'recently'
+french = 'récemment; ces derniers temps'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 frequency_scores = { anime = 424, leeds = 285, novels = 1521, wikipedia = 2208 }
@@ -319,6 +358,7 @@ frequency_scores = { anime = 424, leeds = 285, novels = 1521, wikipedia = 2208 }
 kanji = '先'
 kana = 'さき'
 english = 'the previous; the former; the future'
+french = 'précédent; ancien; avenir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 155, leeds = 374, novels = 240, wikipedia = 558 }
@@ -327,6 +367,7 @@ frequency_scores = { anime = 155, leeds = 374, novels = 240, wikipedia = 558 }
 kanji = 'さ来月'
 kana = 'さらいげつ'
 english = 'month after next'
+french = 'dans deux mois'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
@@ -335,6 +376,7 @@ tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 kanji = '再来週'
 kana = 'さらいしゅう'
 english = 'week after next'
+french = 'dans deux semaines'
 source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
@@ -344,6 +386,7 @@ frequency_scores = { anime = 16679 }
 kanji = '再来週'
 kana = 'さらいしゅう'
 english = 'week after next'
+french = 'dans deux semaines'
 source = 'irasshai'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
@@ -353,6 +396,7 @@ frequency_scores = { anime = 16679 }
 kanji = '再来年'
 kana = 'さらいねん'
 english = 'year after next'
+french = 'dans deux ans'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 19580 }
@@ -361,6 +405,7 @@ frequency_scores = { anime = 19580 }
 kanji = '～週間'
 kana = '～しゅうかん'
 english = 'counter for weeks'
+french = 'compteur pour les semaines'
 level = 'n5'
 tags = []
 
@@ -368,6 +413,7 @@ tags = []
 kanji = '週末'
 kana = 'しゅうまつ'
 english = 'weekend'
+french = 'week-end'
 source = 'irasshai'
 tags = ['common', 'week']
 frequency_scores = { anime = 7094, leeds = 2813 }
@@ -376,6 +422,7 @@ frequency_scores = { anime = 7094, leeds = 2813 }
 kanji = '醤油'
 kana = 'しょうゆ'
 english = 'soy sauce'
+french = 'sauce soja'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5689, leeds = 6746, wikipedia = 9353 }
@@ -384,6 +431,7 @@ frequency_scores = { anime = 5689, leeds = 6746, wikipedia = 9353 }
 kanji = '将来'
 kana = 'しょうらい'
 english = 'future (usually near); prospects'
+french = 'avenir (en général proche); perspectives'
 source = 'irasshai?'
 level = 'n4'
 tags = ['common']
@@ -393,6 +441,7 @@ frequency_scores = { anime = 2123, leeds = 966, wikipedia = 2389 }
 kanji = '～時'
 kana = '～じ'
 english = "hour; o'clock"
+french = '～ heure(s)'
 level = 'n5'
 tags = []
 
@@ -400,6 +449,7 @@ tags = []
 kanji = '次回'
 kana = 'じかい'
 english = 'next time'
+french = 'la prochaine fois'
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 frequency_scores = { anime = 364, leeds = 2152, wikipedia = 7786 }
@@ -408,6 +458,7 @@ frequency_scores = { anime = 364, leeds = 2152, wikipedia = 7786 }
 kanji = '時間'
 kana = 'じかん'
 english = 'time'
+french = 'temps'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 107, leeds = 154, novels = 208, wikipedia = 142 }
@@ -416,6 +467,7 @@ frequency_scores = { anime = 107, leeds = 154, novels = 208, wikipedia = 142 }
 kanji = '～時間'
 kana = '～じかん'
 english = 'counter for hours'
+french = 'compteur pour les heures (durée)'
 level = 'n5'
 tags = []
 
@@ -423,6 +475,7 @@ tags = []
 kanji = '～中'
 kana = '～じゅう'
 english = 'during; while'
+french = 'pendant ～; tout au long de ～'
 level = 'n5'
 tags = []
 
@@ -430,6 +483,7 @@ tags = []
 kanji = '水曜日'
 kana = 'すいようび'
 english = 'Wednesday'
+french = 'mercredi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 23066, leeds = 5361, wikipedia = 7967 }
@@ -438,6 +492,7 @@ frequency_scores = { anime = 23066, leeds = 5361, wikipedia = 7967 }
 kanji = '直ぐ'
 kana = 'すぐ'
 english = 'soon; immediately'
+french = 'bientôt; tout de suite'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 19545, leeds = 13771, novels = 182, wikipedia = 1232 }
@@ -446,6 +501,7 @@ frequency_scores = { anime = 19545, leeds = 13771, novels = 182, wikipedia = 123
 kanji = '直ぐに'
 kana = 'すぐに'
 english = 'immediately'
+french = 'immédiatement'
 source = 'n4-study'
 level = 'n5'
 tags = ['adverb', 'common']
@@ -455,6 +511,7 @@ frequency_scores = { anime = 36192, leeds = 10196 }
 kanji = '先月'
 kana = 'せんげつ'
 english = 'last month'
+french = 'le mois dernier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7594, leeds = 5010 }
@@ -463,6 +520,7 @@ frequency_scores = { anime = 7594, leeds = 5010 }
 kanji = '先週'
 kana = 'せんしゅう'
 english = 'last week'
+french = 'la semaine dernière'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4357, leeds = 2319 }
@@ -471,6 +529,7 @@ frequency_scores = { anime = 4357, leeds = 2319 }
 kanji = '先日'
 kana = 'せんじつ'
 english = 'the other day (a recent day)'
+french = "l'autre jour (récemment)"
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
 frequency_scores = { anime = 2740, leeds = 1209 }
@@ -479,6 +538,7 @@ frequency_scores = { anime = 2740, leeds = 1209 }
 kanji = '誕生日'
 kana = 'たんじょうび'
 english = 'birthday'
+french = 'anniversaire'
 level = 'n5'
 tags = []
 frequency_scores = { wikipedia = 5299 }
@@ -487,6 +547,7 @@ frequency_scores = { wikipedia = 5299 }
 kanji = '一日'
 kana = 'ついたち'
 english = 'first day of the month'
+french = 'le 1er du mois'
 level = 'n5'
 tags = []
 
@@ -494,6 +555,7 @@ tags = []
 kanji = '十日'
 kana = 'とおか'
 english = 'tenth day of the month; ten days'
+french = 'le 10 du mois; dix jours'
 level = 'n5'
 tags = []
 
@@ -501,6 +563,7 @@ tags = []
 kanji = '～時'
 kana = '～とき'
 english = 'at the time of ～'
+french = 'au moment de ～; quand ～'
 level = 'n5'
 tags = []
 
@@ -508,6 +571,7 @@ tags = []
 kanji = '時々'
 kana = 'ときどき'
 english = 'sometimes; at times'
+french = 'parfois; de temps en temps'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2529, leeds = 2631, novels = 2100, wikipedia = 7992 }
@@ -516,6 +580,7 @@ frequency_scores = { anime = 2529, leeds = 2631, novels = 2100, wikipedia = 7992
 kanji = '時計'
 kana = 'とけい'
 english = 'watch; clock'
+french = 'montre; horloge'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3541, leeds = 2797, novels = 1756, wikipedia = 3775 }
@@ -524,6 +589,7 @@ frequency_scores = { anime = 3541, leeds = 2797, novels = 1756, wikipedia = 3775
 kanji = '年'
 kana = 'とし'
 english = 'year'
+french = 'année; âge'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 121, leeds = 54, novels = 165, wikipedia = 18 }
@@ -532,6 +598,7 @@ frequency_scores = { anime = 121, leeds = 54, novels = 165, wikipedia = 18 }
 kanji = '同時'
 kana = 'どうじ'
 english = 'same time; concurrent'
+french = 'même moment; simultané'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
@@ -541,6 +608,7 @@ frequency_scores = { anime = 6595, leeds = 3895, wikipedia = 1710 }
 kanji = '土曜日'
 kana = 'どようび'
 english = 'Saturday'
+french = 'samedi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7648, leeds = 2947, wikipedia = 3588 }
@@ -549,6 +617,7 @@ frequency_scores = { anime = 7648, leeds = 2947, wikipedia = 3588 }
 kanji = '夏'
 kana = 'なつ'
 english = 'summer'
+french = 'été'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 459, leeds = 880, novels = 1194, wikipedia = 540 }
@@ -557,6 +626,7 @@ frequency_scores = { anime = 459, leeds = 880, novels = 1194, wikipedia = 540 }
 kanji = '七日'
 kana = 'なのか'
 english = 'seventh day of the month ; seven days'
+french = 'le 7 du mois; sept jours'
 level = 'n5'
 tags = []
 
@@ -564,6 +634,7 @@ tags = []
 kanji = '～日'
 kana = '～にち'
 english = '～ day of the month; duration in days'
+french = 'le ～ du mois; durée en jours'
 level = 'n5'
 tags = []
 
@@ -571,6 +642,7 @@ tags = []
 kanji = '日曜日'
 kana = 'にちようび'
 english = 'Sunday'
+french = 'dimanche'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6044, leeds = 2682, wikipedia = 3627 }
@@ -579,6 +651,7 @@ frequency_scores = { anime = 6044, leeds = 2682, wikipedia = 3627 }
 kanji = '～年'
 kana = '～ねん'
 english = 'counter for years'
+french = 'compteur pour les années'
 level = 'n5'
 tags = []
 
@@ -586,6 +659,7 @@ tags = []
 kanji = '年中'
 kana = 'ねんじゅう'
 english = 'throughout the year; year round'
+french = "toute l'année"
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common', 'noun']
@@ -595,6 +669,7 @@ frequency_scores = { anime = 12164, leeds = 10211, wikipedia = 5611 }
 kanji = '年内'
 kana = 'ねんない'
 english = 'by the end of the year; within the year'
+french = "d'ici la fin de l'année; dans l'année"
 source = 'wanikani'
 tags = ['common', 'noun', 'time']
 frequency_scores = { anime = 21231, leeds = 10113 }
@@ -603,6 +678,7 @@ frequency_scores = { anime = 21231, leeds = 10113 }
 kanji = '年末'
 kana = 'ねんまつ'
 english = 'end of the year'
+french = "fin de l'année"
 source = 'wanikani'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
 frequency_scores = { anime = 9827, leeds = 4816 }
@@ -611,6 +687,7 @@ frequency_scores = { anime = 9827, leeds = 4816 }
 kanji = '二十日'
 kana = 'はつか'
 english = '20th day of the month; 20 days'
+french = 'le 20 du mois; vingt jours'
 level = 'n5'
 tags = []
 
@@ -618,6 +695,7 @@ tags = []
 kanji = '春'
 kana = 'はる'
 english = 'spring'
+french = 'printemps'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 413, leeds = 1615, novels = 1350, wikipedia = 653 }
@@ -626,6 +704,7 @@ frequency_scores = { anime = 413, leeds = 1615, novels = 1350, wikipedia = 653 }
 kanji = '晩'
 kana = 'ばん'
 english = 'evening (7-10pmish)'
+french = 'soir (vers 19-22 h)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1914, leeds = 4330, novels = 1643, wikipedia = 5140 }
@@ -634,6 +713,7 @@ frequency_scores = { anime = 1914, leeds = 4330, novels = 1643, wikipedia = 5140
 kanji = '一月'
 kana = 'ひとつき'
 english = 'one month'
+french = 'un mois'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12181, leeds = 5291 }
@@ -642,6 +722,7 @@ frequency_scores = { anime = 12181, leeds = 5291 }
 kanji = '暇'
 kana = 'ひま'
 english = 'free time; leisure'
+french = 'temps libre; loisir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 869, leeds = 3571, novels = 1761 }
@@ -650,6 +731,7 @@ frequency_scores = { anime = 869, leeds = 3571, novels = 1761 }
 kanji = '昼'
 kana = 'ひる'
 english = 'noon'
+french = 'midi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2643, leeds = 2828, novels = 2376, wikipedia = 4009 }
@@ -658,6 +740,7 @@ frequency_scores = { anime = 2643, leeds = 2828, novels = 2376, wikipedia = 4009
 kanji = '昼休み'
 kana = 'ひるやすみ'
 english = 'lunch break'
+french = 'pause de midi'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'temporal-noun', 'time', 'work']
@@ -667,6 +750,7 @@ frequency_scores = { anime = 4890, leeds = 9418 }
 kanji = '秒'
 kana = 'びょう'
 english = 'second (unit of time)'
+french = 'seconde (unité de temps)'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'measurement', 'noun', 'time', 'unit']
@@ -676,6 +760,7 @@ frequency_scores = { anime = 831, leeds = 1323, novels = 1084, wikipedia = 1045 
 kanji = '二日'
 kana = 'ふつか'
 english = 'second day of the month; two days'
+french = 'deuxième jour du mois; deux jours'
 level = 'n5'
 tags = []
 
@@ -683,6 +768,7 @@ tags = []
 kanji = '冬'
 kana = 'ふゆ'
 english = 'winter'
+french = 'hiver'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1144, leeds = 1817, novels = 1765, wikipedia = 1426 }
@@ -691,6 +777,7 @@ frequency_scores = { anime = 1144, leeds = 1817, novels = 1765, wikipedia = 1426
 kanji = '～分'
 kana = '～ふん'
 english = 'counter for minutes'
+french = 'compteur pour les minutes'
 level = 'n5'
 tags = []
 
@@ -698,6 +785,7 @@ tags = []
 kanji = '毎朝'
 kana = 'まいあさ'
 english = 'every morning'
+french = 'chaque matin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7512, leeds = 8171 }
@@ -706,6 +794,7 @@ frequency_scores = { anime = 7512, leeds = 8171 }
 kanji = '毎週'
 kana = 'まいしゅう'
 english = 'every wek'
+french = 'chaque semaine'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8088, leeds = 3509, wikipedia = 1853 }
@@ -714,6 +803,7 @@ frequency_scores = { anime = 8088, leeds = 3509, wikipedia = 1853 }
 kanji = '毎月'
 kana = 'まいつき / まいげつ'
 english = 'every month'
+french = 'chaque mois'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 9970, leeds = 3809, wikipedia = 5207 }
@@ -722,6 +812,7 @@ frequency_scores = { anime = 9970, leeds = 3809, wikipedia = 5207 }
 kanji = '毎日'
 kana = 'まいにち'
 english = 'every day'
+french = 'chaque jour'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 649, leeds = 698, novels = 1311, wikipedia = 3043 }
@@ -730,6 +821,7 @@ frequency_scores = { anime = 649, leeds = 698, novels = 1311, wikipedia = 3043 }
 kanji = '毎年'
 kana = 'まいねん / まいとし'
 english = 'every year'
+french = 'chaque année'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3165, leeds = 1850, wikipedia = 1054 }
@@ -738,6 +830,7 @@ frequency_scores = { anime = 3165, leeds = 1850, wikipedia = 1054 }
 kanji = '毎晩'
 kana = 'まいばん'
 english = 'every night'
+french = 'chaque soir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7857, leeds = 10547 }
@@ -746,6 +839,7 @@ frequency_scores = { anime = 7857, leeds = 10547 }
 kanji = '三日'
 kana = 'みっか'
 english = 'third day of the month; three days'
+french = 'troisième jour du mois; trois jours'
 level = 'n5'
 tags = []
 
@@ -753,6 +847,7 @@ tags = []
 kanji = '未来'
 kana = 'みらい'
 english = 'the future (usually distant)'
+french = 'futur (en général lointain)'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 366, leeds = 1560, novels = 1964, wikipedia = 2541 }
@@ -761,6 +856,7 @@ frequency_scores = { anime = 366, leeds = 1560, novels = 1964, wikipedia = 2541 
 kanji = '六日'
 kana = 'むいか'
 english = 'the sixth day; six days'
+french = 'sixième jour du mois; six jours'
 level = 'n5'
 tags = []
 
@@ -768,6 +864,7 @@ tags = []
 kanji = '昔'
 kana = 'むかし'
 english = 'olden days'
+french = 'autrefois; jadis'
 source = 'sekai-wa-fushigi-2'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
@@ -777,6 +874,7 @@ frequency_scores = { anime = 342, leeds = 741, novels = 635, wikipedia = 3863 }
 kanji = '木曜日'
 kana = 'もくようび'
 english = 'Thursday'
+french = 'jeudi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 28939, leeds = 5266, wikipedia = 6860 }
@@ -785,6 +883,7 @@ frequency_scores = { anime = 28939, leeds = 5266, wikipedia = 6860 }
 kanji = '休み'
 kana = 'やすみ'
 english = 'rest; vacation; holiday'
+french = 'repos; vacances; congé'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1077, leeds = 2099, novels = 2923 }
@@ -793,6 +892,7 @@ frequency_scores = { anime = 1077, leeds = 2099, novels = 2923 }
 kanji = '夕方'
 kana = 'ゆうがた'
 english = 'evening or dusk (before sunset; 5-7pmish)'
+french = "fin d'après-midi; crépuscule (avant le coucher du soleil ; vers 17-19 h)"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3656, leeds = 2184, novels = 2493, wikipedia = 3851 }
@@ -801,6 +901,7 @@ frequency_scores = { anime = 3656, leeds = 2184, novels = 2493, wikipedia = 3851
 kanji = '夕べ'
 kana = 'ゆうべ'
 english = 'evening (5-7pmish); last night'
+french = 'soir (vers 17-19 h); hier soir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 9837, leeds = 15001 }
@@ -809,6 +910,7 @@ frequency_scores = { anime = 9837, leeds = 15001 }
 kanji = '八日'
 kana = 'ようか'
 english = 'eigth day of the month; eight days'
+french = 'huitième jour du mois; huit jours'
 level = 'n5'
 tags = []
 
@@ -816,6 +918,7 @@ tags = []
 kanji = '四日'
 kana = 'よっか'
 english = 'fourth of the month; four days'
+french = 'quatrième jour du mois; quatre jours'
 level = 'n5'
 tags = []
 
@@ -823,6 +926,7 @@ tags = []
 kanji = '夜'
 kana = 'よる'
 english = 'evening; night (after 10pm)'
+french = 'soir; nuit (après 22 h)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 207, leeds = 571, novels = 265, wikipedia = 989 }
@@ -831,6 +935,7 @@ frequency_scores = { anime = 207, leeds = 571, novels = 265, wikipedia = 989 }
 kanji = '来月'
 kana = 'らいげつ'
 english = 'next month'
+french = 'le mois prochain'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7099, leeds = 6212 }
@@ -839,6 +944,7 @@ frequency_scores = { anime = 7099, leeds = 6212 }
 kanji = '来週'
 kana = 'らいしゅう'
 english = 'next week'
+french = 'la semaine prochaine'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2140, leeds = 3271 }
@@ -847,6 +953,7 @@ frequency_scores = { anime = 2140, leeds = 3271 }
 kanji = '来年'
 kana = 'らいねん'
 english = 'next year'
+french = "l'année prochaine"
 source = 'irasshai'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun', 'time']
@@ -856,6 +963,7 @@ frequency_scores = { anime = 2761, leeds = 1994 }
 kanji = '両日'
 kana = 'りょうじつ'
 english = 'both days'
+french = 'les deux jours'
 source = 'wanikani'
 tags = ['common', 'temporal-noun', 'time']
 
@@ -863,6 +971,7 @@ tags = ['common', 'temporal-noun', 'time']
 kanji = 'カレンダー'
 kana = 'カレンダー'
 english = 'calendar'
+french = 'calendrier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 15488, leeds = 5594 }

@@ -2,6 +2,7 @@
 kanji = 'いい'
 kana = 'いい'
 english = 'good; OK'
+french = "bien; bon; d'accord"
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 19, leeds = 142, novels = 73 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 19, leeds = 142, novels = 73 }
 kanji = '否'
 kana = 'いいえ'
 english = "no; not at all; don't mention it"
+french = 'non; pas du tout; je vous en prie'
 level = 'n5'
 tags = ['basic', 'common']
 frequency_scores = { leeds = 4372, novels = 1611, wikipedia = 6152 }
@@ -18,6 +20,7 @@ frequency_scores = { leeds = 4372, novels = 1611, wikipedia = 6152 }
 kanji = '一緒'
 kana = 'いっしょ'
 english = 'together'
+french = 'ensemble'
 level = 'n5'
 tags = ['adverbial-noun', 'no-adjective', 'temporal-noun']
 frequency_scores = { anime = 103, leeds = 556, novels = 374, wikipedia = 2428 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 103, leeds = 556, novels = 374, wikipedia = 2428 }
 kanji = '意味'
 kana = 'いみ'
 english = 'meaning'
+french = 'sens; signification'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 222, leeds = 237, novels = 313, wikipedia = 309 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 222, leeds = 237, novels = 313, wikipedia = 309 }
 kanji = '嫌'
 kana = 'いや'
 english = 'disagreeable; unpleasant; no'
+french = 'désagréable; déplaisant; non merci'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 283, leeds = 2101, novels = 985, wikipedia = 9417 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 283, leeds = 2101, novels = 985, wikipedia = 9417 }
 kanji = '入口'
 kana = 'いりぐち'
 english = 'entrance; gate'
+french = 'entrée'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 11021, leeds = 7113, novels = 1874 }
@@ -50,6 +56,7 @@ frequency_scores = { anime = 11021, leeds = 7113, novels = 1874 }
 kanji = '歌'
 kana = 'うた'
 english = 'song'
+french = 'chanson'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 761, leeds = 1297, novels = 1598, wikipedia = 458 }
@@ -58,6 +65,7 @@ frequency_scores = { anime = 761, leeds = 1297, novels = 1598, wikipedia = 458 }
 kanji = '絵'
 kana = 'え'
 english = 'picture; drawing; painting'
+french = 'image; dessin; peinture'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 659, leeds = 1131, novels = 1024, wikipedia = 1454 }
@@ -66,6 +74,7 @@ frequency_scores = { anime = 659, leeds = 1131, novels = 1024, wikipedia = 1454 
 kanji = '映画'
 kana = 'えいが'
 english = 'movie'
+french = 'film'
 level = 'n5'
 tags = ['common', 'entertainment', 'no-adjective', 'noun']
 frequency_scores = { anime = 1476, leeds = 292, novels = 2064, wikipedia = 99 }
@@ -74,6 +83,7 @@ frequency_scores = { anime = 1476, leeds = 292, novels = 2064, wikipedia = 99 }
 kanji = '英語'
 kana = 'えいご'
 english = 'English language'
+french = 'anglais (langue)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2543, leeds = 441, wikipedia = 449 }
@@ -82,6 +92,7 @@ frequency_scores = { anime = 2543, leeds = 441, wikipedia = 449 }
 kanji = 'ええ'
 kana = 'ええ'
 english = 'yes; um...'
+french = 'oui; euh...'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 3075, novels = 485 }
@@ -90,6 +101,7 @@ frequency_scores = { leeds = 3075, novels = 485 }
 kanji = '駅'
 kana = 'えき'
 english = 'train station'
+french = 'gare'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2183, leeds = 807, novels = 1730, wikipedia = 45 }
@@ -98,6 +110,7 @@ frequency_scores = { anime = 2183, leeds = 807, novels = 1730, wikipedia = 45 }
 kanji = '～円'
 kana = '～えん'
 english = 'yen'
+french = '～ yens'
 level = 'n5'
 tags = []
 
@@ -105,6 +118,7 @@ tags = []
 kanji = 'お金'
 kana = 'おかね'
 english = 'money'
+french = 'argent'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 967, leeds = 763, novels = 2222 }
@@ -113,6 +127,7 @@ frequency_scores = { anime = 967, leeds = 763, novels = 2222 }
 kanji = 'お酒'
 kana = 'おさけ'
 english = 'alcohol; sake (rice wine)'
+french = 'alcool; saké'
 level = 'n5'
 tags = []
 
@@ -120,6 +135,7 @@ tags = []
 kanji = '同じ'
 kana = 'おなじ'
 english = 'same; identical'
+french = 'même; identique'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { leeds = 221, novels = 179, wikipedia = 132 }
@@ -128,6 +144,7 @@ frequency_scores = { leeds = 221, novels = 179, wikipedia = 132 }
 kanji = '音楽'
 kana = 'おんがく'
 english = 'music'
+french = 'musique'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1169, leeds = 420, novels = 2580, wikipedia = 167 }
@@ -136,6 +153,7 @@ frequency_scores = { anime = 1169, leeds = 420, novels = 2580, wikipedia = 167 }
 kanji = '会社'
 kana = 'かいしゃ'
 english = 'company; corporation'
+french = 'entreprise; société'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1435, leeds = 241, novels = 1532, wikipedia = 113 }
@@ -144,6 +162,7 @@ frequency_scores = { anime = 1435, leeds = 241, novels = 1532, wikipedia = 113 }
 kanji = '階段'
 kana = 'かいだん'
 english = 'stairs'
+french = 'escalier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2627, leeds = 3512, novels = 822, wikipedia = 4659 }
@@ -152,6 +171,7 @@ frequency_scores = { anime = 2627, leeds = 3512, novels = 822, wikipedia = 4659 
 kanji = '買い物'
 kana = 'かいもの'
 english = 'shopping; purchased goods'
+french = 'courses; achats'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1945, leeds = 2173, wikipedia = 9623 }
@@ -160,6 +180,7 @@ frequency_scores = { anime = 1945, leeds = 2173, wikipedia = 9623 }
 kanji = '鍵'
 kana = 'かぎ'
 english = 'key(s)'
+french = 'clé'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 982, leeds = 3329, novels = 1529, wikipedia = 4187 }
@@ -168,6 +189,7 @@ frequency_scores = { anime = 982, leeds = 3329, novels = 1529, wikipedia = 4187 
 kanji = '片仮名'
 kana = 'かたかな'
 english = 'katakana'
+french = 'katakana'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 22573, wikipedia = 9117 }
@@ -176,6 +198,7 @@ frequency_scores = { anime = 22573, wikipedia = 9117 }
 kanji = '角'
 kana = 'かど'
 english = 'corner (eg. of a desk); edge'
+french = "coin (ex. d'un bureau); angle"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3052, leeds = 3373, novels = 1290, wikipedia = 160 }
@@ -184,6 +207,7 @@ frequency_scores = { anime = 3052, leeds = 3373, novels = 1290, wikipedia = 160 
 kanji = '漢字'
 kana = 'かんじ'
 english = 'Chinese character(s)'
+french = 'kanji (caractères chinois)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 9151, leeds = 2706, wikipedia = 2780 }
@@ -192,6 +216,7 @@ frequency_scores = { anime = 9151, leeds = 2706, wikipedia = 2780 }
 kanji = '北'
 kana = 'きた'
 english = 'north'
+french = 'nord'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1367, leeds = 1524, novels = 1641, wikipedia = 150 }
@@ -200,6 +225,7 @@ frequency_scores = { anime = 1367, leeds = 1524, novels = 1641, wikipedia = 150 
 kanji = '切手'
 kana = 'きって'
 english = 'stamp (postage)'
+french = 'timbre (postal)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 23426, leeds = 7724, wikipedia = 6117 }
@@ -208,6 +234,7 @@ frequency_scores = { anime = 23426, leeds = 7724, wikipedia = 6117 }
 kanji = '切符'
 kana = 'きっぷ'
 english = 'ticket'
+french = 'billet; ticket'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10595, leeds = 7604, wikipedia = 6480 }
@@ -216,6 +243,7 @@ frequency_scores = { anime = 10595, leeds = 7604, wikipedia = 6480 }
 kanji = '銀行'
 kana = 'ぎんこう'
 english = 'bank'
+french = 'banque'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7938, leeds = 997, wikipedia = 668 }
@@ -224,6 +252,7 @@ frequency_scores = { anime = 7938, leeds = 997, wikipedia = 668 }
 kanji = '下さい'
 kana = 'ください'
 english = 'please [give/do] for me'
+french = "veuillez (donner/faire) pour moi; s'il vous plaît"
 level = 'n5'
 tags = []
 
@@ -231,6 +260,7 @@ tags = []
 kanji = '車'
 kana = 'くるま'
 english = 'car; vehicle'
+french = 'voiture; véhicule'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 726, leeds = 468, novels = 417, wikipedia = 96 }
@@ -239,6 +269,7 @@ frequency_scores = { anime = 726, leeds = 468, novels = 417, wikipedia = 96 }
 kanji = '結構'
 kana = 'けっこう'
 english = 'nice; sufficient; enough'
+french = 'bien; suffisant; ça suffit'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 417, leeds = 800, novels = 1502 }
@@ -247,6 +278,7 @@ frequency_scores = { anime = 417, leeds = 800, novels = 1502 }
 kanji = '結婚'
 kana = 'けっこん'
 english = 'marriage'
+french = 'mariage'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1131, leeds = 913, novels = 1204, wikipedia = 537 }
@@ -255,6 +287,7 @@ frequency_scores = { anime = 1131, leeds = 913, novels = 1204, wikipedia = 537 }
 kanji = '交差点'
 kana = 'こうさてん'
 english = 'intersection; crossing'
+french = 'carrefour; croisement'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10532, leeds = 7280 }
@@ -263,6 +296,7 @@ frequency_scores = { anime = 10532, leeds = 7280 }
 kanji = '交番'
 kana = 'こうばん'
 english = 'police box'
+french = 'poste de police (de quartier)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 17035 }
@@ -271,6 +305,7 @@ frequency_scores = { anime = 17035 }
 kanji = '言葉'
 kana = 'ことば'
 english = 'word; language'
+french = 'mot; langue; langage'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 271, leeds = 271, novels = 147, wikipedia = 823 }
@@ -279,6 +314,7 @@ frequency_scores = { anime = 271, leeds = 271, novels = 147, wikipedia = 823 }
 kanji = 'さあ'
 kana = 'さあ'
 english = 'come on...; well...; about that...'
+french = 'allez ! ; eh bien... ; je ne sais pas trop...'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 3789, novels = 708 }
@@ -287,6 +323,7 @@ frequency_scores = { leeds = 3789, novels = 708 }
 kanji = '～さん'
 kana = '～さん'
 english = 'Mr.; Ms.; etc. (honorific/respectful/sonkeigo)'
+french = 'M. ～; Mme ～ (suffixe honorifique)'
 level = 'n5'
 tags = []
 
@@ -294,6 +331,7 @@ tags = []
 kanji = '散歩'
 kana = 'さんぽ'
 english = 'walk; stroll'
+french = 'promenade; balade'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2780, leeds = 2924, wikipedia = 9921 }
@@ -302,6 +340,7 @@ frequency_scores = { anime = 2780, leeds = 2924, wikipedia = 9921 }
 kanji = '雑誌'
 kana = 'ざっし'
 english = 'magazine; journal'
+french = 'magazine; revue'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4044, leeds = 1227, novels = 2978, wikipedia = 766 }
@@ -310,6 +349,7 @@ frequency_scores = { anime = 4044, leeds = 1227, novels = 2978, wikipedia = 766 
 kanji = '写真'
 kana = 'しゃしん'
 english = 'photograph'
+french = 'photo'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 696, leeds = 315, novels = 815, wikipedia = 774 }
@@ -318,6 +358,7 @@ frequency_scores = { anime = 696, leeds = 315, novels = 815, wikipedia = 774 }
 kanji = '新聞'
 kana = 'しんぶん'
 english = 'newspaper'
+french = 'journal'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3268, leeds = 681, novels = 1298, wikipedia = 669 }
@@ -326,6 +367,7 @@ frequency_scores = { anime = 3268, leeds = 681, novels = 1298, wikipedia = 669 }
 kanji = '自転車'
 kana = 'じてんしゃ'
 english = 'bicycle'
+french = 'vélo'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4164, leeds = 2072, novels = 2916, wikipedia = 1964 }
@@ -334,6 +376,7 @@ frequency_scores = { anime = 4164, leeds = 2072, novels = 2916, wikipedia = 1964
 kanji = '全部'
 kana = 'ぜんぶ'
 english = 'all; entire; whole'
+french = 'tout; entier'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
 frequency_scores = { anime = 241, leeds = 950, novels = 1013, wikipedia = 4636 }
@@ -342,6 +385,7 @@ frequency_scores = { anime = 241, leeds = 950, novels = 1013, wikipedia = 4636 }
 kanji = 'そう'
 kana = 'そう'
 english = 'seems like; really; appears to be the case'
+french = "ainsi; vraiment ? ; c'est ça"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 18, leeds = 102, novels = 32, wikipedia = 2445 }
@@ -350,6 +394,7 @@ frequency_scores = { anime = 18, leeds = 102, novels = 32, wikipedia = 2445 }
 kanji = '大使館'
 kana = 'たいしかん'
 english = 'embassy'
+french = 'ambassade'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 11901, leeds = 5552 }
@@ -358,6 +403,7 @@ frequency_scores = { anime = 11901, leeds = 5552 }
 kanji = '沢山'
 kana = 'たくさん'
 english = 'a lot; many; much'
+french = 'beaucoup; nombreux'
 level = 'n5'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'noun']
 frequency_scores = { anime = 5710, leeds = 2313, novels = 1067, wikipedia = 6304 }
@@ -366,6 +412,7 @@ frequency_scores = { anime = 5710, leeds = 2313, novels = 1067, wikipedia = 6304
 kanji = '縦'
 kana = 'たて'
 english = 'the vertical/height; front-to-back/length'
+french = "vertical; hauteur; longueur (d'avant en arrière)"
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 6983, leeds = 4613, wikipedia = 3791 }
@@ -374,6 +421,7 @@ frequency_scores = { anime = 6983, leeds = 4613, wikipedia = 3791 }
 kanji = '建物'
 kana = 'たてもの'
 english = 'building'
+french = 'bâtiment'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2944, leeds = 1363, novels = 1045, wikipedia = 1145 }
@@ -382,6 +430,7 @@ frequency_scores = { anime = 2944, leeds = 1363, novels = 1045, wikipedia = 1145
 kanji = '楽しい'
 kana = 'たのしい'
 english = 'enjoyable; fun; pleasant'
+french = 'amusant; agréable'
 level = 'n5'
 tags = ['common', 'i-adective']
 frequency_scores = { anime = 255, leeds = 560, novels = 1008, wikipedia = 7224 }
@@ -390,6 +439,7 @@ frequency_scores = { anime = 255, leeds = 560, novels = 1008, wikipedia = 7224 }
 kanji = '小さな'
 kana = 'ちいさな'
 english = 'small; little'
+french = 'petit'
 level = 'n5'
 tags = ['common', 'pre-noun-adjectival']
 frequency_scores = { leeds = 1012, novels = 366, wikipedia = 1484 }
@@ -398,6 +448,7 @@ frequency_scores = { leeds = 1012, novels = 366, wikipedia = 1484 }
 kanji = '次'
 kana = 'つぎ'
 english = 'next'
+french = 'suivant; prochain'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 164, leeds = 269, novels = 370, wikipedia = 370 }
@@ -406,6 +457,7 @@ frequency_scores = { anime = 164, leeds = 269, novels = 370, wikipedia = 370 }
 kanji = '出口'
 kana = 'でぐち'
 english = 'exit'
+french = 'sortie'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3413, leeds = 5934, wikipedia = 4909 }
@@ -414,6 +466,7 @@ frequency_scores = { anime = 3413, leeds = 5934, wikipedia = 4909 }
 kanji = '隣'
 kana = 'となり'
 english = 'next to; nextdoor to; neighbor'
+french = 'à côté de; voisin'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 978, leeds = 2005, novels = 953 }
@@ -422,6 +475,7 @@ frequency_scores = { anime = 978, leeds = 2005, novels = 953 }
 kanji = 'どうぞ'
 kana = 'どうぞ'
 english = "please; here you are; you're welcome"
+french = 'je vous en prie; voici; allez-y'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 1720, novels = 1457 }
@@ -430,6 +484,7 @@ frequency_scores = { leeds = 1720, novels = 1457 }
 kanji = 'どうも'
 kana = 'どうも'
 english = 'thanks; much (thanks, regret, etc.)'
+french = 'merci; vraiment (merci, désolé, etc.)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 534, leeds = 1279, novels = 856 }
@@ -438,6 +493,7 @@ frequency_scores = { anime = 534, leeds = 1279, novels = 856 }
 kanji = '無い'
 kana = 'ない'
 english = "nonexistent; not being (there); doesn't have"
+french = 'inexistant; ne pas y avoir; ne pas avoir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 410, leeds = 359, novels = 896, wikipedia = 57 }
@@ -446,6 +502,7 @@ frequency_scores = { anime = 410, leeds = 359, novels = 896, wikipedia = 57 }
 kanji = '何'
 kana = 'なに / なん'
 english = 'what'
+french = 'quoi; que'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 14, leeds = 109, novels = 46, wikipedia = 1993 }
@@ -454,6 +511,7 @@ frequency_scores = { anime = 14, leeds = 109, novels = 46, wikipedia = 1993 }
 kanji = '名前'
 kana = 'なまえ'
 english = 'name'
+french = 'nom'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 195, leeds = 334, novels = 479, wikipedia = 464 }
@@ -462,6 +520,7 @@ frequency_scores = { anime = 195, leeds = 334, novels = 479, wikipedia = 464 }
 kanji = '西'
 kana = 'にし'
 english = 'west'
+french = 'ouest'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2583, leeds = 2107, novels = 1821, wikipedia = 117 }
@@ -470,6 +529,7 @@ frequency_scores = { anime = 2583, leeds = 2107, novels = 1821, wikipedia = 117 
 kanji = '荷物'
 kana = 'にもつ'
 english = 'luggage'
+french = 'bagages'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1637, leeds = 3147, novels = 1573, wikipedia = 5432 }
@@ -478,6 +538,7 @@ frequency_scores = { anime = 1637, leeds = 3147, novels = 1573, wikipedia = 5432
 kanji = 'はい'
 kana = 'はい'
 english = 'yes'
+french = 'oui'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 2558, novels = 342 }
@@ -486,6 +547,7 @@ frequency_scores = { leeds = 2558, novels = 342 }
 kanji = '葉書'
 kana = 'はがき'
 english = 'postcard'
+french = 'carte postale'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 16764, leeds = 14959 }
@@ -494,6 +556,7 @@ frequency_scores = { anime = 16764, leeds = 14959 }
 kanji = '箱'
 kana = 'はこ'
 english = 'box; crate; chest'
+french = 'boîte; caisse; coffre'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1897, leeds = 1966, novels = 861, wikipedia = 2154 }
@@ -502,6 +565,7 @@ frequency_scores = { anime = 1897, leeds = 1966, novels = 861, wikipedia = 2154 
 kanji = '橋'
 kana = 'はし'
 english = 'bridge'
+french = 'pont'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2258, leeds = 3120, novels = 1770, wikipedia = 353 }
@@ -510,6 +574,7 @@ frequency_scores = { anime = 2258, leeds = 3120, novels = 1770, wikipedia = 353 
 kanji = '始め'
 kana = 'はじめ'
 english = 'beginning; start; origin'
+french = 'début; commencement; origine'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2650, leeds = 5685, novels = 1543 }
@@ -518,6 +583,7 @@ frequency_scores = { anime = 2650, leeds = 5685, novels = 1543 }
 kanji = '話'
 kana = 'はなし'
 english = 'talk; story; speech'
+french = 'conversation; histoire; discours'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 81, leeds = 178, novels = 137, wikipedia = 324 }
@@ -526,6 +592,7 @@ frequency_scores = { anime = 81, leeds = 178, novels = 137, wikipedia = 324 }
 kanji = '半'
 kana = 'はん'
 english = 'half; half-past'
+french = 'demi; et demie'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2461, leeds = 1628, novels = 715, wikipedia = 1407 }
@@ -534,6 +601,7 @@ frequency_scores = { anime = 2461, leeds = 1628, novels = 715, wikipedia = 1407 
 kanji = '半分'
 kana = 'はんぶん'
 english = 'half'
+french = 'moitié'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1457, leeds = 1739, novels = 915, wikipedia = 2505 }
@@ -542,6 +610,7 @@ frequency_scores = { anime = 1457, leeds = 1739, novels = 915, wikipedia = 2505 
 kanji = '東'
 kana = 'ひがし'
 english = 'east'
+french = 'est'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2831, leeds = 1755, novels = 1610, wikipedia = 106 }
@@ -550,6 +619,7 @@ frequency_scores = { anime = 2831, leeds = 1755, novels = 1610, wikipedia = 106 
 kanji = '左'
 kana = 'ひだり'
 english = 'left'
+french = 'gauche'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1842, leeds = 1254, novels = 723, wikipedia = 631 }
@@ -558,6 +628,7 @@ frequency_scores = { anime = 1842, leeds = 1254, novels = 723, wikipedia = 631 }
 kanji = '平仮名'
 kana = 'ひらがな'
 english = 'hiragana'
+french = 'hiragana'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 20960 }
@@ -566,6 +637,7 @@ frequency_scores = { anime = 20960 }
 kanji = '辺'
 kana = 'へん'
 english = 'area; vicinity; region'
+french = 'alentours; environs'
 level = 'n5'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1097, leeds = 2363, novels = 2139, wikipedia = 3286 }
@@ -574,6 +646,7 @@ frequency_scores = { anime = 1097, leeds = 2363, novels = 2139, wikipedia = 3286
 kanji = '他'
 kana = 'ほか'
 english = 'other (person, place, thing); the rest'
+french = 'autre (personne, lieu, chose); le reste'
 level = 'n5'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 260, leeds = 260, novels = 309, wikipedia = 110 }
@@ -582,6 +655,7 @@ frequency_scores = { anime = 260, leeds = 260, novels = 309, wikipedia = 110 }
 kanji = '本当'
 kana = 'ほんとう'
 english = 'truth'
+french = 'vérité; vrai'
 level = 'n5'
 explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-japanese/'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
@@ -591,6 +665,7 @@ frequency_scores = { anime = 230, leeds = 1258, novels = 790, wikipedia = 3987 }
 kanji = '又'
 kana = 'また'
 english = 'again'
+french = 'de nouveau; encore'
 level = 'n5'
 tags = ['adverb', 'common', 'conjunction', 'prefix']
 frequency_scores = { leeds = 3139, novels = 1270, wikipedia = 40 }
@@ -599,6 +674,7 @@ frequency_scores = { leeds = 3139, novels = 1270, wikipedia = 40 }
 kanji = '右'
 kana = 'みぎ'
 english = 'right'
+french = 'droite'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1229, leeds = 1421, novels = 534, wikipedia = 699 }
@@ -607,6 +683,7 @@ frequency_scores = { anime = 1229, leeds = 1421, novels = 534, wikipedia = 699 }
 kanji = '店'
 kana = 'みせ'
 english = 'store; shop'
+french = 'magasin; boutique'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 400, leeds = 305, novels = 499, wikipedia = 413 }
@@ -615,6 +692,7 @@ frequency_scores = { anime = 400, leeds = 305, novels = 499, wikipedia = 413 }
 kanji = '道'
 kana = 'みち'
 english = 'road, street, path (all inclusive)'
+french = 'chemin; route; rue'
 level = 'n5'
 explain = 'https://hinative.com/en-US/questions/240900'
 tags = ['common', 'noun', 'transportation']
@@ -624,6 +702,7 @@ frequency_scores = { anime = 422, leeds = 561, novels = 308, wikipedia = 159 }
 kanji = '南'
 kana = 'みなみ'
 english = 'south'
+french = 'sud'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2542, leeds = 1800, novels = 1377, wikipedia = 147 }
@@ -632,6 +711,7 @@ frequency_scores = { anime = 2542, leeds = 1800, novels = 1377, wikipedia = 147 
 kanji = 'もしもし'
 kana = 'もしもし'
 english = 'hello (said on phone)'
+french = 'allô'
 level = 'n5'
 tags = []
 
@@ -639,6 +719,7 @@ tags = []
 kanji = '物'
 kana = 'もの'
 english = 'thing'
+french = 'chose; objet'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 313, leeds = 382, novels = 306, wikipedia = 213 }
@@ -647,6 +728,7 @@ frequency_scores = { anime = 313, leeds = 382, novels = 306, wikipedia = 213 }
 kanji = '門'
 kana = 'もん'
 english = 'gate'
+french = "portail; porte (d'enceinte)"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1863, leeds = 3585, novels = 909, wikipedia = 516 }
@@ -655,6 +737,7 @@ frequency_scores = { anime = 1863, leeds = 3585, novels = 909, wikipedia = 516 }
 kanji = '～屋'
 kana = '～や'
 english = 'shop for ～; seller of ～'
+french = 'magasin de ～; marchand de ～'
 level = 'n5'
 tags = []
 
@@ -662,6 +745,7 @@ tags = []
 kanji = '郵便局'
 kana = 'ゆうびんきょく'
 english = 'post office'
+french = 'bureau de poste'
 level = 'n5'
 tags = []
 
@@ -669,6 +753,7 @@ tags = []
 kanji = '良い'
 kana = 'よい'
 english = 'good; OK'
+french = "bon; bien; d'accord"
 level = 'n5'
 tags = ['common', 'i-adjectives']
 frequency_scores = { anime = 270, leeds = 195, novels = 557, wikipedia = 192 }
@@ -677,6 +762,7 @@ frequency_scores = { anime = 270, leeds = 195, novels = 557, wikipedia = 192 }
 kanji = '横'
 kana = 'よこ'
 english = 'horizontal; lying down; side; width'
+french = 'horizontal; couché; côté; largeur'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2386, leeds = 1715, novels = 435, wikipedia = 1504 }
@@ -685,6 +771,7 @@ frequency_scores = { anime = 2386, leeds = 1715, novels = 435, wikipedia = 1504 
 kanji = '旅行'
 kana = 'りょこう'
 english = 'travel; trip; journey'
+french = 'voyage'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2027, leeds = 747, novels = 2252, wikipedia = 1695 }
@@ -693,6 +780,7 @@ frequency_scores = { anime = 2027, leeds = 747, novels = 2252, wikipedia = 1695 
 kanji = '廊下'
 kana = 'ろうか'
 english = 'hallway; corridor'
+french = 'couloir'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3195, leeds = 6552, novels = 786 }
@@ -701,6 +789,7 @@ frequency_scores = { anime = 3195, leeds = 6552, novels = 786 }
 kanji = 'エレベーター'
 kana = 'エレベーター'
 english = 'elevator'
+french = 'ascenseur'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5310, leeds = 6648, wikipedia = 5003 }
@@ -709,6 +798,7 @@ frequency_scores = { anime = 5310, leeds = 6648, wikipedia = 5003 }
 kanji = 'カメラ'
 kana = 'カメラ'
 english = 'camera'
+french = 'appareil photo'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1604, leeds = 1503, novels = 2173, wikipedia = 1839 }
@@ -717,6 +807,7 @@ frequency_scores = { anime = 1604, leeds = 1503, novels = 2173, wikipedia = 1839
 kanji = 'キロ'
 kana = 'キロ'
 english = 'kilogram ; kilometer'
+french = 'kilogramme; kilomètre'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2662, leeds = 2051, novels = 1463 }
@@ -725,6 +816,7 @@ frequency_scores = { anime = 2662, leeds = 2051, novels = 1463 }
 kanji = 'ギター'
 kana = 'ギター'
 english = 'guitar'
+french = 'guitare'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2607, leeds = 3117, wikipedia = 1976 }
@@ -733,6 +825,7 @@ frequency_scores = { anime = 2607, leeds = 3117, wikipedia = 1976 }
 kanji = 'グラム'
 kana = 'グラム'
 english = 'gram'
+french = 'gramme'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6447, leeds = 7778, wikipedia = 7580 }
@@ -741,6 +834,7 @@ frequency_scores = { anime = 6447, leeds = 7778, wikipedia = 7580 }
 kanji = 'スポーツ'
 kana = 'スポーツ'
 english = 'sports'
+french = 'sport'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3433, leeds = 1048, wikipedia = 632 }
@@ -749,6 +843,7 @@ frequency_scores = { anime = 3433, leeds = 1048, wikipedia = 632 }
 kanji = 'タクシー'
 kana = 'タクシー'
 english = 'taxi'
+french = 'taxi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7408, leeds = 2775, wikipedia = 4123 }
@@ -757,6 +852,7 @@ frequency_scores = { anime = 7408, leeds = 2775, wikipedia = 4123 }
 kanji = 'デパート'
 kana = 'デパート'
 english = 'department store'
+french = 'grand magasin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8983, leeds = 6238 }
@@ -765,6 +861,7 @@ frequency_scores = { anime = 8983, leeds = 6238 }
 kanji = 'ニュース'
 kana = 'ニュース'
 english = 'news'
+french = 'informations; actualités'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3109, leeds = 542, wikipedia = 961 }
@@ -773,6 +870,7 @@ frequency_scores = { anime = 3109, leeds = 542, wikipedia = 961 }
 kanji = 'バス'
 kana = 'バス'
 english = 'bus'
+french = 'bus'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1221, leeds = 1102, novels = 1766, wikipedia = 236 }
@@ -781,6 +879,7 @@ frequency_scores = { anime = 1221, leeds = 1102, novels = 1766, wikipedia = 236 
 kanji = 'パーティー'
 kana = 'パーティー'
 english = 'party'
+french = 'fête; soirée'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1393, leeds = 3974, wikipedia = 3883 }
@@ -789,6 +888,7 @@ frequency_scores = { anime = 1393, leeds = 3974, wikipedia = 3883 }
 kanji = 'フィルム'
 kana = 'フィルム'
 english = 'film'
+french = 'pellicule; film'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8638, leeds = 3820, wikipedia = 2221 }
@@ -797,6 +897,7 @@ frequency_scores = { anime = 8638, leeds = 3820, wikipedia = 2221 }
 kanji = 'ページ'
 kana = 'ページ'
 english = 'page'
+french = 'page'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3032, leeds = 364, novels = 772 }
@@ -805,6 +906,7 @@ frequency_scores = { anime = 3032, leeds = 364, novels = 772 }
 kanji = 'ホテル'
 kana = 'ホテル'
 english = 'hotel'
+french = 'hôtel'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2293, leeds = 946, novels = 1427, wikipedia = 1329 }
@@ -813,6 +915,7 @@ frequency_scores = { anime = 2293, leeds = 946, novels = 1427, wikipedia = 1329 
 kanji = 'ポスト'
 kana = 'ポスト'
 english = 'post'
+french = 'boîte aux lettres'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5388, leeds = 3421, wikipedia = 3416 }
@@ -821,6 +924,7 @@ frequency_scores = { anime = 5388, leeds = 3421, wikipedia = 3416 }
 kanji = 'マッチ'
 kana = 'マッチ'
 english = 'match'
+french = 'allumette'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4967, leeds = 4782, wikipedia = 3794 }
@@ -829,6 +933,7 @@ frequency_scores = { anime = 4967, leeds = 4782, wikipedia = 3794 }
 kanji = 'ラジオ'
 kana = 'ラジオ'
 english = 'radio'
+french = 'radio'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4671, leeds = 1998, wikipedia = 457 }
@@ -837,6 +942,7 @@ frequency_scores = { anime = 4671, leeds = 1998, wikipedia = 457 }
 kanji = 'レコード'
 kana = 'レコード'
 english = 'record'
+french = 'disque (vinyle)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10133, leeds = 3245, wikipedia = 1051 }

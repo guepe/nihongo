@@ -2,6 +2,7 @@
 kanji = '相手'
 kana = 'あいて'
 english = 'partner; opponent (sports)'
+french = 'partenaire; adversaire (sport)'
 level = 'n3'
 tags = ['common', 'noun', 'people']
 frequency_scores = { anime = 173, leeds = 469, novels = 234, wikipedia = 845 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 173, leeds = 469, novels = 234, wikipedia = 845 }
 kanji = '赤ちゃん'
 kana = 'あかちゃん'
 english = 'baby'
+french = 'bébé'
 level = 'n4'
 tags = ['common', 'noun', 'people']
 frequency_scores = { anime = 3675, leeds = 3651 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 3675, leeds = 3651 }
 kanji = '赤ん坊'
 kana = 'あかんぼう'
 english = 'infant'
+french = 'nourrisson'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun', 'people']
@@ -27,6 +30,7 @@ frequency_scores = { anime = 4599, leeds = 9738 }
 kanji = '貴方'
 kana = 'あなた'
 english = 'you (equal or lower status); dear (wife to husband)'
+french = 'vous (à un égal ou inférieur); chéri (épouse à son mari)'
 level = 'n5'
 tags = ['common', 'people', 'pronouns']
 frequency_scores = { anime = 1022, leeds = 4636, novels = 1686, wikipedia = 3647 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 1022, leeds = 4636, novels = 1686, wikipedia = 3647
 kanji = '王'
 kana = 'おう'
 english = 'king; monarch; sovereign'
+french = 'roi; monarque'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
@@ -44,6 +49,7 @@ frequency_scores = { anime = 234, leeds = 1759, novels = 343, wikipedia = 194 }
 kanji = '王様'
 kana = 'おうさま'
 english = 'king (sonkeigo)'
+french = 'roi (respectueux)'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
@@ -53,6 +59,7 @@ frequency_scores = { anime = 1902, leeds = 6426 }
 kanji = '大勢'
 kana = 'おおぜい'
 english = 'crowd of people'
+french = 'foule; beaucoup de gens'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2531, leeds = 3907, novels = 2691, wikipedia = 8495 }
@@ -61,6 +68,7 @@ frequency_scores = { anime = 2531, leeds = 3907, novels = 2691, wikipedia = 8495
 kanji = '男'
 kana = 'おとこ'
 english = 'man; male'
+french = 'homme; masculin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 124, leeds = 447, novels = 86, wikipedia = 585 }
@@ -69,6 +77,7 @@ frequency_scores = { anime = 124, leeds = 447, novels = 86, wikipedia = 585 }
 kanji = '男の子'
 kana = 'おとこのこ'
 english = 'boy'
+french = 'garçon'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1558, leeds = 3810, novels = 2708 }
@@ -77,6 +86,7 @@ frequency_scores = { anime = 1558, leeds = 3810, novels = 2708 }
 kanji = '大人'
 kana = 'おとな'
 english = 'adult'
+french = 'adulte'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 596, leeds = 1231, novels = 1367, wikipedia = 3742 }
@@ -85,6 +95,7 @@ frequency_scores = { anime = 596, leeds = 1231, novels = 1367, wikipedia = 3742 
 kanji = 'お巡りさん'
 kana = 'おまわりさん'
 english = 'police officer (friendly term)'
+french = 'agent de police (terme familier et amical)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 18423 }
@@ -93,6 +104,7 @@ frequency_scores = { anime = 18423 }
 kanji = '女'
 kana = 'おんな'
 english = 'woman; female'
+french = 'femme; féminin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 169, leeds = 740, novels = 110, wikipedia = 857 }
@@ -101,6 +113,7 @@ frequency_scores = { anime = 169, leeds = 740, novels = 110, wikipedia = 857 }
 kanji = '女の子'
 kana = 'おんなのこ'
 english = 'girl'
+french = 'fille'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 374, leeds = 1678, novels = 814, wikipedia = 6781 }
@@ -109,6 +122,7 @@ frequency_scores = { anime = 374, leeds = 1678, novels = 814, wikipedia = 6781 }
 kanji = '海賊'
 kana = 'かいぞく'
 english = 'pirate'
+french = 'pirate'
 source = 'anime'
 tags = ['anime', 'common', 'noun', 'people']
 frequency_scores = { anime = 925, leeds = 11093, wikipedia = 4712 }
@@ -117,6 +131,7 @@ frequency_scores = { anime = 925, leeds = 11093, wikipedia = 4712 }
 kanji = '家族'
 kana = 'かぞく'
 english = 'family'
+french = 'famille'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 580, leeds = 599, novels = 1467, wikipedia = 981 }
@@ -125,6 +140,7 @@ frequency_scores = { anime = 580, leeds = 599, novels = 1467, wikipedia = 981 }
 kanji = '方'
 kana = 'かた'
 english = 'person (sonkeigo); method or way of'
+french = 'personne (respectueux); façon de ~'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 88, leeds = 116, novels = 108, wikipedia = 800 }
@@ -133,6 +149,7 @@ frequency_scores = { anime = 88, leeds = 116, novels = 108, wikipedia = 800 }
 kanji = '金持ち'
 kana = 'かねもち'
 english = 'rich person'
+french = 'riche (personne)'
 tags = ['common', 'noun', 'people']
 level = 'n4'
 frequency_scores = { anime = 5006, leeds = 3937 }
@@ -141,6 +158,7 @@ frequency_scores = { anime = 5006, leeds = 3937 }
 kanji = '看護師'
 kana = 'かんごし'
 english = 'hospital nurse'
+french = 'infirmier, infirmière (hôpital)'
 level = 'n4'
 tags = ['common']
 
@@ -148,6 +166,7 @@ tags = ['common']
 kanji = '外国人'
 kana = 'がいこくじん'
 english = 'foreigner'
+french = 'étranger (personne)'
 level = 'n5'
 tags = ['common', 'noun']
 
@@ -155,6 +174,7 @@ tags = ['common', 'noun']
 kanji = '外人'
 kana = 'がいじん'
 english = 'foreigner (less polite)'
+french = 'étranger (moins poli)'
 tags = ['common', 'noun']
 frequency_scores = { anime = 14098, leeds = 7719 }
 
@@ -162,6 +182,7 @@ frequency_scores = { anime = 14098, leeds = 7719 }
 kanji = '学者'
 kana = 'がくしゃ'
 english = 'scholar'
+french = 'savant; universitaire'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
@@ -171,6 +192,7 @@ frequency_scores = { anime = 8082, leeds = 2170, wikipedia = 674 }
 kanji = '警官'
 kana = 'けいかん'
 english = 'police'
+french = 'policier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4620, leeds = 5513, novels = 2475, wikipedia = 8024 }
@@ -179,6 +201,7 @@ frequency_scores = { anime = 4620, leeds = 5513, novels = 2475, wikipedia = 8024
 kanji = '子'
 kana = 'こ'
 english = 'child'
+french = 'enfant'
 source = 'irasshai'
 level = 'n4'
 tags = ['age', 'common', 'noun', 'noun-suffix', 'people', 'young']
@@ -188,6 +211,7 @@ frequency_scores = { anime = 70, leeds = 508, novels = 184, wikipedia = 157 }
 kanji = '子供'
 kana = 'こども'
 english = 'child'
+french = 'enfant'
 level = 'n5'
 tags = ['common', 'noun', 'people']
 frequency_scores = { anime = 264, leeds = 320, novels = 263, wikipedia = 565 }
@@ -196,6 +220,7 @@ frequency_scores = { anime = 264, leeds = 320, novels = 263, wikipedia = 565 }
 kanji = '市民'
 kana = 'しみん'
 english = 'citizen; city inhabitant'
+french = "citoyen; habitant d'une ville"
 source = 'n4-vocab'
 level = 'n4'
 tags = ['common', 'noun', 'people']
@@ -205,6 +230,7 @@ frequency_scores = { anime = 2570, leeds = 1069, novels = 2809, wikipedia = 973 
 kanji = '社長'
 kana = 'しゃちょう'
 english = 'company president; manager; director'
+french = 'P.-D.G.; directeur'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
@@ -214,6 +240,7 @@ frequency_scores = { anime = 2501, leeds = 914, wikipedia = 968 }
 kanji = '自分'
 kana = 'じぶん'
 english = 'myself; oneself'
+french = 'soi-même; moi-même'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 68, leeds = 112, novels = 57, wikipedia = 455 }
@@ -222,6 +249,7 @@ frequency_scores = { anime = 68, leeds = 112, novels = 57, wikipedia = 455 }
 kanji = '住民'
 kana = 'じゅうみん'
 english = 'resident'
+french = 'habitant'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
@@ -231,6 +259,7 @@ frequency_scores = { anime = 4612, leeds = 1334, wikipedia = 938 }
 kanji = '女王'
 kana = 'じょおう'
 english = 'queen'
+french = 'reine'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
@@ -240,6 +269,7 @@ frequency_scores = { anime = 2017, leeds = 6055, novels = 1777, wikipedia = 2958
 kanji = '助手'
 kana = 'じょしゅ'
 english = 'assistant'
+french = 'assistant'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
@@ -249,6 +279,7 @@ frequency_scores = { anime = 4997, leeds = 7007, wikipedia = 3940 }
 kanji = '人口'
 kana = 'じんこう'
 english = 'population'
+french = 'population'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun']
@@ -258,6 +289,7 @@ frequency_scores = { anime = 6136, leeds = 1507, wikipedia = 282 }
 kanji = '声優'
 kana = 'せいゆう'
 english = 'actor; performer'
+french = 'comédien de doublage; seiyū'
 tags = ['noun', 'people', 'uncommon']
 frequency_scores = { anime = 5538, leeds = 9095, wikipedia = 1493 }
 
@@ -265,6 +297,7 @@ frequency_scores = { anime = 5538, leeds = 9095, wikipedia = 1493 }
 kanji = '選手'
 kana = 'せんしゅ'
 english = 'athelete; player (sports)'
+french = 'athlète; joueur (sport)'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'sports']
@@ -274,6 +307,7 @@ frequency_scores = { anime = 742, leeds = 559, wikipedia = 78 }
 kanji = '大統領'
 kana = 'だいとうりょう'
 english = 'president (of a nation or company)'
+french = "président (d'un pays)"
 source = 'stay in japan'
 level = 'n3'
 tags = ['common', 'company', 'noun', 'people', 'politics', 'work']
@@ -283,6 +317,7 @@ frequency_scores = { anime = 10604, leeds = 1434, wikipedia = 530 }
 kanji = '町民'
 kana = 'ちょうみん'
 english = 'townspeople'
+french = 'habitants de la ville'
 source = 'wanikani'
 tags = ['common', 'people', 'town']
 frequency_scores = { anime = 25459, leeds = 12512 }
@@ -291,6 +326,7 @@ frequency_scores = { anime = 25459, leeds = 12512 }
 kanji = '天才'
 kana = 'てんさい'
 english = 'genius'
+french = 'génie'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'noun']
@@ -300,6 +336,7 @@ frequency_scores = { anime = 1373, leeds = 4307, wikipedia = 6371 }
 kanji = 'とこや'
 kana = 'とこや'
 english = 'barber'
+french = 'coiffeur (pour hommes); barbier'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'noun', 'person']
@@ -308,6 +345,7 @@ tags = ['common', 'noun', 'person']
 kanji = '年寄り'
 kana = 'としより'
 english = 'elderly person'
+french = 'personne âgée'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun']
@@ -317,6 +355,7 @@ frequency_scores = { anime = 5774, leeds = 6192, wikipedia = 6779 }
 kanji = '友達'
 kana = 'ともだち'
 english = 'friend (spoken form)'
+french = 'ami'
 level = 'n5'
 explain = 'https://hinative.com/en-US/questions/696835'
 tags = []
@@ -326,6 +365,7 @@ frequency_scores = { anime = 235, leeds = 1074, novels = 1400, wikipedia = 6434 
 kanji = '泥棒'
 kana = 'どろぼう'
 english = 'thief'
+french = 'voleur'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 2626, leeds = 7679 }
@@ -334,6 +374,7 @@ frequency_scores = { anime = 2626, leeds = 7679 }
 kanji = '仲間'
 kana = 'なかま'
 english = 'companion'
+french = 'camarade; compagnon'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'people']
@@ -343,6 +384,7 @@ frequency_scores = { anime = 291, leeds = 1450, novels = 730, wikipedia = 2071 }
 kanji = '～人'
 kana = '～にん'
 english = 'counter for people'
+french = 'compteur pour les personnes'
 level = 'n5'
 tags = []
 
@@ -350,6 +392,7 @@ tags = []
 kanji = '人間'
 kana = 'にんげん'
 english = 'human being; mankind'
+french = 'être humain; humanité'
 level = 'n3'
 tags = ['anime', 'common', 'noun', 'people']
 frequency_scores = { anime = 105, leeds = 246, novels = 159, wikipedia = 599 }
@@ -358,6 +401,7 @@ frequency_scores = { anime = 105, leeds = 246, novels = 159, wikipedia = 599 }
 kanji = '俳優'
 kana = 'はいゆう'
 english = 'actor; performer'
+french = 'acteur'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'people']
 frequency_scores = { anime = 12212, leeds = 4031, wikipedia = 860 }
@@ -366,6 +410,7 @@ frequency_scores = { anime = 12212, leeds = 4031, wikipedia = 860 }
 kanji = '白人'
 kana = 'はくじん'
 english = 'white person; Caucasian'
+french = 'Blanc (personne); Caucasien'
 source = 'wanikani'
 tags = ['common', 'no-adjective']
 frequency_scores = { anime = 27563, leeds = 5987, wikipedia = 3511 }
@@ -374,6 +419,7 @@ frequency_scores = { anime = 27563, leeds = 5987, wikipedia = 3511 }
 kanji = '馬鹿'
 kana = 'ばか'
 english = 'idiot'
+french = 'idiot'
 source = 'i have always known this'
 level = 'n3'
 tags = ['common', 'na-adjective', 'noun']
@@ -383,6 +429,7 @@ frequency_scores = { anime = 694, leeds = 3020, novels = 1044, wikipedia = 5993 
 kanji = '髭'
 kana = 'ひげ'
 english = 'mustache'
+french = 'moustache; barbe'
 source = 'irasshai'
 level = 'n4'
 tags = ['body', 'common', 'facial-hair', 'noun', 'people', 'style']
@@ -392,6 +439,7 @@ frequency_scores = { anime = 10006, wikipedia = 6735 }
 kanji = '人'
 kana = 'ひと'
 english = 'man; person'
+french = 'personne; homme'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 22, leeds = 45, novels = 33, wikipedia = 35 }
@@ -400,6 +448,7 @@ frequency_scores = { anime = 22, leeds = 45, novels = 33, wikipedia = 35 }
 kanji = '人々'
 kana = 'ひとびと'
 english = 'people; each person'
+french = 'gens; chacun'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'people']
 frequency_scores = { anime = 1481, leeds = 526, novels = 551, wikipedia = 862 }
@@ -408,6 +457,7 @@ frequency_scores = { anime = 1481, leeds = 526, novels = 551, wikipedia = 862 }
 kanji = '一人'
 kana = 'ひとり'
 english = 'one person'
+french = 'une personne; seul'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 41614, leeds = 1665, novels = 344 }
@@ -416,6 +466,7 @@ frequency_scores = { anime = 41614, leeds = 1665, novels = 344 }
 kanji = '二人'
 kana = 'ふたり'
 english = 'two people'
+french = 'deux personnes'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4978, leeds = 4297, novels = 714 }
@@ -424,6 +475,7 @@ frequency_scores = { anime = 4978, leeds = 4297, novels = 714 }
 kanji = '星'
 kana = 'ほし'
 english = 'star'
+french = 'étoile'
 level = 'n4'
 tags = ['common', 'noun', 'space']
 frequency_scores = { anime = 263, leeds = 1705, novels = 767, wikipedia = 605 }
@@ -432,6 +484,7 @@ frequency_scores = { anime = 263, leeds = 1705, novels = 767, wikipedia = 605 }
 kanji = '皆さん'
 kana = 'みなさん'
 english = 'everyone (sonkeigo)'
+french = 'tout le monde (respectueux)'
 level = 'n5'
 tags = ['common', 'honorific', 'noun', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 460, leeds = 735 }
@@ -440,6 +493,7 @@ frequency_scores = { anime = 460, leeds = 735 }
 kanji = '皆'
 kana = 'みんな'
 english = 'everyone'
+french = 'tout le monde'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 232, leeds = 1489, novels = 967, wikipedia = 2169 }
@@ -448,6 +502,7 @@ frequency_scores = { anime = 232, leeds = 1489, novels = 967, wikipedia = 2169 }
 kanji = '役人'
 kana = 'やくにん'
 english = 'government official'
+french = 'fonctionnaire'
 level = 'n2'
 tags = ['common', 'government']
 frequency_scores = { anime = 4421, leeds = 6088, wikipedia = 7261 }
@@ -456,6 +511,7 @@ frequency_scores = { anime = 4421, leeds = 6088, wikipedia = 7261 }
 kanji = '奴ら'
 kana = 'やつら'
 english = 'they; those guys'
+french = 'ils; ces types'
 source = 'wanikani'
 tags = ['common', 'people', 'pronoun']
 frequency_scores = { anime = 545, leeds = 10488 }
@@ -464,6 +520,7 @@ frequency_scores = { anime = 545, leeds = 10488 }
 kanji = '友人'
 kana = 'ゆうじん'
 english = 'friend (written form)'
+french = 'ami (soutenu, écrit)'
 level = 'n3'
 source = 'wanikani'
 explain = 'https://hinative.com/en-US/questions/696835'
@@ -474,6 +531,7 @@ frequency_scores = { anime = 2168, leeds = 870, novels = 1603, wikipedia = 2127 
 kanji = '幼児'
 kana = 'ようじ'
 english = 'toddler'
+french = 'jeune enfant; bambin'
 level = 'n2'
 source = 'jisho.org'
 tags = ['common', 'noun', 'people']
@@ -483,6 +541,7 @@ frequency_scores = { anime = 16297, leeds = 4568, wikipedia = 7129 }
 kanji = '若い'
 kana = 'わかい'
 english = 'young; youthful'
+french = 'jeune'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 854, leeds = 891, novels = 386, wikipedia = 1526 }
@@ -491,6 +550,7 @@ frequency_scores = { anime = 854, leeds = 891, novels = 386, wikipedia = 1526 }
 kanji = '私'
 kana = 'わたくし'
 english = 'I; me (more formal)'
+french = 'je; moi (soutenu)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
@@ -499,6 +559,7 @@ frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
 kanji = '私'
 kana = 'わたし'
 english = 'I; me'
+french = 'je; moi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
@@ -507,6 +568,7 @@ frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
 kanji = 'アナウンサー'
 kana = 'アナウンサー'
 english = 'announcer'
+french = 'présentateur; speaker'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'people']
 frequency_scores = { anime = 4234, leeds = 8778, wikipedia = 1436 }

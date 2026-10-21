@@ -11,6 +11,7 @@ frequency_scores = { anime = 11593, leeds = 3368, novels = 489, wikipedia = 990 
 kanji = '凄く'
 kana = 'すごく'
 english = 'awfully; immensely'
+french = 'terriblement; énormément'
 explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'uncommon']
 
@@ -18,6 +19,7 @@ tags = ['adverb', 'uncommon']
 kanji = '随分'
 kana = 'ずいぶん'
 english = 'extremely; surprisingly'
+french = 'extrêmement; considérablement'
 source = 'wanikani; anime'
 level = 'n3'
 tags = ['adverb', 'adverb-taking-to-particle', 'common']
@@ -46,6 +48,7 @@ frequency_scores = { anime = 518, leeds = 394, novels = 541, wikipedia = 5246 }
 kanji = '非常に'
 kana = 'ひじょうに'
 english = 'extremely; exceedingly'
+french = 'extrêmement'
 level = 'n4'
 explain = 'http://nihonshock.com/2009/11/stop-saying-totemo/'
 tags = ['adverb', 'common']
@@ -54,6 +57,7 @@ tags = ['adverb', 'common']
 kanji = '酷く'
 kana = 'ひどく'
 english = 'terribly; awfully; very much'
+french = 'terriblement; affreusement; très'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 16515 }
 

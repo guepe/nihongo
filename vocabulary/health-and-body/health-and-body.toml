@@ -2,6 +2,7 @@
 kanji = '欠伸'
 kana = 'あくび'
 english = 'yawn'
+french = 'bâillement'
 level = 'n2'
 source = 'wanikani'
 tags = ['common']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 32716 }
 kanji = '息'
 kana = 'いき'
 english = 'breath; breathing'
+french = 'souffle; respiration'
 level = 'n3'
 tags = ['biology', 'common', 'noun']
 frequency_scores = { anime = 973, leeds = 3361, novels = 354, wikipedia = 7173 }
@@ -28,6 +30,7 @@ frequency_scores = { anime = 305, leeds = 1883, novels = 862 }
 kanji = '運動'
 kana = 'うんどう'
 english = 'exercise'
+french = 'exercice (physique)'
 level = 'n3'
 tags = ['activity', 'common', 'health', 'noun', 'suru-verb']
 frequency_scores = { anime = 1857, leeds = 790, novels = 1531, wikipedia = 402 }
@@ -45,6 +48,7 @@ frequency_scores = { anime = 1477, leeds = 3103 }
 kanji = '渇き'
 kana = 'かわき'
 english = 'thirst'
+french = 'soif'
 tags = ['common', 'noun']
 frequency_scores = { anime = 13433 }
 
@@ -52,6 +56,7 @@ frequency_scores = { anime = 13433 }
 kanji = '怪我'
 kana = 'けが'
 english = 'injury'
+french = 'blessure'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']
@@ -97,6 +102,7 @@ frequency_scores = { anime = 2716, leeds = 4364, novels = 642, wikipedia = 3554 
 kanji = '背中'
 kana = 'せなか'
 english = 'back (of body)'
+french = 'dos'
 level = 'n4'
 source = 'https://www.japanesepod101.com/japanese-word-lists/'
 tags = ['body', 'common']

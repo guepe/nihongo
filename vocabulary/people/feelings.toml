@@ -2,6 +2,7 @@
 kanji = '愛'
 kana = 'あい'
 english = 'love; affection'
+french = 'amour; affection'
 level = 'n3'
 tags = ['common', 'noun', 'noun-suffix']
 frequency_scores = { anime = 408, leeds = 968, novels = 968, wikipedia = 1043 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 408, leeds = 968, novels = 968, wikipedia = 1043 }
 kanji = '感じ'
 kana = 'かんじ'
 english = 'sense; impression; feeling (eg. towards music or art)'
+french = "sensation; impression (ex. envers la musique ou l'art)"
 level = 'n3'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
 tags = ['common', 'noun']
@@ -19,6 +21,7 @@ frequency_scores = { anime = 274, leeds = 340, novels = 504 }
 kanji = '気分'
 kana = 'きぶん'
 english = 'feeling (physical); mood'
+french = 'humeur; se sentir (physiquement)'
 level = 'n4'
 source = 'wanikani'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
@@ -29,6 +32,7 @@ frequency_scores = { anime = 799, leeds = 1126, novels = 683, wikipedia = 9644 }
 kanji = '気持ち'
 kana = 'きもち'
 english = 'feeling (mental); mood'
+french = "sentiment; état d'esprit"
 source = 'anime'
 level = 'n4'
 explain = 'https://www.learn-japanese-adventure.com/what-is-the-difference-between-kimochi-kibun-and-choushi.html'
@@ -39,6 +43,7 @@ frequency_scores = { anime = 261, leeds = 521, novels = 503, wikipedia = 6089 }
 kanji = '嫌い'
 kana = 'きらい'
 english = 'dislike; hate'
+french = 'détester; ne pas aimer'
 level = 'n5'
 tags = ['common', 'na-adjective']
 frequency_scores = { anime = 609, leeds = 2536, novels = 2465, wikipedia = 9533 }
@@ -47,6 +52,7 @@ frequency_scores = { anime = 609, leeds = 2536, novels = 2465, wikipedia = 9533 
 kanji = '好き'
 kana = 'すき'
 english = 'liking; fondness; favorite; love'
+french = 'aimer; apprécier; préféré'
 level = 'n5'
 tags = ['common', 'na-adjective', 'noun']
 frequency_scores = { anime = 113, leeds = 351, novels = 457, wikipedia = 2249 }

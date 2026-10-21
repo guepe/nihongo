@@ -2,6 +2,7 @@
 kanji = 'かどうか'
 kana = 'かどうか'
 english = "whether or not (eg. I do't know whether or not I can come.)"
+french = 'si ... ou non (ex. je ne sais pas si je peux venir ou non)'
 source = 'wanikani'
 tags = ['common']
 
@@ -9,6 +10,7 @@ tags = ['common']
 kanji = 'が'
 kana = 'が'
 english = 'and, but (links two clauses)'
+french = 'mais; et (relie deux propositions)'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
 
@@ -16,6 +18,7 @@ tags = ['common', 'conjunction']
 kanji = 'けど'
 kana = 'けど'
 english = 'however (links two clauses); however... (soft open ending)'
+french = 'mais (relie deux propositions); mais... (fin de phrase adoucie)'
 level = 'n4'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction', 'particle']
@@ -35,6 +38,7 @@ frequency_scores = { leeds = 165, novels = 113, wikipedia = 81 }
 kanji = '然も'
 kana = 'しかも'
 english = 'furthermore'
+french = 'de plus; en outre'
 level = 'n3'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
@@ -53,6 +57,7 @@ frequency_scores = { leeds = 2603, novels = 445 }
 kanji = 'すると'
 kana = 'すると'
 english = 'just then'
+french = 'alors; à ce moment-là'
 source = 'kachikachiyama'
 level = 'n4'
 tags = ['common', 'conjunction']
@@ -82,6 +87,7 @@ frequency_scores = { leeds = 150, novels = 104, wikipedia = 270 }
 kanji = '其れに'
 kana = 'それに'
 english = 'moreover'
+french = 'de plus; en outre'
 level = 'n4'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
@@ -91,12 +97,14 @@ frequency_scores = { leeds = 2942, novels = 596 }
 kanji = '為に'
 kana = 'ために'
 english = 'for the sake of; on behalf of'
+french = "pour; dans l'intérêt de; au nom de"
 tags = ['common', 'conjunction']
 
 [[cards]]
 kanji = 'だって'
 kana = 'だって'
 english = 'after all, because (explains previous sentence)'
+french = 'parce que; après tout (justifie la phrase précédente)'
 explain = 'https://kawakawalearningstudio.com/all/how-to-use-linking-words-and-phrases-to-connect-your-sentences/'
 tags = ['common', 'conjunction']
 frequency_scores = { leeds = 910, novels = 205 }
@@ -124,6 +132,7 @@ tags = ['common', 'conjunction']
 kanji = 'どうせ'
 kana = 'どうせ'
 english = 'anyhow; at best'
+french = 'de toute façon; au mieux'
 level = 'n2'
 source = 'wanikani'
 tags = ['adverb', 'common']

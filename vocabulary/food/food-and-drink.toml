@@ -19,6 +19,7 @@ frequency_scores = { anime = 4559, leeds = 6882 }
 kanji = '胡椒'
 kana = 'こしょう'
 english = 'pepper'
+french = 'poivre'
 level = 'n2'
 tags = ['common', 'food', 'noun']
 frequency_scores = { anime = 19577 }
@@ -45,6 +46,7 @@ frequency_scores = { anime = 2873, leeds = 3197, wikipedia = 1721 }
 kanji = '生姜'
 kana = 'しょうが'
 english = 'ginger'
+french = 'gingembre'
 tags = ['common', 'food', 'noun']
 frequency_scores = { anime = 18252, leeds = 4987 }
 
@@ -61,6 +63,7 @@ frequency_scores = { anime = 5238, leeds = 5046, novels = 2968, wikipedia = 6474
 kanji = '食品'
 kana = 'しょくひん'
 english = 'foodstuffs; food products'
+french = 'denrées alimentaires; produits alimentaires'
 level = 'n3'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'noun']
@@ -70,6 +73,7 @@ frequency_scores = { anime = 13128, leeds = 1995, wikipedia = 2066 }
 kanji = '食料品'
 kana = 'しょくりょうひん'
 english = 'groceries'
+french = 'produits alimentaires; épicerie'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'food', 'noun', 'shopping']
@@ -78,6 +82,7 @@ tags = ['common', 'food', 'noun', 'shopping']
 kanji = '蕎麦'
 kana = 'そば'
 english = 'buckwheat; buckwheat noodles'
+french = 'sarrasin; soba (nouilles de sarrasin)'
 level = 'n2'
 tags = ['common', 'food']
 frequency_scores = { anime = 12451, leeds = 6989, novels = 698 }
@@ -86,6 +91,7 @@ frequency_scores = { anime = 12451, leeds = 6989, novels = 698 }
 kanji = '堆肥'
 kana = 'たいひ'
 english = 'compost'
+french = 'compost'
 tags = ['common', 'kitchen', 'noun']
 
 [[cards]]
@@ -119,6 +125,7 @@ frequency_scores = { anime = 1469, leeds = 3526, novels = 882 }
 kanji = '生'
 kana = 'なま'
 english = 'raw; uncooked; fresh'
+french = 'cru; frais'
 source = 'sekai-wa-fushigi-2'
 level = 'n3'
 tags = ['common', 'na-adjective', 'no-adjective', 'noun', 'prefix']
@@ -207,6 +214,7 @@ frequency_scores = { anime = 1340, leeds = 3195, wikipedia = 7105 }
 kanji = 'スパイス'
 kana = 'スパイス'
 english = 'spice'
+french = 'épice'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 4992, leeds = 12003 }
 

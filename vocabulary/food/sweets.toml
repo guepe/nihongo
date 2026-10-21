@@ -29,6 +29,7 @@ frequency_scores = { anime = 5141, leeds = 5487, wikipedia = 5155 }
 kanji = 'チョコ'
 kana = 'チョコ'
 english = 'chocolate (shortened)'
+french = 'chocolat (abrégé)'
 tags = ['candy', 'common', 'noun', 'sweets']
 frequency_scores = { anime = 1524, leeds = 5339 }
 
@@ -36,6 +37,7 @@ frequency_scores = { anime = 1524, leeds = 5339 }
 kanji = 'チョコレート'
 kana = 'チョコレート'
 english = 'chocolate'
+french = 'chocolat'
 tags = ['candy', 'common', 'noun', 'sweets']
 frequency_scores = { anime = 6232, leeds = 4698, wikipedia = 8840 }
 

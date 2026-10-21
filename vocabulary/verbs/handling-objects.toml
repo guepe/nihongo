@@ -2,6 +2,7 @@
 kanji = '拾う'
 kana = 'ひろう'
 english = 'to pick up ~'
+french = 'ramasser ~'
 english-conjugated = { base = 'pick up', past = 'picked up', plural = 'picks up', continuous = 'picking up' }
 verb-type = 'godan-u'
 transitive = true

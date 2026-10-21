@@ -2,6 +2,7 @@
 kanji = '言う'
 kana = 'いう'
 english = 'to say (quoting); to call something (its name)'
+french = 'dire (citation); appeler (nommer)'
 english-conjugated = { base = 'say', past = 'said', plural = 'says', continuous = 'saying' }
 verb-type = 'godan-u'
 transitive = false
@@ -14,6 +15,7 @@ frequency_scores = { anime = 24, leeds = 72, novels = 37, wikipedia = 31 }
 kanji = '歌う'
 kana = 'うたう'
 english = 'to sing'
+french = 'chanter'
 english-conjugated = { base = 'sing', past = 'sang', plural = 'sings', continuous = 'singing' }
 verb-type = 'godan-u'
 transitive = false
@@ -25,6 +27,7 @@ frequency_scores = { anime = 713, leeds = 1551, novels = 2818, wikipedia = 1124 
 kanji = '噛む'
 kana = 'かむ'
 english = 'to bite ~; to chew ~'
+french = 'mordre ~; mâcher ~'
 english-conjugated = { base = 'bite', plural = 'bites', past = 'bit', continuous = 'biting' }
 verb-type = 'godan-mu'
 transitive = true
@@ -37,6 +40,7 @@ frequency_scores = { anime = 3159, leeds = 6924, novels = 2616, wikipedia = 5142
 kanji = '答える'
 kana = 'こたえる'
 english = 'to answer'
+french = 'répondre'
 english-conjugated = { base = 'answer', past = 'answered', plural = 'answers', continuous = 'answering' }
 verb-type = 'ichidan'
 transitive = false
@@ -48,6 +52,7 @@ frequency_scores = { anime = 936, leeds = 1084, novels = 274, wikipedia = 2947 }
 kanji = '喋る'
 kana = 'しゃべる'
 english = 'to talk (chat); to chat; to chatter'
+french = 'parler; bavarder; jacasser'
 english-conjugated = { base = 'chat', past = 'chatted', plural = 'chats', continuous = 'chatting' }
 level = 'n3'
 verb-type = 'godan-ru'
@@ -60,6 +65,7 @@ frequency_scores = { anime = 1577, leeds = 5205, novels = 2807, wikipedia = 8415
 kanji = '食べる'
 kana = 'たべる'
 english = 'to eat ~'
+french = 'manger ~'
 english-conjugated = { continuous = 'eating', base = 'eat', plural = 'eats', past = 'ate' }
 verb-type = 'ichidan'
 transitive = true
@@ -72,6 +78,7 @@ frequency_scores = { anime = 123, leeds = 339, novels = 602, wikipedia = 2085 }
 kanji = '飲む'
 kana = 'のむ'
 english = 'to drink ~; to swallow ~'
+french = 'boire ~; avaler ~'
 english-conjugated = { base = 'drink', past = 'drank', plural = 'drinks', continuous = 'drinking' }
 verb-type = 'godan-mu'
 transitive = true
@@ -83,6 +90,7 @@ frequency_scores = { anime = 397, leeds = 628, novels = 531, wikipedia = 3120 }
 kanji = '話す'
 kana = 'はなす'
 english = 'to speak ~; to talk ~'
+french = 'parler ~; raconter ~'
 english-conjugated = { base = 'speak', past = 'spoke', plural = 'speaks', continuous = 'speaking' }
 verb-type = 'godan-su'
 transitive = true
@@ -94,6 +102,7 @@ frequency_scores = { anime = 249, leeds = 604, novels = 384, wikipedia = 1908 }
 kanji = '笑う'
 kana = 'わらう'
 english = 'to laugh'
+french = 'rire'
 english-conjugated = { base = 'laugh', past = 'laughed', continuous = 'laughing', plural = 'laughs' }
 verb-type = 'godan-u'
 transitive = false

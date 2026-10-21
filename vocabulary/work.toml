@@ -2,6 +2,7 @@
 kanji = '経済'
 kana = 'けいざい'
 english = 'economics; business; finance'
+french = 'économie; finance'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 6677, leeds = 279, wikipedia = 288 }
 kanji = '産業'
 kana = 'さんぎょう'
 english = 'industry'
+french = 'industrie'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['no-adjective', 'noun']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 15700, leeds = 801, wikipedia = 677 }
 kanji = '仕事'
 kana = 'しごと'
 english = 'work; job'
+french = 'travail; emploi'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 210, leeds = 220, novels = 349, wikipedia = 1046 }
@@ -28,6 +31,7 @@ frequency_scores = { anime = 210, leeds = 220, novels = 349, wikipedia = 1046 }
 kanji = '名刺'
 kana = 'めいし'
 english = 'business card'
+french = 'carte de visite'
 level = 'n2'
 tags = ['common']
 frequency_scores = { anime = 11073, leeds = 6369 }

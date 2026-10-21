@@ -101,6 +101,7 @@ frequency_scores = { anime = 1688, leeds = 2088, novels = 293, wikipedia = 2895 
 kanji = '橙色'
 kana = 'だいだいいろ'
 english = 'orange (color of the fruit)'
+french = 'orange (couleur)'
 tags = ['common', 'no-adjective', 'noun']
 
 [[cards]]
@@ -116,6 +117,7 @@ frequency_scores = { anime = 18992, leeds = 10627 }
 kanji = '灰色'
 kana = 'はいいろ'
 english = 'gray; ashen'
+french = 'gris; cendré'
 level = 'n2'
 tags = ['color', 'common', 'no-adjective', 'noun']
 frequency_scores = { anime = 10148, leeds = 10853, novels = 2200, wikipedia = 6855 }
@@ -133,6 +135,7 @@ frequency_scores = { anime = 989, leeds = 2715, novels = 1838, wikipedia = 1991 
 kanji = '紫'
 kana = 'むらさき'
 english = 'purple'
+french = 'violet'
 source = 'irasshai'
 level = 'n2'
 tags = ['colors', 'common', 'noun']
@@ -142,6 +145,7 @@ frequency_scores = { anime = 4551, leeds = 6507, wikipedia = 4143 }
 kanji = 'ピンク'
 kana = 'ピンク'
 english = 'pink'
+french = 'rose (couleur)'
 level = 'n2'
 tags = ['color', 'common', 'gairaigo', 'no-adjective', 'noun']
 frequency_scores = { anime = 7852, leeds = 4892, novels = 2853, wikipedia = 5073 }

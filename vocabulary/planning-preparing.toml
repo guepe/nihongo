@@ -2,6 +2,7 @@
 kanji = '計画'
 kana = 'けいかく'
 english = 'project; plan'
+french = 'projet; plan'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 937, leeds = 474, novels = 1192, wikipedia = 221 }
 kanji = '支度'
 kana = 'したく'
 english = 'preparation; arrangements'
+french = 'préparatifs'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 4932, leeds = 13424 }
 kanji = '積もり'
 kana = 'つもり'
 english = 'intention; plan'
+french = 'intention'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'noun']
@@ -29,6 +32,7 @@ frequency_scores = { anime = 194, leeds = 1015, novels = 321 }
 kanji = '予定'
 kana = 'よてい'
 english = 'plans; arrangement'
+french = 'programme; prévision'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suru-verb']

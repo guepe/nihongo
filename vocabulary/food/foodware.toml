@@ -18,6 +18,7 @@ tags = []
 kanji = '皿'
 kana = 'さら'
 english = 'plate'
+french = 'assiette'
 level = 'n3'
 tags = ['common', 'noun']
 frequency_scores = { anime = 2653, leeds = 4932, novels = 2564, wikipedia = 7819 }

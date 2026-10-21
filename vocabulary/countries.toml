@@ -2,6 +2,7 @@
 kanji = '韓国'
 kana = 'かんこく'
 english = 'South Korea'
+french = 'Corée du Sud'
 tags = ['common', 'countries', 'no-adjective', 'noun', 'world']
 frequency_scores = { anime = 41425, leeds = 611, wikipedia = 675 }
 
@@ -9,6 +10,7 @@ frequency_scores = { anime = 41425, leeds = 611, wikipedia = 675 }
 kanji = '北朝鮮'
 kana = 'きたちょうせん'
 english = 'North Korea'
+french = 'Corée du Nord'
 tags = ['common', 'countries', 'noun', 'place', 'world']
 frequency_scores = { anime = 36337, leeds = 1170, wikipedia = 2954 }
 
@@ -16,6 +18,7 @@ frequency_scores = { anime = 36337, leeds = 1170, wikipedia = 2954 }
 kanji = '朝鮮'
 kana = 'ちょうせん'
 english = 'Korea'
+french = 'Corée'
 tags = ['common', 'countries', 'noun', 'place', 'world']
 frequency_scores = { anime = 37058, leeds = 2324, wikipedia = 921 }
 
@@ -23,6 +26,7 @@ frequency_scores = { anime = 37058, leeds = 2324, wikipedia = 921 }
 kanji = '米国'
 kana = 'べいこく'
 english = 'USA'
+french = 'États-Unis'
 tags = ['common', 'noun']
 frequency_scores = { anime = 15619, leeds = 720, wikipedia = 1071 }
 
@@ -30,6 +34,7 @@ frequency_scores = { anime = 15619, leeds = 720, wikipedia = 1071 }
 kanji = 'アフリカ'
 kana = 'アフリカ'
 english = 'Africa'
+french = 'Afrique'
 level = 'n4'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
 frequency_scores = { anime = 9323, leeds = 3062, wikipedia = 1301 }
@@ -38,6 +43,7 @@ frequency_scores = { anime = 9323, leeds = 3062, wikipedia = 1301 }
 kanji = 'アメリカ'
 kana = 'アメリカ'
 english = 'America'
+french = 'États-Unis; Amérique'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
 frequency_scores = { anime = 3494, leeds = 261, novels = 2133, wikipedia = 93 }

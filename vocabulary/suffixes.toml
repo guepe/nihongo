@@ -2,6 +2,7 @@
 kanji = '～頃'
 kana = '～ころ'
 english = 'around time ~; (approximate) time ~'
+french = 'vers ~ (moment approximatif)'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverbial-noun', 'common', 'noun', 'noun-suffix']
@@ -10,6 +11,7 @@ tags = ['adverbial-noun', 'common', 'noun', 'noun-suffix']
 kanji = '～語'
 kana = '～ご'
 english = 'language (suffix); counter for words'
+french = 'langue ～ (suffixe); compteur pour les mots'
 level = 'n5'
 tags = []
 
@@ -17,6 +19,7 @@ tags = []
 kanji = '市'
 kana = 'し'
 english = 'city'
+french = 'ville'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'noun', 'suffix']
@@ -26,6 +29,7 @@ frequency_scores = { anime = 2813, leeds = 373, novels = 1242, wikipedia = 237 }
 kanji = '～達'
 kana = '～たち'
 english = 'pluralizing suffix'
+french = 'suffixe de pluriel'
 level = 'n5'
 tags = []
 
@@ -33,6 +37,7 @@ tags = []
 kanji = '～ちゃん'
 kana = '～ちゃん'
 english = 'suffix for familiar person (familiar language)'
+french = 'suffixe affectueux (familier)'
 source = 'anime'
 level = 'n4'
 tags = ['anime', 'common', 'cute', 'name', 'suffix']

@@ -11,6 +11,7 @@ frequency_scores = { anime = 434, leeds = 861, novels = 248, wikipedia = 1249 }
 kanji = '足首'
 kana = 'あしくび'
 english = 'ankle'
+french = 'cheville'
 source = 'wanikani/jisho'
 tags = ['body', 'common', 'noun']
 frequency_scores = { anime = 25656, leeds = 13818 }
@@ -28,6 +29,7 @@ frequency_scores = { anime = 267, leeds = 506, novels = 144, wikipedia = 593 }
 kanji = '腕'
 kana = 'うで'
 english = 'arm'
+french = 'bras'
 level = 'n4'
 tags = ['anatomy', 'body', 'common', 'noun']
 frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
@@ -36,6 +38,7 @@ frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
 kanji = '腕'
 kana = 'うで'
 english = 'arm'
+french = 'bras'
 level = 'n4'
 tags = ['body', 'noun']
 frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
@@ -62,6 +65,7 @@ frequency_scores = { anime = 180, leeds = 558, novels = 71, wikipedia = 1878 }
 kanji = '踵'
 kana = 'かかと'
 english = 'heel'
+french = 'talon'
 level = 'n1'
 tags = ['body', 'common']
 frequency_scores = { anime = 30051 }
@@ -79,6 +83,7 @@ frequency_scores = { anime = 167, leeds = 494, novels = 219, wikipedia = 165 }
 kanji = '皮'
 kana = 'かわ'
 english = 'skin; hide'
+french = 'peau; cuir'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
@@ -88,6 +93,7 @@ frequency_scores = { anime = 3799, leeds = 4042, novels = 2385, wikipedia = 4341
 kanji = '筋肉'
 kana = 'きんにく'
 english = 'muscle'
+french = 'muscle'
 level = 'n3'
 source = 'manga'
 tags = ['common']
@@ -106,6 +112,7 @@ frequency_scores = { anime = 371, leeds = 907, novels = 136, wikipedia = 679 }
 kanji = '首'
 kana = 'くび'
 english = 'neck'
+french = 'cou'
 level = 'n4'
 tags = ['body', 'common']
 frequency_scores = { anime = 785, leeds = 2232, novels = 247, wikipedia = 1584 }
@@ -114,6 +121,7 @@ frequency_scores = { anime = 785, leeds = 2232, novels = 247, wikipedia = 1584 }
 kanji = '血'
 kana = 'ち'
 english = 'blood'
+french = 'sang'
 source = 'wanikani; anime'
 level = 'n4'
 tags = ['body', 'common', 'health', 'noun']
@@ -132,6 +140,7 @@ frequency_scores = { anime = 89, leeds = 281, novels = 76, wikipedia = 306 }
 kanji = '手首'
 kana = 'てくび'
 english = 'wrist'
+french = 'poignet'
 source = 'wanikani/jisho'
 level = 'n2'
 tags = ['body', 'common', 'noun']
@@ -141,6 +150,7 @@ frequency_scores = { anime = 10399, leeds = 10379, novels = 2113 }
 kanji = '涙'
 kana = 'なみだ'
 english = 'tear(s)'
+french = 'larme(s)'
 level = 'n3'
 tags = ['body', 'common']
 frequency_scores = { anime = 861, leeds = 1843, novels = 705, wikipedia = 5232 }
@@ -158,6 +168,7 @@ frequency_scores = { anime = 1851, leeds = 3656, novels = 743, wikipedia = 5022 
 kanji = '膝'
 kana = 'ひざ'
 english = 'knee'
+french = 'genou'
 source = 'wanikani'
 level = 'n3'
 tags = ['body', 'common', 'leg', 'noun']
@@ -167,6 +178,7 @@ frequency_scores = { anime = 4414, leeds = 5434, novels = 679, wikipedia = 4528 
 kanji = '肘'
 kana = 'ひじ'
 english = 'elbow'
+french = 'coude'
 source = 'jisho'
 level = 'n2'
 tags = ['arm', 'body', 'common', 'noun']
@@ -176,6 +188,7 @@ frequency_scores = { anime = 10206, leeds = 12103, wikipedia = 6306 }
 kanji = '額'
 kana = 'ひたい'
 english = 'forehead'
+french = 'front'
 level = 'n3'
 source = 'wanikani'
 tags = ['body', 'common', 'noun']
@@ -185,6 +198,7 @@ frequency_scores = { anime = 3398, leeds = 1100, novels = 1111, wikipedia = 1990
 kanji = '瞳'
 kana = 'ひとみ'
 english = 'pupil (eye)'
+french = "pupille (de l'œil)"
 source = 'frequency-list'
 level = 'n2'
 tags = ['body', 'common', 'eye', 'no-adjective', 'noun']
@@ -194,6 +208,7 @@ frequency_scores = { anime = 1395, leeds = 6156, novels = 752, wikipedia = 5781 
 kanji = '骨'
 kana = 'ほね'
 english = 'bone'
+french = 'os'
 level = 'n3'
 tags = ['body', 'common']
 frequency_scores = { anime = 2278, leeds = 3275, novels = 1353, wikipedia = 2129 }
@@ -202,6 +217,7 @@ frequency_scores = { anime = 2278, leeds = 3275, novels = 1353, wikipedia = 2129
 kanji = '眉毛'
 kana = 'まゆげ'
 english = 'eyebrow'
+french = 'sourcil'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 7640 }
@@ -228,6 +244,7 @@ frequency_scores = { anime = 87, leeds = 189, novels = 80, wikipedia = 1178 }
 kanji = '目玉'
 kana = 'めだま'
 english = 'eyeball'
+french = 'globe oculaire'
 source = 'wanikani'
 tags = ['body', 'common']
 frequency_scores = { anime = 9642, leeds = 8988 }
@@ -236,6 +253,7 @@ frequency_scores = { anime = 9642, leeds = 8988 }
 kanji = '指'
 kana = 'ゆび'
 english = 'finger; toe'
+french = 'doigt; orteil'
 level = 'n4'
 tags = ['body', 'common']
 frequency_scores = { anime = 1276, leeds = 2632, novels = 285, wikipedia = 4001 }
@@ -244,6 +262,7 @@ frequency_scores = { anime = 1276, leeds = 2632, novels = 285, wikipedia = 4001 
 kanji = '指先'
 kana = 'ゆびさき'
 english = 'fingertip'
+french = 'bout du doigt'
 source = 'wanikani'
 tags = ['body', 'common']
 frequency_scores = { anime = 5183, leeds = 11703, novels = 1711 }

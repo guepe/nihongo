@@ -2,6 +2,7 @@
 kanji = '愛好'
 kana = 'あいこう'
 english = 'adoration'
+french = 'amour; passion (pour un loisir)'
 source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 23181, leeds = 9665, wikipedia = 5956 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 23181, leeds = 9665, wikipedia = 5956 }
 kanji = '行き成り'
 kana = 'いきなり'
 english = 'abruptly; all of a sudden, without warning'
+french = 'brusquement; tout à coup, sans prévenir'
 source = 'anime-freq'
 level = 'n2'
 tags = ['adverb', 'common', 'na-adjective']
@@ -19,6 +21,7 @@ frequency_scores = { anime = 550, leeds = 2384, novels = 867, wikipedia = 8748 }
 kanji = '噂'
 kana = 'うわさ'
 english = 'rumour'
+french = 'rumeur'
 source = 'wiktionary; lessons; anime-freq'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -28,6 +31,7 @@ frequency_scores = { anime = 852, leeds = 3069, novels = 1012, wikipedia = 3865 
 kanji = '運命'
 kana = 'うんめい'
 english = 'destiny'
+french = 'destin'
 source = 'anime-frequency'
 level = 'n1'
 tags = ['common', 'noun']
@@ -37,6 +41,7 @@ frequency_scores = { anime = 1006, leeds = 3067, novels = 1445, wikipedia = 5409
 kanji = 'お願い'
 kana = 'おねがい'
 english = 'please; request; wish'
+french = "s'il vous plaît; demande; souhait"
 source = 'anime; anime-freq; irasshai'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 166, leeds = 464, novels = 1158 }
@@ -45,6 +50,7 @@ frequency_scores = { anime = 166, leeds = 464, novels = 1158 }
 kanji = 'お土産'
 kana = 'おみやげ'
 english = 'present; souveir'
+french = 'souvenir (cadeau de voyage)'
 source = 'irasshai; anime; db super'
 level = 'n4'
 tags = ['common', 'noun']
@@ -64,6 +70,7 @@ frequency_scores = { anime = 6172, leeds = 2764, wikipedia = 944 }
 kanji = '勝手'
 kana = 'かって'
 english = 'as one pleases; selfishness'
+french = 'à sa guise; égoïsme'
 source = 'wanikani; anime-frequency'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 318, leeds = 1709, novels = 1021, wikipedia = 6287 }
@@ -72,6 +79,7 @@ frequency_scores = { anime = 318, leeds = 1709, novels = 1021, wikipedia = 6287 
 kanji = '学園'
 kana = 'がくえん'
 english = 'academy; campus'
+french = 'établissement scolaire; campus'
 source = 'anime-freq'
 tags = ['common', 'noun', 'school']
 frequency_scores = { anime = 520, leeds = 5758, novels = 2514, wikipedia = 1141 }
@@ -80,6 +88,7 @@ frequency_scores = { anime = 520, leeds = 5758, novels = 2514, wikipedia = 1141 
 kanji = '騎士'
 kana = 'きし'
 english = 'samurai on horseback; medieval knight'
+french = 'chevalier'
 source = 'anime-freq'
 tags = ['common', 'noun']
 frequency_scores = { anime = 658, leeds = 7592, novels = 662, wikipedia = 2627 }
@@ -88,6 +97,7 @@ frequency_scores = { anime = 658, leeds = 7592, novels = 662, wikipedia = 2627 }
 kanji = '経験'
 kana = 'けいけんする'
 english = 'experience'
+french = 'expérience'
 source = 'wiktionary; boku-no-hero'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']
@@ -97,6 +107,7 @@ frequency_scores = { anime = 1315, leeds = 531, novels = 1190, wikipedia = 803 }
 kanji = '決して'
 kana = 'けっして'
 english = 'by no means!'
+french = 'jamais de la vie !; en aucun cas'
 source = 'anime; jpop'
 level = 'n4'
 tags = ['adverb', 'anime', 'common']
@@ -106,6 +117,7 @@ frequency_scores = { anime = 1005, leeds = 1244, novels = 827 }
 kanji = '現実'
 kana = 'げんじつ'
 english = 'reality'
+french = 'réalité'
 level = 'n3'
 source = 'manga'
 explain = 'http://selftaughtjapanese.com/2015/04/30/words-to-express-truth-in-japanese/'
@@ -116,6 +128,7 @@ frequency_scores = { anime = 740, leeds = 668, novels = 1040, wikipedia = 2639 }
 kanji = '後輩'
 kana = 'こうはい'
 english = 'junior (at school or work)'
+french = "cadet (à l'école ou au travail)"
 source = 'anime; irasshai'
 level = 'n2'
 tags = ['anime', 'common', 'noun']
@@ -125,6 +138,7 @@ frequency_scores = { anime = 1804, leeds = 5648, wikipedia = 6459 }
 kanji = '個性'
 kana = 'こせい'
 english = 'individuality; personality'
+french = 'individualité; personnalité'
 level = 'n1'
 source = 'manga'
 tags = ['common']
@@ -134,6 +148,7 @@ frequency_scores = { anime = 2080, leeds = 2975, wikipedia = 5549 }
 kanji = '最初'
 kana = 'さいしょ'
 english = 'first; beginning; outset'
+french = 'premier; début'
 level = 'n4'
 source = 'manga'
 tags = ['adverbial-noun', 'common', 'no-adjective', 'temporal-noun']
@@ -143,6 +158,7 @@ frequency_scores = { anime = 332, leeds = 428, novels = 464, wikipedia = 255 }
 kanji = '作戦'
 kana = 'さくせん'
 english = 'tactics; strategy'
+french = 'tactique; stratégie'
 source = 'anime-freq; wanikani'
 level = 'n1'
 tags = ['common', 'noun']
@@ -152,6 +168,7 @@ frequency_scores = { anime = 463, leeds = 2976, novels = 1306, wikipedia = 589 }
 kanji = '流石'
 kana = 'さすが'
 english = 'as one would expect'
+french = "comme on pouvait s'y attendre"
 source = 'anime-freq'
 level = 'n2'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective']
@@ -170,6 +187,7 @@ frequency_scores = { anime = 9758, leeds = 7796 }
 kanji = '社会'
 kana = 'しゃかい'
 english = 'society'
+french = 'société'
 level = 'n4'
 source = 'manga'
 tags = ['common', 'manga']
@@ -179,6 +197,7 @@ frequency_scores = { anime = 1752, leeds = 213, novels = 1229, wikipedia = 239 }
 kanji = '象徴'
 kana = 'しょうちょう'
 english = 'abstract symbol; emblem'
+french = 'symbole; emblème'
 source = 'boku-no-hero'
 level = 'n1'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -188,6 +207,7 @@ frequency_scores = { anime = 5551, leeds = 3094, wikipedia = 2817 }
 kanji = '知り合い'
 kana = 'しりあい'
 english = 'acquaintance'
+french = 'connaissance (personne)'
 source = 'lessons; anime-frequency'
 level = 'n2'
 tags = ['common', 'noun', 'people', 'social']
@@ -197,6 +217,7 @@ frequency_scores = { anime = 1287, leeds = 3936 }
 kanji = '城'
 kana = 'しろ'
 english = 'castle'
+french = 'château'
 source = 'anime; miyazaki'
 level = 'n3'
 tags = ['common', 'fantasy', 'noun']
@@ -206,6 +227,7 @@ frequency_scores = { anime = 709, leeds = 2720, novels = 852, wikipedia = 218 }
 kanji = '自身'
 kana = 'じしん'
 english = 'self-confidence'
+french = 'soi-même; en personne'
 source = 'lessons; anime-frequency'
 level = 'n1'
 tags = ['common', 'noun', 'suru-verb']
@@ -215,6 +237,7 @@ frequency_scores = { anime = 867, leeds = 471, novels = 459, wikipedia = 321 }
 kanji = '～術'
 kana = '～じゅつ'
 english = 'art; technique; way; trick; plot; magic (used as a suffix)'
+french = 'art; technique; procédé; ruse; magie (suffixe)'
 source = 'anime-freq'
 tags = ['common', 'noun', 'noun-suffix', 'suffix']
 
@@ -222,6 +245,7 @@ tags = ['common', 'noun', 'noun-suffix', 'suffix']
 kanji = 'ずっと'
 kana = 'ずっと'
 english = 'always; forever; all along; continuously in some state (for a long time or distance)'
+french = 'toujours; tout le temps; longtemps (sans interruption)'
 level = 'n3'
 tags = ['adverb', 'anime', 'common']
 frequency_scores = { anime = 158, leeds = 859, novels = 421, wikipedia = 6118 }
@@ -230,6 +254,7 @@ frequency_scores = { anime = 158, leeds = 859, novels = 421, wikipedia = 6118 }
 kanji = '先輩'
 kana = 'せんぱい'
 english = 'senior (at school or work)'
+french = "aîné (à l'école ou au travail)"
 source = 'anime; irasshai'
 level = 'n4'
 tags = ['anime', 'common', 'noun']
@@ -239,6 +264,7 @@ frequency_scores = { anime = 115, leeds = 2448, novels = 1282, wikipedia = 4740 
 kanji = '絶対'
 kana = 'ぜったい'
 english = 'absolute(ly); definite(ly); unconditionally'
+french = 'absolu(ment); certainement; inconditionnellement'
 source = 'anime'
 level = 'n3'
 tags = ['adverb', 'anime', 'common']
@@ -248,6 +274,7 @@ frequency_scores = { anime = 162, leeds = 911, novels = 716, wikipedia = 3009 }
 kanji = '存在'
 kana = 'そんざい'
 english = 'existence; being'
+french = 'existence'
 source = 'anime; db super; boku-no-hero'
 level = 'n3'
 tags = ['common', 'no-adjective', 'noun', 'suru-verb']
@@ -257,6 +284,7 @@ frequency_scores = { anime = 319, leeds = 383, novels = 415, wikipedia = 107 }
 kanji = '互い'
 kana = 'たがい'
 english = 'mutual; reciprocal'
+french = 'mutuel; réciproque'
 level = 'n3'
 source = 'manga'
 tags = ['common', 'noun']
@@ -266,6 +294,7 @@ frequency_scores = { anime = 4076, leeds = 8336, wikipedia = 7294 }
 kanji = '確か'
 kana = 'たしか'
 english = 'certain; positive'
+french = 'certain; sûr'
 source = 'anime; db super'
 level = 'n4'
 tags = ['common', 'na-adjective', 'noun']
@@ -275,6 +304,7 @@ frequency_scores = { anime = 153, leeds = 566, novels = 450, wikipedia = 6530 }
 kanji = '大体'
 kana = 'だいたい'
 english = 'outline; gist; main point'
+french = 'grandes lignes; essentiel'
 source = 'anime; db super; wanikani'
 level = 'n4'
 tags = ['adverbial-noun', 'common', 'noun', 'temporal-noun']
@@ -284,6 +314,7 @@ frequency_scores = { anime = 844, leeds = 1728, novels = 2669 }
 kanji = '懲戒'
 kana = 'ちょうかい'
 english = 'discipline; punishment'
+french = 'sanction disciplinaire; punition'
 source = 'anime; boku-no-hero-maybe'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 26828, leeds = 12317 }
@@ -292,6 +323,7 @@ frequency_scores = { anime = 26828, leeds = 12317 }
 kanji = '天使'
 kana = 'てんし'
 english = 'angel'
+french = 'ange'
 source = 'anime'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 1165, leeds = 4696, wikipedia = 4287 }
@@ -308,6 +340,7 @@ tags = ['no-adjective', 'noun', 'uncommon']
 kanji = '何となく'
 kana = 'なんとなく'
 english = 'somehow or another'
+french = 'sans trop savoir pourquoi; vaguement'
 level = 'n2'
 tags = ['adverb', 'common', 'expressions']
 frequency_scores = { anime = 3427, leeds = 4735, novels = 2584 }
@@ -316,6 +349,7 @@ frequency_scores = { anime = 3427, leeds = 4735, novels = 2584 }
 kanji = '恥ずかしい'
 kana = 'はずかしい'
 english = 'embarassed; humiliated; shy'
+french = 'avoir honte; gêné; timide'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'i-adjective']
@@ -325,6 +359,7 @@ frequency_scores = { anime = 656, leeds = 2890, novels = 1109 }
 kanji = 'はっきり'
 kana = 'はっきり'
 english = 'clearly'
+french = 'clairement'
 source = 'anime; db super'
 level = 'n4'
 tags = ['adverb', 'adverb-to', 'common', 'verb-suru']
@@ -334,6 +369,7 @@ frequency_scores = { anime = 1320, leeds = 1087, novels = 641 }
 kanji = '発見'
 kana = 'はっけん'
 english = 'discovery; finding'
+french = 'découverte'
 level = 'n3'
 source = 'manga'
 tags = ['common', 'noun', 'suru-verb']
@@ -343,6 +379,7 @@ frequency_scores = { anime = 1294, leeds = 987, novels = 1138, wikipedia = 446 }
 kanji = '化け物'
 kana = 'ばけもの'
 english = 'goblin'
+french = 'monstre; spectre'
 source = 'anime-frequency'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1120 }
@@ -351,6 +388,7 @@ frequency_scores = { anime = 1120 }
 kanji = '光'
 kana = 'ひかり'
 english = 'light'
+french = 'lumière'
 source = 'anime'
 level = 'n4'
 tags = ['anime', 'common', 'noun']
@@ -370,6 +408,7 @@ frequency_scores = { anime = 4560, leeds = 3943, wikipedia = 7462 }
 kanji = '部活'
 kana = 'ぶかつ'
 english = 'club activities'
+french = 'activités de club (scolaire)'
 source = 'anime-freq'
 tags = ['common']
 frequency_scores = { anime = 1079, leeds = 9548, wikipedia = 7884 }
@@ -388,6 +427,7 @@ frequency_scores = { anime = 523, leeds = 2269, novels = 1355, wikipedia = 5865 
 kanji = '暴力'
 kana = 'ぼうりょく'
 english = 'violence; meyhem'
+french = 'violence'
 source = 'boku-no-hero'
 level = 'n1'
 tags = ['common', 'noun']
@@ -397,6 +437,7 @@ frequency_scores = { anime = 2705, leeds = 2850, wikipedia = 3109 }
 kanji = '真逆'
 kana = 'まさか'
 english = 'by no means! certainly not!'
+french = 'pas possible ! ; sûrement pas !'
 source = 'anime'
 level = 'n3'
 tags = ['adverb', 'common', 'no-adjective', 'noun']
@@ -406,6 +447,7 @@ frequency_scores = { anime = 156, leeds = 3679, novels = 796 }
 kanji = '全く'
 kana = 'まったく'
 english = 'completely'
+french = 'complètement'
 source = 'anime; db super'
 level = 'n3'
 tags = ['adverb', 'common', 'no-adjective']
@@ -415,6 +457,7 @@ frequency_scores = { anime = 824, leeds = 610, novels = 1102, wikipedia = 1075 }
 kanji = '魔法'
 kana = 'まほう'
 english = 'magic; witchcraft; sorcery'
+french = 'magie; sorcellerie'
 source = 'anime; anime-freq'
 tags = ['common', 'fantasy']
 frequency_scores = { anime = 340, leeds = 3864, novels = 675, wikipedia = 2561 }
@@ -423,6 +466,7 @@ frequency_scores = { anime = 340, leeds = 3864, novels = 675, wikipedia = 2561 }
 kanji = '儘'
 kana = 'まま'
 english = 'as it is; condition; state'
+french = 'tel quel; état'
 source = 'anime-freq'
 tags = ['adverbial-noun', 'common', 'noun']
 frequency_scores = { anime = 137, leeds = 491, novels = 153, wikipedia = 744 }
@@ -431,6 +475,7 @@ frequency_scores = { anime = 137, leeds = 491, novels = 153, wikipedia = 744 }
 kanji = '漫画'
 kana = 'まんが'
 english = 'manga'
+french = 'manga'
 source = 'manga; anime'
 level = 'n4'
 tags = ['common', 'noun']
@@ -440,6 +485,7 @@ frequency_scores = { anime = 1438, leeds = 2368, wikipedia = 375 }
 kanji = '若しかして'
 kana = 'もしかして'
 english = "perhaps, possibly, if I'm not mistaken (expr); in the event that, in case"
+french = 'peut-être, si je ne me trompe pas; au cas où'
 source = 'anime; anime-freq'
 level = 'n1'
 tags = ['adverb', 'common', 'expression']
@@ -449,6 +495,7 @@ frequency_scores = { anime = 477, leeds = 5864 }
 kanji = '若しも'
 kana = 'もしも'
 english = 'if (adverb)'
+french = 'si (par hasard)'
 source = 'anime-frequency'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 22980, leeds = 4659, novels = 2171 }
@@ -457,6 +504,7 @@ frequency_scores = { anime = 22980, leeds = 4659, novels = 2171 }
 kanji = '約束'
 kana = 'やくそく'
 english = 'promise'
+french = 'promesse'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'noun', 'suru-verb']
@@ -466,6 +514,7 @@ frequency_scores = { anime = 341, leeds = 1955, novels = 1036, wikipedia = 3440 
 kanji = 'やばい'
 kana = 'やばい'
 english = 'risky (colloqial)'
+french = 'risqué; dangereux (familier)'
 source = 'anime-frequency'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1037, leeds = 6990 }
@@ -483,6 +532,7 @@ frequency_scores = { anime = 7650 }
 kanji = '連中'
 kana = 'れんちゅう'
 english = 'troupe, gang, company, pack, those guys (familiar or derogatory)'
+french = 'bande; clique; ces gens-là (familier ou péjoratif)'
 source = 'anime-freq'
 level = 'n1'
 tags = ['common', 'derogatory', 'familiar', 'noun']
@@ -492,6 +542,7 @@ frequency_scores = { anime = 466, leeds = 3860, novels = 583 }
 kanji = 'アニメ'
 kana = 'アニメ'
 english = 'anime'
+french = 'anime; dessin animé japonais'
 source = 'anime'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1113, leeds = 1875, wikipedia = 433 }

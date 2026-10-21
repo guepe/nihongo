@@ -2,6 +2,7 @@
 kanji = '私'
 kana = 'あたし'
 english = 'I; me (female form)'
+french = 'je; moi (féminin)'
 source = 'anime; anime-freq'
 level = 'n1'
 tags = ['common', 'female', 'pronoun']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 17, leeds = 58, novels = 62, wikipedia = 1076 }
 kanji = '貴方'
 kana = 'あんた'
 english = 'you (familiar form of "anata")'
+french = 'toi (forme familière de « anata »)'
 source = 'anime-freq'
 tags = ['common', 'pronoun']
 frequency_scores = { anime = 1022, leeds = 4636, novels = 1686 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 1022, leeds = 4636, novels = 1686 }
 kanji = '俺'
 kana = 'おれ'
 english = 'I; me (male, rough/arrogant)'
+french = 'je; moi (masculin, familier)'
 source = 'anime'
 level = 'n1'
 tags = ['anime', 'common', 'pronoun']
@@ -28,6 +31,7 @@ frequency_scores = { anime = 20, leeds = 699, novels = 118, wikipedia = 3950 }
 kanji = '貴様'
 kana = 'きさま'
 english = 'you bastard'
+french = 'espèce de salaud; toi (insultant)'
 source = 'anime'
 tags = ['pronoun', 'uncommon', 'uncommon-but-ive-heard-this']
 frequency_scores = { anime = 224, novels = 1861 }
@@ -36,6 +40,7 @@ frequency_scores = { anime = 224, novels = 1861 }
 kanji = '君'
 kana = 'きみ'
 english = 'you; buddy; pal'
+french = 'tu; toi; mon vieux'
 source = 'anime'
 level = 'n4'
 tags = ['common', 'pronoun']
@@ -45,6 +50,7 @@ frequency_scores = { anime = 30, leeds = 234, novels = 201, wikipedia = 3058 }
 kanji = '僕'
 kana = 'ぼく'
 english = 'I; me (male language)'
+french = 'je; moi (masculin)'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['anime', 'common', 'male', 'male-language', 'pronoun']
@@ -54,6 +60,7 @@ frequency_scores = { anime = 48, leeds = 274, novels = 197, wikipedia = 2602 }
 kanji = '奴'
 kana = 'やつ'
 english = 'fellow; chap (derogatory)'
+french = 'type; mec (péjoratif)'
 source = 'anime-freq'
 tags = ['anime', 'common', 'derogatory', 'pronoun', 'rude']
 frequency_scores = { anime = 185, leeds = 2537, novels = 432, wikipedia = 5318 }
@@ -62,6 +69,7 @@ frequency_scores = { anime = 185, leeds = 2537, novels = 432, wikipedia = 5318 }
 kanji = '野郎'
 kana = 'やろう'
 english = 'guy; bastard; asshole'
+french = 'type; salaud; connard'
 source = 'anime; anime-freq'
 tags = ['impolite', 'noun', 'pronoun', 'rude', 'uncommon']
 frequency_scores = { anime = 382, leeds = 7876, novels = 1751 }
@@ -70,6 +78,7 @@ frequency_scores = { anime = 382, leeds = 7876, novels = 1751 }
 kanji = '私たち'
 kana = 'わたしたち'
 english = 'we (less formal)'
+french = 'nous (moins formel)'
 source = 'irasshai'
 explain = 'https://japanese.stackexchange.com/a/36681'
 tags = ['common', 'pronoun']
@@ -78,6 +87,7 @@ tags = ['common', 'pronoun']
 kanji = '我々'
 kana = 'われわれ'
 english = 'we (more formal)'
+french = 'nous (soutenu)'
 source = 'anime'
 level = 'n3'
 explain = 'https://japanese.stackexchange.com/a/36681'

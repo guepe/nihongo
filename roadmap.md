@@ -102,19 +102,35 @@ Dans `cardgen/generate_vocabulary_deck.py` :
     par `kanji` + `kana` + `english` : il y a 24 doublons kanji+kana, dont certains avec
     des sens différents. Seules les lignes `french` changent dans les fichiers TOML.
 
-## Phase 3 : traduction du vocabulaire (données)
+## Phase 3 : traduction du vocabulaire (données) ✅
 
-Ordre conseillé : du plus utile au moins utile.
+Les 3 198 notes actives sont traduites (premier jet relu par échantillonnage). Le lot 1
+(200 mots n5) a été validé à la main ; le reste a été traduit en 8 paquets avec les
+mêmes conventions, puis contrôlé automatiquement : alignement des lignes, aucune case
+vide, aucun reste d'anglais.
 
-1. [ ] **n5** (721) : `n5-vocab.toml`, `generated_jlpt_n5_n4_wiktionary.toml`, puis les fichiers
-       thématiques pour leurs entrées n5
-2. [ ] **n4** (575) : `n4-vocab.toml`, …
-3. [ ] **Fichiers thématiques** (nourriture, maison, corps, animaux…)
-4. [ ] **n3** (1 568) : surtout `generated_jlpt_n3_wiktionary.toml`
-5. [ ] n2, n1, puis les entrées sans niveau
+- [x] **n5** (721)
+- [x] **n4** (575)
+- [x] **n3** (1 566)
+- [x] n2, n1, puis les entrées sans niveau
 
-Méthode proposée : faire un premier jet automatique (LLM ou DeepL) **en partant du japonais
-et de l'anglais**, puis relire. On relit par fichier, et on fait un commit par fichier.
+Quand l'anglais était faux ou incomplet, la traduction suit le japonais. Exemples :
+匂い → « odeur; parfum » (l'anglais disait « mauvaise odeur ») ; 自身 → « soi-même »
+(l'anglais disait « self-confidence », qui est 自信) ; 変化 (へんか) → « changement ».
+
+### Erreurs repérées dans les données d'origine (à corriger)
+
+Corriger `kanji` ou `kana` change l'identifiant de la note. Il faut donc le faire **avant**
+le premier import dans Anki, ou accepter de perdre l'historique de ces mots.
+
+- [ ] `kanji = 'さ'`, `kana = 'きょか'` → le kanji devrait être 許可
+- [ ] `kanji = 'お'`, `kana = 'じき'` → le kanji devrait être 直
+- [ ] 思い出 : `kana = 'おもで'` → おもいで
+- [ ] よろしい : kanji et kana inversés
+- [ ] 遠慮, 故障, 退院, 入学, 拝見 : `kana` se termine par する, mais pas `kanji`
+- [ ] 自身 : `english = 'self-confidence'` est faux (c'est 自信)
+- [ ] 用 (よう) existe en deux notes (« task » et « task; business ») avec la même
+      traduction : à fusionner
 
 Conventions de traduction :
 

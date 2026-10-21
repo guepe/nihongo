@@ -20,6 +20,7 @@ frequency_scores = { anime = 6364, leeds = 12301, novels = 2374 }
 kanji = '絹'
 kana = 'きぬ'
 english = 'silk'
+french = 'soie'
 source = 'wiktionary'
 level = 'n4'
 tags = ['common', 'material', 'noun']
@@ -29,6 +30,7 @@ frequency_scores = { anime = 19048, leeds = 14271, wikipedia = 7627 }
 kanji = '着物'
 kana = 'きもの'
 english = 'clothing; ALSO traditional clothing type'
+french = 'vêtements; kimono'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
@@ -65,6 +67,7 @@ frequency_scores = { anime = 4229, leeds = 5666 }
 kanji = '下着'
 kana = 'したぎ'
 english = 'underwear'
+french = 'sous-vêtements'
 source = 'wiktionary'
 level = 'n4'
 tags = ['clothing', 'common', 'noun']
@@ -110,6 +113,7 @@ frequency_scores = { anime = 4241, leeds = 5577, novels = 2217, wikipedia = 7662
 kanji = '木綿'
 kana = 'もめん'
 english = 'cotton (material)'
+french = 'coton'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['clothing', 'common', 'fabric', 'material', 'noun']
@@ -119,6 +123,7 @@ frequency_scores = { anime = 9838 }
 kanji = '指輪'
 kana = 'ゆびわ'
 english = 'ring (for finger)'
+french = 'bague'
 source = 'irasshai'
 level = 'n4'
 tags = ['attire', 'clothing', 'common', 'noun']

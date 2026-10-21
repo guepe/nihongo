@@ -2,6 +2,7 @@
 kanji = 'ああ'
 kana = 'ああ'
 english = 'like that (distant)'
+french = 'comme ça (éloigné)'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['adverb', 'common']
@@ -11,6 +12,7 @@ frequency_scores = { leeds = 1251, novels = 178 }
 kanji = '彼処'
 kana = 'あそこ'
 english = 'there (way over there)'
+french = 'là-bas (loin)'
 level = 'n5'
 tags = ['common', 'place']
 frequency_scores = { anime = 42511, leeds = 4926, novels = 1436 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 42511, leeds = 4926, novels = 1436 }
 kanji = '彼方'
 kana = 'あちら'
 english = 'that way (way over there); that one (way over there)'
+french = 'par là-bas (loin); celui-là (loin)'
 level = 'n5'
 tags = ['common', 'place']
 frequency_scores = { anime = 2633, leeds = 10987, novels = 2316 }
@@ -27,6 +30,7 @@ frequency_scores = { anime = 2633, leeds = 10987, novels = 2316 }
 kanji = 'あっち'
 kana = 'あっち'
 english = 'over there; that way'
+french = 'là-bas; par là'
 level = 'n5'
 tags = ['common', 'directions', 'locations', 'places']
 frequency_scores = { anime = 817, leeds = 7309, novels = 2569 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 817, leeds = 7309, novels = 2569 }
 kanji = '彼の'
 kana = 'あの'
 english = 'that (way over there)'
+french = 'ce...-là (loin)'
 level = 'n5'
 tags = ['common', 'locations', 'places']
 frequency_scores = { leeds = 419, novels = 87, wikipedia = 5252 }
@@ -43,6 +48,7 @@ frequency_scores = { leeds = 419, novels = 87, wikipedia = 5252 }
 kanji = '彼'
 kana = 'あれ'
 english = 'that (way over there)'
+french = 'ça (là-bas, loin)'
 level = 'n5'
 tags = ['common', 'kosoado', 'locations', 'places']
 frequency_scores = { anime = 276, leeds = 225, novels = 74, wikipedia = 91 }
@@ -51,6 +57,7 @@ frequency_scores = { anime = 276, leeds = 225, novels = 74, wikipedia = 91 }
 kanji = '此奴'
 kana = 'こいつ'
 english = 'this person; this guy'
+french = 'cette personne; ce type'
 source = 'anime'
 tags = ['common', 'kosoado', 'pronoun']
 frequency_scores = { anime = 148, leeds = 4716, novels = 783 }
@@ -59,6 +66,7 @@ frequency_scores = { anime = 148, leeds = 4716, novels = 783 }
 kanji = '此処'
 kana = 'ここ'
 english = 'here; this place'
+french = 'ici'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 6870, leeds = 13567, novels = 102, wikipedia = 475 }
@@ -67,6 +75,7 @@ frequency_scores = { anime = 6870, leeds = 13567, novels = 102, wikipedia = 475 
 kanji = '此方'
 kana = 'こちら'
 english = 'this way; here; this person'
+french = 'par ici; ici; cette personne'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 298, leeds = 435, novels = 319, wikipedia = 2305 }
@@ -75,6 +84,7 @@ frequency_scores = { anime = 298, leeds = 435, novels = 319, wikipedia = 2305 }
 kanji = '此方'
 kana = 'こっち'
 english = 'this way; here; this person'
+french = 'par ici; ici; cette personne (familier)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 132, leeds = 2150, novels = 490 }
@@ -83,6 +93,7 @@ frequency_scores = { anime = 132, leeds = 2150, novels = 490 }
 kanji = '此の'
 kana = 'この'
 english = 'this (thing)'
+french = 'ce...-ci'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 47, novels = 39, wikipedia = 34 }
@@ -91,6 +102,7 @@ frequency_scores = { leeds = 47, novels = 39, wikipedia = 34 }
 kanji = '此れ'
 kana = 'これ'
 english = 'this'
+french = 'ceci'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 28, leeds = 69, novels = 70, wikipedia = 41 }
@@ -99,6 +111,7 @@ frequency_scores = { anime = 28, leeds = 69, novels = 70, wikipedia = 41 }
 kanji = 'こんな'
 kana = 'こんな'
 english = 'such ~; something like this'
+french = 'un tel ~; comme ceci'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 354, novels = 188 }
@@ -107,6 +120,7 @@ frequency_scores = { leeds = 354, novels = 188 }
 kanji = '其処'
 kana = 'そこ'
 english = 'that place; there'
+french = "là (près de l'interlocuteur)"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 119, leeds = 283, novels = 132, wikipedia = 480 }
@@ -115,6 +129,7 @@ frequency_scores = { anime = 119, leeds = 283, novels = 132, wikipedia = 480 }
 kanji = '其方'
 kana = 'そちら'
 english = 'that place; that way; that person'
+french = 'là; par là; cette personne'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1873, leeds = 4104, novels = 2321 }
@@ -123,6 +138,7 @@ frequency_scores = { anime = 1873, leeds = 4104, novels = 2321 }
 kanji = '其方'
 kana = 'そっち'
 english = 'that place; that way; that person'
+french = 'là; par là; cette personne (familier)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 474, leeds = 6280, novels = 1960 }
@@ -131,6 +147,7 @@ frequency_scores = { anime = 474, leeds = 6280, novels = 1960 }
 kanji = '其の'
 kana = 'その'
 english = 'that (thing)'
+french = "ce... (près de l'interlocuteur)"
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 9570, novels = 1549, wikipedia = 36 }
@@ -139,6 +156,7 @@ frequency_scores = { leeds = 9570, novels = 1549, wikipedia = 36 }
 kanji = '其れ'
 kana = 'それ'
 english = 'that'
+french = 'cela; ça'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 25, leeds = 65, novels = 30, wikipedia = 73 }
@@ -147,6 +165,7 @@ frequency_scores = { anime = 25, leeds = 65, novels = 30, wikipedia = 73 }
 kanji = 'そんな'
 kana = 'そんな'
 english = 'that sort of'
+french = 'ce genre de; tel'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -155,6 +174,7 @@ tags = ['generated', 'tsv']
 kanji = '何処'
 kana = 'どこ'
 english = 'where'
+french = 'où'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2091, leeds = 4334, novels = 1925, wikipedia = 3088 }
@@ -163,6 +183,7 @@ frequency_scores = { anime = 2091, leeds = 4334, novels = 1925, wikipedia = 3088
 kanji = '何方'
 kana = 'どちら'
 english = 'which way? ; where?'
+french = 'de quel côté ? ; où ?'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 19563, leeds = 995, novels = 913, wikipedia = 1971 }
@@ -171,6 +192,7 @@ frequency_scores = { anime = 19563, leeds = 995, novels = 913, wikipedia = 1971 
 kanji = '何方'
 kana = 'どっち'
 english = 'which one? ; which way?'
+french = 'lequel ? ; de quel côté ? (familier)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 19563, leeds = 2842, novels = 1645 }
@@ -179,6 +201,7 @@ frequency_scores = { anime = 19563, leeds = 2842, novels = 1645 }
 kanji = '何の'
 kana = 'どの'
 english = 'which?'
+french = 'quel ?'
 level = 'n5'
 tags = []
 frequency_scores = { leeds = 347, novels = 605, wikipedia = 7466 }
@@ -187,6 +210,7 @@ frequency_scores = { leeds = 347, novels = 605, wikipedia = 7466 }
 kanji = '何れ'
 kana = 'どれ'
 english = 'which (of three or more)'
+french = 'lequel (parmi trois ou plus)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 25706, leeds = 1040, novels = 1035, wikipedia = 5247 }

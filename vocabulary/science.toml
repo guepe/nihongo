@@ -2,6 +2,7 @@
 kanji = '実験'
 kana = 'じっけん'
 english = 'experiment'
+french = 'expérience (scientifique)'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun', 'suru-verb']

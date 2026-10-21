@@ -2,6 +2,7 @@
 kanji = '歩く'
 kana = 'あるく'
 english = 'to walk'
+french = 'marcher'
 english-conjugated = { base = 'walk', past = 'walked', plural = 'walks', continuous = 'walking' }
 verb-type = 'godan-ku'
 transitive = false
@@ -13,6 +14,7 @@ frequency_scores = { anime = 538, leeds = 709, novels = 224, wikipedia = 3619 }
 kanji = '走る'
 kana = 'はしる'
 english = 'to run'
+french = 'courir'
 english-conjugated = { base = 'run', past = 'ran', plural = 'runs', continuous = 'running' }
 verb-type = 'godan-ru'
 transitive = false

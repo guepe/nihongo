@@ -2,6 +2,7 @@
 kanji = '作者'
 kana = 'さくしゃ'
 english = 'author (of a particular work)'
+french = "auteur (d'une œuvre)"
 level = 'n2'
 source = 'read-nihon'
 tags = ['books', 'common', 'people', 'writing']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 8756, leeds = 3017, wikipedia = 2772 }
 kanji = '作家'
 kana = 'さっか'
 english = 'author (profession)'
+french = 'écrivain'
 level = 'n3'
 tags = ['books', 'common', 'people', 'writing']
 frequency_scores = { anime = 4011, leeds = 1911, novels = 2390, wikipedia = 905 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 4011, leeds = 1911, novels = 2390, wikipedia = 905 
 kanji = '小説'
 kana = 'しょうせつ'
 english = 'novel; short story'
+french = 'roman; nouvelle'
 source = 'wanikani'
 level = 'n4'
 tags = ['books', 'common', 'no-adjective', 'noun']
@@ -28,6 +31,7 @@ frequency_scores = { anime = 2586, leeds = 1304, novels = 1889, wikipedia = 529 
 kanji = '本'
 kana = 'ほん'
 english = 'book'
+french = 'livre'
 source = 'irasshai'
 level = 'n5'
 tags = ['common', 'noun']

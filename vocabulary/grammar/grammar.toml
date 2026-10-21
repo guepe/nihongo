@@ -4,6 +4,7 @@ kanji = 'だい'
 kana = 'だい'
 question = '〜{}？'
 english = 'grammar: familiar language, marks wh-question (what, where, who)'
+french = 'grammaire : familier, marque une question ouverte (quoi, où, qui)'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
 frequency_scores = { anime = 858, leeds = 4945, novels = 589 }
@@ -14,6 +15,7 @@ kanji = '許り'
 kana = 'ばかり'
 question = 'noun+{}'
 english = 'grammar: only (noun) (todo: this is used for many constructions)'
+french = 'grammaire : seulement (après un nom); nombreux autres emplois'
 source = 'grammar-dict-basic'
 tags = ['common', 'particle']
 frequency_scores = { leeds = 479, novels = 194, wikipedia = 2187 }

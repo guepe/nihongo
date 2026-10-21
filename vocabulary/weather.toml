@@ -2,6 +2,7 @@
 kanji = '暖かい'
 kana = 'あたたかい'
 english = 'warm (air temp)'
+french = 'doux (température); tiède'
 level = 'n5'
 tags = ['common', 'i-adjective', 'temperature', 'weather']
 frequency_scores = { anime = 2522, leeds = 3556 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 2522, leeds = 3556 }
 kanji = '暑い'
 kana = 'あつい'
 english = 'hot; warm'
+french = 'chaud (temps)'
 level = 'n5'
 tags = ['common', 'i-adjectives', 'weather']
 frequency_scores = { anime = 1505, leeds = 1999, novels = 2598 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 1505, leeds = 1999, novels = 2598 }
 kanji = '雨'
 kana = 'あめ'
 english = 'rain'
+french = 'pluie'
 level = 'n5'
 tags = ['common', 'weather']
 frequency_scores = { anime = 804, leeds = 1120, novels = 844, wikipedia = 2317 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 804, leeds = 1120, novels = 844, wikipedia = 2317 }
 kanji = '嵐'
 kana = 'あらし'
 english = 'storm'
+french = 'tempête'
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 3677, leeds = 5449, novels = 2866, wikipedia = 4393 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 3677, leeds = 5449, novels = 2866, wikipedia = 4393
 kanji = '大雨'
 kana = 'おおあめ'
 english = 'heavy rain'
+french = 'forte pluie'
 source = 'wanikani'
 tags = ['common', 'nature', 'noun', 'rain', 'weather']
 frequency_scores = { anime = 20915, leeds = 9634 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 20915, leeds = 9634 }
 kanji = '傘'
 kana = 'かさ'
 english = 'umbrella'
+french = 'parapluie'
 level = 'n5'
 tags = ['accessories', 'clothing', 'common', 'weather']
 frequency_scores = { anime = 2872, leeds = 5746, wikipedia = 7373 }
@@ -50,6 +56,7 @@ frequency_scores = { anime = 2872, leeds = 5746, wikipedia = 7373 }
 kanji = '風'
 kana = 'かぜ'
 english = 'wind; breeze'
+french = 'vent; brise'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 361, leeds = 683, novels = 252, wikipedia = 732 }
@@ -58,6 +65,7 @@ frequency_scores = { anime = 361, leeds = 683, novels = 252, wikipedia = 732 }
 kanji = '雷'
 kana = 'かみなり'
 english = 'lightning; thunder'
+french = 'foudre; tonnerre'
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 2604, leeds = 7882, wikipedia = 3105 }
@@ -66,6 +74,7 @@ frequency_scores = { anime = 2604, leeds = 7882, wikipedia = 3105 }
 kanji = '気温'
 kana = 'きおん'
 english = 'atmospheric temperature'
+french = "température (de l'air)"
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 12716, leeds = 3614, wikipedia = 3166 }
@@ -74,6 +83,7 @@ frequency_scores = { anime = 12716, leeds = 3614, wikipedia = 3166 }
 kanji = '霧'
 kana = 'きり'
 english = 'fog; mist'
+french = 'brouillard; brume'
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 751, leeds = 6415, novels = 1812, wikipedia = 6245 }
@@ -82,6 +92,7 @@ frequency_scores = { anime = 751, leeds = 6415, novels = 1812, wikipedia = 6245 
 kanji = '空気'
 kana = 'くうき'
 english = 'air; atmosphere; mood'
+french = 'air; atmosphère; ambiance'
 level = 'n4'
 tags = ['common']
 frequency_scores = { anime = 1092, leeds = 1815, novels = 764, wikipedia = 2147 }
@@ -90,6 +101,7 @@ frequency_scores = { anime = 1092, leeds = 1815, novels = 764, wikipedia = 2147 
 kanji = '雲'
 kana = 'くも'
 english = 'cloud'
+french = 'nuage'
 level = 'n4'
 tags = ['common']
 frequency_scores = { anime = 2684, leeds = 3488, novels = 1156, wikipedia = 2150 }
@@ -98,6 +110,7 @@ frequency_scores = { anime = 2684, leeds = 3488, novels = 1156, wikipedia = 2150
 kanji = '曇り'
 kana = 'くもり'
 english = 'cloudiness; cloudy weather'
+french = 'temps nuageux'
 level = 'n5'
 tags = ['common']
 
@@ -105,6 +118,7 @@ tags = ['common']
 kanji = '暗い'
 kana = 'くらい'
 english = 'dark; gloomy; depressed'
+french = 'sombre; morne; déprimé'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1213, leeds = 2646, novels = 614, wikipedia = 5997 }
@@ -113,6 +127,7 @@ frequency_scores = { anime = 1213, leeds = 2646, novels = 614, wikipedia = 5997 
 kanji = '氷'
 kana = 'こおり'
 english = 'ice'
+french = 'glace'
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 3476, leeds = 4874, novels = 2387, wikipedia = 3930 }
@@ -121,6 +136,7 @@ frequency_scores = { anime = 3476, leeds = 4874, novels = 2387, wikipedia = 3930
 kanji = '寒い'
 kana = 'さむい'
 english = 'cold (weather)'
+french = 'froid (temps)'
 level = 'n5'
 tags = ['common', 'i-adjective']
 frequency_scores = { anime = 1137, leeds = 1752, novels = 1498, wikipedia = 8404 }
@@ -129,6 +145,7 @@ frequency_scores = { anime = 1137, leeds = 1752, novels = 1498, wikipedia = 8404
 kanji = '涼しい'
 kana = 'すずしい'
 english = 'cool (temperature); refreshing'
+french = 'frais (température); rafraîchissant'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 5291, leeds = 6348 }
@@ -137,6 +154,7 @@ frequency_scores = { anime = 5291, leeds = 6348 }
 kanji = '空'
 kana = 'そら'
 english = 'sky'
+french = 'ciel'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 265, leeds = 1447, novels = 335, wikipedia = 1024 }
@@ -145,6 +163,7 @@ frequency_scores = { anime = 265, leeds = 1447, novels = 335, wikipedia = 1024 }
 kanji = '大気'
 kana = 'たいき'
 english = 'atmosphere'
+french = 'atmosphère'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'noun']
@@ -154,6 +173,7 @@ frequency_scores = { anime = 10360, leeds = 5801, wikipedia = 3581 }
 kanji = '台風'
 kana = 'たいふう'
 english = 'typhoon; hurricane'
+french = 'typhon; ouragan'
 level = 'n4'
 tags = ['common']
 frequency_scores = { anime = 9634, leeds = 3624, wikipedia = 4250 }
@@ -162,6 +182,7 @@ frequency_scores = { anime = 9634, leeds = 3624, wikipedia = 4250 }
 kanji = '露'
 kana = 'つゆ'
 english = 'dew'
+french = 'rosée'
 level = 'n1'
 tags = ['common']
 frequency_scores = { anime = 12130, leeds = 5074, novels = 2880, wikipedia = 3095 }
@@ -170,6 +191,7 @@ frequency_scores = { anime = 12130, leeds = 5074, novels = 2880, wikipedia = 309
 kanji = '天気'
 kana = 'てんき'
 english = 'weather'
+french = 'temps (météo)'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 1920, leeds = 2253, wikipedia = 5135 }
@@ -178,6 +200,7 @@ frequency_scores = { anime = 1920, leeds = 2253, wikipedia = 5135 }
 kanji = '天気予報'
 kana = 'てんきよほう'
 english = 'weather forecast'
+french = 'météo; prévisions météorologiques'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'noun', 'weather']
@@ -186,6 +209,7 @@ tags = ['common', 'noun', 'weather']
 kanji = '晴れ'
 kana = 'はれ'
 english = 'clear weather; fine weather'
+french = 'beau temps'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 7339, leeds = 6326 }
@@ -194,6 +218,7 @@ frequency_scores = { anime = 7339, leeds = 6326 }
 kanji = '吹雪'
 kana = 'ふぶき'
 english = 'snow storm; blizzard'
+french = 'tempête de neige; blizzard'
 level = 'n2'
 tags = ['common']
 frequency_scores = { anime = 2597 }
@@ -202,6 +227,7 @@ frequency_scores = { anime = 2597 }
 kanji = '雪'
 kana = 'ゆき'
 english = 'snow'
+french = 'neige'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 368, leeds = 1645, novels = 932, wikipedia = 1924 }

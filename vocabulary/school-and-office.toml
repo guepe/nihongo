@@ -2,6 +2,7 @@
 kanji = '医大'
 kana = 'いだい'
 english = 'medical university'
+french = 'faculté de médecine'
 source = 'wanikani'
 tags = ['common', 'noun', 'place', 'school']
 frequency_scores = { anime = 25193 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 25193 }
 kanji = '鉛筆'
 kana = 'えんぴつ'
 english = 'pencil'
+french = 'crayon'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12641, leeds = 10089 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 12641, leeds = 10089 }
 kanji = '科学'
 kana = 'かがく'
 english = 'science'
+french = 'science'
 level = 'n4'
 tags = ['common', 'field', 'noun']
 frequency_scores = { anime = 2614, leeds = 635, novels = 1648, wikipedia = 497 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 2614, leeds = 635, novels = 1648, wikipedia = 497 }
 kanji = '紙'
 kana = 'かみ'
 english = 'paper'
+french = 'papier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2201, leeds = 1189, novels = 1324, wikipedia = 1154 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 2201, leeds = 1189, novels = 1324, wikipedia = 1154
 kanji = '学生'
 kana = 'がくせい'
 english = 'student'
+french = 'étudiant'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1797, leeds = 627, novels = 2009, wikipedia = 818 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 1797, leeds = 627, novels = 2009, wikipedia = 818 }
 kanji = '学校'
 kana = 'がっこう'
 english = 'school'
+french = 'école'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 228, leeds = 392, novels = 544, wikipedia = 89 }
@@ -50,6 +56,7 @@ frequency_scores = { anime = 228, leeds = 392, novels = 544, wikipedia = 89 }
 kanji = '教科書'
 kana = 'きょうかしょ'
 english = 'textbook'
+french = 'manuel scolaire'
 source = 'irasshai'
 level = 'n3'
 tags = ['book', 'common', 'noun', 'reading', 'school']
@@ -59,6 +66,7 @@ frequency_scores = { anime = 5275, leeds = 2318 }
 kanji = '教室'
 kana = 'きょうしつ'
 english = 'classroom'
+french = 'salle de classe'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1241, leeds = 1744, novels = 1224, wikipedia = 3787 }
@@ -67,6 +75,7 @@ frequency_scores = { anime = 1241, leeds = 1744, novels = 1224, wikipedia = 3787
 kanji = '高校'
 kana = 'こうこう'
 english = 'high school'
+french = 'lycée'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'grade', 'noun', 'place', 'school']
@@ -76,6 +85,7 @@ frequency_scores = { anime = 729, leeds = 1190, novels = 2549, wikipedia = 398 }
 kanji = '高校生'
 kana = 'こうこうせい'
 english = 'high school student'
+french = 'lycéen'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'people', 'school']
@@ -85,6 +95,7 @@ frequency_scores = { anime = 1509, leeds = 2997 }
 kanji = '作文'
 kana = 'さくぶん'
 english = 'composition; writing (essay, prose, etc.)'
+french = 'rédaction; composition'
 level = 'n5'
 tags = ['noun', 'suru-verb']
 frequency_scores = { anime = 12583, leeds = 7471 }
@@ -93,6 +104,7 @@ frequency_scores = { anime = 12583, leeds = 7471 }
 kanji = '試験'
 kana = 'しけん'
 english = 'exam'
+french = 'examen'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'suru-verb']
 frequency_scores = { anime = 730, leeds = 842, wikipedia = 682 }
@@ -101,6 +113,7 @@ frequency_scores = { anime = 730, leeds = 842, wikipedia = 682 }
 kanji = '質問'
 kana = 'しつもん'
 english = 'question; inquiry'
+french = 'question'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1145, leeds = 443, novels = 1002, wikipedia = 4293 }
@@ -109,6 +122,7 @@ frequency_scores = { anime = 1145, leeds = 443, novels = 1002, wikipedia = 4293 
 kanji = '宿題'
 kana = 'しゅくだい'
 english = 'homework'
+french = 'devoirs'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2154, leeds = 5859 }
@@ -117,6 +131,7 @@ frequency_scores = { anime = 2154, leeds = 5859 }
 kanji = '小学生'
 kana = 'しょうがくせい'
 english = 'elementary school student'
+french = 'écolier (école primaire)'
 source = 'irasshai'
 level = 'n2'
 tags = ['common', 'noun', 'people', 'student']
@@ -126,6 +141,7 @@ frequency_scores = { anime = 2739, leeds = 3057, wikipedia = 5289 }
 kanji = '心理学'
 kana = 'しんりがく'
 english = 'psychology'
+french = 'psychologie'
 source = 'wanikani'
 tags = ['common', 'noun', 'school', 'subject']
 
@@ -133,6 +149,7 @@ tags = ['common', 'noun', 'school', 'subject']
 kanji = '辞書'
 kana = 'じしょ'
 english = 'dictionary'
+french = 'dictionnaire'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8996, leeds = 3344, wikipedia = 8941 }
@@ -141,6 +158,7 @@ frequency_scores = { anime = 8996, leeds = 3344, wikipedia = 8941 }
 kanji = '辞典'
 kana = 'じてん'
 english = 'dictionary, lexicon'
+french = 'dictionnaire; lexique'
 level = 'n4'
 tags = ['common', 'grammar', 'noun', 'school']
 frequency_scores = { anime = 23894, leeds = 3718, wikipedia = 6490 }
@@ -149,6 +167,7 @@ frequency_scores = { anime = 23894, leeds = 3718, wikipedia = 6490 }
 kanji = '字引'
 kana = 'じびき'
 english = 'dictionary (older word)'
+french = 'dictionnaire (mot ancien)'
 level = 'n5'
 tags = []
 
@@ -156,6 +175,7 @@ tags = []
 kanji = '授業'
 kana = 'じゅぎょう'
 english = 'lesson; instruction; class work'
+french = 'cours; leçon'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 942, leeds = 927, novels = 2341, wikipedia = 3388 }
@@ -164,6 +184,7 @@ frequency_scores = { anime = 942, leeds = 927, novels = 2341, wikipedia = 3388 }
 kanji = '生徒'
 kana = 'せいと'
 english = 'pupil'
+french = 'élève'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 247, leeds = 1236, novels = 612, wikipedia = 1379 }
@@ -172,6 +193,7 @@ frequency_scores = { anime = 247, leeds = 1236, novels = 612, wikipedia = 1379 }
 kanji = '先生'
 kana = 'せんせい'
 english = 'teacher; master; doctor (honorific/respectful/sonkeigo)'
+french = 'professeur; maître; docteur (respectueux)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 104, leeds = 294, novels = 304, wikipedia = 4323 }
@@ -180,6 +202,7 @@ frequency_scores = { anime = 104, leeds = 294, novels = 304, wikipedia = 4323 }
 kanji = '卒業'
 kana = 'そつぎょう'
 english = 'graduation'
+french = "fin d'études; obtention du diplôme"
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'suru-verb']
@@ -189,6 +212,7 @@ frequency_scores = { anime = 1087, leeds = 1642, wikipedia = 243 }
 kanji = '卒業生'
 kana = 'そつぎょうせい'
 english = 'graduate; alumnus'
+french = 'diplômé; ancien élève'
 source = 'jisho'
 tags = ['common', 'noun', 'school', 'suru-verb']
 frequency_scores = { anime = 5900, leeds = 6810 }
@@ -197,6 +221,7 @@ frequency_scores = { anime = 5900, leeds = 6810 }
 kanji = '体育'
 kana = 'たいいく'
 english = 'physical education'
+french = 'éducation physique'
 source = 'wanikani'
 level = 'n3'
 tags = ['common', 'school']
@@ -206,6 +231,7 @@ frequency_scores = { anime = 3078, leeds = 5870, wikipedia = 1960 }
 kanji = '大学'
 kana = 'だいがく'
 english = 'university'
+french = 'université'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2120, leeds = 380, novels = 1768, wikipedia = 48 }
@@ -214,6 +240,7 @@ frequency_scores = { anime = 2120, leeds = 380, novels = 1768, wikipedia = 48 }
 kanji = '大学生'
 kana = 'だいがくせい'
 english = 'university student'
+french = 'étudiant (université)'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun', 'people', 'student']
@@ -223,6 +250,7 @@ frequency_scores = { anime = 8288, leeds = 4180, wikipedia = 7787 }
 kanji = '中学'
 kana = 'ちゅうがく'
 english = 'middle school'
+french = 'collège'
 source = 'irasshai'
 level = 'n3'
 tags = ['common', 'noun', 'school']
@@ -232,6 +260,7 @@ frequency_scores = { anime = 1242, leeds = 2930, wikipedia = 2210 }
 kanji = '中学生'
 kana = 'ちゅうがくせい'
 english = 'middle school student'
+french = 'collégien'
 source = 'irasshai'
 tags = ['common', 'noun', 'people', 'student']
 frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
@@ -240,6 +269,7 @@ frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
 kanji = '中学生'
 kana = 'ちゅうがくせい'
 english = 'middle school student'
+french = 'collégien'
 source = 'irasshai'
 tags = ['common', 'noun', 'people', 'school']
 frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
@@ -248,6 +278,7 @@ frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
 kanji = '中学校'
 kana = 'ちゅうがっこう'
 english = 'middle school'
+french = 'collège'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'grade', 'noun', 'place', 'school']
@@ -257,6 +288,7 @@ frequency_scores = { anime = 6194, leeds = 3906, wikipedia = 543 }
 kanji = '地理'
 kana = 'ちり'
 english = 'geography'
+french = 'géographie'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'noun', 'school', 'subject']
@@ -266,6 +298,7 @@ frequency_scores = { anime = 20588, leeds = 5696, wikipedia = 2631 }
 kanji = '机'
 kana = 'つくえ'
 english = 'desk'
+french = 'bureau (meuble)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3353, leeds = 4009, novels = 1037 }
@@ -274,6 +307,7 @@ frequency_scores = { anime = 3353, leeds = 4009, novels = 1037 }
 kanji = '手紙'
 kana = 'てがみ'
 english = 'letter'
+french = 'lettre'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1195, leeds = 2115, novels = 865, wikipedia = 3113 }
@@ -282,6 +316,7 @@ frequency_scores = { anime = 1195, leeds = 2115, novels = 865, wikipedia = 3113 
 kanji = '手帳'
 kana = 'てちょう'
 english = 'notebook; memo pad'
+french = 'carnet; agenda'
 level = 'n2'
 tags = ['common', 'noun', 'school']
 frequency_scores = { anime = 7050, leeds = 5583 }
@@ -290,6 +325,7 @@ frequency_scores = { anime = 7050, leeds = 5583 }
 kanji = '図書館'
 kana = 'としょかん'
 english = 'library'
+french = 'bibliothèque'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3888, leeds = 2053 }
@@ -298,6 +334,7 @@ frequency_scores = { anime = 3888, leeds = 2053 }
 kanji = '夏休み'
 kana = 'なつやすみ'
 english = 'summer vacation'
+french = "vacances d'été"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1493, leeds = 3966 }
@@ -306,6 +343,7 @@ frequency_scores = { anime = 1493, leeds = 3966 }
 kanji = '入試'
 kana = 'にゅうし'
 english = 'entrance exam'
+french = "examen d'entrée"
 source = 'manga'
 tags = ['common']
 frequency_scores = { anime = 6790, leeds = 6029, wikipedia = 8767 }
@@ -314,6 +352,7 @@ frequency_scores = { anime = 6790, leeds = 6029, wikipedia = 8767 }
 kanji = '封筒'
 kana = 'ふうとう'
 english = 'envelope'
+french = 'enveloppe'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 10636, leeds = 9619 }
@@ -322,6 +361,7 @@ frequency_scores = { anime = 10636, leeds = 9619 }
 kanji = '文章'
 kana = 'ぶんしょう'
 english = 'sentence; text; essay; prose'
+french = 'phrase; texte; prose'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 5871, leeds = 1057, wikipedia = 3868 }
@@ -330,6 +370,7 @@ frequency_scores = { anime = 5871, leeds = 1057, wikipedia = 3868 }
 kanji = '勉強'
 kana = 'べんきょう'
 english = 'study; diligence'
+french = 'étude; travail scolaire'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 541, leeds = 602, novels = 1990, wikipedia = 4728 }
@@ -338,6 +379,7 @@ frequency_scores = { anime = 541, leeds = 602, novels = 1990, wikipedia = 4728 }
 kanji = '～枚'
 kana = '～まい'
 english = 'counter for flat things'
+french = 'compteur pour les objets plats'
 level = 'n5'
 tags = []
 
@@ -345,6 +387,7 @@ tags = []
 kanji = '万年筆'
 kana = 'まんねんひつ'
 english = 'fountain pen'
+french = 'stylo-plume'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 30696 }
@@ -353,6 +396,7 @@ frequency_scores = { anime = 30696 }
 kanji = '難しい'
 kana = 'むずかしい'
 english = 'difficult'
+french = 'difficile'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 733, leeds = 607, novels = 1991, wikipedia = 2225 }
@@ -361,6 +405,7 @@ frequency_scores = { anime = 733, leeds = 607, novels = 1991, wikipedia = 2225 }
 kanji = '問題'
 kana = 'もんだい'
 english = 'question (on a test); problem'
+french = "question (d'examen); problème"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 253, leeds = 121, novels = 378, wikipedia = 202 }
@@ -369,6 +414,7 @@ frequency_scores = { anime = 253, leeds = 121, novels = 378, wikipedia = 202 }
 kanji = '留学'
 kana = 'りゅうがく'
 english = 'study abroad'
+french = "études à l'étranger"
 level = 'n3'
 tags = ['common', 'noun', 'school', 'study', 'suru-verb']
 frequency_scores = { anime = 8812, leeds = 2352, wikipedia = 2090 }
@@ -377,6 +423,7 @@ frequency_scores = { anime = 8812, leeds = 2352, wikipedia = 2090 }
 kanji = '留学生'
 kana = 'りゅうがくせい'
 english = 'foreign exchange student'
+french = 'étudiant étranger'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12296, leeds = 4976 }
@@ -385,6 +432,7 @@ frequency_scores = { anime = 12296, leeds = 4976 }
 kanji = '練習'
 kana = 'れんしゅう'
 english = 'practice; practicing'
+french = 'entraînement; exercice'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 442, leeds = 1005, wikipedia = 1849 }
@@ -393,6 +441,7 @@ frequency_scores = { anime = 442, leeds = 1005, wikipedia = 1849 }
 kanji = 'クラス'
 kana = 'クラス'
 english = 'class'
+french = 'classe'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 516, leeds = 1263, novels = 1688, wikipedia = 824 }
@@ -401,6 +450,7 @@ frequency_scores = { anime = 516, leeds = 1263, novels = 1688, wikipedia = 824 }
 kanji = 'コピー'
 kana = 'コピー'
 english = 'copy (noun or verb)'
+french = 'copie; photocopie'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3633, leeds = 1957, wikipedia = 2782 }
@@ -409,6 +459,7 @@ frequency_scores = { anime = 3633, leeds = 1957, wikipedia = 2782 }
 kanji = 'テスト'
 kana = 'テスト'
 english = 'test'
+french = 'test; examen'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 953, leeds = 1427, wikipedia = 1848 }
@@ -417,6 +468,7 @@ frequency_scores = { anime = 953, leeds = 1427, wikipedia = 1848 }
 kanji = 'ノート'
 kana = 'ノート'
 english = 'notebook'
+french = 'cahier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1218, leeds = 2425, wikipedia = 5506 }
@@ -425,6 +477,7 @@ frequency_scores = { anime = 1218, leeds = 2425, wikipedia = 5506 }
 kanji = 'ペン'
 kana = 'ペン'
 english = 'pen'
+french = 'stylo'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2256, leeds = 4369, wikipedia = 5497 }
@@ -433,6 +486,7 @@ frequency_scores = { anime = 2256, leeds = 4369, wikipedia = 5497 }
 kanji = 'ボールペン'
 kana = 'ボールペン'
 english = 'ballpoint pen'
+french = 'stylo à bille'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 16913, leeds = 14166 }

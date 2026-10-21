@@ -2,6 +2,7 @@
 kanji = '火星'
 kana = 'かせい'
 english = 'Mars (planet)'
+french = 'Mars (planète)'
 level = 'n1'
 source = 'wanikani'
 tags = ['common', 'no-adjective', 'noun', 'space']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 4287, leeds = 7410, wikipedia = 5868 }
 kanji = '金星'
 kana = 'きんせい'
 english = 'Venus (planet)'
+french = 'Vénus (planète)'
 source = 'wanikani'
 tags = ['common', 'noun', 'planet', 'space']
 frequency_scores = { anime = 16594, leeds = 14137, wikipedia = 8294 }
@@ -19,6 +21,7 @@ frequency_scores = { anime = 16594, leeds = 14137, wikipedia = 8294 }
 kanji = '水星'
 kana = 'すいせい'
 english = 'Mercury (planet)'
+french = 'Mercure (planète)'
 source = 'wanikani'
 tags = ['noun', 'planet', 'space', 'uncommon']
 
@@ -26,6 +29,7 @@ tags = ['noun', 'planet', 'space', 'uncommon']
 kanji = '月'
 kana = 'つき'
 english = 'moon'
+french = 'lune'
 level = 'n3'
 tags = ['common', 'space']
 frequency_scores = { anime = 430, leeds = 77, novels = 646, wikipedia = 21 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 430, leeds = 77, novels = 646, wikipedia = 21 }
 kanji = '土星'
 kana = 'どせい'
 english = 'Saturn (planet)'
+french = 'Saturne (planète)'
 source = 'wanikani'
 tags = ['common', 'noun', 'planet', 'space']
 

@@ -2,6 +2,7 @@
 kanji = 'あ'
 kana = 'あ'
 english = 'Ah'
+french = 'ah'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -10,6 +11,7 @@ tags = ['generated', 'tsv']
 kanji = '嗚呼'
 kana = 'ああ'
 english = 'Ah!; Oh!; yes.'
+french = 'ah ! ; oh ! ; oui'
 level = 'n5'
 tags = ['common', 'expression']
 frequency_scores = { leeds = 1251, novels = 178 }
@@ -18,6 +20,7 @@ frequency_scores = { leeds = 1251, novels = 178 }
 kanji = 'あっ'
 kana = 'あっ'
 english = 'ah; oh; hey!'
+french = 'ah !; oh !; hé !'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common']
@@ -27,6 +30,7 @@ frequency_scores = { leeds = 4044, novels = 700 }
 kanji = 'あのう'
 kana = 'あのう'
 english = 'um...; well...'
+french = 'euh... ; dites...'
 level = 'n5'
 tags = ['common', 'expressions']
 
@@ -34,6 +38,7 @@ tags = ['common', 'expressions']
 kanji = '一体'
 kana = 'いったい'
 english = '(what) the heck; wtf'
+french = '(que) diable ? ; mais enfin'
 source = 'wanikani'
 level = 'n3'
 tags = ['adverb', 'common', 'noun']
@@ -43,6 +48,7 @@ frequency_scores = { anime = 306, leeds = 1374, novels = 1177, wikipedia = 4006 
 kanji = 'うん'
 kana = 'うん'
 english = 'yes; yeah; hmm (casual)'
+french = 'oui; ouais; hum (familier)'
 source = 'irasshai; anime'
 level = 'n4'
 tags = ['common', 'expression']
@@ -52,6 +58,7 @@ frequency_scores = { leeds = 3029, novels = 484 }
 kanji = 'おいおい'
 kana = 'おいおい'
 english = 'Hey! Wait a minute!'
+french = 'hé ! attends un peu !'
 source = 'anime; anime-freq'
 tags = ['common']
 frequency_scores = { anime = 812, leeds = 8383 }
@@ -60,6 +67,7 @@ frequency_scores = { anime = 812, leeds = 8383 }
 kanji = 'じゃ'
 kana = 'じゃ'
 english = 'well then…'
+french = 'bon, alors...'
 source = 'wiktionary'
 level = 'n5'
 tags = ['generated', 'tsv']

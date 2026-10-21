@@ -2,6 +2,7 @@
 kanji = '味'
 kana = 'あじ'
 english = 'flavor; taste'
+french = 'saveur; goût'
 level = 'n4'
 source = 'jlptstudy.net'
 tags = ['common', 'noun']
@@ -47,6 +48,7 @@ frequency_scores = { anime = 1319, leeds = 2415, wikipedia = 7626 }
 kanji = '酸っぱい'
 kana = 'すっぱい'
 english = 'sour; acid'
+french = 'acide; aigre'
 source = 'jisho'
 level = 'n2'
 tags = ['common', 'food', 'i-adjective', 'taste']
@@ -56,6 +58,7 @@ frequency_scores = { anime = 10741 }
 kanji = '苦い'
 kana = 'にがい'
 english = 'bitter'
+french = 'amer'
 source = 'wanikani'
 level = 'n4'
 tags = ['common', 'food', 'i-adjective', 'taste']

@@ -2,6 +2,7 @@
 kanji = '要る'
 kana = 'いる'
 english = 'to be needed'
+french = 'être nécessaire; avoir besoin de'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 1829, leeds = 4434, novels = 15 }
 kanji = '掛かる'
 kana = 'かかる'
 english = 'to take (time or money)'
+french = "prendre (du temps, de l'argent); coûter"
 source = 'n5-wiki'
 level = 'n5'
 tags = ['common']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 2844, leeds = 4086, novels = 233, wikipedia = 4141 
 kanji = '片付ける'
 kana = 'かたづける'
 english = 'to tidy up ~'
+french = 'ranger ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
@@ -29,6 +32,7 @@ frequency_scores = { anime = 2723, leeds = 6563 }
 kanji = '閉める'
 kana = 'しめる'
 english = 'to close ~; to shut ~'
+french = 'fermer ~'
 source = 'irasshai?'
 level = 'n5'
 tags = ['common']
@@ -38,6 +42,7 @@ frequency_scores = { anime = 4048, leeds = 7412, novels = 2432 }
 kanji = '育てる'
 kana = 'そだてる'
 english = 'to raise ~'
+french = 'élever ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
@@ -47,6 +52,7 @@ frequency_scores = { anime = 1786, leeds = 1996, wikipedia = 3470 }
 kanji = '捕まえる'
 kana = 'つかまえる'
 english = 'to catch ~; to arrrest ~'
+french = 'attraper ~; arrêter ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
@@ -56,6 +62,7 @@ frequency_scores = { anime = 1033, leeds = 8023 }
 kanji = '付ける'
 kana = 'つける'
 english = 'to attach ~'
+french = 'attacher ~; allumer ~'
 source = 'wanikani'
 level = 'n5'
 tags = ['common']
@@ -65,6 +72,7 @@ frequency_scores = { anime = 661, leeds = 1192, novels = 1954, wikipedia = 289 }
 kanji = '包む'
 kana = 'つつむ'
 english = 'to wrap ~; to pack ~'
+french = 'envelopper ~; emballer ~'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common']
@@ -74,6 +82,7 @@ frequency_scores = { anime = 2736, leeds = 3915, novels = 927, wikipedia = 5106 
 kanji = '張る'
 kana = 'はる'
 english = 'to affix ~; to paste ~'
+french = 'coller ~; fixer ~'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']
@@ -83,6 +92,7 @@ frequency_scores = { anime = 1191, leeds = 2811, novels = 1188, wikipedia = 2649
 kanji = '弾く'
 kana = 'ひく'
 english = 'to play ~ (stringed instrument)'
+french = 'jouer de ~ (instrument à cordes)'
 source = 'irasshai'
 level = 'n5'
 tags = ['common']
@@ -92,6 +102,7 @@ frequency_scores = { anime = 1715, leeds = 3218, novels = 1171, wikipedia = 5778
 kanji = '渡る'
 kana = 'わたる'
 english = 'to cross over'
+french = 'traverser'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common']

@@ -2,6 +2,7 @@
 kanji = '池'
 kana = 'いけ'
 english = 'pond'
+french = 'étang'
 level = 'n5'
 tags = ['common', 'nature', 'noun', 'outdoors']
 frequency_scores = { anime = 5802, leeds = 4564, wikipedia = 1405 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 5802, leeds = 4564, wikipedia = 1405 }
 kanji = '泉'
 kana = 'いずみ'
 english = 'spring; fountain'
+french = 'source; fontaine'
 source = 'wanikani; japan visit name?'
 level = 'n3'
 tags = ['common', 'nature', 'noun', 'water']
@@ -19,6 +21,7 @@ frequency_scores = { anime = 1285, leeds = 4511, wikipedia = 1645 }
 kanji = '岩'
 kana = 'いわ'
 english = 'boulder; crag; cliff'
+french = 'rocher; falaise'
 level = 'n3'
 tags = ['common', 'nature', 'noun', 'outdoors']
 frequency_scores = { anime = 2874, leeds = 5357, novels = 1253, wikipedia = 1401 }
@@ -27,6 +30,7 @@ frequency_scores = { anime = 2874, leeds = 5357, novels = 1253, wikipedia = 1401
 kanji = '海'
 kana = 'うみ'
 english = 'sea; ocean'
+french = 'mer; océan'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 256, leeds = 629, novels = 543, wikipedia = 363 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 256, leeds = 629, novels = 543, wikipedia = 363 }
 kanji = '海岸'
 kana = 'かいがん'
 english = 'coast; beach'
+french = 'côte; plage'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun', 'ocean']
 frequency_scores = { anime = 6176, leeds = 4606, wikipedia = 1835 }
@@ -43,6 +48,7 @@ frequency_scores = { anime = 6176, leeds = 4606, wikipedia = 1835 }
 kanji = '火山'
 kana = 'かざん'
 english = 'volcano'
+french = 'volcan'
 level = 'n2'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 13165, leeds = 7547, wikipedia = 3205 }
@@ -51,6 +57,7 @@ frequency_scores = { anime = 13165, leeds = 7547, wikipedia = 3205 }
 kanji = '川'
 kana = 'かわ'
 english = 'river'
+french = 'rivière; fleuve'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1494, leeds = 1724, novels = 1292, wikipedia = 98 }
@@ -59,6 +66,7 @@ frequency_scores = { anime = 1494, leeds = 1724, novels = 1292, wikipedia = 98 }
 kanji = '草'
 kana = 'くさ'
 english = 'grass'
+french = 'herbe'
 level = 'n4'
 tags = ['common', 'nature', 'plants']
 frequency_scores = { anime = 3085, leeds = 4331, novels = 1539, wikipedia = 1983 }
@@ -67,12 +75,14 @@ frequency_scores = { anime = 3085, leeds = 4331, novels = 1539, wikipedia = 1983
 kanji = '草地'
 kana = 'くさち'
 english = 'meadow, grassland'
+french = 'prairie; pré'
 tags = ['nature', 'noun', 'outdoors', 'uncommon']
 
 [[cards]]
 kanji = '公園'
 kana = 'こうえん'
 english = '(public) park'
+french = 'parc (public)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2724, leeds = 1806, novels = 2383, wikipedia = 531 }
@@ -81,6 +91,7 @@ frequency_scores = { anime = 2724, leeds = 1806, novels = 2383, wikipedia = 531 
 kanji = '潮'
 kana = 'しお'
 english = 'tide; current; sea water'
+french = 'marée; courant; eau de mer'
 level = 'n1'
 tags = ['common']
 frequency_scores = { anime = 10386, leeds = 9488, wikipedia = 4633 }
@@ -89,6 +100,7 @@ frequency_scores = { anime = 10386, leeds = 9488, wikipedia = 4633 }
 kanji = '地震'
 kana = 'じしん'
 english = 'earthquake'
+french = 'tremblement de terre; séisme'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'noun']
@@ -98,6 +110,7 @@ frequency_scores = { anime = 4761, leeds = 1828, wikipedia = 1323 }
 kanji = '蒸気'
 kana = 'じょうき'
 english = 'steam'
+french = 'vapeur'
 source = 'wanikani'
 level = 'n2'
 tags = ['common', 'nature', 'noun', 'physics', 'water']
@@ -107,6 +120,7 @@ frequency_scores = { anime = 11550, leeds = 11149, wikipedia = 2423 }
 kanji = '滝'
 kana = 'たき'
 english = 'waterfall'
+french = "cascade; chute d'eau"
 level = 'n2'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'geography', 'nature']
@@ -116,6 +130,7 @@ frequency_scores = { anime = 6164, leeds = 6737, wikipedia = 3162 }
 kanji = '地域'
 kana = 'ちいき'
 english = 'area; region'
+french = 'région; zone'
 level = 'n3'
 source = 'sekai-wa-fushigi-2'
 tags = ['common', 'geography']
@@ -125,6 +140,7 @@ frequency_scores = { anime = 4854, leeds = 367, wikipedia = 134 }
 kanji = '地球'
 kana = 'ちきゅう'
 english = 'the Earth'
+french = 'Terre (planète)'
 level = 'n3'
 tags = ['common', 'no-adjective']
 frequency_scores = { anime = 616, leeds = 1128, novels = 1187, wikipedia = 775 }
@@ -133,6 +149,7 @@ frequency_scores = { anime = 616, leeds = 1128, novels = 1187, wikipedia = 775 }
 kanji = '地図'
 kana = 'ちず'
 english = 'map'
+french = 'carte; plan'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 2932, leeds = 2551, novels = 2259, wikipedia = 3427 }
@@ -141,6 +158,7 @@ frequency_scores = { anime = 2932, leeds = 2551, novels = 2259, wikipedia = 3427
 kanji = '土'
 kana = 'つち'
 english = 'earth, soil, dirt, clay, mud'
+french = 'terre; sol; boue'
 level = 'n3'
 tags = ['common', 'earth', 'nature']
 frequency_scores = { anime = 2579, leeds = 982, novels = 1251, wikipedia = 1324 }
@@ -149,6 +167,7 @@ frequency_scores = { anime = 2579, leeds = 982, novels = 1251, wikipedia = 1324 
 kanji = '虹'
 kana = 'にじ'
 english = 'rainbow'
+french = 'arc-en-ciel'
 level = 'n2'
 tags = ['common', 'nature', 'outdoors']
 frequency_scores = { anime = 5557, leeds = 7991, wikipedia = 6042 }
@@ -157,6 +176,7 @@ frequency_scores = { anime = 5557, leeds = 7991, wikipedia = 6042 }
 kanji = '庭'
 kana = 'にわ'
 english = 'garden'
+french = 'jardin'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2725, leeds = 3124, novels = 1273, wikipedia = 4182 }
@@ -165,6 +185,7 @@ frequency_scores = { anime = 2725, leeds = 3124, novels = 1273, wikipedia = 4182
 kanji = '灰'
 kana = 'はい'
 english = 'ash; ashes'
+french = 'cendre(s)'
 level = 'n3'
 tags = ['common', 'fire', 'nature']
 frequency_scores = { anime = 4736, leeds = 9966, novels = 342, wikipedia = 5332 }
@@ -173,6 +194,7 @@ frequency_scores = { anime = 4736, leeds = 9966, novels = 342, wikipedia = 5332 
 kanji = '湖'
 kana = 'みずうみ'
 english = 'lake'
+french = 'lac'
 level = 'n4'
 tags = ['common', 'nature', 'noun', 'outdoors']
 frequency_scores = { anime = 5190, leeds = 4433, wikipedia = 859 }
@@ -181,6 +203,7 @@ frequency_scores = { anime = 5190, leeds = 4433, wikipedia = 859 }
 kanji = '山'
 kana = 'やま'
 english = 'mountain'
+french = 'montagne'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 707, leeds = 1026, novels = 425, wikipedia = 124 }

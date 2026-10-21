@@ -2,6 +2,7 @@
 kanji = '会う'
 kana = 'あう'
 english = 'to meet'
+french = "rencontrer; voir (quelqu'un)"
 english-conjugated = { base = 'meet', past = 'met', plural = 'meets', continuous = 'meeting' }
 verb-type = 'godan-u'
 transitive = false
@@ -14,6 +15,7 @@ frequency_scores = { anime = 211, leeds = 886, novels = 427, wikipedia = 75 }
 kanji = '合う'
 kana = 'あう'
 english = 'to do together; to match'
+french = 'aller ensemble; correspondre'
 english-conjugated = { base = 'do together', past = 'did together', plural = 'does together', continuous = 'doing together' }
 verb-type = 'godan-u'
 transitive = false
@@ -27,6 +29,7 @@ frequency_scores = { anime = 421, leeds = 960, novels = 572, wikipedia = 1423 }
 kanji = '上がる'
 kana = 'あがる'
 english = 'to rise'
+french = "monter; s'élever"
 english-conjugated = { base = 'rise', past = 'rose', plural = 'rises', continuous = 'rising' }
 verb-type = 'godan-ru'
 transitive = false
@@ -39,6 +42,7 @@ frequency_scores = { anime = 526, leeds = 953, novels = 588, wikipedia = 1149 }
 kanji = '空く'
 kana = 'あく'
 english = 'to be empty or open (eg. seat)'
+french = 'se libérer; être vide (ex. siège)'
 english-conjugated = { base = 'be empty', past = 'was empty', plural = 'are empty', continuous = 'being empty' }
 verb-type = 'godan-ku'
 transitive = false
@@ -52,6 +56,7 @@ frequency_scores = { anime = 2023, leeds = 3844, novels = 1039, wikipedia = 7222
 kanji = '開く'
 kana = 'あく'
 english = 'to become open (eg. door); to become open (eg. business)'
+french = "s'ouvrir (ex. porte); ouvrir (ex. magasin)"
 english-conjugated = { base = 'become open (eg. door)', past = 'became open (eg. door)', plural = 'becomes open (eg. doors)', continuous = 'becoming open (eg. door)' }
 verb-type = 'godan-ku'
 transitive = false
@@ -63,6 +68,7 @@ frequency_scores = { anime = 506, leeds = 663, novels = 236, wikipedia = 754 }
 kanji = '開ける'
 kana = 'あける'
 english = 'to open ~ (eg. a door); to open ~ (eg. for business)'
+french = 'ouvrir ~ (ex. porte); ouvrir ~ (ex. magasin)'
 english-conjugated = { base = 'open', past = 'opened', plural = 'opens', continuous = 'opening' }
 verb-type = 'ichidan'
 transitive = true
@@ -74,6 +80,7 @@ frequency_scores = { anime = 585, leeds = 1975, novels = 550, wikipedia = 4575 }
 kanji = '上げる'
 kana = 'あげる'
 english = 'to raise ~; to give ~'
+french = 'lever ~; donner ~'
 english-conjugated = { base = 'raise', past = 'raised', plural = 'raises', continuous = 'raising' }
 verb-type = 'ichidan'
 transitive = true
@@ -85,6 +92,7 @@ frequency_scores = { anime = 669, leeds = 814, novels = 271, wikipedia = 303 }
 kanji = '遊ぶ'
 kana = 'あそぶ'
 english = 'to play'
+french = "jouer; s'amuser"
 english-conjugated = { base = 'play', past = 'played', plural = 'plays', continuous = 'playing' }
 verb-type = 'godan-bu'
 transitive = false
@@ -96,6 +104,7 @@ frequency_scores = { anime = 530, leeds = 1598, novels = 1682, wikipedia = 3153 
 kanji = '集める'
 kana = 'あつめる'
 english = 'to gather ~; to assemble ~'
+french = 'rassembler ~; collecter ~'
 english-conjugated = { base = 'gather', past = 'gathered', plural = 'gathers', continuous = 'gathering' }
 verb-type = 'ichidan'
 transitive = true
@@ -108,6 +117,7 @@ frequency_scores = { anime = 780, leeds = 1399, novels = 1780, wikipedia = 970 }
 kanji = '当てる'
 kana = 'あてる'
 english = 'to hit ~; to guess ~'
+french = 'toucher ~ (atteindre); deviner ~'
 english-conjugated = { base = 'hit', past = 'had hit', continuous = 'hitting', plural = 'hits' }
 verb-type = 'ichidan'
 transitive = true
@@ -120,6 +130,7 @@ frequency_scores = { anime = 2001, leeds = 3495, novels = 1186, wikipedia = 3624
 kanji = '浴びる'
 kana = 'あびる'
 english = 'to bathe in ~ (eg. water, light); to take ~ (eg. shower)'
+french = 'être baigné de ~ (ex. eau, lumière); prendre ~ (ex. douche)'
 english-conjugated = { base = 'bathe', past = 'bathed', plural = 'bathes', continuous = 'bathing' }
 verb-type = 'ichidan'
 transitive = true
@@ -131,6 +142,7 @@ frequency_scores = { anime = 3093, leeds = 4131, novels = 2505, wikipedia = 3702
 kanji = '謝る'
 kana = 'あやまる'
 english = 'to apologize'
+french = "s'excuser"
 english-conjugated = { base = 'apologize', past = 'apologized', plural = 'apologizes', continuous = 'apologizing' }
 verb-type = 'godan-ru'
 transitive = false
@@ -143,6 +155,7 @@ frequency_scores = { anime = 770, leeds = 6811 }
 kanji = '洗う'
 kana = 'あらう'
 english = 'to wash ~'
+french = 'laver ~'
 english-conjugated = { base = 'wash', past = 'washed', plural = 'washes', continuous = 'washing' }
 verb-type = 'godan-u'
 transitive = true
@@ -154,6 +167,7 @@ frequency_scores = { anime = 2014, leeds = 3918, novels = 1801 }
 kanji = '有る'
 kana = 'ある'
 english = 'to be, to exist, to have (inanimate)'
+french = 'être; exister; avoir (inanimé)'
 english-conjugated = { base = 'exist', past = 'existed', plural = 'exists', continuous = 'existing' }
 verb-type = 'irregular'
 transitive = false
@@ -165,6 +179,7 @@ frequency_scores = { anime = 5174, leeds = 2080, novels = 1822, wikipedia = 27 }
 kanji = '生きる'
 kana = 'いきる'
 english = 'to live; to exist'
+french = 'vivre; exister'
 english-conjugated = { base = 'live', past = 'lived', plural = 'lives', continuous = 'living' }
 verb-type = 'ichidan'
 transitive = false
@@ -177,6 +192,7 @@ frequency_scores = { anime = 176, leeds = 553, novels = 424, wikipedia = 2443 }
 kanji = '行く'
 kana = 'いく'
 english = 'to go'
+french = 'aller'
 english-conjugated = { continuous = 'going', base = 'go', plural = 'goes', past = 'went' }
 verb-type = 'godan-ku'
 verb-type2 = 'todo-godan-iku-yuku-special-class'
@@ -190,6 +206,7 @@ frequency_scores = { anime = 39, leeds = 148, novels = 93, wikipedia = 92 }
 kanji = '苛める'
 kana = 'いじめる'
 english = 'to bully ~'
+french = 'maltraiter ~; harceler ~'
 english-conjugated = { base = 'bully', past = 'bullied', plural = 'bullies', continuous = 'bullying' }
 verb-type = 'ichidan'
 transitive = true
@@ -202,6 +219,7 @@ frequency_scores = { anime = 13587, leeds = 8397, wikipedia = 8528 }
 kanji = '急ぐ'
 kana = 'いそぐ'
 english = 'to hurry ~; to rush ~'
+french = 'se dépêcher; presser ~'
 english-conjugated = { base = 'hurry', past = 'hurried', plural = 'hurries', continuous = 'hurrying' }
 verb-type = 'godan-gu'
 transitive = true
@@ -214,6 +232,7 @@ frequency_scores = { anime = 569, leeds = 3111, novels = 998, wikipedia = 9319 }
 kanji = '致す'
 kana = 'いたす'
 english = 'to do ~ (kenjougo)'
+french = 'faire ~ (humble)'
 english-conjugated = { base = 'do', past = 'did', plural = 'does', continuous = 'doing' }
 verb-type = 'godan-su'
 transitive = true
@@ -226,6 +245,7 @@ frequency_scores = { anime = 3931, leeds = 2365, novels = 1769 }
 kanji = '頂く'
 kana = 'いただく'
 english = 'to receive ~ (kenjougo); to accept ~ (kenjougo); to eat/drink ~ (kenjougo)'
+french = 'recevoir ~ (humble); manger / boire ~ (humble)'
 english-conjugated = { base = 'receive', past = 'received', plural = 'receives', continuous = 'receiving' }
 verb-type = 'godan-ku'
 transitive = true
@@ -238,6 +258,7 @@ frequency_scores = { anime = 1418, leeds = 839, novels = 1017, wikipedia = 9716 
 kanji = '祈る'
 kana = 'いのる'
 english = 'to pray ~; to wish ~'
+french = 'prier ~; souhaiter ~'
 english-conjugated = { base = 'pray', past = 'prayed', plural = 'prays', continuous = 'praying' }
 verb-type = 'godan-ru'
 transitive = true
@@ -250,6 +271,7 @@ frequency_scores = { anime = 2828, leeds = 2990, novels = 2632, wikipedia = 6142
 kanji = 'いらっしゃる'
 kana = 'いらっしゃる'
 english = 'to come (sonkeigo); to go (sonkeigo)'
+french = 'venir (honorifique); aller (honorifique); être (honorifique)'
 english-conjugated = { base = 'come', past = 'came', plural = 'comes', continuous = 'coming' }
 verb-type = 'godan-aru-special'
 transitive = false
@@ -262,6 +284,7 @@ frequency_scores = { anime = 878, leeds = 1483, novels = 1332 }
 kanji = '居る'
 kana = 'いる'
 english = 'to be (animate)'
+french = 'être (animé)'
 english-conjugated = { plural = 'are', past = 'was', continuous = 'being', base = 'be' }
 verb-type = 'ichidan'
 transitive = false
@@ -274,6 +297,7 @@ frequency_scores = { anime = 810, leeds = 1668, novels = 399, wikipedia = 1350 }
 kanji = '入れる'
 kana = 'いれる'
 english = 'to put inside ~'
+french = 'mettre ~ dedans'
 english-conjugated = { base = 'put inside', past = 'put inside', plural = 'puts inside', continuous = 'putting inside' }
 verb-type = 'ichidan'
 transitive = true
@@ -285,6 +309,7 @@ frequency_scores = { anime = 216, leeds = 345, novels = 262, wikipedia = 796 }
 kanji = '植える'
 kana = 'うえる'
 english = 'to plant ~; to grow ~; to insert ~'
+french = 'planter ~; cultiver ~'
 english-conjugated = { base = 'plant', past = 'planted', plural = 'plants', continuous = 'planting' }
 verb-type = 'ichidan'
 transitive = true
@@ -297,6 +322,7 @@ frequency_scores = { anime = 6257, leeds = 5162, wikipedia = 4803 }
 kanji = '飢える'
 kana = 'うえる'
 english = 'to starve; to be famished; to be hungry'
+french = 'être affamé; mourir de faim'
 english-conjugated = { base = 'starve', past = 'starved', plural = 'starves', continuous = 'starving' }
 verb-type = 'ichidan'
 transitive = false
@@ -308,6 +334,7 @@ frequency_scores = { anime = 7802, leeds = 13546 }
 kanji = '動く'
 kana = 'うごく'
 english = 'to move'
+french = 'bouger'
 english-conjugated = { plural = 'moves', past = 'moved', base = 'move', continuous = 'moving' }
 verb-type = 'godan-ku'
 transitive = false
@@ -320,6 +347,7 @@ frequency_scores = { anime = 292, leeds = 961, novels = 302, wikipedia = 1005 }
 kanji = '失う'
 kana = 'うしなう'
 english = 'to lose ~'
+french = 'perdre ~'
 english-conjugated = { base = 'lose', plural = 'loses', continuous = 'losing', past = 'lost' }
 verb-type = 'godan-u'
 transitive = true
@@ -332,6 +360,7 @@ frequency_scores = { anime = 567, leeds = 1320, novels = 599, wikipedia = 833 }
 kanji = '撃つ'
 kana = 'うつ'
 english = 'to shoot ~'
+french = 'tirer sur ~'
 english-conjugated = { base = 'shoot', past = 'shot', plural = 'shoots', continuous = 'shooting' }
 verb-type = 'godan-tsu'
 transitive = true
@@ -343,6 +372,7 @@ frequency_scores = { anime = 738, leeds = 5454, novels = 1966, wikipedia = 4830 
 kanji = '生まれる'
 kana = 'うまれる'
 english = 'to be born'
+french = 'naître'
 english-conjugated = { base = 'be born', past = 'been born', plural = 'be born', continuous = 'being born' }
 verb-type = 'ichidan'
 transitive = false
@@ -354,6 +384,7 @@ frequency_scores = { anime = 592, leeds = 826, novels = 935, wikipedia = 183 }
 kanji = '生む'
 kana = 'うむ'
 english = 'to give birth to ~'
+french = 'donner naissance à ~'
 english-conjugated = { base = 'give birth', past = 'gave birth', plural = 'gives birth', continuous = 'giving birth' }
 verb-type = 'godan-mu'
 transitive = true
@@ -365,6 +396,7 @@ frequency_scores = { anime = 4346, leeds = 3434, novels = 1577, wikipedia = 1813
 kanji = '売る'
 kana = 'うる'
 english = 'to sell ~'
+french = 'vendre ~'
 english-conjugated = { base = 'sell', past = 'sold', plural = 'sells', continuous = 'selling' }
 verb-type = 'godan-ru'
 transitive = true
@@ -376,6 +408,7 @@ frequency_scores = { anime = 774, leeds = 841, novels = 1370, wikipedia = 1210 }
 kanji = '起きる'
 kana = 'おきる'
 english = 'to wake up'
+french = 'se réveiller; se lever'
 english-conjugated = { plural = 'wakes up', continuous = 'waking up', base = 'wake up', past = 'woke up' }
 verb-type = 'ichidan'
 transitive = false
@@ -388,6 +421,7 @@ frequency_scores = { anime = 349, leeds = 833, novels = 857, wikipedia = 1356 }
 kanji = '置く'
 kana = 'おく'
 english = 'to put ~; to place ~'
+french = 'poser ~; placer ~'
 english-conjugated = { base = 'put', past = 'put', plural = 'puts', continuous = 'putting' }
 verb-type = 'godan-ku'
 transitive = true
@@ -400,6 +434,7 @@ frequency_scores = { anime = 461, leeds = 624, novels = 280, wikipedia = 257 }
 kanji = '行う'
 kana = 'おこなう'
 english = 'to perform ~; to carry out ~'
+french = 'effectuer ~; réaliser ~'
 english-conjugated = { base = 'perform', past = 'performed', plural = 'performs', continuous = 'performing' }
 verb-type = 'godan-u'
 transitive = true
@@ -412,6 +447,7 @@ frequency_scores = { anime = 317, leeds = 175, novels = 396, wikipedia = 42 }
 kanji = '教える'
 kana = 'おしえる'
 english = 'to teach ~; to instruct ~'
+french = 'enseigner ~; indiquer ~'
 english-conjugated = { plural = 'teaches', past = 'taught', base = 'teach', continuous = 'teaching' }
 verb-type = 'ichidan'
 transitive = true
@@ -424,6 +460,7 @@ frequency_scores = { anime = 203, leeds = 549, novels = 528, wikipedia = 2314 }
 kanji = '押す'
 kana = 'おす'
 english = 'to push; to press'
+french = 'pousser; appuyer'
 english-conjugated = { continuous = 'pushing', past = 'pushed', base = 'push', plural = 'pushes' }
 verb-type = 'godan-su'
 transitive = false
@@ -436,6 +473,7 @@ frequency_scores = { anime = 997, leeds = 1870, novels = 579, wikipedia = 2241 }
 kanji = '落ちる'
 kana = 'おちる'
 english = 'to fall down'
+french = 'tomber'
 english-conjugated = { base = 'fall down', past = 'fell down', plural = 'falls down', continuous = 'falling down' }
 verb-type = 'ichidan'
 transitive = false
@@ -447,6 +485,7 @@ frequency_scores = { anime = 465, leeds = 1340, novels = 358, wikipedia = 1950 }
 kanji = '踊る'
 kana = 'おどる'
 english = 'to dance'
+french = 'danser'
 english-conjugated = { base = 'dance', plural = 'dances', past = 'danced', continuous = 'dancing' }
 verb-type = 'godan-ru'
 transitive = false
@@ -459,6 +498,7 @@ frequency_scores = { anime = 2233, leeds = 3063, novels = 2524, wikipedia = 3423
 kanji = '覚える'
 kana = 'おぼえる'
 english = 'to memorize ~'
+french = 'mémoriser ~; apprendre ~ par cœur'
 english-conjugated = { continuous = 'memorizing', base = 'memorize', plural = 'memorizes', past = 'memorized' }
 verb-type = 'ichidan'
 transitive = true
@@ -471,6 +511,7 @@ frequency_scores = { anime = 284, leeds = 993, novels = 617, wikipedia = 4146 }
 kanji = '泳ぐ'
 kana = 'およぐ'
 english = 'to swim'
+french = 'nager'
 english-conjugated = { base = 'swim', past = 'swam', plural = 'swims', continuous = 'swimming' }
 verb-type = 'godan-gu'
 transitive = false
@@ -482,6 +523,7 @@ frequency_scores = { anime = 1646, leeds = 5424, wikipedia = 9546 }
 kanji = '降りる'
 kana = 'おりる'
 english = 'to descend'
+french = "descendre (d'un véhicule)"
 english-conjugated = { base = 'descend', continuous = 'descending', past = 'descended', plural = 'descends' }
 verb-type = 'ichidan'
 transitive = false
@@ -494,6 +536,7 @@ frequency_scores = { anime = 1361, leeds = 3049, novels = 833, wikipedia = 7123 
 kanji = '終わる'
 kana = 'おわる'
 english = 'to end; to finish'
+french = 'se terminer; finir'
 english-conjugated = { base = 'end', past = 'ended', continuous = 'ending', plural = 'ends' }
 verb-type = 'godan-ru'
 transitive = false
@@ -506,6 +549,7 @@ frequency_scores = { anime = 129, leeds = 385, novels = 328, wikipedia = 492 }
 kanji = '終わる'
 kana = 'おわる'
 english = 'to finish; to end'
+french = 'finir; se terminer'
 english-conjugated = { past = 'finished', continuous = 'finishing', plural = 'finishes', base = 'finish' }
 verb-type = 'godan-ru'
 transitive = false
@@ -518,6 +562,7 @@ frequency_scores = { anime = 129, leeds = 385, novels = 328, wikipedia = 492 }
 kanji = '買う'
 kana = 'かう'
 english = 'to buy ~'
+french = 'acheter ~'
 english-conjugated = { base = 'buy', past = 'bought', plural = 'buys', continuous = 'buying' }
 verb-type = 'godan-u'
 transitive = true
@@ -529,6 +574,7 @@ frequency_scores = { anime = 277, leeds = 287, novels = 712, wikipedia = 1856 }
 kanji = '返す'
 kana = 'かえす'
 english = 'to return ~ (something); to restore ~; to put back ~'
+french = 'rendre ~; remettre ~ en place'
 english-conjugated = { base = 'return', past = 'returned', plural = 'returns', continuous = 'returning' }
 verb-type = 'godan-su'
 transitive = true
@@ -540,6 +586,7 @@ frequency_scores = { anime = 553, leeds = 2317, novels = 627, wikipedia = 2025 }
 kanji = '帰る'
 kana = 'かえる'
 english = 'to return; to go home'
+french = 'rentrer; retourner'
 english-conjugated = { past = 'returned', plural = 'returns', continuous = 'returning', base = 'return' }
 verb-type = 'godan-ru'
 transitive = false
@@ -552,6 +599,7 @@ frequency_scores = { anime = 108, leeds = 543, novels = 214, wikipedia = 2416 }
 kanji = '書く'
 kana = 'かく'
 english = 'to write or compose ~'
+french = 'écrire ~; rédiger ~'
 english-conjugated = { base = 'write', past = 'wrote', plural = 'writes', continuous = 'writing' }
 verb-type = 'godan-ku'
 transitive = true
@@ -563,6 +611,7 @@ frequency_scores = { anime = 304, leeds = 156, novels = 341, wikipedia = 346 }
 kanji = '隠す'
 kana = 'かくす'
 english = 'to hide ~'
+french = 'cacher ~'
 english-conjugated = { base = 'hide', past = 'hid', plural = 'hides', continuous = 'hiding' }
 verb-type = 'godan-su'
 transitive = true
@@ -575,6 +624,7 @@ frequency_scores = { anime = 623, leeds = 2388, novels = 724, wikipedia = 3071 }
 kanji = '欠ける'
 kana = 'かける'
 english = 'to lack'
+french = 'manquer; être ébréché'
 english-conjugated = { base = 'lack', past = 'lacked', plural = 'lacks', continuous = 'lacking' }
 verb-type = 'ichidan'
 transitive = false
@@ -587,6 +637,7 @@ frequency_scores = { anime = 4600, leeds = 3944, novels = 155, wikipedia = 6993 
 kanji = '飾る'
 kana = 'かざる'
 english = 'to decorate ~'
+french = 'décorer ~'
 english-conjugated = { plural = 'decorates', past = 'decorated', continuous = 'decorating', base = 'decorate' }
 verb-type = 'godan-ru'
 transitive = true
@@ -599,6 +650,7 @@ frequency_scores = { anime = 4508, leeds = 3642, wikipedia = 1822 }
 kanji = '貸す'
 kana = 'かす'
 english = 'to lend ~'
+french = 'prêter ~'
 english-conjugated = { base = 'lend', past = 'lent', plural = 'lends', continuous = 'lending' }
 level = 'n5'
 verb-type = 'godan-su'
@@ -610,6 +662,7 @@ frequency_scores = { anime = 783, leeds = 4040, novels = 2006, wikipedia = 5423 
 kanji = '勝つ'
 kana = 'かつ'
 english = 'to win'
+french = 'gagner'
 english-conjugated = { base = 'win', past = 'won', plural = 'wins', continuous = 'winning' }
 verb-type = 'godan-tsu'
 transitive = false
@@ -621,6 +674,7 @@ frequency_scores = { anime = 294, leeds = 1470, novels = 1907, wikipedia = 591 }
 kanji = '借りる'
 kana = 'かりる'
 english = 'to borrow ~; to rent ~; to have a loan for ~'
+french = 'emprunter ~; louer ~'
 english-conjugated = { base = 'borrow', past = 'borrowed', continuous = 'borrowing', plural = 'borrows' }
 verb-type = 'ichidan'
 transitive = false
@@ -633,6 +687,7 @@ frequency_scores = { anime = 1004, leeds = 1869, novels = 1580, wikipedia = 4754
 kanji = '変わる'
 kana = 'かわる'
 english = 'to change; to be transformed'
+french = 'changer; se transformer'
 english-conjugated = { base = 'change', continuous = 'changing', past = 'changed', plural = 'changes' }
 verb-type = 'godan-ru'
 transitive = true
@@ -645,6 +700,7 @@ frequency_scores = { anime = 182, leeds = 411, novels = 478, wikipedia = 965 }
 kanji = '考える'
 kana = 'かんがえる'
 english = 'to think about ~'
+french = 'réfléchir à ~'
 english-conjugated = { continuous = 'thinking about', base = 'think about', past = 'thought about', plural = 'thinks about' }
 verb-type = 'ichidan'
 transitive = true
@@ -657,6 +713,7 @@ frequency_scores = { anime = 111, leeds = 122, novels = 130, wikipedia = 181 }
 kanji = '頑張る'
 kana = 'がんばる'
 english = 'to persevere'
+french = 'persévérer; faire de son mieux'
 english-conjugated = { past = 'persevered', continuous = 'persevering', plural = 'perseveres', base = 'persevere' }
 verb-type = 'godan-ru'
 transitive = false
@@ -668,6 +725,7 @@ frequency_scores = { anime = 181, leeds = 991 }
 kanji = '消える'
 kana = 'きえる'
 english = 'to vanish; to disappear'
+french = "s'éteindre; disparaître"
 english-conjugated = { past = 'vanished', base = 'vanish', plural = 'vanishes', continuous = 'vanishing' }
 verb-type = 'ichidan'
 transitive = false
@@ -680,6 +738,7 @@ frequency_scores = { anime = 353, leeds = 1857, novels = 451, wikipedia = 4230 }
 kanji = '聞く'
 kana = 'きく'
 english = 'to hear ~'
+french = 'entendre ~; écouter ~; demander ~'
 english-conjugated = { past = 'heard', continuous = 'hearing', base = 'hear', plural = 'hears' }
 verb-type = 'godan-ku'
 transitive = true
@@ -692,6 +751,7 @@ frequency_scores = { anime = 63, leeds = 202, novels = 119, wikipedia = 1455 }
 kanji = '築く'
 kana = 'きずく'
 english = 'to build ~; to construct ~'
+french = 'bâtir ~; construire ~'
 english-conjugated = { base = 'build', plural = 'builds', past = 'built', continuous = 'building' }
 verb-type = 'godan-ku'
 transitive = true
@@ -703,6 +763,7 @@ frequency_scores = { anime = 4379, leeds = 4162, wikipedia = 1783 }
 kanji = '切る'
 kana = 'きる'
 english = 'to cut ~'
+french = 'couper ~'
 english-conjugated = { base = 'cut', past = 'had cut', continuous = 'cutting', plural = 'cuts' }
 verb-type = 'godan-ru'
 transitive = true
@@ -715,6 +776,7 @@ frequency_scores = { anime = 610, leeds = 1183, novels = 429, wikipedia = 1165 }
 kanji = '擽る'
 kana = 'くすぐ'
 english = 'to tickle ~'
+french = 'chatouiller ~'
 english-conjugated = { base = 'tickle', past = 'tickled', plural = 'tickles', continuous = 'tickling' }
 verb-type = 'godan-ru'
 transitive = true
@@ -725,6 +787,7 @@ frequency_scores = { anime = 43890 }
 kanji = '曇る'
 kana = 'くもる'
 english = 'to get cloudy'
+french = 'se couvrir (ciel)'
 english-conjugated = { base = 'get cloudy', past = 'got cloudy', plural = 'gets cloudy', continuous = 'getting cloudy' }
 level = 'n5'
 verb-type = 'godan-ru'
@@ -736,6 +799,7 @@ frequency_scores = { anime = 5782, leeds = 6455 }
 kanji = '来る'
 kana = 'くる'
 english = 'to come'
+french = 'venir'
 english-conjugated = { past = 'came', plural = 'comes', base = 'come', continuous = 'coming' }
 verb-type = 'godan-ru'
 verb-type2 = 'todo-kuru-verb-special-class'
@@ -749,6 +813,7 @@ frequency_scores = { anime = 42, leeds = 217, novels = 69, wikipedia = 1311 }
 kanji = '苦しむ'
 kana = 'くるしむ'
 english = 'to suffer'
+french = 'souffrir'
 english-conjugated = { base = 'suffer', past = 'suffered', plural = 'suffers', continuous = 'suffering' }
 verb-type = 'godan-mu'
 transitive = false
@@ -761,6 +826,7 @@ frequency_scores = { anime = 2547, leeds = 3531, wikipedia = 4919 }
 kanji = '消す'
 kana = 'けす'
 english = 'to delete ~; to erase/cross out ~; to turn off ~s power'
+french = 'effacer ~; rayer ~; éteindre ~'
 english-conjugated = { base = 'delete', past = 'deleted', plural = 'deletes', continuous = 'deleting' }
 verb-type = 'godan-su'
 transitive = true
@@ -772,6 +838,7 @@ frequency_scores = { anime = 807, leeds = 3343, novels = 1260, wikipedia = 3655 
 kanji = '越える'
 kana = 'こえる'
 english = 'to pass over ~; to cross over ~; to go beyond ~'
+french = 'passer par-dessus ~; franchir ~; dépasser ~'
 english-conjugated = { base = 'cross over', past = 'crossed over', plural = 'crosses over', continuous = 'crossing over' }
 verb-type = 'ichidan'
 transitive = true
@@ -784,6 +851,7 @@ frequency_scores = { anime = 1722, leeds = 2062, novels = 1998, wikipedia = 1994
 kanji = '困る'
 kana = 'こまる'
 english = 'to be troubled; to have difficulty'
+french = 'être embarrassé; avoir des difficultés'
 english-conjugated = { continuous = 'being troubled', past = 'been troubled', base = 'be troubled', plural = 'are troubled' }
 verb-type = 'godan-ru'
 transitive = false
@@ -796,6 +864,7 @@ frequency_scores = { anime = 404, leeds = 1103, novels = 615, wikipedia = 9629 }
 kanji = '込む'
 kana = 'こむ'
 english = 'to be crowded'
+french = 'être bondé'
 english-conjugated = { base = 'be crowded', past = 'was crowded', plural = 'are crowded', continuous = 'is crowded' }
 verb-type = 'godan-mu'
 transitive = false
@@ -808,6 +877,7 @@ frequency_scores = { anime = 2573, leeds = 3752, novels = 613, wikipedia = 201 }
 kanji = '殺す'
 kana = 'ころす'
 english = 'to kill ~'
+french = 'tuer ~'
 english-conjugated = { continuous = 'killing', base = 'kill', past = 'killed', plural = 'kills' }
 verb-type = 'godan-su'
 transitive = true
@@ -820,6 +890,7 @@ frequency_scores = { anime = 116, leeds = 1661, novels = 253, wikipedia = 1743 }
 kanji = '探す'
 kana = 'さがす'
 english = 'to search'
+french = 'chercher'
 english-conjugated = { base = 'search', past = 'searched', plural = 'searches', continuous = 'searching' }
 verb-type = 'godan-su'
 transitive = true
@@ -831,6 +902,7 @@ frequency_scores = { anime = 302, leeds = 876, novels = 819, wikipedia = 3186 }
 kanji = '咲く'
 kana = 'さく'
 english = 'to bloom'
+french = 'fleurir'
 english-conjugated = { plural = 'blooms', continuous = 'blooming', past = 'bloomed', base = 'bloom' }
 verb-type = 'godan-ku'
 transitive = false
@@ -843,6 +915,7 @@ frequency_scores = { anime = 2841, leeds = 3382, novels = 1926, wikipedia = 6536
 kanji = '避ける'
 kana = 'さける'
 english = 'to avoid ~'
+french = 'éviter ~'
 english-conjugated = { base = 'avoid', plural = 'avoids', continuous = 'avoiding', past = 'avoided' }
 verb-type = 'ichidan'
 transitive = true
@@ -855,6 +928,7 @@ frequency_scores = { anime = 1387, leeds = 1773, novels = 1783, wikipedia = 2283
 kanji = '支える'
 kana = 'ささえる'
 english = 'to support ~'
+french = 'soutenir ~'
 english-conjugated = { base = 'support', past = 'supported', plural = 'supports', continuous = 'supporting' }
 verb-type = 'ichidan'
 transitive = true
@@ -867,6 +941,7 @@ frequency_scores = { anime = 2438, leeds = 1988, novels = 1922, wikipedia = 2506
 kanji = '差す'
 kana = 'さす'
 english = 'to raise hands; to hold (an umbrella) overhead'
+french = 'lever (la main); tenir (un parapluie) au-dessus de soi'
 english-conjugated = { past = 'raised', base = 'raise', plural = 'raises', continuous = 'raising' }
 verb-type = 'godan-su'
 transitive = false
@@ -880,6 +955,7 @@ frequency_scores = { anime = 5677, leeds = 6828, novels = 2260, wikipedia = 7366
 kanji = '死ぬ'
 kana = 'しぬ'
 english = 'to die'
+french = 'mourir'
 english-conjugated = { plural = 'dies', past = 'died', continuous = 'dying', base = 'die' }
 verb-type = 'godan-nu'
 transitive = false
@@ -892,6 +968,7 @@ frequency_scores = { anime = 90, leeds = 845, novels = 228, wikipedia = 1333 }
 kanji = '閉まる'
 kana = 'しまる'
 english = 'to shut; to close; to be closed'
+french = 'se fermer; être fermé'
 english-conjugated = { base = 'shut', continuous = 'shutting', plural = 'shuts', past = 'had shut' }
 verb-type = 'godan-ru'
 transitive = false
@@ -904,6 +981,7 @@ frequency_scores = { anime = 4015, leeds = 9222 }
 kanji = '締める'
 kana = 'しめる'
 english = 'to tie ~; to tighten; to fasten ~ (eg necktie or belt)'
+french = 'nouer ~; serrer ~; attacher ~ (ex. cravate, ceinture)'
 english-conjugated = { continuous = 'tightening', base = 'tighten', plural = 'tightens', past = 'tightened' }
 verb-type = 'ichidan'
 transitive = true
@@ -916,6 +994,7 @@ frequency_scores = { anime = 6839, leeds = 8830, novels = 2205, wikipedia = 9004
 kanji = '調べる'
 kana = 'しらべる'
 english = 'to investigate ~'
+french = 'examiner ~; rechercher ~'
 english-conjugated = { plural = 'investigates', base = 'investigate', past = 'investigated', continuous = 'investigating' }
 verb-type = 'ichidan'
 transitive = true
@@ -928,6 +1007,7 @@ frequency_scores = { anime = 779, leeds = 1045, novels = 1022, wikipedia = 3477 
 kanji = '吸う'
 kana = 'すう'
 english = 'to smoke ~; to inhale ~'
+french = 'fumer ~; aspirer ~'
 english-conjugated = { continuous = 'smoking', base = 'smoke', plural = 'smokes', past = 'smoked' }
 verb-type = 'godan-u'
 transitive = true
@@ -940,6 +1020,7 @@ frequency_scores = { anime = 1409, leeds = 3687, novels = 1106, wikipedia = 6615
 kanji = '滑る'
 kana = 'すべる'
 english = 'to glide; to slide'
+french = 'glisser'
 english-conjugated = { continuous = 'gliding', base = 'glide', past = 'glided', plural = 'glides' }
 verb-type = 'godan-ru'
 transitive = false
@@ -952,6 +1033,7 @@ frequency_scores = { anime = 3226, leeds = 6709, wikipedia = 8585 }
 kanji = '住む'
 kana = 'すむ'
 english = 'to reside; to live'
+french = 'habiter; résider'
 english-conjugated = { base = 'reside', past = 'resided', plural = 'resides', continuous = 'residing' }
 verb-type = 'godan-mu'
 transitive = false
@@ -964,6 +1046,7 @@ frequency_scores = { anime = 1094, leeds = 920, novels = 949, wikipedia = 887 }
 kanji = '座る'
 kana = 'すわる'
 english = 'to sit'
+french = "s'asseoir"
 english-conjugated = { base = 'sit', past = 'sat', plural = 'sits', continuous = 'sitting' }
 verb-type = 'godan-ru'
 transitive = false
@@ -975,6 +1058,7 @@ frequency_scores = { anime = 1309, leeds = 1826, novels = 820, wikipedia = 6086 
 kanji = '注ぐ'
 kana = 'そそぐ'
 english = 'to pour ~'
+french = 'verser ~'
 english-conjugated = { base = 'pour', past = 'poured', plural = 'pours', continuous = 'pouring' }
 verb-type = 'godan-gu'
 transitive = true
@@ -987,6 +1071,7 @@ frequency_scores = { anime = 5284, leeds = 4719, novels = 2443, wikipedia = 4085
 kanji = '育つ'
 kana = 'そだつ'
 english = 'to be raised; to be brought up'
+french = 'grandir; être élevé'
 english-conjugated = { base = 'raised', past = 'been raised', plural = 'are raised', continuous = 'being raised' }
 verb-type = 'godan-tsu'
 transitive = false
@@ -999,6 +1084,7 @@ frequency_scores = { anime = 2528, leeds = 2340, novels = 2606, wikipedia = 2757
 kanji = '足す'
 kana = 'たす'
 english = 'to add ~ (numbers); to add ~ (to something)'
+french = 'ajouter ~; additionner ~'
 english-conjugated = { base = 'add', past = 'added', plural = 'adds', continuous = 'adding' }
 verb-type = 'godan-su'
 transitive = true
@@ -1011,6 +1097,7 @@ frequency_scores = { anime = 4680, leeds = 6714, novels = 2693, wikipedia = 9335
 kanji = '助ける'
 kana = 'たすける'
 english = 'to save ~; to rescue ~'
+french = 'sauver ~; secourir ~'
 english-conjugated = { base = 'save', past = 'saved', plural = 'saves', continuous = 'saving' }
 verb-type = 'ichidan'
 transitive = true
@@ -1023,6 +1110,7 @@ frequency_scores = { anime = 240, leeds = 2572, novels = 876, wikipedia = 2696 }
 kanji = '戦う'
 kana = 'たたかう'
 english = 'to make war; to do battle; to compete'
+french = 'faire la guerre; combattre; affronter'
 english-conjugated = { plural = 'makes war', base = 'make war', continuous = 'making war', past = 'made war' }
 verb-type = 'godan-u'
 transitive = false
@@ -1035,6 +1123,7 @@ frequency_scores = { anime = 223, leeds = 2271, novels = 917, wikipedia = 253 }
 kanji = '正す'
 kana = 'ただす'
 english = 'to correct ~; to rectify ~'
+french = 'corriger ~; rectifier ~'
 english-conjugated = { base = 'correct', past = 'corrected', plural = 'corrects', continuous = 'correcting' }
 verb-type = 'godan-su'
 transitive = true
@@ -1046,6 +1135,7 @@ frequency_scores = { anime = 9493, leeds = 10729, wikipedia = 2068 }
 kanji = '立つ'
 kana = 'たつ'
 english = 'to stand'
+french = 'se lever; être debout'
 english-conjugated = { base = 'stand', past = 'stood', plural = 'stands', continuous = 'standing' }
 verb-type = 'godan-tsu'
 transitive = false
@@ -1057,6 +1147,7 @@ frequency_scores = { anime = 495, leeds = 644, novels = 173, wikipedia = 873 }
 kanji = '立てる'
 kana = 'たてる'
 english = 'to stand up ~'
+french = 'dresser ~; mettre debout ~'
 english-conjugated = { base = 'stand up', past = 'stood up', plural = 'stands up', continuous = 'standing up' }
 verb-type = 'ichidan'
 transitive = true
@@ -1069,6 +1160,7 @@ frequency_scores = { anime = 1082, leeds = 1644, novels = 522, wikipedia = 1431 
 kanji = '頼む'
 kana = 'たのむ'
 english = 'to request ~; to beg ~'
+french = 'demander ~; prier ~'
 english-conjugated = { past = 'requested', continuous = 'requesting', base = 'request', plural = 'requests' }
 verb-type = 'godan-mu'
 transitive = true
@@ -1081,6 +1173,7 @@ frequency_scores = { anime = 219, leeds = 2134, novels = 997, wikipedia = 5698 }
 kanji = '足りる'
 kana = 'たりる'
 english = 'to be sufficient; to be enough'
+french = 'suffire; être suffisant'
 english-conjugated = { base = 'be sufficient', past = 'been sufficient', plural = 'are sufficient', continuous = 'being sufficient' }
 verb-type = 'ichidan'
 transitive = false
@@ -1093,6 +1186,7 @@ frequency_scores = { anime = 702, leeds = 2206, novels = 2234, wikipedia = 7971 
 kanji = '出す'
 kana = 'だす'
 english = 'to take out ~'
+french = 'sortir ~'
 english-conjugated = { base = 'take out', past = 'taken out', plural = 'takes out', continuous = 'taking out' }
 verb-type = 'godan-su'
 transitive = true
@@ -1104,6 +1198,7 @@ frequency_scores = { anime = 159, leeds = 257, novels = 131, wikipedia = 224 }
 kanji = '違う'
 kana = 'ちがう'
 english = 'to differ from; to be incorrect'
+french = 'être différent; être faux'
 english-conjugated = { plural = 'differs', base = 'differ', continuous = 'differing', past = 'differed' }
 verb-type = 'godan-u'
 transitive = false
@@ -1116,6 +1211,7 @@ frequency_scores = { anime = 85, leeds = 291, novels = 296, wikipedia = 697 }
 kanji = 'ちまう'
 kana = 'ちまう'
 english = 'to do completely ~ (kantou dialect)'
+french = 'finir par faire ~ complètement (dialecte du Kantō)'
 english-conjugated = { past = 'did completely', base = 'do completely', plural = 'does completely', continuous = 'doing completely' }
 verb-type = 'godan-u'
 transitive = true
@@ -1127,6 +1223,7 @@ frequency_scores = { anime = 214, leeds = 6920, novels = 1096 }
 kanji = '使う'
 kana = 'つかう'
 english = 'to use ~ (colloquial)'
+french = 'utiliser ~'
 english-conjugated = { base = 'use', past = 'used', plural = 'uses', continuous = 'using' }
 level = 'n5'
 verb-type = 'godan-u'
@@ -1138,6 +1235,7 @@ frequency_scores = { anime = 127, leeds = 174, novels = 241, wikipedia = 131 }
 kanji = '疲れる'
 kana = 'つかれる'
 english = 'to get tired'
+french = 'se fatiguer; être fatigué'
 english-conjugated = { past = 'got tired', continuous = 'getting tired', plural = 'gets tired', base = 'get tired' }
 verb-type = 'ichidan'
 transitive = false
@@ -1150,6 +1248,7 @@ frequency_scores = { anime = 841, leeds = 1923, novels = 1500 }
 kanji = '着く'
 kana = 'つく'
 english = 'to arrive'
+french = 'arriver'
 english-conjugated = { base = 'arrive', continuous = 'arriving', plural = 'arrives', past = 'arrived' }
 verb-type = 'godan-ku'
 transitive = false
@@ -1162,6 +1261,7 @@ frequency_scores = { anime = 1114, leeds = 1982, novels = 1073, wikipedia = 5396
 kanji = '作る'
 kana = 'つくる'
 english = 'to make ~'
+french = 'faire ~; fabriquer ~'
 english-conjugated = { plural = 'makes', base = 'make', continuous = 'making', past = 'made' }
 verb-type = 'godan-ru'
 transitive = true
@@ -1174,6 +1274,7 @@ frequency_scores = { anime = 154, leeds = 250, novels = 444, wikipedia = 232 }
 kanji = '続く'
 kana = 'つづく'
 english = 'to continue; to be continued'
+french = 'continuer; durer'
 english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
 verb-type = 'godan-ku'
 transitive = false
@@ -1186,6 +1287,7 @@ frequency_scores = { anime = 630, leeds = 412, novels = 530, wikipedia = 262 }
 kanji = '続ける'
 kana = 'つづける'
 english = 'to continue ~; to keep up ~'
+french = 'continuer ~; poursuivre ~'
 english-conjugated = { past = 'continued', base = 'continue', continuous = 'continuing', plural = 'continues' }
 verb-type = 'ichidan'
 transitive = true
@@ -1198,6 +1300,7 @@ frequency_scores = { anime = 272, leeds = 404, novels = 382, wikipedia = 313 }
 kanji = '勤める'
 kana = 'つとめる'
 english = 'to work for ~; to be employed at ~; to serve in ~'
+french = 'travailler pour ~; être employé à ~'
 english-conjugated = { base = 'work for', continuous = 'working for', plural = 'works for', past = 'worked for' }
 verb-type = 'ichidan'
 transitive = true
@@ -1210,6 +1313,7 @@ frequency_scores = { anime = 9494, leeds = 4783, wikipedia = 3278 }
 kanji = '出かける'
 kana = 'でかける'
 english = 'to go out; to set out'
+french = 'sortir; partir'
 english-conjugated = { base = 'go out', past = 'went out', plural = 'goes out', continuous = 'going out' }
 verb-type = 'ichidan'
 transitive = false
@@ -1221,6 +1325,7 @@ frequency_scores = { anime = 2056, leeds = 2126, novels = 1567 }
 kanji = '出来る'
 kana = 'できる'
 english = 'to be able to do'
+french = 'pouvoir; savoir faire'
 english-conjugated = { past = 'was able', base = 'be able', plural = 'are able', continuous = 'being able' }
 verb-type = 'ichidan'
 transitive = false
@@ -1233,6 +1338,7 @@ frequency_scores = { anime = 467, leeds = 275, novels = 365, wikipedia = 44 }
 kanji = '出る'
 kana = 'でる'
 english = 'to exit'
+french = 'sortir'
 english-conjugated = { base = 'exit', past = 'exited', plural = 'exits', continuous = 'exiting' }
 verb-type = 'ichidan'
 transitive = false
@@ -1244,6 +1350,7 @@ frequency_scores = { anime = 78, leeds = 153, novels = 89, wikipedia = 230 }
 kanji = '通る'
 kana = 'とおる'
 english = 'to pass'
+french = 'passer'
 english-conjugated = { base = 'pass', past = 'passed', plural = 'passes', continuous = 'going past' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1256,6 +1363,7 @@ frequency_scores = { anime = 1579, leeds = 1270, novels = 633, wikipedia = 1603 
 kanji = '届ける'
 kana = 'とどける'
 english = 'to report ~; to deliver ~'
+french = 'livrer ~; déclarer ~ (aux autorités)'
 english-conjugated = { base = 'report', past = 'reported', continuous = 'reporting', plural = 'reports' }
 verb-type = 'ichidan'
 transitive = true
@@ -1267,6 +1375,7 @@ frequency_scores = { anime = 2138, leeds = 5209, wikipedia = 7418 }
 kanji = '飛ぶ'
 kana = 'とぶ'
 english = 'to fly; to jump'
+french = 'voler; sauter'
 english-conjugated = { base = 'fly', past = 'flew', plural = 'flies', continuous = 'flying' }
 verb-type = 'godan-bu'
 transitive = false
@@ -1278,6 +1387,7 @@ frequency_scores = { anime = 579, leeds = 1822, novels = 431, wikipedia = 2731 }
 kanji = '止まる'
 kana = 'とまる'
 english = 'to stop (moving, doing, ...); to come to a halt'
+french = "s'arrêter"
 english-conjugated = { base = 'stop', past = 'stopped', plural = 'stops', continuous = 'stopping' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1289,6 +1399,7 @@ frequency_scores = { anime = 599, leeds = 2254, novels = 1058, wikipedia = 984 }
 kanji = '止める'
 kana = 'とめる'
 english = 'to stop ~'
+french = 'arrêter ~'
 english-conjugated = { base = 'stop', past = 'stopped', plural = 'stop', continuous = 'stopping' }
 verb-type = 'ichidan'
 transitive = true
@@ -1300,6 +1411,7 @@ frequency_scores = { anime = 296, leeds = 1624, novels = 580, wikipedia = 1583 }
 kanji = '取り替える'
 kana = 'とりかえる'
 english = 'to exchange ~'
+french = 'échanger ~; remplacer ~'
 english-conjugated = { continuous = 'exchanging', base = 'exchange', past = 'exchanged', plural = 'exchanges' }
 verb-type = 'ichidan'
 transitive = true
@@ -1312,6 +1424,7 @@ frequency_scores = { anime = 12213, leeds = 12430 }
 kanji = '撮る'
 kana = 'とる'
 english = 'to take ~ (eg a photo)'
+french = 'prendre ~ (ex. une photo)'
 english-conjugated = { base = 'take a photo', plural = 'takes a photo', past = 'took a photo', continuous = 'taking a photo' }
 verb-type = 'godan-ru'
 transitive = true
@@ -1324,6 +1437,7 @@ frequency_scores = { anime = 1185, leeds = 1482, novels = 2952, wikipedia = 5523
 kanji = '取る'
 kana = 'とる'
 english = 'to take ~; to pick up ~; ...'
+french = 'prendre ~; ramasser ~'
 english-conjugated = { past = 'took', continuous = 'taking', plural = 'takes', base = 'take' }
 verb-type = 'godan-ru'
 transitive = true
@@ -1336,6 +1450,7 @@ frequency_scores = { anime = 225, leeds = 473, novels = 246, wikipedia = 138 }
 kanji = '直す'
 kana = 'なおす'
 english = 'to fix ~'
+french = 'réparer ~; corriger ~'
 english-conjugated = { base = 'fix', past = 'fixed', plural = 'fixes', continuous = 'fixining' }
 verb-type = 'godan-su'
 transitive = true
@@ -1347,6 +1462,7 @@ frequency_scores = { anime = 1311, leeds = 2358, novels = 1587, wikipedia = 3600
 kanji = '直る'
 kana = 'なおる'
 english = 'to be fixed'
+french = 'être réparé; être corrigé'
 english-conjugated = { base = 'be fixed', past = 'been fixed', plural = 'be fixed', continuous = 'being fixed' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1359,6 +1475,7 @@ frequency_scores = { anime = 3635, leeds = 8593 }
 kanji = '鳴く'
 kana = 'なく'
 english = 'to sing (bird); to chirp'
+french = 'chanter (oiseau); gazouiller'
 english-conjugated = { plural = 'chrips', past = 'chirped', base = 'chirp', continuous = 'chirping' }
 verb-type = 'godan-ku'
 transitive = false
@@ -1371,6 +1488,7 @@ frequency_scores = { anime = 7457, leeds = 8530 }
 kanji = '無くす'
 kana = 'なくす'
 english = 'to lose ~ (something)'
+french = 'perdre ~'
 english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuous = 'losing' }
 level = 'n5'
 verb-type = 'godan-su'
@@ -1382,6 +1500,7 @@ frequency_scores = { anime = 6625, leeds = 11680 }
 kanji = '習う'
 kana = 'ならう'
 english = 'to be taught ~; to take lessons in ~'
+french = 'apprendre ~; prendre des cours de ~'
 english-conjugated = { plural = 'are taught', base = 'be taught', past = 'been taught', continuous = 'being taught' }
 verb-type = 'godan-u'
 transitive = true
@@ -1394,6 +1513,7 @@ frequency_scores = { anime = 4182, leeds = 4710, wikipedia = 7348 }
 kanji = '並ぶ'
 kana = 'ならぶ'
 english = 'to line up'
+french = 'faire la queue; être aligné'
 english-conjugated = { plural = 'lines up', continuous = 'lining up', base = 'line up', past = 'lined up' }
 verb-type = 'godan-bu'
 transitive = false
@@ -1406,6 +1526,7 @@ frequency_scores = { anime = 2527, leeds = 1602, novels = 922, wikipedia = 1162 
 kanji = '成る'
 kana = 'なる'
 english = 'to become; to reach'
+french = 'devenir; atteindre'
 english-conjugated = { base = 'become', past = 'became', plural = 'becomes', continuous = 'becoming' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1417,6 +1538,7 @@ frequency_scores = { anime = 5954, leeds = 4440, novels = 2356, wikipedia = 25 }
 kanji = '脱ぐ'
 kana = 'ぬぐ'
 english = 'to undress ~; to take off ~ (clothes, shoes)'
+french = 'enlever ~; ôter ~ (vêtements, chaussures)'
 english-conjugated = { base = 'undress', past = 'undressed', plural = 'undresses', continuous = 'undressing' }
 verb-type = 'godan-gu'
 transitive = true
@@ -1429,6 +1551,7 @@ frequency_scores = { anime = 1792, leeds = 6537, novels = 1505 }
 kanji = '盗む'
 kana = 'ぬすむ'
 english = 'to steal ~'
+french = 'voler ~ (dérober)'
 english-conjugated = { base = 'steal', past = 'stole', plural = 'steals', continuous = 'stealing' }
 verb-type = 'godan-mu'
 transitive = true
@@ -1440,6 +1563,7 @@ frequency_scores = { anime = 2187, leeds = 4948, wikipedia = 6636 }
 kanji = '寝る'
 kana = 'ねる'
 english = 'to lie down; to sleep (lying down)'
+french = 'se coucher; dormir'
 english-conjugated = { base = 'lie down', continuous = 'lying down', past = 'lied down', plural = 'lies down' }
 verb-type = 'ichidan'
 transitive = false
@@ -1452,6 +1576,7 @@ frequency_scores = { anime = 286, leeds = 1088, novels = 634, wikipedia = 3636 }
 kanji = '残る'
 kana = 'のこる'
 english = 'to remain; to be left'
+french = 'rester'
 english-conjugated = { base = 'remain', past = 'remained', plural = 'remains', continuous = 'remaining' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1464,6 +1589,7 @@ frequency_scores = { anime = 373, leeds = 688, novels = 416, wikipedia = 419 }
 kanji = '上る'
 kana = 'のぼる'
 english = 'to climb'
+french = 'monter; grimper'
 english-conjugated = { base = 'climb', past = 'climbed', plural = 'climbs', continuous = 'climbing' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1475,6 +1601,7 @@ frequency_scores = { anime = 4087, leeds = 3733, novels = 1028, wikipedia = 1825
 kanji = '乗る'
 kana = 'のる'
 english = 'to ride (train, car, plane, bus...)'
+french = 'monter (dans un véhicule); prendre (train, voiture, avion, bus...)'
 english-conjugated = { plural = 'rides', continuous = 'riding', base = 'ride', past = 'rode' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1487,6 +1614,7 @@ frequency_scores = { anime = 398, leeds = 751, novels = 492, wikipedia = 801 }
 kanji = '入る'
 kana = 'はいる'
 english = 'to enter'
+french = 'entrer'
 english-conjugated = { plural = 'enters', base = 'enter', past = 'entered', continuous = 'entering' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1499,6 +1627,7 @@ frequency_scores = { anime = 114, leeds = 215, novels = 134, wikipedia = 184 }
 kanji = '生える'
 kana = 'はえる'
 english = 'to grow'
+french = 'pousser (plantes, poils)'
 english-conjugated = { base = 'grow', past = 'grew', plural = 'grows', continuous = 'growing' }
 verb-type = 'ichidan'
 transitive = false
@@ -1511,6 +1640,7 @@ frequency_scores = { anime = 2843, leeds = 6189, novels = 2621, wikipedia = 6365
 kanji = '始まる'
 kana = 'はじまる'
 english = 'to begin'
+french = 'commencer'
 english-conjugated = { base = 'begin', past = 'began', plural = 'begins', continuous = 'beginning' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1522,6 +1652,7 @@ frequency_scores = { anime = 441, leeds = 650, novels = 1218, wikipedia = 385 }
 kanji = '外れる'
 kana = 'はずれる'
 english = 'to be disconnected'
+french = 'se détacher; se déconnecter; manquer (la cible)'
 english-conjugated = { base = 'be disconnected', past = 'been disconnected', plural = 'be disconnected', continuous = 'being disconnected' }
 verb-type = 'ichidan'
 transitive = false
@@ -1533,6 +1664,7 @@ frequency_scores = { anime = 2381, leeds = 4884, wikipedia = 4184 }
 kanji = '働く'
 kana = 'はたらく'
 english = 'to work'
+french = 'travailler'
 english-conjugated = { base = 'work', past = 'worked', plural = 'works', continuous = 'working' }
 verb-type = 'godan-ku'
 transitive = false
@@ -1544,6 +1676,7 @@ frequency_scores = { anime = 829, leeds = 736, novels = 874, wikipedia = 1122 }
 kanji = '放す'
 kana = 'はなす'
 english = 'to release ~'
+french = 'lâcher ~; relâcher ~'
 english-conjugated = { base = 'release', past = 'released', plural = 'releases', continuous = 'releasing' }
 verb-type = 'godan-su'
 transitive = true
@@ -1556,6 +1689,7 @@ frequency_scores = { anime = 2068, leeds = 13398, novels = 2820 }
 kanji = '張る'
 kana = 'はる'
 english = 'to stick ~; to paste ~; to affix ~'
+french = 'coller ~; fixer ~; tendre ~'
 english-conjugated = { continuous = 'sticking', base = 'stick', past = 'stuck', plural = 'sticks' }
 verb-type = 'godan-ru'
 transitive = true
@@ -1568,6 +1702,7 @@ frequency_scores = { anime = 1191, leeds = 2811, novels = 1188, wikipedia = 2649
 kanji = '晴れる'
 kana = 'はれる'
 english = 'to be sunny; to stop raining; to clear up'
+french = "faire beau; s'éclaircir; cesser de pleuvoir"
 english-conjugated = { plural = 'clears up', past = 'cleared up', base = 'clear up', continuous = 'clearing up' }
 verb-type = 'ichidan'
 transitive = false
@@ -1580,6 +1715,7 @@ frequency_scores = { anime = 2360, leeds = 5054 }
 kanji = '化ける'
 kana = 'ばける'
 english = 'to transform'
+french = 'se transformer; se déguiser'
 english-conjugated = { plural = 'transforms', base = 'transform', continuous = 'transforming', past = 'transformed' }
 verb-type = 'ichidan'
 transitive = false
@@ -1592,6 +1728,7 @@ frequency_scores = { anime = 6757 }
 kanji = '光る'
 kana = 'ひかる'
 english = 'to shine'
+french = 'briller'
 english-conjugated = { plural = 'shines', base = 'shine', continuous = 'shining', past = 'shined' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1603,6 +1740,7 @@ frequency_scores = { anime = 1893, leeds = 5232, novels = 1055, wikipedia = 5758
 kanji = '引く'
 kana = 'ひく'
 english = 'to pull ~; to subtract ~'
+french = 'tirer ~; soustraire ~'
 english-conjugated = { base = 'pull', past = 'pulled', plural = 'pulls', continuous = 'pulling' }
 verb-type = 'godan-ku'
 transitive = true
@@ -1614,6 +1752,7 @@ frequency_scores = { anime = 629, leeds = 1380, novels = 380, wikipedia = 1253 }
 kanji = '吹く'
 kana = 'ふく'
 english = 'to blow ~ (eg. wind)'
+french = 'souffler (ex. vent)'
 english-conjugated = { past = 'blew', plural = 'blows', base = 'blow', continuous = 'blowing' }
 verb-type = 'godan-ku'
 transitive = true
@@ -1626,6 +1765,7 @@ frequency_scores = { anime = 1778, leeds = 3212, novels = 1090, wikipedia = 2737
 kanji = '太る'
 kana = 'ふとる'
 english = 'to get fat'
+french = 'grossir'
 english-conjugated = { base = 'get fat', past = 'got fat', plural = 'gets fat', continuous = 'getting fat' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1637,6 +1777,7 @@ frequency_scores = { anime = 3113, leeds = 5745 }
 kanji = '降る'
 kana = 'ふる'
 english = 'to fall (rain, snow, etc.)'
+french = 'tomber (pluie, neige, etc.)'
 english-conjugated = { base = 'fall', continuous = 'falling', plural = 'falls', past = 'fell' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1649,6 +1790,7 @@ frequency_scores = { anime = 1125, leeds = 2054, novels = 1104, wikipedia = 4689
 kanji = '曲がる'
 kana = 'まがる'
 english = 'to bend'
+french = 'se plier; se courber'
 english-conjugated = { plural = 'bends', base = 'bend', continuous = 'bending', past = 'bent' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1661,6 +1803,7 @@ frequency_scores = { anime = 4430, leeds = 5622, wikipedia = 8402 }
 kanji = '曲がる'
 kana = 'まがる'
 english = 'to bend; to twist; to turn'
+french = 'se plier; se tordre; tourner'
 english-conjugated = { base = 'twist', past = 'twisted', plural = 'twists', continuous = 'twising' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1672,6 +1815,7 @@ frequency_scores = { anime = 4430, leeds = 5622, wikipedia = 8402 }
 kanji = '負ける'
 kana = 'まける'
 english = 'to lose'
+french = 'perdre (match)'
 english-conjugated = { base = 'lose', past = 'lost', plural = 'loses', continuous = 'losing' }
 verb-type = 'ichidan'
 transitive = false
@@ -1684,6 +1828,7 @@ frequency_scores = { anime = 254, leeds = 1592, novels = 1323, wikipedia = 1674 
 kanji = '混ぜる'
 kana = 'まぜる'
 english = 'to mix ~; to stir ~; to blend ~'
+french = 'mélanger ~; remuer ~'
 english-conjugated = { base = 'mix', past = 'mixed', plural = 'mixes', continuous = 'mixing' }
 verb-type = 'ichidan'
 transitive = true
@@ -1696,6 +1841,7 @@ frequency_scores = { anime = 4382, leeds = 6008, wikipedia = 7861 }
 kanji = '待つ'
 kana = 'まつ'
 english = 'to wait; to wait on ~'
+french = 'attendre; attendre ~'
 english-conjugated = { base = 'wait', past = 'waited', plural = 'waits', continuous = 'waiting' }
 verb-type = 'godan-tsu'
 transitive = true
@@ -1708,6 +1854,7 @@ frequency_scores = { anime = 64, leeds = 773, novels = 222, wikipedia = 1472 }
 kanji = '学ぶ'
 kana = 'まなぶ'
 english = 'to study; to learn'
+french = 'étudier; apprendre'
 english-conjugated = { base = 'study', past = 'studied', plural = 'studies', continuous = 'studying' }
 verb-type = 'godan-bu'
 transitive = false
@@ -1719,6 +1866,7 @@ frequency_scores = { anime = 2988, leeds = 862, wikipedia = 781 }
 kanji = '守る'
 kana = 'まもる'
 english = 'to protect'
+french = 'protéger'
 english-conjugated = { base = 'protect', past = 'protected', plural = 'protects', continuous = 'protecting' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1730,6 +1878,7 @@ frequency_scores = { anime = 229, leeds = 915, novels = 773, wikipedia = 1382 }
 kanji = '磨く'
 kana = 'みがく'
 english = 'to brush ~ (eg teeth); to polish ~'
+french = 'brosser ~ (ex. dents); polir ~'
 english-conjugated = { plural = 'polishes', continuous = 'polishing', past = 'polished', base = 'polish' }
 verb-type = 'godan-ku'
 transitive = true
@@ -1742,6 +1891,7 @@ frequency_scores = { anime = 3546, leeds = 4916 }
 kanji = '向かう'
 kana = 'むかう'
 english = 'to face'
+french = 'faire face à; se diriger vers'
 english-conjugated = { base = 'face', past = 'faced', plural = 'faces', continuous = 'facing' }
 verb-type = 'godan-u'
 transitive = false
@@ -1754,6 +1904,7 @@ frequency_scores = { anime = 483, leeds = 798, novels = 327, wikipedia = 579 }
 kanji = '用いる'
 kana = 'もちいる'
 english = 'to use ~; to utilize ~ (literary)'
+french = 'utiliser ~; employer ~ (littéraire)'
 english-conjugated = { base = 'use', past = 'used', plural = 'uses', continuous = 'using' }
 verb-type = 'ichidan'
 transitive = true
@@ -1766,6 +1917,7 @@ frequency_scores = { anime = 6627, leeds = 1384, wikipedia = 161 }
 kanji = '持つ'
 kana = 'もつ'
 english = 'to hold ~ (in hand)'
+french = 'tenir ~ (en main); avoir ~'
 english-conjugated = { continuous = 'holding', base = 'hold', plural = 'holds', past = 'held' }
 verb-type = 'godan-tsu'
 transitive = true
@@ -1778,6 +1930,7 @@ frequency_scores = { anime = 91, leeds = 161, novels = 135, wikipedia = 59 }
 kanji = '戻る'
 kana = 'もどる'
 english = 'to turn back (eg halfway)'
+french = 'revenir; faire demi-tour'
 english-conjugated = { base = 'turn back', continuous = 'turning back', past = 'turned back', plural = 'turns back' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1790,6 +1943,7 @@ frequency_scores = { anime = 170, leeds = 516, novels = 255, wikipedia = 705 }
 kanji = '休む'
 kana = 'やすむ'
 english = 'to rest; to take a break; to take a day off'
+french = 'se reposer; faire une pause; prendre un jour de congé'
 english-conjugated = { base = 'rest', past = 'rested', plural = 'rests', continuous = 'resting' }
 verb-type = 'godan-mu'
 transitive = false
@@ -1801,6 +1955,7 @@ frequency_scores = { anime = 715, leeds = 2996, novels = 1715, wikipedia = 4094 
 kanji = '止める'
 kana = 'やめる'
 english = 'to stop ~'
+french = 'arrêter ~; cesser ~'
 english-conjugated = { past = 'stopped', base = 'stop', plural = 'stops', continuous = 'stopping' }
 verb-type = 'ichidan'
 transitive = true
@@ -1813,6 +1968,7 @@ frequency_scores = { anime = 296, leeds = 1624, novels = 580, wikipedia = 1583 }
 kanji = '遣る'
 kana = 'やる'
 english = 'to do ~ (casual)'
+french = 'faire ~ (familier)'
 english-conjugated = { base = 'do', past = 'did', plural = 'does', continuous = 'doing' }
 verb-type = 'godan-ru'
 transitive = true
@@ -1824,6 +1980,7 @@ frequency_scores = { anime = 6319, leeds = 135, novels = 2206, wikipedia = 1269 
 kanji = '呼ぶ'
 kana = 'よぶ'
 english = 'to call out to ~; to summon ~; to invite ~'
+french = 'appeler ~; convoquer ~; inviter ~'
 english-conjugated = { base = 'call out', plural = 'calls out', past = 'called out', continuous = 'calling out' }
 verb-type = 'godan-bu'
 transitive = true
@@ -1836,6 +1993,7 @@ frequency_scores = { anime = 189, leeds = 490, novels = 267, wikipedia = 70 }
 kanji = '寄る'
 kana = 'よる'
 english = 'to approach'
+french = "s'approcher; passer (chez quelqu'un)"
 english-conjugated = { base = 'approach', past = 'approached', continuous = 'approaching', plural = 'approaches' }
 verb-type = 'godan-ru'
 transitive = false
@@ -1848,6 +2006,7 @@ frequency_scores = { anime = 1679, leeds = 3635, novels = 1228, wikipedia = 3091
 kanji = '分ける'
 kana = 'わける'
 english = 'to separate ~; to divide ~'
+french = 'séparer ~; diviser ~'
 english-conjugated = { base = 'separate', past = 'separated', plural = 'separates', continuous = 'separating' }
 verb-type = 'ichidan'
 transitive = true
@@ -1860,6 +2019,7 @@ frequency_scores = { anime = 1973, leeds = 2047, novels = 2743, wikipedia = 1030
 kanji = '渡す'
 kana = 'わたす'
 english = 'to ferry across ~ (eg river); to traverse ~'
+french = 'faire traverser ~ (ex. rivière); remettre ~ (donner)'
 english-conjugated = { plural = 'traverses', continuous = 'traversing', past = 'traversed', base = 'traverse' }
 verb-type = 'godan-su'
 transitive = true
@@ -1872,6 +2032,7 @@ frequency_scores = { anime = 832, leeds = 2504, novels = 1319, wikipedia = 2797 
 kanji = 'コピーする'
 kana = 'コピーする'
 english = 'to make a copy'
+french = 'faire une copie; photocopier'
 english-conjugated = { past = 'made a copy', continuous = 'making a copy', base = 'make a copy', plural = 'makes a copy' }
 verb-type = 'suru-verb'
 transitive = true

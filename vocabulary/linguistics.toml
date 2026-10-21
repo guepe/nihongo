@@ -2,6 +2,7 @@
 kanji = '音読み'
 kana = 'おんよみ'
 english = 'Chinese-derived reading of Kanji'
+french = "lecture sino-japonaise (on'yomi) des kanji"
 source = 'irasshai'
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 33035 }
@@ -11,6 +12,7 @@ kanji = '訓読み'
 kana = 'くんよみ'
 source = 'irasshai'
 english = 'native Japanese reading of Kanji'
+french = "lecture japonaise (kun'yomi) des kanji"
 tags = ['common', 'noun', 'suru-verb']
 frequency_scores = { anime = 38528 }
 
@@ -18,6 +20,7 @@ frequency_scores = { anime = 38528 }
 kanji = '敬語'
 kana = 'けいご'
 english = 'honorific language'
+french = 'langage honorifique'
 level = 'n2'
 tags = ['common']
 frequency_scores = { anime = 8689, leeds = 13486 }
@@ -26,24 +29,28 @@ frequency_scores = { anime = 8689, leeds = 13486 }
 kanji = '謙譲語'
 kana = 'けんじょうご'
 english = 'humble language (humble keigo); speaking about oneself to those in power'
+french = "langage humble (keigo d'humilité); pour parler de soi à un supérieur"
 tags = ['uncommon']
 
 [[cards]]
 kanji = '尊敬語'
 kana = 'そんけいご'
 english = 'honorific language (honorific keigo); spoken about or to those in power'
+french = "langage honorifique (keigo de respect); pour parler d'un supérieur ou à un supérieur"
 tags = ['uncommon']
 
 [[cards]]
 kanji = '丁寧語'
 kana = 'ていねいご'
 english = 'polite language (eg masu, desu)'
+french = 'langage poli (ex. -masu, desu)'
 tags = ['uncommon']
 
 [[cards]]
 kanji = '動詞'
 kana = 'どうし'
 english = 'verb'
+french = 'verbe'
 level = 'n3'
 tags = ['common']
 frequency_scores = { anime = 23749, leeds = 7879, wikipedia = 6170 }
@@ -52,6 +59,7 @@ frequency_scores = { anime = 23749, leeds = 7879, wikipedia = 6170 }
 kanji = '方言'
 kana = 'ほうげん'
 english = 'dialect'
+french = 'dialecte'
 source = 'living-in-japan; wanikani'
 level = 'n2'
 tags = ['common', 'no-adjective', 'noun']
@@ -61,6 +69,7 @@ frequency_scores = { anime = 17636, leeds = 8464, wikipedia = 3418 }
 kanji = '名詞'
 kana = 'めいし'
 english = 'noun'
+french = 'nom (grammaire)'
 level = 'n2'
 tags = ['common']
 frequency_scores = { anime = 30430, leeds = 7752, wikipedia = 5658 }
@@ -69,6 +78,7 @@ frequency_scores = { anime = 30430, leeds = 7752, wikipedia = 5658 }
 kanji = '文字'
 kana = 'もじ'
 english = 'letter (alphabet)'
+french = 'lettre; caractère'
 level = 'n3'
 source = 'wanikani'
 tags = ['common', 'noun']

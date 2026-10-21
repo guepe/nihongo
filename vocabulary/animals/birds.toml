@@ -2,6 +2,7 @@
 kanji = '烏'
 kana = 'からす'
 english = 'raven; crow'
+french = 'corbeau; corneille'
 tags = ['common', 'noun']
 frequency_scores = { anime = 949, wikipedia = 5234 }
 
@@ -18,6 +19,7 @@ frequency_scores = { anime = 1662, leeds = 2011, novels = 1315, wikipedia = 1788
 kanji = '白鳥'
 kana = 'はくちょう'
 english = 'swan'
+french = 'cygne'
 source = 'wanikani'
 level = 'n4'
 tags = ['animal', 'common', 'voice']

@@ -2,6 +2,7 @@
 kanji = '兄'
 kana = 'あに'
 english = "(one's own) older brother (kenjougo)"
+french = '(mon) grand frère (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 505, leeds = 3647, novels = 766, wikipedia = 1069 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 505, leeds = 3647, novels = 766, wikipedia = 1069 }
 kanji = '姉'
 kana = 'あね'
 english = "(one's own) older sister (kenjougo)"
+french = '(ma) grande sœur (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 320, leeds = 3837, novels = 644, wikipedia = 2890 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 320, leeds = 3837, novels = 644, wikipedia = 2890 }
 kanji = '妹'
 kana = 'いもうと'
 english = "(one's own) younger sister (kenjougo)"
+french = '(ma) petite sœur (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 493, leeds = 3065, novels = 775, wikipedia = 2289 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 493, leeds = 3065, novels = 775, wikipedia = 2289 }
 kanji = 'お母さん'
 kana = 'おかあさん'
 english = 'mother (sonkeigo)'
+french = 'mère (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 347, leeds = 2549, novels = 2088 }
@@ -34,6 +38,7 @@ frequency_scores = { anime = 347, leeds = 2549, novels = 2088 }
 kanji = '奥さん'
 kana = 'おくさん'
 english = 'wife (sonkeigo)'
+french = 'épouse (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 2135, leeds = 3555, novels = 2371 }
@@ -42,6 +47,7 @@ frequency_scores = { anime = 2135, leeds = 3555, novels = 2371 }
 kanji = '伯父'
 kana = 'おじ'
 english = 'uncle'
+french = 'oncle'
 source = 'wiki-n5'
 level = 'n5'
 tags = ['common', 'family', 'noun', 'people']
@@ -51,6 +57,7 @@ frequency_scores = { anime = 8036, leeds = 13123, wikipedia = 3155 }
 kanji = 'お祖父さん'
 kana = 'おじいさん'
 english = 'grandfather; male senior citizen (sonkeigo)'
+french = 'grand-père; vieil homme (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 6182, leeds = 9861 }
@@ -59,6 +66,7 @@ frequency_scores = { anime = 6182, leeds = 9861 }
 kanji = '伯父さん'
 kana = 'おじさん'
 english = 'uncle; old man (sonkeigo)'
+french = "oncle; monsieur d'âge mûr (respectueux)"
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 1921, leeds = 3858 }
@@ -67,6 +75,7 @@ frequency_scores = { anime = 1921, leeds = 3858 }
 kanji = '夫'
 kana = 'おっと'
 english = 'husband'
+french = 'mari (le sien)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -76,6 +85,7 @@ frequency_scores = { anime = 3816, leeds = 1321, novels = 1189, wikipedia = 893 
 kanji = 'お父さん'
 kana = 'おとうさん'
 english = 'father (sonkeigo)'
+french = 'père (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 470, leeds = 3497, novels = 1938 }
@@ -84,6 +94,7 @@ frequency_scores = { anime = 470, leeds = 3497, novels = 1938 }
 kanji = '弟'
 kana = 'おとうと'
 english = "(one's own) little brother (kenjougo)"
+french = '(mon) petit frère (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 1063, leeds = 3372, novels = 1378, wikipedia = 953 }
@@ -92,6 +103,7 @@ frequency_scores = { anime = 1063, leeds = 3372, novels = 1378, wikipedia = 953 
 kanji = 'お兄さん'
 kana = 'おにいさん'
 english = 'older brother (sonkeigo)'
+french = 'grand frère (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 
@@ -99,6 +111,7 @@ tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 kanji = 'お姉さん'
 kana = 'おねえさん'
 english = 'older sister (sonkeigo)'
+french = 'grande sœur (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 
@@ -106,6 +119,7 @@ tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 kanji = 'お祖母さん'
 kana = 'おばあさん'
 english = 'grandmother (sonkeigo)'
+french = 'grand-mère (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 38578, leeds = 9363 }
@@ -114,6 +128,7 @@ frequency_scores = { anime = 38578, leeds = 9363 }
 kanji = '伯母さん'
 kana = 'おばさん'
 english = 'aunt (sonkeigo)'
+french = 'tante (respectueux)'
 level = 'n5'
 tags = ['common', 'family', 'honorific', 'respectful', 'sonkeigo']
 frequency_scores = { anime = 3230, leeds = 5802 }
@@ -122,6 +137,7 @@ frequency_scores = { anime = 3230, leeds = 5802 }
 kanji = '親'
 kana = 'おや'
 english = 'mother OR father (singular); parent'
+french = 'parent (père ou mère)'
 source = 'wanikani; movies'
 level = 'n4'
 explain = 'https://hinative.com/ja/questions/1301745'
@@ -132,6 +148,7 @@ frequency_scores = { anime = 952, leeds = 923, novels = 1264, wikipedia = 1018 }
 kanji = '家内'
 kana = 'かない'
 english = '(my) wife (polite humble)'
+french = '(ma) femme (humble)'
 source = 'n4-wikipedia'
 level = 'n4'
 explain = 'https://japanese.stackexchange.com/a/14787'
@@ -142,6 +159,7 @@ frequency_scores = { anime = 16157, leeds = 9088 }
 kanji = '兄弟'
 kana = 'きょうだい'
 english = 'siblings'
+french = 'frères et sœurs'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1913, leeds = 3214, novels = 2991, wikipedia = 1150 }
@@ -150,6 +168,7 @@ frequency_scores = { anime = 1913, leeds = 3214, novels = 2991, wikipedia = 1150
 kanji = '主婦'
 kana = 'しゅふ'
 english = 'housewife'
+french = 'femme au foyer'
 source = 'try! n4'
 level = 'n3'
 tags = ['common', 'family', 'noun', 'people']
@@ -159,6 +178,7 @@ frequency_scores = { anime = 9304, leeds = 3550, wikipedia = 8909 }
 kanji = '祖父'
 kana = 'そふ'
 english = "(one's own) grandfather; old man"
+french = '(mon) grand-père'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 5178, leeds = 6964, wikipedia = 2943 }
@@ -167,6 +187,7 @@ frequency_scores = { anime = 5178, leeds = 6964, wikipedia = 2943 }
 kanji = '祖母'
 kana = 'そぼ'
 english = "(one's own) grandmother"
+french = '(ma) grand-mère'
 level = 'n4'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 7708, leeds = 6476, wikipedia = 6842 }
@@ -175,6 +196,7 @@ frequency_scores = { anime = 7708, leeds = 6476, wikipedia = 6842 }
 kanji = '父'
 kana = 'ちち'
 english = "(one's own) father (kenjougo)"
+french = '(mon) père (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 843, leeds = 1370, novels = 453, wikipedia = 332 }
@@ -183,6 +205,7 @@ frequency_scores = { anime = 843, leeds = 1370, novels = 453, wikipedia = 332 }
 kanji = '妻'
 kana = 'つま'
 english = "(one's own) wife"
+french = '(ma) femme; épouse'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
@@ -192,6 +215,7 @@ frequency_scores = { anime = 2245, leeds = 1353, novels = 1033, wikipedia = 684 
 kanji = '母'
 kana = 'はは'
 english = "(one's own) mother (kenjougo)"
+french = '(ma) mère (humble)'
 level = 'n5'
 tags = ['common', 'family', 'humble', 'kenjougo', 'people']
 frequency_scores = { anime = 818, leeds = 1104, novels = 501, wikipedia = 639 }
@@ -200,6 +224,7 @@ frequency_scores = { anime = 818, leeds = 1104, novels = 501, wikipedia = 639 }
 kanji = '息子'
 kana = 'むすこ'
 english = 'son'
+french = 'fils'
 level = 'n4'
 tags = ['common', 'family', 'noun', 'people']
 frequency_scores = { anime = 1011, leeds = 1343, novels = 1523, wikipedia = 896 }
@@ -208,6 +233,7 @@ frequency_scores = { anime = 1011, leeds = 1343, novels = 1523, wikipedia = 896 
 kanji = '娘'
 kana = 'むすめ'
 english = 'daughter'
+french = 'fille'
 level = 'n4'
 tags = ['common', 'family', 'noun', 'people']
 frequency_scores = { anime = 369, leeds = 1007, novels = 301, wikipedia = 574 }
@@ -216,6 +242,7 @@ frequency_scores = { anime = 369, leeds = 1007, novels = 301, wikipedia = 574 }
 kanji = '両親'
 kana = 'りょうしん'
 english = 'parents; both parents'
+french = 'parents (les deux)'
 level = 'n5'
 tags = ['common', 'family', 'noun', 'people']
 frequency_scores = { anime = 1868, leeds = 2403, novels = 1629, wikipedia = 2747 }

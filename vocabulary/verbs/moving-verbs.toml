@@ -2,6 +2,7 @@
 kanji = '通う'
 kana = 'かよう'
 english = 'to commute'
+french = 'faire la navette; aller régulièrement à'
 english-conjugated = { past = 'commuted', base = 'commute', continuous = 'commuting', plural = 'commutes' }
 verb-type = 'godan-u'
 transitive = false

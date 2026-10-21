@@ -2,6 +2,7 @@
 kanji = 'じゃが芋'
 kana = 'じゃがいも'
 english = 'potato'
+french = 'pomme de terre'
 tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
 frequency_scores = { anime = 38995 }
 
@@ -9,6 +10,7 @@ frequency_scores = { anime = 38995 }
 kanji = '玉ねぎ'
 kana = 'たまねぎ'
 english = 'onion'
+french = 'oignon'
 source = 'wanikani'
 tags = ['common', 'food', 'noun', 'vegetable']
 frequency_scores = { anime = 13106 }
@@ -17,6 +19,7 @@ frequency_scores = { anime = 13106 }
 kanji = '茄子'
 kana = 'なす'
 english = 'eggplant'
+french = 'aubergine'
 source = 'wanikani'
 tags = ['common', 'food', 'noun', 'vegetable']
 frequency_scores = { anime = 29259, leeds = 1360, novels = 1277 }
@@ -25,6 +28,7 @@ frequency_scores = { anime = 29259, leeds = 1360, novels = 1277 }
 kanji = '人参'
 kana = 'にんじん'
 english = 'carrot'
+french = 'carotte'
 tags = ['common', 'food', 'healthy', 'noun', 'vegetable']
 frequency_scores = { anime = 15776, leeds = 14442 }
 

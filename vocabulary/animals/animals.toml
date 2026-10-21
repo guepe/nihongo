@@ -2,6 +2,7 @@
 kanji = '海老'
 kana = 'えび'
 english = 'shrimp; lobster'
+french = 'crevette; homard'
 tags = ['common', 'noun']
 frequency_scores = { anime = 19219, leeds = 12508, wikipedia = 5900 }
 
@@ -18,6 +19,7 @@ frequency_scores = { anime = 10866, leeds = 9205, novels = 1405, wikipedia = 960
 kanji = '蟹'
 kana = 'かに'
 english = 'crab'
+french = 'crabe'
 tags = ['common', 'noun']
 frequency_scores = { anime = 11836, leeds = 12760, wikipedia = 8226 }
 
@@ -25,6 +27,7 @@ frequency_scores = { anime = 11836, leeds = 12760, wikipedia = 8226 }
 kanji = '狸'
 kana = 'たぬき'
 english = 'tanuki (raccoon dog)'
+french = 'tanuki (chien viverrin)'
 tags = ['common']
 frequency_scores = { anime = 5191 }
 

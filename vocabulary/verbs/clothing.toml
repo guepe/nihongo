@@ -2,6 +2,7 @@
 kanji = '着る'
 kana = 'きる'
 english = 'to put on or wear ~ (from the shoulders down)'
+french = 'mettre ~; porter ~ (vêtement, des épaules vers le bas)'
 english-conjugated = { continuous = 'wearing', base = 'wear', past = 'wore', plural = 'wears' }
 verb-type = 'ichidan'
 transitive = true
@@ -14,6 +15,7 @@ frequency_scores = { anime = 636, leeds = 1770, novels = 545, wikipedia = 831 }
 kanji = '履く'
 kana = 'はく'
 english = 'to put on or wear ~ (lower-body clothing)'
+french = 'mettre, porter ~ (vêtement du bas, chaussures)'
 english-conjugated = { base = 'wear', past = 'wore', plural = 'wears', continuous = 'wearing' }
 verb-type = 'godan-ku'
 transitive = true

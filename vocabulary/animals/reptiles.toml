@@ -2,6 +2,7 @@
 kanji = '亀'
 kana = 'かめ'
 english = 'turtle; tortoise'
+french = 'tortue'
 tags = ['common', 'noun']
 frequency_scores = { anime = 3569, leeds = 6887, novels = 2685, wikipedia = 2508 }
 
@@ -9,6 +10,7 @@ frequency_scores = { anime = 3569, leeds = 6887, novels = 2685, wikipedia = 2508
 kanji = '蛇'
 kana = 'へび'
 english = 'snake'
+french = 'serpent'
 tags = ['animal', 'common', 'noun', 'reptile']
 frequency_scores = { anime = 3645, leeds = 8506, novels = 2439, wikipedia = 4690 }
 
@@ -16,6 +18,7 @@ frequency_scores = { anime = 3645, leeds = 8506, novels = 2439, wikipedia = 4690
 kanji = '鰐'
 kana = 'わに'
 english = 'crocodile; alligator'
+french = 'crocodile; alligator'
 source = 'wanikani'
 tags = ['animals', 'noun', 'uncommon']
 frequency_scores = { anime = 13304 }

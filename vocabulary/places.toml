@@ -2,6 +2,7 @@
 kanji = '田舎'
 kana = 'いなか'
 english = 'countryside; rural area'
+french = 'campagne; zone rurale'
 source = 'living-in-japan'
 tags = ['common', 'no-adjective', 'noun', 'places']
 frequency_scores = { anime = 3297, leeds = 3327, novels = 2400, wikipedia = 7790 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 3297, leeds = 3327, novels = 2400, wikipedia = 7790
 kanji = '売り場'
 kana = 'うりば'
 english = 'sales floor; counter; selling area'
+french = 'rayon (magasin); point de vente'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun', 'store']
@@ -19,6 +21,7 @@ frequency_scores = { anime = 10349, leeds = 6098, wikipedia = 8236 }
 kanji = '映画館'
 kana = 'えいがかん'
 english = 'movie theater'
+french = 'cinéma (salle)'
 level = 'n5'
 tags = ['buildings', 'common', 'entertainment', 'noun', 'places']
 frequency_scores = { leeds = 4965 }
@@ -27,6 +30,7 @@ frequency_scores = { leeds = 4965 }
 kanji = '外国'
 kana = 'がいこく'
 english = 'foreign country'
+french = 'pays étranger'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 4121, leeds = 761, novels = 2618, wikipedia = 960 }
@@ -35,6 +39,7 @@ frequency_scores = { anime = 4121, leeds = 761, novels = 2618, wikipedia = 960 }
 kanji = '空港'
 kana = 'くうこう'
 english = 'airport'
+french = 'aéroport'
 source = 'n4-study'
 level = 'n4'
 tags = ['common', 'places', 'travel']
@@ -44,6 +49,7 @@ frequency_scores = { anime = 6715, leeds = 1907, wikipedia = 671 }
 kanji = '国'
 kana = 'くに'
 english = 'country'
+french = 'pays'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 380, leeds = 227, novels = 237, wikipedia = 46 }
@@ -52,6 +58,7 @@ frequency_scores = { anime = 380, leeds = 227, novels = 237, wikipedia = 46 }
 kanji = '郊外'
 kana = 'こうがい'
 english = 'suburb'
+french = 'banlieue'
 source = 'n4-wikipedia'
 level = 'n4'
 tags = ['city', 'common', 'geography', 'noun', 'places']
@@ -61,6 +68,7 @@ frequency_scores = { anime = 15789, leeds = 5153, wikipedia = 2616 }
 kanji = '工場'
 kana = 'こうじょう'
 english = 'factory'
+french = 'usine'
 source = 'wanikani'
 level = 'n4'
 tags = ['business', 'common', 'industry', 'noun', 'places']
@@ -70,6 +78,7 @@ frequency_scores = { anime = 4371, leeds = 1515, novels = 2354, wikipedia = 745 
 kanji = '住所'
 kana = 'じゅうしょ'
 english = 'address (of a house); residence'
+french = 'adresse; domicile'
 source = 'irasshai?; wanikani; japanese forms'
 level = 'n4'
 tags = ['common', 'noun', 'places']
@@ -79,6 +88,7 @@ frequency_scores = { anime = 5671, leeds = 3310, wikipedia = 4902 }
 kanji = '世界'
 kana = 'せかい'
 english = 'the world'
+french = 'monde'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
@@ -88,6 +98,7 @@ frequency_scores = { anime = 109, leeds = 203, novels = 239, wikipedia = 63 }
 kanji = '谷'
 kana = 'たに'
 english = 'valley'
+french = 'vallée'
 source = 'anime-nausicaa'
 level = 'n3'
 tags = ['anime', 'common', 'geography', 'noun', 'places']
@@ -97,6 +108,7 @@ frequency_scores = { anime = 1067, leeds = 3708, novels = 2022, wikipedia = 555 
 kanji = '所'
 kana = 'ところ'
 english = 'place; area (can be abstract; less formal)'
+french = 'endroit; lieu (aussi abstrait)'
 level = 'n5'
 explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
 tags = ['common', 'noun']
@@ -106,6 +118,7 @@ frequency_scores = { anime = 257, leeds = 442, novels = 412, wikipedia = 60 }
 kanji = '日本'
 kana = 'にほん'
 english = 'Japan'
+french = 'Japon'
 level = 'n3'
 tags = ['common', 'noun', 'places']
 frequency_scores = { anime = 725, leeds = 103, novels = 567, wikipedia = 32 }
@@ -114,6 +127,7 @@ frequency_scores = { anime = 725, leeds = 103, novels = 567, wikipedia = 32 }
 kanji = '場所'
 kana = 'ばしょ'
 english = 'place (always physical, slightly more formal)'
+french = 'endroit; lieu (physique, un peu soutenu)'
 source = 'irasshai; anime'
 level = 'n4'
 explain = 'https://japanese.stackexchange.com/questions/58236/difference-between-%E5%A0%B4%E6%89%80-and-%E6%89%80'
@@ -124,6 +138,7 @@ frequency_scores = { anime = 248, leeds = 461, novels = 312, wikipedia = 383 }
 kanji = '町'
 kana = 'まち'
 english = 'town; city'
+french = 'ville; quartier'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 433, leeds = 620, novels = 506, wikipedia = 105 }
@@ -132,6 +147,7 @@ frequency_scores = { anime = 433, leeds = 620, novels = 506, wikipedia = 105 }
 kanji = '港'
 kana = 'みなと'
 english = 'harbor; port'
+french = 'port'
 source = 'jlptstudy'
 level = 'n4'
 tags = ['common', 'noun', 'ocean', 'places']
@@ -141,6 +157,7 @@ frequency_scores = { anime = 5226, leeds = 3298, novels = 1952, wikipedia = 707 
 kanji = 'コンビニ'
 kana = 'コンビニ'
 english = 'convenience store'
+french = 'supérette (konbini)'
 source = 'wanikani'
 tags = ['common', 'gairaigo', 'noun', 'places']
 frequency_scores = { anime = 3713, leeds = 3764 }
@@ -149,6 +166,7 @@ frequency_scores = { anime = 3713, leeds = 3764 }
 kanji = 'スーパー'
 kana = 'スーパー'
 english = 'supermarket'
+french = 'supermarché'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['common', 'gairaigo']
 frequency_scores = { anime = 3315, leeds = 1894, wikipedia = 730 }

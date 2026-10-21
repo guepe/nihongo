@@ -11,6 +11,7 @@ frequency_scores = { anime = 11149, leeds = 6877 }
 kanji = '西瓜'
 kana = 'すいか'
 english = 'watermellon'
+french = 'pastèque'
 tags = ['common', 'food', 'noun']
 frequency_scores = { anime = 17257 }
 
@@ -18,6 +19,7 @@ frequency_scores = { anime = 17257 }
 kanji = '葡萄'
 kana = 'ぶどう'
 english = 'grape'
+french = 'raisin'
 level = 'n4'
 source = 'wanikani'
 tags = ['common', 'food', 'noun']
@@ -27,6 +29,7 @@ frequency_scores = { anime = 11081, leeds = 12319, wikipedia = 5162 }
 kanji = '林檎'
 kana = 'りんご'
 english = 'apple'
+french = 'pomme'
 tags = ['common', 'food', 'noun']
 frequency_scores = { anime = 16372, leeds = 9459, wikipedia = 6336 }
 
@@ -34,6 +37,7 @@ frequency_scores = { anime = 16372, leeds = 9459, wikipedia = 6336 }
 kanji = 'オレンジ'
 kana = 'オレンジ'
 english = 'orange (fruit, color)'
+french = 'orange (fruit, couleur)'
 source = 'irasshai'
 level = 'n1'
 tags = ['colors', 'common', 'food', 'fruit', 'gairaigo', 'no-adjective', 'noun']
@@ -43,6 +47,7 @@ frequency_scores = { anime = 7000, leeds = 4737, wikipedia = 5163 }
 kanji = 'バナナ'
 kana = 'バナナ'
 english = 'banana'
+french = 'banane'
 tags = ['common']
 frequency_scores = { anime = 3914, leeds = 7052, wikipedia = 9495 }
 

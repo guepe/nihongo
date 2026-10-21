@@ -2,6 +2,7 @@
 kanji = '怒る'
 kana = 'おこる'
 english = 'to get angry'
+french = 'se fâcher; se mettre en colère'
 english-conjugated = { base = 'get angry', past = 'got angry', plural = 'gets angry', continuous = 'getting angry' }
 verb-type = 'godan-ru'
 transitive = false
@@ -13,6 +14,7 @@ frequency_scores = { anime = 381, leeds = 2050, novels = 761, wikipedia = 3018 }
 kanji = '泣く'
 kana = 'なく'
 english = 'to cry'
+french = 'pleurer'
 english-conjugated = { base = 'cry', past = 'cried', plural = 'cries', continuous = 'crying' }
 level = 'n4'
 verb-type = 'godan-ku'
@@ -24,6 +26,7 @@ frequency_scores = { anime = 326, leeds = 1903, novels = 574, wikipedia = 2402 }
 kanji = '悩む'
 kana = 'なやむ'
 english = 'to be worried'
+french = "s'inquiéter; être tourmenté"
 english-conjugated = { continuous = 'being worried', past = 'was worried', plural = 'are worried', base = 'be worried' }
 verb-type = 'godan-mu'
 transitive = false
@@ -36,6 +39,7 @@ frequency_scores = { anime = 1640, leeds = 1917, wikipedia = 3681 }
 kanji = '喜ぶ'
 kana = 'よろこぶ'
 english = 'to be delighted'
+french = 'se réjouir; être ravi'
 english-conjugated = { base = 'be delighted', past = 'been delighted', plural = 'are delighted', continuous = 'being delighted' }
 verb-type = 'godan-bu'
 transitive = false

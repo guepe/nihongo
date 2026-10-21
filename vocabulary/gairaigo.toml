@@ -2,6 +2,7 @@
 kanji = 'アイドル'
 kana = 'アイドル'
 english = 'member of a jpop band'
+french = 'idole (chanteur/chanteuse de J-pop)'
 source = 'jpop; culture'
 tags = ['common', 'gairaigo', 'noun', 'people']
 frequency_scores = { anime = 1222, leeds = 4661, wikipedia = 2122 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 1222, leeds = 4661, wikipedia = 2122 }
 kanji = 'オートバイ'
 kana = 'オートバイ'
 english = 'motorcycle'
+french = 'moto'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'transportation']
@@ -19,6 +21,7 @@ frequency_scores = { anime = 30266, leeds = 14240, wikipedia = 5227 }
 kanji = 'カーテン'
 kana = 'カーテン'
 english = 'curtain'
+french = 'rideau'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'house', 'noun', 'window']
@@ -28,6 +31,7 @@ frequency_scores = { anime = 7964, leeds = 7697 }
 kanji = 'カード'
 kana = 'カード'
 english = 'card'
+french = 'carte'
 level = 'n3'
 tags = ['common', 'electronics', 'gairaigo', 'noun']
 frequency_scores = { anime = 564, leeds = 1216, novels = 1986, wikipedia = 533 }
@@ -36,6 +40,7 @@ frequency_scores = { anime = 564, leeds = 1216, novels = 1986, wikipedia = 533 }
 kanji = 'ガス'
 kana = 'ガス'
 english = 'gas'
+french = 'gaz'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['chemistry', 'common', 'gairaigo', 'noun']
@@ -45,6 +50,7 @@ frequency_scores = { anime = 3410, leeds = 2259, novels = 2290, wikipedia = 1430
 kanji = 'ガソリン'
 kana = 'ガソリン'
 english = 'gasoline'
+french = 'essence'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['automotive', 'common', 'gairaigo', 'noun']
@@ -54,6 +60,7 @@ frequency_scores = { anime = 13275, leeds = 5785, wikipedia = 4438 }
 kanji = 'ガソリンスタンド'
 kana = 'ガソリンスタンド'
 english = 'gas station'
+french = 'station-service'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'noun', 'places', 'travel']
@@ -83,6 +90,7 @@ frequency_scores = { anime = 22582 }
 kanji = 'ケーキ'
 kana = 'ケーキ'
 english = 'cake'
+french = 'gâteau'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'dessert', 'food', 'noun']
@@ -92,6 +100,7 @@ frequency_scores = { anime = 1396, leeds = 3466 }
 kanji = 'ゲーム'
 kana = 'ゲーム'
 english = 'game'
+french = 'jeu'
 level = 'n3'
 tags = ['common', 'gairaigo', 'games', 'noun', 'video games']
 frequency_scores = { anime = 221, leeds = 589, novels = 1929, wikipedia = 158 }
@@ -100,6 +109,7 @@ frequency_scores = { anime = 221, leeds = 589, novels = 1929, wikipedia = 158 }
 kanji = 'コンサート'
 kana = 'コンサート'
 english = 'concert'
+french = 'concert'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'event', 'music', 'noun']
@@ -109,6 +119,7 @@ frequency_scores = { anime = 13310, leeds = 2420, wikipedia = 1868 }
 kanji = 'コンピューター'
 kana = 'コンピューター'
 english = 'computer'
+french = 'ordinateur'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'electronics', 'gairaigo', 'noun', 'technology']
@@ -128,6 +139,7 @@ frequency_scores = { anime = 3023, leeds = 4379, novels = 2719, wikipedia = 3700
 kanji = 'サラダ'
 kana = 'サラダ'
 english = 'salad'
+french = 'salade'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'food', 'noun']
@@ -137,6 +149,7 @@ frequency_scores = { anime = 7180, leeds = 5417 }
 kanji = 'サンダル'
 kana = 'サンダル'
 english = 'sandals'
+french = 'sandales'
 source = 'n4-study'
 level = 'n4'
 tags = ['clothing', 'common', 'footwear', 'noun', 'shoes']
@@ -146,6 +159,7 @@ frequency_scores = { anime = 16376, leeds = 13167 }
 kanji = 'サンドイッチ'
 kana = 'サンドイッチ'
 english = 'sandwich'
+french = 'sandwich'
 source = 'irasshai; n4 wiktionary'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo']
@@ -155,6 +169,7 @@ frequency_scores = { anime = 10232, leeds = 11018 }
 kanji = 'ジャム'
 kana = 'ジャム'
 english = 'jam'
+french = 'confiture'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo', 'noun']
@@ -164,6 +179,7 @@ frequency_scores = { anime = 9839, leeds = 10121 }
 kanji = 'スクリーン'
 kana = 'スクリーン'
 english = 'screen'
+french = 'écran'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -173,6 +189,7 @@ frequency_scores = { anime = 16193, leeds = 4781, novels = 2238, wikipedia = 565
 kanji = 'ステレオ'
 kana = 'ステレオ'
 english = 'stereo'
+french = 'chaîne hi-fi; stéréo'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -182,6 +199,7 @@ frequency_scores = { anime = 36663, leeds = 8467, wikipedia = 6757 }
 kanji = 'ステーキ'
 kana = 'ステーキ'
 english = 'steak'
+french = 'steak'
 level = 'n4'
 tags = ['common', 'food', 'gairaigo', 'noun']
 frequency_scores = { anime = 8610, leeds = 9956 }
@@ -190,6 +208,7 @@ frequency_scores = { anime = 8610, leeds = 9956 }
 kanji = 'スーツ'
 kana = 'スーツ'
 english = 'suit (gairaigo)'
+french = 'costume; tailleur'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['clothing', 'common', 'gairaigo', 'noun']
@@ -199,6 +218,7 @@ frequency_scores = { anime = 5020, leeds = 4681, wikipedia = 6985 }
 kanji = 'スーツケース'
 kana = 'スーツケース'
 english = 'suitcase'
+french = 'valise'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'office', 'work']
@@ -208,6 +228,7 @@ frequency_scores = { anime = 30094 }
 kanji = 'ソフト'
 kana = 'ソフト'
 english = 'soft (gairaigo)'
+french = 'doux; logiciel'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'na-adjective', 'no-adjective']
@@ -217,6 +238,7 @@ frequency_scores = { anime = 4330, leeds = 1099, wikipedia = 996 }
 kanji = 'タイプ'
 kana = 'タイプ'
 english = 'type (gairaigo)'
+french = 'type; genre'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -226,6 +248,7 @@ frequency_scores = { anime = 1489, leeds = 1155, novels = 2269, wikipedia = 1055
 kanji = 'タイム'
 kana = 'タイム'
 english = 'time (gairaigo)'
+french = 'temps (chrono); temps mort'
 source = 'anime-freq'
 level = 'n1'
 tags = ['common', 'gairaigo']
@@ -235,6 +258,7 @@ frequency_scores = { anime = 1198, leeds = 2532, wikipedia = 1886 }
 kanji = 'テキスト'
 kana = 'テキスト'
 english = 'text'
+french = 'texte; manuel'
 source = 'n4 wiktionary'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -244,6 +268,7 @@ frequency_scores = { anime = 12154, leeds = 2331, wikipedia = 5078 }
 kanji = 'テニス'
 kana = 'テニス'
 english = 'tennis'
+french = 'tennis'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'sport']
 frequency_scores = { anime = 6273, leeds = 4213, wikipedia = 2395 }
@@ -271,6 +296,7 @@ frequency_scores = { anime = 37501 }
 kanji = 'データ'
 kana = 'データ'
 english = 'data'
+french = 'données'
 level = 'n1'
 tags = ['common', 'gairaigo', 'noun']
 frequency_scores = { anime = 1176, leeds = 594, wikipedia = 658 }
@@ -279,6 +305,7 @@ frequency_scores = { anime = 1176, leeds = 594, wikipedia = 658 }
 kanji = 'ドラゴン'
 kana = 'ドラゴン'
 english = 'dragon (gairaigo)'
+french = 'dragon'
 tags = ['common', 'gairaigo', 'monster', 'mythology', 'noun']
 frequency_scores = { anime = 1147, leeds = 7512, wikipedia = 5324 }
 
@@ -286,6 +313,7 @@ frequency_scores = { anime = 1147, leeds = 7512, wikipedia = 5324 }
 kanji = 'ハンター'
 kana = 'ハンター'
 english = 'hunter'
+french = 'chasseur'
 tags = ['common', 'gairaigo', 'noun']
 frequency_scores = { anime = 1189, leeds = 11035, wikipedia = 6465 }
 
@@ -293,6 +321,7 @@ frequency_scores = { anime = 1189, leeds = 11035, wikipedia = 6465 }
 kanji = 'ハンドバッグ'
 kana = 'ハンドバッグ'
 english = 'handbag; purse'
+french = 'sac à main'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -301,6 +330,7 @@ tags = ['common', 'gairaigo', 'noun']
 kanji = 'パソコン'
 kana = 'パソコン'
 english = 'personal computer'
+french = 'ordinateur personnel; PC'
 source = 'irasshai'
 level = 'n4'
 tags = ['common', 'gairaigo', 'no-adjective', 'noun']
@@ -310,6 +340,7 @@ frequency_scores = { anime = 1228, leeds = 898, wikipedia = 2663 }
 kanji = 'パート'
 kana = 'パート'
 english = 'part'
+french = 'travail à temps partiel; partie'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -319,6 +350,7 @@ frequency_scores = { anime = 4100, leeds = 4034, wikipedia = 3795 }
 kanji = 'ビル'
 kana = 'ビル'
 english = 'multi-floor building (gairaigo)'
+french = 'immeuble (de plusieurs étages)'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -328,6 +360,7 @@ frequency_scores = { anime = 3322, leeds = 1526, novels = 1555, wikipedia = 797 
 kanji = 'ピアノ'
 kana = 'ピアノ'
 english = 'piano'
+french = 'piano'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -337,6 +370,7 @@ frequency_scores = { anime = 2073, leeds = 2397, wikipedia = 1517 }
 kanji = 'ファックス'
 kana = 'ファックス'
 english = 'fax'
+french = 'fax'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
@@ -346,6 +380,7 @@ frequency_scores = { anime = 29120, leeds = 10478 }
 kanji = 'ブロック'
 kana = 'ブロック'
 english = 'block; blocking'
+french = 'bloc; blocage'
 source = 'anime-freq'
 tags = ['common', 'gairaigo']
 frequency_scores = { anime = 1142, leeds = 3902, wikipedia = 1959 }
@@ -354,6 +389,7 @@ frequency_scores = { anime = 1142, leeds = 3902, wikipedia = 1959 }
 kanji = 'プレゼント'
 kana = 'プレゼント'
 english = 'present (gairaigo)'
+french = 'cadeau'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -363,6 +399,7 @@ frequency_scores = { anime = 1341, leeds = 2000, wikipedia = 5701 }
 kanji = 'ベル'
 kana = 'ベル'
 english = 'bell (gairaigo)'
+french = 'sonnette; cloche'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -372,6 +409,7 @@ frequency_scores = { anime = 4225, leeds = 4558, novels = 2086, wikipedia = 2974
 kanji = 'マスター'
 kana = 'マスター'
 english = 'master (gairaigo)'
+french = 'patron (de bar, café); maître'
 source = 'anime-freq'
 level = 'n3'
 tags = ['common', 'gairaigo', 'noun', 'suru-verb']
@@ -390,6 +428,7 @@ frequency_scores = { anime = 1572, leeds = 2597, novels = 678, wikipedia = 806 }
 kanji = 'ライブ'
 kana = 'ライブ'
 english = 'live (eg performance, concert)'
+french = 'concert; spectacle en direct'
 tags = ['common', 'gairaigo', 'noun', 'noun-or-verb-acting-prenominally']
 frequency_scores = { anime = 1152, leeds = 1097, wikipedia = 916 }
 
@@ -397,6 +436,7 @@ frequency_scores = { anime = 1152, leeds = 1097, wikipedia = 916 }
 kanji = 'ラジオカセット'
 kana = 'ラジオカセット'
 english = 'radio-cassette (full word)'
+french = 'radiocassette'
 source = 'wiki-n5'
 tags = ['gairaigo', 'noun', 'uncommon']
 
@@ -414,6 +454,7 @@ frequency_scores = { anime = 34005 }
 kanji = 'リポート'
 kana = 'リポート'
 english = 'report (gairaigo #2)'
+french = 'rapport; compte rendu'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -423,6 +464,7 @@ frequency_scores = { anime = 23858, leeds = 11125 }
 kanji = 'リーダー'
 kana = 'リーダー'
 english = 'leader (gairaigo)'
+french = 'chef; leader'
 source = 'anime-freq'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 1525, leeds = 2610, wikipedia = 2867 }
@@ -431,6 +473,7 @@ frequency_scores = { anime = 1525, leeds = 2610, wikipedia = 2867 }
 kanji = 'レジ'
 kana = 'レジ'
 english = '(cash) register'
+french = 'caisse (enregistreuse)'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -440,6 +483,7 @@ frequency_scores = { anime = 8918, leeds = 6245 }
 kanji = 'レポート'
 kana = 'レポート'
 english = 'report (gairaigo #1)'
+french = 'rapport; compte rendu'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'gairaigo', 'noun']
@@ -449,6 +493,7 @@ frequency_scores = { anime = 4556, leeds = 1557, wikipedia = 7557 }
 kanji = 'ワープロ'
 kana = 'ワープロ'
 english = 'word processor'
+french = 'traitement de texte'
 source = 'wiki-n4'
 level = 'n4'
 tags = ['common', 'computer', 'gairaigo', 'noun', 'program']

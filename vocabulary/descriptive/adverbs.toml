@@ -11,6 +11,7 @@ frequency_scores = { anime = 36309, leeds = 12106 }
 kanji = '何時でも'
 kana = 'いつでも'
 english = 'always; whenever'
+french = "toujours; n'importe quand"
 level = 'n3'
 explain = 'http://yesjapan.com/YJ6/question/742/when-do-you-use-soshite-and-sorekara'
 tags = ['adverb', 'common']
@@ -19,6 +20,7 @@ tags = ['adverb', 'common']
 kanji = '必ず'
 kana = 'かならず'
 english = 'always; without exception; without fail'
+french = 'toujours; sans faute; à coup sûr'
 source = 'nihongo-charenji-n4-kotoba; bonobono-anime'
 level = 'n4'
 tags = ['adverb', 'common']
@@ -37,6 +39,7 @@ frequency_scores = { anime = 193, leeds = 329, novels = 196, wikipedia = 2957 }
 kanji = '全て'
 kana = 'すべて'
 english = 'everything; completely'
+french = 'tout; entièrement'
 level = 'n3'
 tags = ['adverb', 'anime', 'common', 'no-adjective', 'noun']
 frequency_scores = { anime = 242, leeds = 691, novels = 1793, wikipedia = 187 }
@@ -45,6 +48,7 @@ frequency_scores = { anime = 242, leeds = 691, novels = 1793, wikipedia = 187 }
 kanji = 'たっぷり'
 kana = 'たっぷり'
 english = 'full; ample'
+french = 'abondant; amplement'
 source = 'food-package'
 level = 'n3'
 tags = ['adverb', 'common', 'na-adjective', 'no-adjective', 'noun']
@@ -54,6 +58,7 @@ frequency_scores = { anime = 2810, leeds = 3713, novels = 2092 }
 kanji = '例えば'
 kana = 'たとえば'
 english = 'for example'
+french = 'par exemple'
 level = 'n4'
 tags = ['adverb', 'common']
 frequency_scores = { leeds = 572, novels = 2117, wikipedia = 618 }
@@ -98,6 +103,7 @@ frequency_scores = { anime = 16954, leeds = 253, novels = 225 }
 kanji = '特に'
 kana = 'とくに'
 english = 'particularly; especially'
+french = 'particulièrement; surtout'
 source = 'nihongo-charenji-n4-kotoba; anime; db super'
 level = 'n4'
 tags = ['adverb', 'common']
@@ -116,6 +122,7 @@ frequency_scores = { anime = 293, leeds = 601, novels = 584, wikipedia = 396 }
 kanji = '早く'
 kana = 'はやく'
 english = 'early; soon'
+french = 'tôt; vite; bientôt'
 tags = ['adverb', 'common']
 frequency_scores = { anime = 22940, leeds = 8851 }
 
@@ -123,12 +130,14 @@ frequency_scores = { anime = 22940, leeds = 8851 }
 kanji = '久しく'
 kana = 'ひさしく'
 english = 'for a long time'
+french = 'depuis longtemps'
 tags = ['adverb', 'uncommon']
 
 [[cards]]
 kanji = '吃驚'
 kana = 'びっくり'
 english = 'to be surprised; to be amazed; to get startled'
+french = 'être surpris; sursauter'
 level = 'n3'
 tags = ['adverb', 'common', 'suru-verb']
 frequency_scores = { anime = 34472, leeds = 2304, novels = 1972 }
@@ -137,6 +146,7 @@ frequency_scores = { anime = 34472, leeds = 2304, novels = 1972 }
 kanji = '殆ど'
 kana = 'ほとんど'
 english = 'mostly; most (of); almost'
+french = 'presque; la plupart (de)'
 level = 'n4'
 source = 'nihongo-charenji-n4-kotoba'
 tags = ['adverbial-noun', 'common', 'temporal-noun']
@@ -146,6 +156,7 @@ frequency_scores = { anime = 7222, leeds = 3161, novels = 476 }
 kanji = '先ず'
 kana = 'まず'
 english = 'first of all'
+french = "d'abord; tout d'abord"
 level = 'n3'
 source = 'wanikani'
 tags = ['adverb', 'common']

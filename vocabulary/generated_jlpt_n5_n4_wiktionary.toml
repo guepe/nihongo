@@ -2,6 +2,7 @@
 kanji = '集る'
 kana = 'あつまる'
 english = 'to gather'
+french = 'se rassembler; se réunir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -11,6 +12,7 @@ frequency_scores = { anime = 10718 }
 kanji = '受ける'
 kana = 'うける'
 english = 'to take a lesson or test'
+french = 'passer (un examen); suivre (un cours)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -20,6 +22,7 @@ frequency_scores = { anime = 379, leeds = 276, novels = 359, wikipedia = 76 }
 kanji = '写す'
 kana = 'うつす'
 english = 'to copy or photograph'
+french = 'copier; photographier'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -29,6 +32,7 @@ frequency_scores = { anime = 8236, leeds = 9020, wikipedia = 5052 }
 kanji = '移る'
 kana = 'うつる'
 english = 'to move house or transfer'
+french = 'déménager; être muté'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -38,6 +42,7 @@ frequency_scores = { anime = 2661, leeds = 3301, novels = 2122, wikipedia = 1137
 kanji = '遠慮'
 kana = 'えんりょする'
 english = 'to be reserved, to be restrained'
+french = 'se retenir; faire preuve de réserve'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -47,6 +52,7 @@ frequency_scores = { anime = 1600, leeds = 6447, novels = 2417 }
 kanji = 'おいでになる'
 kana = 'おいでになる'
 english = '(respectful) to be'
+french = '(honorifique) être; venir; aller'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -55,6 +61,7 @@ tags = ['generated', 'tsv']
 kanji = 'おかげ'
 kana = 'おかげ'
 english = 'owing to, thanks to'
+french = 'grâce à'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -64,6 +71,7 @@ frequency_scores = { anime = 615, leeds = 1893, novels = 1616 }
 kanji = 'お金持ち'
 kana = 'おかねもち'
 english = 'rich man'
+french = 'riche; personne riche'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -72,6 +80,7 @@ tags = ['generated', 'tsv']
 kanji = '送る'
 kana = 'おくる'
 english = 'to send'
+french = 'envoyer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -81,6 +90,7 @@ frequency_scores = { anime = 597, leeds = 745, novels = 735, wikipedia = 659 }
 kanji = '遅れる'
 kana = 'おくれる'
 english = 'to be late'
+french = 'être en retard'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -90,6 +100,7 @@ frequency_scores = { anime = 1312, leeds = 2560, novels = 2908, wikipedia = 2027
 kanji = '起す'
 kana = 'おこす'
 english = 'to wake'
+french = 'réveiller'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -99,6 +110,7 @@ frequency_scores = { anime = 19413, leeds = 12842 }
 kanji = '押し入れ'
 kana = 'おしいれ'
 english = 'closet'
+french = 'placard (japonais)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -108,6 +120,7 @@ frequency_scores = { anime = 17450 }
 kanji = 'お嬢さん'
 kana = 'おじょうさん'
 english = 'young lady'
+french = 'jeune fille; votre fille (poli)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -117,6 +130,7 @@ frequency_scores = { anime = 3250, leeds = 13678 }
 kanji = 'おっしゃる'
 kana = 'おっしゃる'
 english = '(respectful) to say'
+french = '(honorifique) dire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -126,6 +140,7 @@ frequency_scores = { anime = 1484, leeds = 1265, novels = 1430 }
 kanji = '落す'
 kana = 'おとす'
 english = 'to drop'
+french = 'faire tomber; perdre'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -135,6 +150,7 @@ frequency_scores = { anime = 9655 }
 kanji = '驚く'
 kana = 'おどろく'
 english = 'to be surprised'
+french = 'être surpris'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -144,6 +160,7 @@ frequency_scores = { anime = 797, leeds = 1060, novels = 505, wikipedia = 4138 }
 kanji = 'お祭り'
 kana = 'おまつり'
 english = 'festival'
+french = 'fête; festival'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -153,6 +170,7 @@ frequency_scores = { leeds = 6716 }
 kanji = 'お見舞い'
 kana = 'おみまい'
 english = 'calling on someone who is ill, enquiry'
+french = 'visite à un malade'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -161,6 +179,7 @@ tags = ['generated', 'tsv']
 kanji = '泳ぎ方'
 kana = 'およぎかた'
 english = 'way of swimming'
+french = 'façon de nager'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -170,6 +189,7 @@ frequency_scores = { anime = 23327 }
 kanji = '折る'
 kana = 'おる'
 english = 'to break or to fold'
+french = 'casser; plier'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -179,6 +199,7 @@ frequency_scores = { anime = 3156, leeds = 6680, novels = 2210, wikipedia = 4597
 kanji = 'お礼'
 kana = 'おれい'
 english = 'expression of gratitude'
+french = 'remerciement'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -188,6 +209,7 @@ frequency_scores = { anime = 1463, leeds = 4384 }
 kanji = '折れる'
 kana = 'おれる'
 english = 'to break or be folded'
+french = 'se casser; être plié'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -197,6 +219,7 @@ frequency_scores = { anime = 2465, leeds = 7891, novels = 2404, wikipedia = 8796
 kanji = '終わり'
 kana = 'おわり'
 english = 'the end'
+french = 'fin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -205,6 +228,7 @@ tags = ['generated', 'tsv']
 kanji = '会場'
 kana = 'かいじょう'
 english = 'assembly hall or meeting place'
+french = "salle de réunion; lieu de l'événement"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -214,6 +238,7 @@ frequency_scores = { anime = 2207, leeds = 1298, wikipedia = 1898 }
 kanji = '帰り'
 kana = 'かえり'
 english = 'return'
+french = 'retour'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -223,6 +248,7 @@ frequency_scores = { anime = 1101, leeds = 2623, novels = 2071 }
 kanji = '課長'
 kana = 'かちょう'
 english = 'section manager'
+french = 'chef de section'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -232,6 +258,7 @@ frequency_scores = { anime = 6284, leeds = 3392, wikipedia = 4866 }
 kanji = '乾く'
 kana = 'かわく'
 english = 'to get dry'
+french = 'sécher'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -241,6 +268,7 @@ frequency_scores = { anime = 3708, leeds = 7606 }
 kanji = '代わり'
 kana = 'かわり'
 english = 'substitute,alternate'
+french = 'remplaçant; à la place de'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -250,6 +278,7 @@ frequency_scores = { anime = 678, leeds = 2326, novels = 1535, wikipedia = 2620 
 kanji = '聞こえる'
 kana = 'きこえる'
 english = 'to be heard'
+french = "être entendu; s'entendre"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -259,6 +288,7 @@ frequency_scores = { anime = 500, leeds = 1716, novels = 369, wikipedia = 7478 }
 kanji = '規則'
 kana = 'きそく'
 english = 'regulations'
+french = 'règlement; règle'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -268,6 +298,7 @@ frequency_scores = { anime = 5776, leeds = 2663, wikipedia = 2348 }
 kanji = 'きっと'
 kana = 'きっと'
 english = 'surely'
+french = 'sûrement; à coup sûr'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -277,6 +308,7 @@ frequency_scores = { anime = 198, leeds = 1171, novels = 495 }
 kanji = '決る'
 kana = 'きまる'
 english = 'to be decided'
+french = 'être décidé'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -286,6 +318,7 @@ frequency_scores = { anime = 24326, leeds = 8763 }
 kanji = '客'
 kana = 'きゃく'
 english = 'guest,customer'
+french = 'invité; client'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -295,6 +328,7 @@ frequency_scores = { anime = 1008, leeds = 1355, novels = 799, wikipedia = 829 }
 kanji = '急行'
 kana = 'きゅうこう'
 english = 'speedy, express'
+french = 'express (train)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -304,6 +338,7 @@ frequency_scores = { anime = 13332, leeds = 12904, wikipedia = 1653 }
 kanji = '教育'
 kana = 'きょういく'
 english = 'education'
+french = 'éducation'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -313,6 +348,7 @@ frequency_scores = { anime = 2690, leeds = 318, novels = 2629, wikipedia = 240 }
 kanji = '教会'
 kana = 'きょうかい'
 english = 'church'
+french = 'église'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -322,6 +358,7 @@ frequency_scores = { anime = 2086, leeds = 1563, wikipedia = 510 }
 kanji = '競争'
 kana = 'きょうそう'
 english = 'competition'
+french = 'compétition; concurrence'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -331,6 +368,7 @@ frequency_scores = { anime = 5215, leeds = 1424, wikipedia = 3050 }
 kanji = '技術'
 kana = 'ぎじゅつ'
 english = 'art,technology,skill'
+french = 'technique; technologie; savoir-faire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -340,6 +378,7 @@ frequency_scores = { anime = 1326, leeds = 331, novels = 1481, wikipedia = 314 }
 kanji = '比べる'
 kana = 'くらべる'
 english = 'to compare'
+french = 'comparer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -349,6 +388,7 @@ frequency_scores = { anime = 1760, leeds = 973, novels = 2230, wikipedia = 979 }
 kanji = 'くれる'
 kana = 'くれる'
 english = 'to give'
+french = 'donner (à moi / aux miens)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -358,6 +398,7 @@ frequency_scores = { anime = 37, leeds = 179, novels = 97 }
 kanji = '暮れる'
 kana = 'くれる'
 english = 'to get dark,to come to an end'
+french = "s'assombrir (tombée de la nuit); toucher à sa fin"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -367,6 +408,7 @@ frequency_scores = { anime = 4863, leeds = 10502, novels = 97 }
 kanji = '毛'
 kana = 'け'
 english = 'hair or fur'
+french = 'poils; cheveux; fourrure'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -376,6 +418,7 @@ frequency_scores = { anime = 2473, leeds = 4054, novels = 1435, wikipedia = 1711
 kanji = '警察'
 kana = 'けいさつ'
 english = 'police'
+french = 'police'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -385,6 +428,7 @@ frequency_scores = { anime = 849, leeds = 1225, novels = 1027, wikipedia = 534 }
 kanji = '景色'
 kana = 'けしき'
 english = 'scene,landscape'
+french = 'paysage; vue'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -394,6 +438,7 @@ frequency_scores = { anime = 1859, leeds = 4457 }
 kanji = 'けれど'
 kana = 'けれど'
 english = 'however'
+french = 'cependant; mais'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -413,6 +458,7 @@ frequency_scores = { leeds = 263, novels = 609 }
 kanji = 'けんかする'
 kana = 'けんかする'
 english = 'to quarrel'
+french = 'se disputer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -421,6 +467,7 @@ tags = ['generated', 'tsv']
 kanji = '下宿'
 kana = 'げしゅく'
 english = 'lodging'
+french = "pension; logement chez l'habitant"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -430,6 +477,7 @@ frequency_scores = { anime = 12784, leeds = 14090 }
 kanji = '講義'
 kana = 'こうぎ'
 english = 'lecture'
+french = 'cours magistral; conférence'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -439,6 +487,7 @@ frequency_scores = { anime = 12999, leeds = 2590, wikipedia = 4999 }
 kanji = '工業'
 kana = 'こうぎょう'
 english = 'the manufacturing industry'
+french = 'industrie manufacturière'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -448,6 +497,7 @@ frequency_scores = { anime = 16306, leeds = 2463, wikipedia = 651 }
 kanji = '校長'
 kana = 'こうちょう'
 english = 'headmaster'
+french = "directeur d'école"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -457,6 +507,7 @@ frequency_scores = { anime = 2711, leeds = 5118, wikipedia = 4134 }
 kanji = '高等学校'
 kana = 'こうとうがっこう'
 english = 'high school'
+french = 'lycée'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -465,6 +516,7 @@ tags = ['generated', 'tsv']
 kanji = '公務員'
 kana = 'こうむいん'
 english = 'civil servant, government worker'
+french = 'fonctionnaire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -474,6 +526,7 @@ frequency_scores = { anime = 18728, leeds = 2335 }
 kanji = '国際'
 kana = 'こくさい'
 english = 'international'
+french = 'international'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -483,6 +536,7 @@ frequency_scores = { anime = 6412, leeds = 470, wikipedia = 176 }
 kanji = '故障'
 kana = 'こしょうする'
 english = 'to break-down'
+french = 'tomber en panne'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -492,6 +546,7 @@ frequency_scores = { anime = 6607, leeds = 5167, wikipedia = 2584 }
 kanji = '答'
 kana = 'こたえ'
 english = 'response'
+french = 'réponse'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -501,6 +556,7 @@ frequency_scores = { anime = 27252, leeds = 5268 }
 kanji = '小鳥'
 kana = 'ことり'
 english = 'small bird'
+french = 'petit oiseau'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -510,6 +566,7 @@ frequency_scores = { anime = 2089, leeds = 12667 }
 kanji = 'このあいだ'
 kana = 'このあいだ'
 english = 'the other day,recently'
+french = "l'autre jour; récemment"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -518,6 +575,7 @@ tags = ['generated', 'tsv']
 kanji = 'このごろ'
 kana = 'このごろ'
 english = 'these days,nowadays'
+french = 'ces temps-ci; de nos jours'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -527,6 +585,7 @@ frequency_scores = { anime = 17438, leeds = 10215 }
 kanji = '米'
 kana = 'こめ'
 english = 'uncooked rice'
+french = 'riz (non cuit)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -536,6 +595,7 @@ frequency_scores = { anime = 3001, leeds = 463, novels = 1374, wikipedia = 299 }
 kanji = 'これから'
 kana = 'これから'
 english = 'after this'
+french = 'à partir de maintenant; désormais'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -545,6 +605,7 @@ frequency_scores = { anime = 251, leeds = 515, novels = 640 }
 kanji = '壊す'
 kana = 'こわす'
 english = 'to break'
+french = 'casser ~; détruire ~'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -554,6 +615,7 @@ frequency_scores = { anime = 939, leeds = 4304, wikipedia = 8773 }
 kanji = '壊れる'
 kana = 'こわれる'
 english = 'to be broken'
+french = 'être cassé; se casser'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -563,6 +625,7 @@ frequency_scores = { anime = 1132, leeds = 3419, wikipedia = 9758 }
 kanji = 'ご存じ'
 kana = 'ごぞんじ'
 english = '(respect form ) to know'
+french = '(honorifique) savoir; connaître'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -572,6 +635,7 @@ frequency_scores = { anime = 3869, leeds = 7174 }
 kanji = 'ごちそう'
 kana = 'ごちそう'
 english = 'a feast'
+french = 'festin; bon repas'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -581,6 +645,7 @@ frequency_scores = { anime = 4974 }
 kanji = 'ごらんになる'
 kana = 'ごらんになる'
 english = '(respectful) to see'
+french = '(honorifique) voir; regarder'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -589,6 +654,7 @@ tags = ['generated', 'tsv']
 kanji = '坂'
 kana = 'さか'
 english = 'slope,hill'
+french = 'pente; côte'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -598,6 +664,7 @@ frequency_scores = { anime = 2454, leeds = 5522, novels = 2709, wikipedia = 1616
 kanji = '盛ん'
 kana = 'さかん'
 english = 'popularity,prosperous'
+french = 'prospère; populaire; florissant'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -607,6 +674,7 @@ frequency_scores = { anime = 18283, leeds = 6142, wikipedia = 2236 }
 kanji = '下る'
 kana = 'さがる'
 english = 'to get down,to descend'
+french = 'descendre; reculer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -616,6 +684,7 @@ frequency_scores = { anime = 5173, leeds = 6026, novels = 2282, wikipedia = 2211
 kanji = '下げる'
 kana = 'さげる'
 english = 'to hang,to lower,to move back'
+french = 'suspendre; baisser; reculer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -625,6 +694,7 @@ frequency_scores = { anime = 3057, leeds = 2567, novels = 1078, wikipedia = 4792
 kanji = '差し上げる'
 kana = 'さしあげる'
 english = '(polite) to give'
+french = '(humble) donner; offrir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -634,6 +704,7 @@ frequency_scores = { anime = 3617, leeds = 9291 }
 kanji = 'さっき'
 kana = 'さっき'
 english = 'some time ago'
+french = "tout à l'heure; il y a un moment"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -643,6 +714,7 @@ frequency_scores = { anime = 212, leeds = 2713, novels = 443 }
 kanji = '騒ぐ'
 kana = 'さわぐ'
 english = 'to make noise,to be excited'
+french = "faire du bruit; s'agiter"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -652,6 +724,7 @@ frequency_scores = { anime = 2159, leeds = 4897, wikipedia = 7210 }
 kanji = '触る'
 kana = 'さわる'
 english = 'to touch'
+french = 'toucher'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -661,6 +734,7 @@ frequency_scores = { anime = 993, leeds = 4534, novels = 1494 }
 kanji = 'しっかり'
 kana = 'しっかり'
 english = 'firmly,steadily'
+french = 'fermement; solidement'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -670,6 +744,7 @@ frequency_scores = { anime = 540, leeds = 951, novels = 1097 }
 kanji = '小学校'
 kana = 'しょうがっこう'
 english = 'elementary school'
+french = 'école primaire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -679,6 +754,7 @@ frequency_scores = { anime = 2530, leeds = 1604, wikipedia = 489 }
 kanji = '知らせる'
 kana = 'しらせる'
 english = 'to notify'
+french = 'informer; prévenir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -688,6 +764,7 @@ frequency_scores = { anime = 3213, leeds = 12369, wikipedia = 5686 }
 kanji = '親切'
 kana = 'しんせつ'
 english = 'kindness'
+french = 'gentillesse; aimable'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -697,6 +774,7 @@ frequency_scores = { anime = 5777, leeds = 4590 }
 kanji = '新聞社'
 kana = 'しんぶんしゃ'
 english = 'newspaper company'
+french = 'journal (entreprise de presse)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -705,6 +783,7 @@ tags = ['generated', 'tsv']
 kanji = '事務所'
 kana = 'じむしょ'
 english = 'office'
+french = 'bureau'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -714,6 +793,7 @@ frequency_scores = { anime = 5746, leeds = 1436 }
 kanji = '柔道'
 kana = 'じゅうどう'
 english = 'judo'
+french = 'judo'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -723,6 +803,7 @@ frequency_scores = { anime = 5377, leeds = 10777, wikipedia = 3479 }
 kanji = '十分'
 kana = 'じゅうぶん'
 english = 'enough'
+french = 'suffisant; assez'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -732,6 +813,7 @@ frequency_scores = { anime = 755, leeds = 675, novels = 1624, wikipedia = 2124 }
 kanji = '神社'
 kana = 'じんじゃ'
 english = 'Shinto shrine'
+french = 'sanctuaire shinto'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -741,6 +823,7 @@ frequency_scores = { anime = 3014, leeds = 3024, wikipedia = 696 }
 kanji = '水泳'
 kana = 'すいえい'
 english = 'swimming'
+french = 'natation'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -750,6 +833,7 @@ frequency_scores = { anime = 3696, leeds = 8743, wikipedia = 6255 }
 kanji = '水道'
 kana = 'すいどう'
 english = 'water supply'
+french = "eau courante; réseau d'eau"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -759,6 +843,7 @@ frequency_scores = { anime = 11101, leeds = 5836, wikipedia = 3908 }
 kanji = '数学'
 kana = 'すうがく'
 english = 'mathematics,arithmetic'
+french = 'mathématiques'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -768,6 +853,7 @@ frequency_scores = { anime = 4367, leeds = 2946, wikipedia = 2176 }
 kanji = '過ぎる'
 kana = 'すぎる'
 english = 'to exceed'
+french = 'dépasser; passer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -777,6 +863,7 @@ frequency_scores = { anime = 350, leeds = 812, novels = 702, wikipedia = 1682 }
 kanji = '凄い'
 kana = 'すごい'
 english = 'terrific'
+french = 'génial; incroyable'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -786,6 +873,7 @@ frequency_scores = { anime = 1187, leeds = 2065, novels = 2453 }
 kanji = '進む'
 kana = 'すすむ'
 english = 'to make progress'
+french = 'avancer; progresser'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -795,6 +883,7 @@ frequency_scores = { anime = 662, leeds = 669, novels = 647, wikipedia = 571 }
 kanji = 'すっかり'
 kana = 'すっかり'
 english = 'completely'
+french = 'complètement'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -804,6 +893,7 @@ frequency_scores = { anime = 1733, leeds = 2307, novels = 924 }
 kanji = 'すっと'
 kana = 'すっと'
 english = 'straight,all of a sudden'
+french = "d'un coup; sans bruit; (se sentir) soulagé"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -813,6 +903,7 @@ frequency_scores = { anime = 10983 }
 kanji = '捨てる'
 kana = 'すてる'
 english = 'to throw away'
+french = 'jeter'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -822,6 +913,7 @@ frequency_scores = { anime = 479, leeds = 1760, novels = 907, wikipedia = 3315 }
 kanji = '砂'
 kana = 'すな'
 english = 'sand'
+french = 'sable'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -831,6 +923,7 @@ frequency_scores = { anime = 1642, leeds = 4756, novels = 2049, wikipedia = 3197
 kanji = '隅'
 kana = 'すみ'
 english = 'corner,nook'
+french = 'coin; recoin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -840,6 +933,7 @@ frequency_scores = { anime = 5391, leeds = 7625, novels = 1700, wikipedia = 8486
 kanji = 'すり'
 kana = 'すり'
 english = 'pickpocket'
+french = 'pickpocket'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -858,6 +952,7 @@ tags = ['generated', 'tsv']
 kanji = '席'
 kana = 'せき'
 english = 'seat'
+french = 'siège; place'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -867,6 +962,7 @@ frequency_scores = { anime = 1306, leeds = 1431, novels = 657, wikipedia = 1352 
 kanji = 'それで'
 kana = 'それで'
 english = 'because of that'
+french = "c'est pourquoi; et alors"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -876,6 +972,7 @@ frequency_scores = { leeds = 2139, novels = 791 }
 kanji = 'それほど'
 kana = 'それほど'
 english = 'to that extent'
+french = 'à ce point; tant que ça'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -885,6 +982,7 @@ frequency_scores = { anime = 3063, leeds = 2175, novels = 1602, wikipedia = 5706
 kanji = 'そんなに'
 kana = 'そんなに'
 english = 'so much,like that'
+french = 'tant que ça; comme ça'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -894,6 +992,7 @@ frequency_scores = { anime = 314, leeds = 1765, novels = 826 }
 kanji = '退院'
 kana = 'たいいんする'
 english = 'to leave hospital'
+french = "sortir de l'hôpital"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -903,6 +1002,7 @@ frequency_scores = { anime = 4714, leeds = 7500 }
 kanji = 'たいてい'
 kana = 'たいてい'
 english = 'usually'
+french = "en général; d'habitude"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -912,6 +1012,7 @@ frequency_scores = { anime = 11452, leeds = 4571 }
 kanji = '倒れる'
 kana = 'たおれる'
 english = 'to break down'
+french = "tomber; s'effondrer"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -921,6 +1022,7 @@ frequency_scores = { anime = 1351, leeds = 3677, novels = 891, wikipedia = 4096 
 kanji = '尋ねる'
 kana = 'たずねる'
 english = 'to ask'
+french = "demander; s'enquérir"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -930,6 +1032,7 @@ frequency_scores = { anime = 6018, leeds = 3012, novels = 972, wikipedia = 8152 
 kanji = '訪ねる'
 kana = 'たずねる'
 english = 'to visit'
+french = 'rendre visite'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -939,6 +1042,7 @@ frequency_scores = { anime = 5328, leeds = 4190, novels = 2742, wikipedia = 7339
 kanji = '棚'
 kana = 'たな'
 english = 'shelves'
+french = 'étagère'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -948,6 +1052,7 @@ frequency_scores = { anime = 6118, leeds = 4989, novels = 2530, wikipedia = 5173
 kanji = '楽む'
 kana = 'たのしむ'
 english = 'to enjoy oneself'
+french = "s'amuser; prendre plaisir"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -957,6 +1062,7 @@ frequency_scores = { anime = 31421 }
 kanji = 'たまに'
 kana = 'たまに'
 english = 'occasionally'
+french = 'de temps en temps'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -966,6 +1072,7 @@ frequency_scores = { anime = 3391, leeds = 2979 }
 kanji = '大分'
 kana = 'だいぶ'
 english = 'greatly'
+french = 'considérablement; beaucoup'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -975,6 +1082,7 @@ frequency_scores = { anime = 6774, leeds = 4578, novels = 2520, wikipedia = 1931
 kanji = 'だから'
 kana = 'だから'
 english = 'so,therefore'
+french = "donc; c'est pourquoi"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -984,6 +1092,7 @@ frequency_scores = { leeds = 554, novels = 244 }
 kanji = '暖房'
 kana = 'だんぼう'
 english = 'heating'
+french = 'chauffage'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -993,6 +1102,7 @@ frequency_scores = { anime = 22493, leeds = 8641 }
 kanji = '注射'
 kana = 'ちゅうしゃ'
 english = 'injection'
+french = 'piqûre; injection'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1002,6 +1112,7 @@ frequency_scores = { anime = 9277, leeds = 7368 }
 kanji = '駐車場'
 kana = 'ちゅうしゃじょう'
 english = 'parking lot'
+french = 'parking'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1010,6 +1121,7 @@ tags = ['generated', 'tsv']
 kanji = '都合'
 kana = 'つごう'
 english = 'circumstances,convenience'
+french = 'circonstances; convenance'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1019,6 +1131,7 @@ frequency_scores = { anime = 1777, leeds = 2698, novels = 2466, wikipedia = 4615
 kanji = '伝える'
 kana = 'つたえる'
 english = 'to report'
+french = 'transmettre; communiquer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1028,6 +1141,7 @@ frequency_scores = { anime = 606, leeds = 912, novels = 1206, wikipedia = 995 }
 kanji = '釣る'
 kana = 'つる'
 english = 'to fish'
+french = 'pêcher'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1037,6 +1151,7 @@ frequency_scores = { anime = 4216, leeds = 8853, novels = 532, wikipedia = 5445 
 kanji = '適当'
 kana = 'てきとう'
 english = 'suitability'
+french = 'approprié; convenable'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1046,6 +1161,7 @@ frequency_scores = { anime = 1575, leeds = 2473, novels = 2715, wikipedia = 8187
 kanji = '手伝う'
 kana = 'てつだう'
 english = 'to assist'
+french = 'aider'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1055,6 +1171,7 @@ frequency_scores = { anime = 632, leeds = 4955, novels = 2419, wikipedia = 6370 
 kanji = '展覧会'
 kana = 'てんらんかい'
 english = 'exhibition'
+french = 'exposition'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1072,6 +1189,7 @@ tags = ['generated', 'tsv']
 kanji = 'とうとう'
 kana = 'とうとう'
 english = 'finally, after all'
+french = 'finalement; enfin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1081,6 +1199,7 @@ frequency_scores = { anime = 2855, leeds = 4855, novels = 1787 }
 kanji = '遠く'
 kana = 'とおく'
 english = 'distant'
+french = 'loin; au loin'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1090,6 +1209,7 @@ frequency_scores = { anime = 1852, leeds = 4373, novels = 1578 }
 kanji = '特急'
 kana = 'とっきゅう'
 english = 'limited express train (faster than an express train)'
+french = "train express limité (plus rapide qu'un express)"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1099,6 +1219,7 @@ frequency_scores = { anime = 12342, leeds = 9834, wikipedia = 1569 }
 kanji = '動物園'
 kana = 'どうぶつえん'
 english = 'zoo'
+french = 'zoo'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1107,6 +1228,7 @@ tags = ['generated', 'tsv']
 kanji = '亡くなる'
 kana = 'なくなる'
 english = 'to die'
+french = 'mourir; décéder'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1116,6 +1238,7 @@ frequency_scores = { anime = 2319, leeds = 2759, novels = 1702, wikipedia = 1257
 kanji = '無くなる'
 kana = 'なくなる'
 english = 'to disappear,to get lost'
+french = 'disparaître; se perdre'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1125,6 +1248,7 @@ frequency_scores = { anime = 4566, leeds = 4410, novels = 1702, wikipedia = 5669
 kanji = 'なさる'
 kana = 'なさる'
 english = '(respectful) to do'
+french = '(honorifique) faire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1143,6 +1267,7 @@ tags = ['generated', 'tsv']
 kanji = 'なるべく'
 kana = 'なるべく'
 english = 'as much as possible'
+french = 'autant que possible; si possible'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1152,6 +1277,7 @@ frequency_scores = { anime = 3288, leeds = 5380 }
 kanji = '慣れる'
 kana = 'なれる'
 english = 'to grow accustomed to'
+french = "s'habituer à"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1161,6 +1287,7 @@ frequency_scores = { anime = 1084, leeds = 2218, novels = 1572, wikipedia = 4892
 kanji = '入学'
 kana = 'にゅうがくする'
 english = 'to enter school or university'
+french = "entrer à l'école ou à l'université"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1170,6 +1297,7 @@ frequency_scores = { anime = 2082, leeds = 2812, wikipedia = 1134 }
 kanji = '似る'
 kana = 'にる'
 english = 'to be similar'
+french = 'ressembler'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1179,6 +1307,7 @@ frequency_scores = { anime = 690, leeds = 1213, novels = 552, wikipedia = 481 }
 kanji = '塗る'
 kana = 'ぬる'
 english = 'to paint, to colour, to plaster'
+french = 'peindre; enduire; appliquer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1188,6 +1317,7 @@ frequency_scores = { anime = 3027, leeds = 4651, novels = 2858, wikipedia = 4274
 kanji = 'ぬれる'
 kana = 'ぬれる'
 english = 'to get wet'
+french = 'se mouiller'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1197,6 +1327,7 @@ frequency_scores = { anime = 7563 }
 kanji = '熱'
 kana = 'ねつ'
 english = 'fever'
+french = 'fièvre'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1206,6 +1337,7 @@ frequency_scores = { anime = 1501, leeds = 2434, novels = 1617, wikipedia = 2037
 kanji = '寝坊'
 kana = 'ねぼう'
 english = 'sleeping in late'
+french = 'grasse matinée; personne qui fait la grasse matinée'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1215,6 +1347,7 @@ frequency_scores = { anime = 6168 }
 kanji = '眠る'
 kana = 'ねむる'
 english = 'to sleep'
+french = 'dormir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1224,6 +1357,7 @@ frequency_scores = { anime = 1044, leeds = 2970, novels = 859, wikipedia = 6033 
 kanji = '乗り換える'
 kana = 'のりかえる'
 english = 'to change between buses or trains'
+french = 'changer (de train ou de bus); faire une correspondance'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1233,6 +1367,7 @@ frequency_scores = { anime = 13622, leeds = 8624 }
 kanji = '乗り物'
 kana = 'のりもの'
 english = 'vehicle'
+french = 'véhicule; moyen de transport'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1242,6 +1377,7 @@ frequency_scores = { anime = 9588, leeds = 10693 }
 kanji = '拝見'
 kana = 'はいけんする'
 english = '(humble) to look at'
+french = '(humble) voir; regarder'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1251,6 +1387,7 @@ frequency_scores = { anime = 7413, leeds = 4775 }
 kanji = '歯医者'
 kana = 'はいしゃ'
 english = 'dentist'
+french = 'dentiste'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1260,6 +1397,7 @@ frequency_scores = { anime = 9006, leeds = 8602 }
 kanji = '運ぶ'
 kana = 'はこぶ'
 english = 'to transport'
+french = 'transporter'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1269,6 +1407,7 @@ frequency_scores = { anime = 1329, leeds = 2205, novels = 847, wikipedia = 2518 
 kanji = '始める'
 kana = 'はじめる'
 english = 'to begin'
+french = 'commencer ~'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1278,6 +1417,7 @@ frequency_scores = { anime = 312, leeds = 368, novels = 339, wikipedia = 154 }
 kanji = '払う'
 kana = 'はらう'
 english = 'to pay'
+french = 'payer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1287,6 +1427,7 @@ frequency_scores = { anime = 1377, leeds = 1371, novels = 1590, wikipedia = 3956
 kanji = '場合'
 kana = 'ばあい'
 english = 'situation'
+french = 'cas; situation'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1296,6 +1437,7 @@ frequency_scores = { anime = 502, leeds = 160, novels = 500, wikipedia = 79 }
 kanji = '倍'
 kana = 'ばい'
 english = 'double'
+french = 'double; ~ fois'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1305,6 +1447,7 @@ frequency_scores = { anime = 1290, leeds = 1140, novels = 1570, wikipedia = 1410
 kanji = '番組'
 kana = 'ばんぐみ'
 english = 'television or radio program'
+french = 'émission (télé ou radio)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1314,6 +1457,7 @@ frequency_scores = { anime = 2645, leeds = 902, wikipedia = 95 }
 kanji = '冷える'
 kana = 'ひえる'
 english = 'to grow cold'
+french = 'refroidir; se refroidir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1323,6 +1467,7 @@ frequency_scores = { anime = 5048, leeds = 8715 }
 kanji = '引き出し'
 kana = 'ひきだし'
 english = 'drawer,drawing out'
+french = 'tiroir; retrait'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1332,6 +1477,7 @@ frequency_scores = { anime = 16396, leeds = 11851 }
 kanji = 'ひきだす'
 kana = 'ひきだす'
 english = 'to withdraw'
+french = "retirer (de l'argent); sortir"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1340,6 +1486,7 @@ tags = ['generated', 'tsv']
 kanji = '飛行場'
 kana = 'ひこうじょう'
 english = 'airport'
+french = 'aéroport'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1349,6 +1496,7 @@ frequency_scores = { anime = 19135, leeds = 10663 }
 kanji = '久しぶり'
 kana = 'ひさしぶり'
 english = 'after a long time'
+french = 'après longtemps; ça fait longtemps !'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1358,6 +1506,7 @@ frequency_scores = { anime = 653, leeds = 1690, novels = 2879 }
 kanji = '引っ越す'
 kana = 'ひっこす'
 english = 'to move house'
+french = 'déménager'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1367,6 +1516,7 @@ frequency_scores = { anime = 4018, leeds = 7027, wikipedia = 9317 }
 kanji = '昼間'
 kana = 'ひるま'
 english = 'daytime,during the day'
+french = 'journée; pendant la journée'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1376,6 +1526,7 @@ frequency_scores = { anime = 3303, leeds = 4592, wikipedia = 5516 }
 kanji = '美術館'
 kana = 'びじゅつかん'
 english = 'art gallery'
+french = "musée d'art"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1385,6 +1536,7 @@ frequency_scores = { anime = 18486, leeds = 3038 }
 kanji = '増える'
 kana = 'ふえる'
 english = 'to increase'
+french = 'augmenter'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1394,6 +1546,7 @@ frequency_scores = { anime = 948, leeds = 762, wikipedia = 1457 }
 kanji = '複雑'
 kana = 'ふくざつ'
 english = 'complexity,complication'
+french = 'complexe; compliqué'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1403,6 +1556,7 @@ frequency_scores = { anime = 3568, leeds = 1892, novels = 2041, wikipedia = 2359
 kanji = '復習'
 kana = 'ふくしゅう'
 english = 'revision'
+french = 'révision'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1412,6 +1566,7 @@ frequency_scores = { anime = 11002, leeds = 8843 }
 kanji = '布団'
 kana = 'ふとん'
 english = 'Japanese bedding, futon'
+french = 'futon; literie japonaise'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1421,6 +1576,7 @@ frequency_scores = { anime = 2894, leeds = 6135, novels = 2767 }
 kanji = '踏む'
 kana = 'ふむ'
 english = 'to step on'
+french = 'marcher sur'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1430,6 +1586,7 @@ frequency_scores = { anime = 1972, leeds = 3888, novels = 1789, wikipedia = 3905
 kanji = '降り出す'
 kana = 'ふりだす'
 english = 'to start to rain'
+french = 'se mettre à pleuvoir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1439,6 +1596,7 @@ frequency_scores = { anime = 13223 }
 kanji = '部長'
 kana = 'ぶちょう'
 english = 'head of a section'
+french = 'chef de service'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1448,6 +1606,7 @@ frequency_scores = { anime = 884, leeds = 2673, novels = 2539, wikipedia = 1672 
 kanji = '文法'
 kana = 'ぶんぽう'
 english = 'grammar'
+french = 'grammaire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1457,6 +1616,7 @@ frequency_scores = { anime = 21203, leeds = 4804, wikipedia = 5657 }
 kanji = '別'
 kana = 'べつ'
 english = 'different'
+french = 'différent; autre'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1466,6 +1626,7 @@ frequency_scores = { anime = 388, leeds = 478, novels = 560, wikipedia = 563 }
 kanji = 'ほめる'
 kana = 'ほめる'
 english = 'to praise'
+french = 'louer; complimenter'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1475,6 +1636,7 @@ frequency_scores = { anime = 10073, leeds = 8066 }
 kanji = '貿易'
 kana = 'ぼうえき'
 english = 'trade'
+french = 'commerce (international)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1484,6 +1646,7 @@ frequency_scores = { anime = 15636, leeds = 2380, wikipedia = 2003 }
 kanji = '参る'
 kana = 'まいる'
 english = '(humble) to go,to come'
+french = 'aller; venir (humble)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1493,6 +1656,7 @@ frequency_scores = { anime = 1264, leeds = 2704, novels = 1547 }
 kanji = 'または'
 kana = 'または'
 english = 'or,otherwise'
+french = 'ou; ou bien'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1502,6 +1666,7 @@ frequency_scores = { leeds = 909, wikipedia = 522 }
 kanji = '間違える'
 kana = 'まちがえる'
 english = 'to make a mistake'
+french = 'se tromper; faire une erreur'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1511,6 +1676,7 @@ frequency_scores = { anime = 1353, leeds = 3729, wikipedia = 9380 }
 kanji = '間に合う'
 kana = 'まにあう'
 english = 'to be in time for'
+french = 'être à temps (pour)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1520,6 +1686,7 @@ frequency_scores = { anime = 934, leeds = 4193, wikipedia = 7071 }
 kanji = '回る'
 kana = 'まわる'
 english = 'to go around'
+french = 'tourner; faire le tour'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1529,6 +1696,7 @@ frequency_scores = { anime = 837, leeds = 1689, novels = 1116, wikipedia = 1452 
 kanji = '味噌'
 kana = 'みそ'
 english = 'miso, soybean paste'
+french = 'miso (pâte de soja fermentée)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1538,6 +1706,7 @@ frequency_scores = { anime = 10626, leeds = 7053, wikipedia = 9907 }
 kanji = '見つかる'
 kana = 'みつかる'
 english = 'to be discovered'
+french = 'être trouvé; être découvert'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1547,6 +1716,7 @@ frequency_scores = { anime = 614, leeds = 2085, novels = 1346 }
 kanji = '迎える'
 kana = 'むかえる'
 english = 'to go out to meet'
+french = 'aller accueillir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1556,6 +1726,7 @@ frequency_scores = { anime = 1300, leeds = 1452, novels = 1510, wikipedia = 752 
 kanji = '召し上がる'
 kana = 'めしあがる'
 english = '(polite) to eat'
+french = 'manger (honorifique)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1565,6 +1736,7 @@ frequency_scores = { anime = 5829 }
 kanji = '申し上げる'
 kana = 'もうしあげる'
 english = '(humble) to say,to tell'
+french = 'dire (humble)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1574,6 +1746,7 @@ frequency_scores = { anime = 3763, leeds = 603 }
 kanji = '申す'
 kana = 'もうす'
 english = '(humble) to be called,to say'
+french = "s'appeler; dire (humble)"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1583,6 +1756,7 @@ frequency_scores = { anime = 1588, leeds = 1377, novels = 665 }
 kanji = 'もうすぐ'
 kana = 'もうすぐ'
 english = 'soon'
+french = 'bientôt'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1592,6 +1766,7 @@ frequency_scores = { anime = 1058, leeds = 4524 }
 kanji = '焼く'
 kana = 'やく'
 english = 'to bake,to grill'
+french = 'cuire (au four); griller'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1601,6 +1776,7 @@ frequency_scores = { anime = 1451, leeds = 2685, novels = 1712, wikipedia = 3781
 kanji = '役に立つ'
 kana = 'やくにたつ'
 english = 'to be helpful'
+french = 'être utile'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1610,6 +1786,7 @@ frequency_scores = { anime = 1737, leeds = 2709, novels = 2980 }
 kanji = '焼ける'
 kana = 'やける'
 english = 'to burn,to be roasted'
+french = 'brûler; être grillé'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1619,6 +1796,7 @@ frequency_scores = { anime = 3520, leeds = 10501 }
 kanji = '痩せる'
 kana = 'やせる'
 english = 'to become thin'
+french = 'maigrir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1628,6 +1806,7 @@ frequency_scores = { anime = 5134, leeds = 6224 }
 kanji = '止む'
 kana = 'やむ'
 english = 'to stop'
+french = "s'arrêter; cesser"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1646,6 +1825,7 @@ tags = ['generated', 'tsv']
 kanji = '揺れる'
 kana = 'ゆれる'
 english = 'to shake,to sway'
+french = 'trembler; se balancer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1655,6 +1835,7 @@ frequency_scores = { anime = 2448, leeds = 5818, novels = 1634, wikipedia = 7347
 kanji = '汚れる'
 kana = 'よごれる'
 english = 'to get dirty'
+french = 'se salir'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1664,6 +1845,7 @@ frequency_scores = { anime = 2737, leeds = 7250 }
 kanji = '予習'
 kana = 'よしゅう'
 english = 'preparation for a lesson'
+french = "préparation d'un cours"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1673,6 +1855,7 @@ frequency_scores = { anime = 12291, leeds = 12535 }
 kanji = '旅館'
 kana = 'りょかん'
 english = 'Japanese hotel'
+french = 'auberge japonaise (ryokan)'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1682,6 +1865,7 @@ frequency_scores = { anime = 9162, leeds = 8125, wikipedia = 6516 }
 kanji = '利用'
 kana = 'りよう'
 english = 'utilization'
+french = 'utilisation'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1691,6 +1875,7 @@ frequency_scores = { anime = 1150, leeds = 327, novels = 1872, wikipedia = 173 }
 kanji = '歴史'
 kana = 'れきし'
 english = 'history'
+french = 'histoire'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1700,6 +1885,7 @@ frequency_scores = { anime = 2122, leeds = 517, novels = 1469, wikipedia = 308 }
 kanji = '沸かす'
 kana = 'わかす'
 english = 'to boil,to heat'
+french = 'faire bouillir; chauffer'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1709,6 +1895,7 @@ frequency_scores = { anime = 13573 }
 kanji = '別れる'
 kana = 'わかれる'
 english = 'to separate'
+french = 'se séparer; se quitter'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1718,6 +1905,7 @@ frequency_scores = { anime = 3072, leeds = 4135, novels = 1933, wikipedia = 4890
 kanji = '沸く'
 kana = 'わく'
 english = 'to boil, to grow hot,to get excited'
+french = "bouillir; chauffer; s'enthousiasmer"
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1727,6 +1915,7 @@ frequency_scores = { anime = 9339, leeds = 8748, novels = 1546, wikipedia = 8942
 kanji = '割れる'
 kana = 'われる'
 english = 'to break'
+french = 'se casser; se briser'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']
@@ -1736,6 +1925,7 @@ frequency_scores = { anime = 2618, leeds = 7462, novels = 1615, wikipedia = 7070
 kanji = 'チェックする'
 kana = 'チェックする'
 english = 'to check'
+french = 'vérifier'
 source = 'wiktionary'
 level = 'n4'
 tags = ['generated', 'tsv']

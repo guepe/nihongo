@@ -2,6 +2,7 @@
 kanji = '打つ'
 kana = 'うつ'
 english = 'to hit ~; to strike ~'
+french = 'frapper ~; taper ~'
 english-conjugated = { base = 'hit', plural = 'hits', continuous = 'hitting', past = 'had hit' }
 verb-type = 'godan-tsu'
 transitive = true
@@ -14,6 +15,7 @@ frequency_scores = { anime = 635, leeds = 1476, novels = 648, wikipedia = 1368 }
 kanji = '決める'
 kana = 'きめる'
 english = 'to decide ~'
+french = 'décider ~'
 english-conjugated = { plural = 'decides', base = 'decide', continuous = 'decides', past = 'decided' }
 verb-type = 'ichidan'
 transitive = true
@@ -26,6 +28,7 @@ frequency_scores = { anime = 278, leeds = 679, novels = 992, wikipedia = 897 }
 kanji = '指す'
 kana = 'さす'
 english = 'to point'
+french = 'montrer du doigt; désigner'
 english-conjugated = { base = 'point', past = 'pointed', plural = 'points', continuous = 'pointing' }
 verb-type = 'godan-su'
 transitive = true
@@ -38,6 +41,7 @@ frequency_scores = { anime = 4981, leeds = 3331, novels = 1358, wikipedia = 808 
 kanji = '近づく'
 kana = 'ちかづく'
 english = 'to get close to; to approach'
+french = "s'approcher de; approcher"
 english-conjugated = { base = 'get close', past = 'got close', plural = 'gets close', continuous = 'getting close' }
 verb-type = 'godan-ku'
 transitive = false
@@ -50,6 +54,7 @@ frequency_scores = { anime = 898, leeds = 2320, novels = 570 }
 kanji = '投げる'
 kana = 'なげる'
 english = 'to throw ~'
+french = 'lancer ~'
 english-conjugated = { base = 'throw', plural = 'throws', continuous = 'throwing', past = 'threw' }
 verb-type = 'ichidan'
 transitive = true
@@ -62,6 +67,7 @@ frequency_scores = { anime = 1663, leeds = 3202, novels = 1360, wikipedia = 2099
 kanji = '並べる'
 kana = 'ならべる'
 english = 'to line up ~; to enumerate ~'
+french = 'aligner ~; énumérer ~'
 english-conjugated = { plural = 'lines up', base = 'line up', continuous = 'lining up', past = 'lined up' }
 verb-type = 'ichidan'
 transitive = true
@@ -74,6 +80,7 @@ frequency_scores = { anime = 3649, leeds = 3390, novels = 2168, wikipedia = 4599
 kanji = '逃げる'
 kana = 'にげる'
 english = 'to escape; to run away'
+french = "s'enfuir; s'échapper"
 english-conjugated = { base = 'escape', past = 'escaped', plural = 'escapes', continuous = 'escaping' }
 verb-type = 'ichidan'
 transitive = false

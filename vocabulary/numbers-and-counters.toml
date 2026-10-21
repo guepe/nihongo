@@ -2,6 +2,7 @@
 kanji = '一'
 kana = 'いち'
 english = 'one'
+french = 'un'
 level = 'n5'
 tags = ['common', 'counting', 'numbers']
 frequency_scores = { anime = 47, leeds = 105, novels = 44 }
@@ -10,6 +11,7 @@ frequency_scores = { anime = 47, leeds = 105, novels = 44 }
 kanji = '一番'
 kana = 'いちばん'
 english = 'best; number one; first place'
+french = 'le meilleur; numéro un; première place'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 310, leeds = 421, novels = 618, wikipedia = 2409 }
@@ -18,6 +20,7 @@ frequency_scores = { anime = 310, leeds = 421, novels = 618, wikipedia = 2409 }
 kanji = '五つ'
 kana = 'いつつ'
 english = 'five (things)'
+french = 'cinq (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 12759, leeds = 11547 }
@@ -26,6 +29,7 @@ frequency_scores = { anime = 12759, leeds = 11547 }
 kanji = '億'
 kana = 'おく'
 english = 'hudred million'
+french = 'cent millions'
 source = 'n4-wiki'
 level = 'n4'
 tags = ['common', 'numeric']
@@ -35,6 +39,7 @@ frequency_scores = { anime = 1793, leeds = 482, novels = 185, wikipedia = 68 }
 kanji = '～回'
 kana = '～かい'
 english = 'counter for occurrences'
+french = 'compteur pour les occurrences (fois)'
 level = 'n5'
 tags = []
 
@@ -42,6 +47,7 @@ tags = []
 kanji = '～階'
 kana = '～かい'
 english = 'counter for stories of a building'
+french = 'compteur pour les étages'
 level = 'n5'
 tags = []
 
@@ -49,6 +55,7 @@ tags = []
 kanji = '数'
 kana = 'かず'
 english = 'number; amount'
+french = 'nombre; quantité'
 level = 'n3'
 source = 'https://iknow.jp/courses/566921'
 explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
@@ -61,6 +68,7 @@ frequency_scores = { anime = 356, leeds = 222, novels = 238, wikipedia = 491 }
 kanji = '九'
 kana = 'きゅう'
 english = 'nine'
+french = 'neuf'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1573, leeds = 640, novels = 573 }
@@ -69,6 +77,7 @@ frequency_scores = { anime = 1573, leeds = 640, novels = 573 }
 kanji = '～個'
 kana = '～こ'
 english = 'counter for small objects'
+french = 'compteur pour les petits objets'
 level = 'n5'
 tags = []
 
@@ -76,6 +85,7 @@ tags = []
 kanji = '九つ'
 kana = 'ここのつ'
 english = 'nine (things)'
+french = 'neuf (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 19161 }
@@ -84,6 +94,7 @@ frequency_scores = { anime = 19161 }
 kanji = '五'
 kana = 'ご'
 english = 'five'
+french = 'cinq'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 524, leeds = 356, novels = 171 }
@@ -92,6 +103,7 @@ frequency_scores = { anime = 524, leeds = 356, novels = 171 }
 kanji = '～号'
 kana = '～ごう'
 english = 'number (suffix for label or designation)'
+french = 'numéro (suffixe de désignation)'
 source = 'japan'
 level = 'n1'
 explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
@@ -103,6 +115,7 @@ tags = ['common', 'noun', 'noun-suffix', 'numbers', 'suffix']
 kanji = '～歳'
 kana = '～さい'
 english = 'counter for years old'
+french = "compteur pour l'âge (ans)"
 level = 'n5'
 tags = []
 
@@ -110,6 +123,7 @@ tags = []
 kanji = '～冊'
 kana = '～さつ'
 english = 'counter for books'
+french = 'compteur pour les livres'
 level = 'n5'
 tags = []
 
@@ -117,6 +131,7 @@ tags = []
 kanji = '三'
 kana = 'さん'
 english = 'three'
+french = 'trois'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 226, leeds = 232, novels = 94 }
@@ -125,6 +140,7 @@ frequency_scores = { anime = 226, leeds = 232, novels = 94 }
 kanji = '四'
 kana = 'し'
 english = 'four'
+french = 'quatre'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 542, leeds = 408, novels = 195 }
@@ -133,6 +149,7 @@ frequency_scores = { anime = 542, leeds = 408, novels = 195 }
 kanji = '七'
 kana = 'しち'
 english = 'seven'
+french = 'sept'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 546, leeds = 702, novels = 326 }
@@ -141,6 +158,7 @@ frequency_scores = { anime = 546, leeds = 702, novels = 326 }
 kanji = '十'
 kana = 'じゅう'
 english = 'ten'
+french = 'dix'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 262, leeds = 188, novels = 91 }
@@ -149,6 +167,7 @@ frequency_scores = { anime = 262, leeds = 188, novels = 91 }
 kanji = '千'
 kana = 'せん'
 english = 'thousand'
+french = 'mille'
 level = 'n5'
 tags = ['common', 'numbers']
 frequency_scores = { anime = 407, leeds = 568, novels = 638 }
@@ -157,6 +176,7 @@ frequency_scores = { anime = 407, leeds = 568, novels = 638 }
 kanji = '～台'
 kana = '～だい'
 english = 'counter for vehicles and machines'
+french = 'compteur pour les véhicules et machines'
 level = 'n5'
 tags = []
 
@@ -164,6 +184,7 @@ tags = []
 kanji = '電話番号'
 kana = 'でんわばんごう'
 english = 'phone number'
+french = 'numéro de téléphone'
 source = 'irasshai'
 tags = ['common', 'noun']
 
@@ -171,6 +192,7 @@ tags = ['common', 'noun']
 kanji = '十'
 kana = 'とお'
 english = 'ten (things)'
+french = 'dix (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 262, leeds = 188, novels = 91 }
@@ -179,6 +201,7 @@ frequency_scores = { anime = 262, leeds = 188, novels = 91 }
 kanji = '～度'
 kana = '～ど'
 english = 'counter for occurrences'
+french = 'compteur pour les occurrences (fois)'
 level = 'n5'
 tags = []
 
@@ -186,6 +209,7 @@ tags = []
 kanji = '七つ'
 kana = 'ななつ'
 english = 'seven (things)'
+french = 'sept (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1898 }
@@ -194,6 +218,7 @@ frequency_scores = { anime = 1898 }
 kanji = '二'
 kana = 'に'
 english = 'two'
+french = 'deux'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 83, leeds = 158, novels = 50 }
@@ -202,6 +227,7 @@ frequency_scores = { anime = 83, leeds = 158, novels = 50 }
 kanji = '二十歳'
 kana = 'はたち'
 english = '20 years old'
+french = '20 ans (âge)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 25804 }
@@ -210,6 +236,7 @@ frequency_scores = { anime = 25804 }
 kanji = '八'
 kana = 'はち'
 english = 'eight'
+french = 'huit'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 601, leeds = 684, novels = 377 }
@@ -218,6 +245,7 @@ frequency_scores = { anime = 601, leeds = 684, novels = 377 }
 kanji = '～番'
 kana = '～ばん'
 english = '(counter) number in a series; ～st/th best'
+french = 'numéro ～ (dans une série); ～e place'
 level = 'n5'
 explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
 explain2 = 'https://hinative.com/en-US/questions/217667'
@@ -228,6 +256,7 @@ tags = ['common', 'counter', 'noun']
 kanji = '番号'
 kana = 'ばんごう'
 english = 'number (series of digits or identifier)'
+french = 'numéro'
 level = 'n5'
 explain = 'https://www.reddit.com/r/LearnJapanese/comments/3q2ebm/%E5%8F%B7_vs_%E6%95%B0_what_is_the_difference/'
 explain2 = 'https://hinative.com/en-US/questions/217667'
@@ -239,6 +268,7 @@ frequency_scores = { anime = 2412, leeds = 1731, wikipedia = 704 }
 kanji = '一つ'
 kana = 'ひとつ'
 english = 'one (thing)'
+french = 'un (chose)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 236, leeds = 311, novels = 261 }
@@ -247,6 +277,7 @@ frequency_scores = { anime = 236, leeds = 311, novels = 261 }
 kanji = '百'
 kana = 'ひゃく'
 english = 'hundred'
+french = 'cent'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 594, leeds = 501, novels = 317 }
@@ -255,6 +286,7 @@ frequency_scores = { anime = 594, leeds = 501, novels = 317 }
 kanji = '百万'
 kana = 'ひゃくまん'
 english = 'one million'
+french = 'un million'
 source = 'wanikani'
 tags = ['common', 'noun', 'number']
 
@@ -262,6 +294,7 @@ tags = ['common', 'noun', 'number']
 kanji = '二つ'
 kana = 'ふたつ'
 english = 'two (things)'
+french = 'deux (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1116, leeds = 1389, novels = 655 }
@@ -270,6 +303,7 @@ frequency_scores = { anime = 1116, leeds = 1389, novels = 655 }
 kanji = '～本'
 kana = '～ほん'
 english = 'counter for long cylindrical things'
+french = 'compteur pour les objets longs et cylindriques'
 level = 'n5'
 tags = []
 
@@ -277,6 +311,7 @@ tags = []
 kanji = '万'
 kana = 'まん'
 english = 'ten thousand'
+french = 'dix mille'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 384, leeds = 206, novels = 649 }
@@ -285,6 +320,7 @@ frequency_scores = { anime = 384, leeds = 206, novels = 649 }
 kanji = '三つ'
 kana = 'みっつ'
 english = 'three (things)'
+french = 'trois (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 2984, leeds = 3459, novels = 1737 }
@@ -293,6 +329,7 @@ frequency_scores = { anime = 2984, leeds = 3459, novels = 1737 }
 kanji = '六つ'
 kana = 'むっつ'
 english = 'six (things)'
+french = 'six (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 20631 }
@@ -301,6 +338,7 @@ frequency_scores = { anime = 20631 }
 kanji = '八つ'
 kana = 'やっつ'
 english = 'eight (things)'
+french = 'huit (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 8273 }
@@ -309,6 +347,7 @@ frequency_scores = { anime = 8273 }
 kanji = '四つ'
 kana = 'よっつ'
 english = 'four (things)'
+french = 'quatre (choses)'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 7255, leeds = 7874 }
@@ -317,6 +356,7 @@ frequency_scores = { anime = 7255, leeds = 7874 }
 kanji = '零'
 kana = 'れい'
 english = 'zero'
+french = 'zéro'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 3135, leeds = 10519, novels = 1342 }
@@ -325,6 +365,7 @@ frequency_scores = { anime = 3135, leeds = 10519, novels = 1342 }
 kanji = '六'
 kana = 'ろく'
 english = 'six'
+french = 'six'
 level = 'n5'
 tags = []
 frequency_scores = { anime = 955, leeds = 588, novels = 264 }
@@ -333,6 +374,7 @@ frequency_scores = { anime = 955, leeds = 588, novels = 264 }
 kanji = 'ゼロ'
 kana = 'ゼロ'
 english = 'zero (gairaigo)'
+french = "zéro (mot d'emprunt)"
 level = 'n5'
 tags = []
 frequency_scores = { anime = 1719, leeds = 2432 }
