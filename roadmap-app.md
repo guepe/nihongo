@@ -192,7 +192,7 @@ But : réviser dans le navigateur, sans compte ni serveur. **L'app devient utile
 **Terminé quand** : on peut faire une vraie session de révision sur Mac, fermer le
 navigateur, revenir le lendemain et retrouver les bonnes cartes à réviser.
 
-## Phase C : PWA
+## Phase C : PWA ✅
 
 But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
 
@@ -212,7 +212,7 @@ But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
       est la racine du site ; `rsync` ne supprime jamais les fichiers cachés comme `.ssh`).
       Vérifié en ligne : redirection HTTPS, compression (`deck.json` : 305 Ko), cache,
       fonctionnement hors-ligne.
-- [ ] Test sur l'iPhone (Safari → Partager → « Sur l'écran d'accueil ») et le Mac.
+- [x] Validé sur iPhone (Safari → « Sur l'écran d'accueil »), Chrome et Arc sur Mac.
 
 **Terminé quand** : l'app installée sur l'iPhone fonctionne en mode avion.
 
@@ -256,14 +256,16 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
 **Terminé quand** : deux utilisateurs ont chacun leur progression, et une révision faite
 sur l'iPhone apparaît sur le Mac.
 
-## Phase E : déploiement
+## Phase E : déploiement (en grande partie fait avec la phase C)
 
-- [ ] Sous-domaine `hachi.guepe.com` créé chez OVH, HTTPS Let's Encrypt activé, PHP 8.4 sélectionné.
+- [x] Sous-domaine `hachi.guepe.com` créé chez OVH (Multisite), HTTPS Let's Encrypt activé.
+- [ ] PHP 8.4 sélectionné pour le sous-domaine (à vérifier avec l'API, phase D).
 - [ ] Base MySQL créée ; script `api/schema.sql` pour les tables.
-- [ ] `deploy.sh` : build de l'app, export de `deck.json`, envoi par `rsync` sur SSH.
-- [ ] Clé SSH dédiée au déploiement ; `config.php` créé une fois à la main sur le serveur.
-- [ ] `.htaccess` : routes `/api/*`, en-têtes de cache (le service worker ne doit jamais
-      être mis en cache par le navigateur).
+- [x] `deploy.sh` : export de `deck.json`, tests, build de l'app, envoi par `rsync` sur SSH.
+- [x] Utilisateur SSH dédié au site (`npeqdqq-hachi`), connexion par clé.
+- [ ] `config.php` créé une fois à la main sur le serveur (phase D).
+- [x] `.htaccess` : HTTPS forcé, cache (`no-cache` sauf `assets/`), compression.
+- [ ] Routes `/api/*` dans `.htaccess` (phase D).
 - [ ] Sauvegarde : export régulier de `review_events` (c'est toute la progression).
 
 ## Phase F : confort
