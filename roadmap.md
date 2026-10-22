@@ -203,9 +203,91 @@ et éventuellement `pronominal` et `complement`. Les 200 verbes sont remplis.
 - [x] `temp/` supprimé (anciens decks `.apkg`, brouillons de vocabulaire et de grammaire
       du projet d'origine ; toujours consultables dans l'historique git).
 
+## Phase 7 : romaji ✅
+
+- [x] `cardgen/romaji.py` : conversion kana → romaji (Hepburn, sans dépendance). Voyelles
+      longues écrites comme en kana (がっこう → *gakkou*, コーヒー → *koohii*), っ double
+      la consonne (まっちゃ → *matcha*), ん + voyelle → *n'* (きんえん → *kin'en*), は
+      particule → *wa* pour une liste fixe (`PARTICLE_WA`).
+- [x] Champ `Romaji` ajouté **à la fin** du modèle vocabulaire, affiché au verso des 4 cartes.
+- [x] Deck de conjugaison : `base_romaji` puis un champ `*_romaji` par forme, ajoutés après
+      tous les champs existants ; romaji au verso et dans le tableau récapitulatif.
+- [x] Import dans Anki : cocher la fusion des types de notes (champs ajoutés).
+- [x] Corrigé au passage : 昼ご飯 `ひるはん` → ひるごはん.
+
 ## Définition de « terminé »
 
 - `python cardgen/translation_status.py` affiche 100 % pour n5 et n4 au minimum.
 - Le deck importé dans Anki n'affiche que du français pour les entrées traduites, et
   `tag:a_traduire` liste les entrées restantes.
 - Régénérer puis réimporter le deck conserve la progression SRS.
+
+---
+
+# Roadmap : application de révision maison
+
+Objectif : remplacer Anki par notre propre application, utilisable sur **Mac, iPhone et
+navigateur web**, avec la progression synchronisée entre les appareils et **plusieurs
+utilisateurs**. Pas d'import de l'historique Anki : on repart de zéro.
+
+## Choix techniques
+
+**Une PWA** (site web installable sur l'écran d'accueil) : une seule base de code pour
+tous les appareils, sans App Store ni compte développeur Apple. Sur iPhone : Safari →
+Partager → « Sur l'écran d'accueil ».
+
+| Brique | Choix | Pourquoi |
+|---|---|---|
+| Front | Vite + TypeScript (React ou Svelte) | Léger, produit des fichiers statiques |
+| Algorithme de révision | FSRS (`ts-fsrs`) | Celui d'Anki aujourd'hui, open source |
+| Stockage local | IndexedDB (Dexie) | Révisions hors-ligne, synchro plus tard |
+| API | PHP (quelques fichiers) | Tourne sur l'hébergement OVH Web Cloud existant |
+| Base de données | MySQL (fournie par OVH) | Comptes et journal des révisions |
+| Comptes | `password_hash` + jeton de session | Inscription sur invitation uniquement |
+| Hébergement | OVH Web Cloud, sous-domaine en HTTPS (Let's Encrypt) | Déjà payé ; le HTTPS est obligatoire pour une PWA |
+
+**Synchro par journal d'événements.** Chaque révision est un événement (utilisateur,
+carte, note, date, appareil) ajouté localement puis envoyé à l'API. Chaque appareil
+récupère les événements des autres et recalcule l'état FSRS des cartes. On n'ajoute
+jamais rien d'autre que des événements, donc il n'y a pas de conflit à résoudre.
+
+**Les données viennent du dépôt.** Un script exporte `vocabulary/` (avec français et
+romaji) et les conjugaisons en JSON. Chaque carte garde un identifiant stable calculé
+comme dans Anki (kanji + kana), pour que la progression survive aux mises à jour du
+vocabulaire.
+
+## Phase A : export des données
+
+- [ ] `cardgen/export_json.py` : notes, cartes (mêmes types que dans Anki), niveaux,
+      tags, fréquences, romaji ; réutilise le code de `generate_*.py`.
+- [ ] Fichier versionné (`app/public/deck.json`) pour que l'app détecte les mises à jour.
+
+## Phase B : révision en local
+
+- [ ] Projet `app/` (Vite + TypeScript).
+- [ ] Écran de révision : recto, « Montrer la réponse », notes À revoir / Difficile /
+      Bien / Facile, avec FSRS.
+- [ ] Choix du deck (vocabulaire, conjugaison), filtres par niveau JLPT, limite de
+      nouvelles cartes par jour.
+- [ ] Progression enregistrée dans IndexedDB. **Utilisable à partir de cette phase.**
+
+## Phase C : PWA
+
+- [ ] Manifest, icônes, service worker : installation et fonctionnement hors-ligne.
+- [ ] Test sur iPhone (Safari) et Mac.
+
+## Phase D : comptes et synchro (OVH)
+
+- [ ] Tables MySQL : `users`, `invitations`, `sessions`, `review_events`.
+- [ ] API PHP : inscription sur invitation, login/logout, `POST /events`,
+      `GET /events?since=…`.
+- [ ] Écran de login dans l'app ; synchro au démarrage, après chaque session, et au retour
+      en ligne.
+- [ ] Déploiement : build statique + API sur un sous-domaine OVH en HTTPS.
+
+## Phase E : confort
+
+- [ ] Statistiques (révisions par jour, rétention, cartes à venir).
+- [ ] Audio : synthèse vocale japonaise du navigateur.
+- [ ] Furigana au-dessus des kanji.
+- [ ] Mise à jour du deck sans perte de progression quand le dépôt change.

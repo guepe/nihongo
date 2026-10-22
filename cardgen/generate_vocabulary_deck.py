@@ -13,6 +13,7 @@ import unittest
 from argparse import ArgumentParser
 from collections import OrderedDict
 from functools import cached_property
+from romaji import to_romaji
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
@@ -47,6 +48,7 @@ KANJI_CARD_MODEL = genanki.Model(
     {'name': 'Fréquence max'},
     {'name': 'Source fréquence'},
     {'name': 'Fréquence anime'},
+    {'name': 'Romaji'},
   ],
   # NB: Add or remove templates (with the same names) using the
   # Anki interface first, or imports won't work as expected.
@@ -77,6 +79,7 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <div>{{Kanji}}</div>
 <div id="hint">{{Kana}}</div>
+{{#Romaji}}<div class="romaji">{{Romaji}}</div>{{/Romaji}}
 
 <footer>
   <div class="level level-{{Niveau}}">{{Niveau}}</div>
@@ -128,6 +131,8 @@ KANJI_CARD_MODEL = genanki.Model(
 
 <hr id="answer">
 
+{{#Romaji}}<div class="romaji">{{Romaji}}</div>{{/Romaji}}
+
 <div>{{Français}}</div>
 
 <footer>
@@ -171,6 +176,7 @@ KANJI_CARD_MODEL = genanki.Model(
 <hr id="answer">
 
 <div id="hint">({{Kana}})</div>
+{{#Romaji}}<div class="romaji">{{Romaji}}</div>{{/Romaji}}
 
 <div>{{Français}}</div>
 
@@ -215,6 +221,7 @@ KANJI_CARD_MODEL = genanki.Model(
 <hr id="answer">
 
 <div id="hint">({{Kanji}})</div>
+{{#Romaji}}<div class="romaji">{{Romaji}}</div>{{/Romaji}}
 
 <div>{{Français}}</div>
 
@@ -250,6 +257,11 @@ KANJI_CARD_MODEL = genanki.Model(
   display: inline;
 }
 
+.romaji {
+  color: #888;
+  font-style: italic;
+}
+
 footer {
   border-top: 1px dashed #888;
   color: #888;
@@ -272,6 +284,7 @@ class Note(genanki.Note):
     # These fields are always populated:
     self.kanji = verb_dict['kanji']
     self.kana = verb_dict['kana']
+    self.romaji = to_romaji(self.kana)
     # These fields are not always populated:
     self.level = verb_dict['level'] if 'level' in verb_dict else ''
     # NB: Anki tags can't contain spaces, so 'suru verb' becomes 'suru_verb'.
@@ -341,6 +354,7 @@ class Note(genanki.Note):
       self.frequency_highest,
       self.frequency_highest_source,
       self.frequency_anime,
+      self.romaji,
     ]
 
     super().__init__(model=KANJI_CARD_MODEL,

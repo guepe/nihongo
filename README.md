@@ -210,8 +210,8 @@ Les deux fichiers sont créés à la racine du dépôt et remplacés à chaque g
 
 | Fichier | Script | Deck dans Anki | Contenu |
 |---|---|---|---|
-| `japonais_fr.apkg` | `generate_vocabulary_deck.py` | Japonais généré | ~3 200 mots, 2 à 3 cartes par mot (français → japonais, kanji + kana → français, kanji seul…) |
-| `japonais_conjugaison_fr.apkg` | `generate_verb_deck.py` | Japonais généré - conjugaison | ~200 verbes, 96 cartes par verbe (13 formes, affirmatif et négatif, neutre et poli, dans les deux sens) |
+| `japonais_fr.apkg` | `generate_vocabulary_deck.py` | Japonais généré | ~3 200 mots, 2 à 3 cartes par mot (français → japonais, kanji + kana → français, kanji seul…), romaji au verso |
+| `japonais_conjugaison_fr.apkg` | `generate_verb_deck.py` | Japonais généré - conjugaison | ~200 verbes, 96 cartes par verbe (13 formes, affirmatif et négatif, neutre et poli, dans les deux sens), romaji au verso |
 
 ### Après une modification du vocabulaire
 
@@ -265,6 +265,15 @@ puis régénérer et réimporter le deck, sans perdre l'historique de révision.
 > ⚠️ Ne changez pas les identifiants, les noms ni l'ordre des champs et des cartes dans
 > le code des générateurs sans être d'abord passé par l'interface d'Anki : vous perdriez
 > votre progression ou vous créeriez un modèle en double.
+>
+> Exception : **ajouter** des champs à la fin d'un modèle (comme le champ des romaji, en
+> octobre 2026). À l'import, cochez l'option qui fusionne les types de notes : Anki met
+> alors à jour le modèle existant et garde la progression.
+
+Les romaji ne sont pas saisis dans les TOML : `cardgen/romaji.py` les calcule à partir du
+`kana` (Hepburn ; voyelles longues écrites comme en kana : がっこう → *gakkou*,
+コーヒー → *koohii*). Un は particule (こんにちは, では…) doit être ajouté à la main dans
+la liste `PARTICLE_WA`.
 
 ### Configuration
 

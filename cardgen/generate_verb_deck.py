@@ -14,6 +14,8 @@ from collections import OrderedDict
 from toml.decoder import TomlDecoder
 from toml.encoder import TomlEncoder
 
+from romaji import to_romaji
+
 OUTPUT_FILENAME = 'japonais_conjugaison_fr.apkg'
 
 def read_verbs():
@@ -555,19 +557,41 @@ class Conjugation:
 
     return field_values
 
+  def forms(self):
+    """(register, polarity) pairs, in field order: eg. ('plain', 'positive')."""
+    registers = ['plain', 'polite'] if self.has_polite else ['plain']
+    polarities = ['positive', 'negative'] if self.has_negative else ['positive']
+    return [(register, polarity) for register in registers for polarity in polarities]
+
+  def romaji_field_names(self):
+    # Romaji fields were added later, so they come after every conjugation's fields.
+    prefix = self.conjugation_name() + '_'
+    return ['{}{}_{}_romaji'.format(prefix, register, polarity)
+        for register, polarity in self.forms()]
+
+  def map_verb_romaji(self, verb):
+    # NB: Must match romaji_field_names().
+    method = getattr(verb, self.conjugation_name())
+    values = []
+    for register, polarity in self.forms():
+      kwargs = {}
+      if self.has_polite:
+        kwargs['polite'] = register == 'polite'
+      if self.has_negative:
+        kwargs['positive'] = polarity == 'positive'
+      values.append(to_romaji(method(kanji=False, **kwargs)))
+    return values
+
   def templates(self):
     # NB: DO NOT CHANGE THE ORDER. APPEND ONLY.
     templates = []
     prefix = self.conjugation_name() + '_'
-    registers = ['plain', 'polite'] if self.has_polite else ['plain']
-    polarities = ['positive', 'negative'] if self.has_negative else ['positive']
-    for register in registers:
-      for polarity in polarities:
-        french_field = prefix + 'french_' + polarity
-        japanese_field = '{}{}_{}_'.format(prefix, register, polarity)
-        for from_french in (True, False):
-          templates.append(self.card_template(
-              french_field, japanese_field, register, polarity, from_french))
+    for register, polarity in self.forms():
+      french_field = prefix + 'french_' + polarity
+      japanese_field = '{}{}_{}_'.format(prefix, register, polarity)
+      for from_french in (True, False):
+        templates.append(self.card_template(
+            french_field, japanese_field, register, polarity, from_french))
     return templates
 
   def card_template(self, french_field, japanese_field, register, polarity, from_french):
@@ -577,13 +601,14 @@ class Conjugation:
     french = '{{{{{}}}}}'.format(french_field)
     japanese = ('<span class="kanji">{{{{{0}kanji}}}}</span> '
         '<span class="kana">{{{{{0}kana}}}}</span>').format(japanese_field)
+    romaji = '<div class="romaji">{{{{{0}romaji}}}}</div>'.format(japanese_field)
 
     if from_french:
       question = '{} <span class="register">({})</span>'.format(french, ', '.join(details))
-      answer = japanese
+      answer = japanese + romaji
     else:
       question = japanese
-      answer = french
+      answer = romaji + '<br>' + french
 
     name = '{} {} {} : {}'.format(
         self.label,
@@ -619,6 +644,10 @@ ANSWER_TEMPLATE = '''
   <tr>
     <th>kana</th>
     <td>{{{{base_kana}}}}</td>
+  </tr>
+  <tr>
+    <th>romaji</th>
+    <td>{{{{base_romaji}}}}</td>
   </tr>
   <tr>
     <th>groupe</th>
@@ -679,6 +708,10 @@ for conjugation in CONJUGATIONS:
 
   TEMPLATES.extend(conjugation.templates())
 
+# Romaji fields come last so the existing field numbering is unchanged.
+MODEL_FIELDS.append({'name': 'base_romaji'})
+for conjugation in CONJUGATIONS:
+  MODEL_FIELDS.extend({'name': field_name} for field_name in conjugation.romaji_field_names())
 
 VERB_CARD_MODEL = genanki.Model(
   # XXX: DO NOT CHANGE
@@ -720,6 +753,11 @@ VERB_CARD_MODEL = genanki.Model(
 .kana:before { content: '(' }
 .kana:after { content: ')' }
 
+.romaji {
+  color: #888;
+  font-style: italic;
+}
+
 table {
   border: 1px solid #ccc;
   margin: auto;
@@ -750,6 +788,10 @@ class Note(genanki.Note):
 
     for conjugation in CONJUGATIONS:
       fields.extend(conjugation.map_verb_fields(verb))
+
+    fields.append(to_romaji(self.kana))
+    for conjugation in CONJUGATIONS:
+      fields.extend(conjugation.map_verb_romaji(verb))
 
     # NB: genanki requires string fields; missing values (eg. no JLPT level) are None.
     fields = ['' if f is None else f for f in fields]
