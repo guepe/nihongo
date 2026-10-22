@@ -259,7 +259,8 @@ sur l'iPhone apparaît sur le Mac.
 ## Phase E : déploiement (en grande partie fait avec la phase C)
 
 - [x] Sous-domaine `hachi.guepe.com` créé chez OVH (Multisite), HTTPS Let's Encrypt activé.
-- [ ] PHP 8.4 sélectionné pour le sous-domaine (à vérifier avec l'API, phase D).
+- [x] PHP 8.4 pour le site via `app/public/.ovhconfig` (vérifié : 8.4.27, pdo_mysql, sodium).
+      En SSH, `php` reste un vieux 5.4 : c'est normal chez OVH.
 - [ ] Base MySQL créée ; script `api/schema.sql` pour les tables.
 - [x] `deploy.sh` : export de `deck.json`, tests, build de l'app, envoi par `rsync` sur SSH.
 - [x] Utilisateur SSH dédié au site (`npeqdqq-hachi`), connexion par clé.
