@@ -2,6 +2,7 @@
   import Home from './components/Home.svelte'
   import Review from './components/Review.svelte'
   import SettingsForm from './components/SettingsForm.svelte'
+  import UpdateBanner from './components/UpdateBanner.svelte'
   import { buildCards, type ReviewCard } from './lib/cards'
   import { deviceId, loadEvents, loadSettings, saveSettings } from './lib/db'
   import { Scheduler } from './lib/scheduler'
@@ -26,6 +27,9 @@
   })
 
   async function start() {
+    // Without this, Safari may clear IndexedDB (the whole progress) of a site unused for a
+    // few weeks. Apps added to the home screen are already exempt.
+    navigator.storage?.persist?.()
     try {
       const response = await fetch(import.meta.env.BASE_URL + 'deck.json')
       if (!response.ok) throw new Error(`deck.json : erreur ${response.status}`)
@@ -57,6 +61,8 @@
 
   start()
 </script>
+
+<UpdateBanner />
 
 <div class="page">
   {#if error}

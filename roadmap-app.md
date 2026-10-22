@@ -196,11 +196,21 @@ navigateur, revenir le lendemain et retrouver les bonnes cartes à réviser.
 
 But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
 
-- [ ] Manifest (nom, icônes, couleurs) et service worker (`vite-plugin-pwa`).
-- [ ] Toute l'app et `deck.json` en cache : elle s'ouvre en mode avion.
-- [ ] Mise en page mobile : gros boutons en bas de l'écran, à portée de pouce ; mode
-      sombre.
-- [ ] Mise en ligne provisoire sur `hachi.guepe.com` pour tester sur l'iPhone.
+- [x] Manifest (nom, icônes 蜂, couleurs) et service worker (`vite-plugin-pwa` 2).
+- [x] Toute l'app et `deck.json` en cache : elle s'ouvre et enregistre les révisions en
+      mode avion (testé dans Chromium : réseau coupé, révision, rechargement).
+- [x] Mise à jour : bannière « Nouvelle version disponible » (on ne recharge jamais en
+      pleine révision sans accord) ; vérification toutes les heures.
+- [x] Mise en page mobile : gros boutons en bas de l'écran, zones sûres de l'iPhone ;
+      mode sombre ; métadonnées iOS (icône, nom, plein écran).
+- [x] `navigator.storage.persist()` : demande au navigateur de ne pas effacer la
+      progression.
+- [x] `deploy.sh` (+ `deploy.env`, non versionné) et `.htaccess` (HTTPS forcé, cache,
+      compression). Garde-fou : refuse d'envoyer dans un dossier qui contient autre chose
+      que l'app.
+- [ ] Première mise en ligne sur `hachi.guepe.com` (accès SSH à renseigner dans
+      `deploy.env`).
+- [ ] Test sur l'iPhone (Safari → Partager → « Sur l'écran d'accueil ») et le Mac.
 
 **Terminé quand** : l'app installée sur l'iPhone fonctionne en mode avion.
 

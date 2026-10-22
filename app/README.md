@@ -18,6 +18,16 @@ npm run dev           # puis ouvrir http://localhost:5173
 > npm 10.8 plante à l'installation (`Cannot read properties of null (reading 'edgesOut')`).
 > Utiliser npm 11 : `npx npm@11 install`.
 
+## Mise en ligne
+
+```sh
+cp deploy.env.example deploy.env   # une seule fois, puis compléter
+./deploy.sh                        # à la racine du dépôt
+```
+
+Le script régénère `deck.json`, lance les tests, construit l'app et l'envoie par `rsync`
+sur SSH. Il refuse d'envoyer dans un dossier qui contient autre chose que l'app.
+
 ## Organisation
 
 | Fichier | Rôle |
@@ -27,7 +37,8 @@ npm run dev           # puis ouvrir http://localhost:5173
 | `src/lib/scheduler.ts` | Planification FSRS, recalculée à partir du journal des révisions |
 | `src/lib/settings.ts` | Réglages et valeurs par défaut |
 | `src/lib/db.ts` | Stockage local (IndexedDB) : révisions, réglages, identifiant de l'appareil |
-| `src/components/` | Écrans : accueil, révision, réglages |
+| `src/components/` | Écrans : accueil, révision, réglages ; bannière de mise à jour |
+| `public/.htaccess` | Configuration Apache d'OVH : HTTPS, cache, compression |
 
 La progression d'une carte n'est jamais enregistrée : seules les réponses le sont, et
 l'état de chaque carte est recalculé en les rejouant. C'est ce qui permettra de fusionner
