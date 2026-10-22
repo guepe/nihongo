@@ -3,7 +3,7 @@
 
   let { device, onlogin }: { device: string; onlogin: (session: Session) => void } = $props()
 
-  // An invitation link looks like https://hachi.guepe.com/#invitation=<code>
+  // An invitation link looks like https://<site>/#invitation=<code>
   const invited = new URLSearchParams(location.hash.slice(1)).get('invitation') ?? ''
 
   let mode = $state<'login' | 'register'>(invited ? 'register' : 'login')

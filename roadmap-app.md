@@ -34,8 +34,8 @@ appareils, sans App Store ni compte développeur Apple (99 €/an).
 | HTTPS | Let's Encrypt (gratuit chez OVH) | Obligatoire pour qu'une PWA s'installe |
 | Déploiement | Script `deploy.sh` (build + `rsync` par SSH) | Une commande pour publier ; n'envoie que ce qui a changé |
 
-L'app et l'API sont sur le même sous-domaine, **`hachi.guepe.com`** (蜂, *hachi* :
-guêpe), avec l'API sous `hachi.guepe.com/api/`. Il n'y a donc pas de CORS à configurer.
+L'app et l'API sont sur le même sous-domaine (l'app *hachi*, 蜂 : guêpe), avec l'API sous
+`/api/`. Il n'y a donc pas de CORS à configurer.
 
 ### Architecture
 
@@ -208,7 +208,7 @@ But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
 - [x] `deploy.sh` (+ `deploy.env`, non versionné) et `.htaccess` (HTTPS forcé, cache,
       compression). Garde-fou : refuse d'envoyer dans un dossier qui contient autre chose
       que l'app.
-- [x] Mise en ligne sur `hachi.guepe.com` (utilisateur SSH dédié : son dossier personnel
+- [x] Mise en ligne sur le sous-domaine (utilisateur SSH dédié : son dossier personnel
       est la racine du site ; `rsync` ne supprime jamais les fichiers cachés comme `.ssh`).
       Vérifié en ligne : redirection HTTPS, compression (`deck.json` : 305 Ko), cache,
       fonctionnement hors-ligne.
@@ -250,7 +250,7 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
       hors du dépôt git ; modèle dans `api/config.example.php`. Tables créées
       automatiquement à la première requête (`api/schema.sql`).
 - [x] Écrans login / inscription dans l'app ; la session reste ouverte sur l'appareil.
-      Lien d'invitation `https://hachi.guepe.com/#invitation=<code>`, valable 14 jours.
+      Lien d'invitation `https://<site>/#invitation=<code>`, valable 14 jours.
 - [x] Synchro au démarrage, 3 s après une réponse, au retour sur l'accueil, au retour en
       ligne et toutes les 5 min.
       Indicateur discret : « synchronisé », « 3 révisions en attente ».
@@ -260,7 +260,7 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
 - [x] Tests : `node api/tests/api.test.mjs` (API contre MySQL 8 dans Docker) ; scénario
       à plusieurs appareils dans Chromium (même compte sur iPhone et Mac, invitation,
       révisions hors-ligne envoyées au retour du réseau, déconnexion).
-- [x] Mise en ligne : base MySQL OVH `npeqdqqhachi`, `api/config.php` sur le serveur (droits
+- [x] Mise en ligne : base MySQL OVH, `api/config.php` sur le serveur (droits
       604, jamais touché par `deploy.sh`). Tables créées automatiquement.
 - [x] Compte administrateur créé ; synchro validée entre l'iPhone et le Mac.
 
@@ -269,12 +269,12 @@ sur l'iPhone apparaît sur le Mac.
 
 ## Phase E : déploiement (en grande partie fait avec la phase C)
 
-- [x] Sous-domaine `hachi.guepe.com` créé chez OVH (Multisite), HTTPS Let's Encrypt activé.
+- [x] Sous-domaine créé chez OVH (Multisite), HTTPS Let's Encrypt activé.
 - [x] PHP 8.4 pour le site via `app/public/.ovhconfig` (vérifié : 8.4.27, pdo_mysql, sodium).
       En SSH, `php` reste un vieux 5.4 : c'est normal chez OVH.
 - [x] Base MySQL créée ; tables créées par l'API (`api/schema.sql`).
 - [x] `deploy.sh` : export de `deck.json`, tests, build de l'app, envoi par `rsync` sur SSH.
-- [x] Utilisateur SSH dédié au site (`npeqdqq-hachi`), connexion par clé.
+- [x] Utilisateur SSH dédié au site, connexion par clé.
 - [x] `api/config.php` créé une fois à la main sur le serveur.
 - [x] `.htaccess` : HTTPS forcé, cache (`no-cache` sauf `assets/`), compression.
 - [x] Routes `/api/*` dans `api/.htaccess` ; `config.php`, `lib.php`, `schema.sql` interdits.

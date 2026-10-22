@@ -3,9 +3,8 @@
 Notes et outils pour apprendre le japonais en **français → japonais**, avec deux façons
 de réviser le même vocabulaire :
 
-- **hachi (蜂)**, notre application de révision, sur [hachi.guepe.com](https://hachi.guepe.com) :
-  iPhone, Mac et navigateur, progression synchronisée, accès sur invitation (voir
-  [Application hachi](#application-hachi-蜂)) ;
+- **hachi (蜂)**, notre application de révision : iPhone, Mac et navigateur, progression
+  synchronisée, accès sur invitation (voir [Application hachi](#application-hachi-蜂)) ;
 - des **decks Anki** à télécharger, pour qui préfère Anki (voir
   [Démarrage rapide](#démarrage-rapide-débutants)).
 
@@ -23,9 +22,9 @@ d'Anki). Elle est gratuite et privée : on y entre sur invitation.
 
 ### Commencer
 
-1. Ouvrez [hachi.guepe.com](https://hachi.guepe.com).
-2. Créez votre compte avec le **lien d'invitation** reçu (valable 14 jours, pour un seul
-   compte), ou connectez-vous si vous en avez déjà un.
+1. Ouvrez le **lien d'invitation** reçu (valable 14 jours, pour un seul compte) et créez
+   votre compte. Si vous en avez déjà un, ouvrez simplement l'adresse de l'application et
+   connectez-vous.
 3. Installez l'application, pour l'avoir en plein écran et hors-ligne :
    - **iPhone / iPad** : dans **Safari**, bouton Partager → **Sur l'écran d'accueil** ;
    - **Mac** : dans Safari, **Fichier → Ajouter au Dock** ; dans Chrome ou Arc, l'icône
@@ -73,10 +72,11 @@ n'est pas reprise dans l'autre.
 ```bash
 ./generer.sh                  # decks Anki + deck.json de l'application
 cd app && npm run dev         # application en local (http://localhost:5173)
-./deploy.sh                   # tests, build et mise en ligne sur hachi.guepe.com
+./deploy.sh                   # tests, build et mise en ligne
 ```
 
-`deploy.sh` lit `deploy.env` (accès SSH, non versionné, voir `deploy.env.example`). Sur le
+`deploy.sh` lit `deploy.env` (accès SSH et adresse du site, non versionné, voir
+`deploy.env.example`). Sur le
 serveur, `api/config.php` (identifiants MySQL) n'existe qu'en un exemplaire, créé à la main
 d'après `api/config.example.php` ; le script n'y touche jamais. Après une modification du
 vocabulaire, `./deploy.sh` suffit : les nouveaux mots arrivent dans l'application comme

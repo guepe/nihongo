@@ -33,4 +33,4 @@ rsync -rlptvz --delete --filter='P /.*' --exclude /api/ \
 rsync -rlptvz --delete --exclude /config.php --exclude /config.example.php --exclude /tests/ \
   api/ "$HACHI_SSH:$HACHI_DIR/api/"
 echo
-echo "En ligne : https://hachi.guepe.com"
+echo "En ligne${HACHI_URL:+ : $HACHI_URL}"
