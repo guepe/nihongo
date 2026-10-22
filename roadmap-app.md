@@ -260,7 +260,9 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
 - [x] Tests : `node api/tests/api.test.mjs` (API contre MySQL 8 dans Docker) ; scénario
       à plusieurs appareils dans Chromium (même compte sur iPhone et Mac, invitation,
       révisions hors-ligne envoyées au retour du réseau, déconnexion).
-- [ ] Mise en ligne : base MySQL OVH et `api/config.php` sur le serveur.
+- [x] Mise en ligne : base MySQL OVH `npeqdqqhachi`, `api/config.php` sur le serveur (droits
+      604, jamais touché par `deploy.sh`). Tables créées automatiquement.
+- [ ] Création du compte administrateur, puis test sur l'iPhone et le Mac.
 
 **Terminé quand** : deux utilisateurs ont chacun leur progression, et une révision faite
 sur l'iPhone apparaît sur le Mac.
@@ -270,12 +272,12 @@ sur l'iPhone apparaît sur le Mac.
 - [x] Sous-domaine `hachi.guepe.com` créé chez OVH (Multisite), HTTPS Let's Encrypt activé.
 - [x] PHP 8.4 pour le site via `app/public/.ovhconfig` (vérifié : 8.4.27, pdo_mysql, sodium).
       En SSH, `php` reste un vieux 5.4 : c'est normal chez OVH.
-- [ ] Base MySQL créée ; script `api/schema.sql` pour les tables.
+- [x] Base MySQL créée ; tables créées par l'API (`api/schema.sql`).
 - [x] `deploy.sh` : export de `deck.json`, tests, build de l'app, envoi par `rsync` sur SSH.
 - [x] Utilisateur SSH dédié au site (`npeqdqq-hachi`), connexion par clé.
-- [ ] `config.php` créé une fois à la main sur le serveur (phase D).
+- [x] `api/config.php` créé une fois à la main sur le serveur.
 - [x] `.htaccess` : HTTPS forcé, cache (`no-cache` sauf `assets/`), compression.
-- [ ] Routes `/api/*` dans `.htaccess` (phase D).
+- [x] Routes `/api/*` dans `api/.htaccess` ; `config.php`, `lib.php`, `schema.sql` interdits.
 - [ ] Sauvegarde : export régulier de `review_events` (c'est toute la progression).
 
 ## Phase F : confort

@@ -4,7 +4,8 @@ RewriteOptions Inherit
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^ index.php [L]
 
-# Only index.php may be called directly.
-<FilesMatch "^(?!index\.php$).*">
+# Files that must never be served. (Apache checks access before the rewrite above, so a
+# rule like "everything but index.php" would also block /api/me.)
+<FilesMatch "^(config\.php|config\.example\.php|lib\.php|schema\.sql)$">
   Require all denied
 </FilesMatch>
