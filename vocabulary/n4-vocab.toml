@@ -379,7 +379,7 @@ kana = 'りゆう'
 english = 'reason; motive'
 french = 'raison; motif'
 source = 'n4'
-level = 'n4study'
+level = 'n4'
 tags = ['common', 'noun']
 frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
 

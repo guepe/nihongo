@@ -13,6 +13,7 @@ if not exist python\Scripts\python.exe (
 
 python\Scripts\python.exe cardgen\generate_vocabulary_deck.py || goto :erreur
 python\Scripts\python.exe cardgen\generate_verb_deck.py || goto :erreur
+python\Scripts\python.exe cardgen\export_json.py || goto :erreur
 
 echo.
 echo Termine. Importez dans Anki (Fichier ^> Importer) :

@@ -403,38 +403,46 @@ def read_vocabulary_notes(filename):
     toml_dict = toml.loads(contents)
     return toml_dict['cards']
 
-total_notes = 0
-total_cards = 0
-total_disabled = 0 # TODO: Deprecate and remove
-total_suspended = 0
-total_kanji_only = 0
-total_hiragana_only = 0
-total_translated = 0
+def load_notes():
+  """
+  Read every vocabulary note, applying config/kanji-only-vocab.txt and config/suspended.txt.
+  Returns (notes, number of disabled notes skipped).
+  """
+  notes = []
+  total_disabled = 0 # TODO: Deprecate and remove
+  for filename in sorted(glob.glob('**/*.toml', recursive=True)):
+    if 'cardgen' in filename or 'temp/' in filename:
+      continue # XXX: Things here shouldn't be processed for now.
+    print('Loading file: {0}'.format(filename))
+    for n in read_vocabulary_notes(filename):
+      if 'disabled' in n and n['disabled']:
+        total_disabled += 1 # TODO: Deprecate and remove
+        continue
 
-for filename in glob.glob('**/*.toml', recursive=True):
-  if 'cardgen' in filename or 'temp/' in filename:
-    continue # XXX: Things here shouldn't be processed for now.
-  print('Loading file: {0}'.format(filename))
-  notes = read_vocabulary_notes(filename)
-  for n in notes:
-    if 'disabled' in n and n['disabled']:
-      total_disabled += 1 # TODO: Deprecate and remove
-      continue
+      if 'kanji' not in n:
+        raise Exception("Key 'kanji' not in note: {}".format(n))
 
-    if 'kanji' not in n:
-      raise Exception("Key 'kanji' not in note: {}".format(n))
+      if n['kanji'] in KANJI_ONLY_VOCAB:
+        n['make_kanji_card'] = True
+        n['make_hiragana_only_card'] = False
 
-    if n['kanji'] in KANJI_ONLY_VOCAB:
-      n['make_kanji_card'] = True
-      n['make_hiragana_only_card'] = False
+      suspended = n['kanji'] in SUSPENDED_VOCAB
+      notes.append(Note(n, suspended=suspended))
+  return notes, total_disabled
 
-    suspended = False
-    if n['kanji'] in SUSPENDED_VOCAB:
-      suspended = True
+def main():
+  notes, total_disabled = load_notes()
+
+  total_notes = 0
+  total_cards = 0
+  total_suspended = 0
+  total_kanji_only = 0
+  total_hiragana_only = 0
+  total_translated = 0
+
+  for note in notes:
+    if note.suspended:
       total_suspended += 1
-
-    note = Note(n, suspended=suspended)
-
     if note.make_kanji_card:
       total_kanji_only += 1
     if note.make_hiragana_only_card:
@@ -446,14 +454,16 @@ for filename in glob.glob('**/*.toml', recursive=True):
     total_notes += 1
     total_cards += note.card_count()
 
-print('Total cards: {0}'.format(total_cards))
-print('Total notes: {0}'.format(total_notes))
-print('  > notes disabled (deprecated): {0}'.format(total_disabled))
-print('  > notes suspended: {0}'.format(total_suspended))
-print('  > notes /w kanji-only cards: {0}'.format(total_kanji_only))
-print('  > notes w/ hiragana-only cards: {0}'.format(total_hiragana_only))
-print('  > notes translated to French: {0} / {1}'.format(total_translated, total_notes))
-print('Output file: {0}'.format(OUTPUT_FILENAME))
+  print('Total cards: {0}'.format(total_cards))
+  print('Total notes: {0}'.format(total_notes))
+  print('  > notes disabled (deprecated): {0}'.format(total_disabled))
+  print('  > notes suspended: {0}'.format(total_suspended))
+  print('  > notes /w kanji-only cards: {0}'.format(total_kanji_only))
+  print('  > notes w/ hiragana-only cards: {0}'.format(total_hiragana_only))
+  print('  > notes translated to French: {0} / {1}'.format(total_translated, total_notes))
+  print('Output file: {0}'.format(OUTPUT_FILENAME))
 
-genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
+  genanki.Package(KANJI_CARD_DECK).write_to_file(OUTPUT_FILENAME)
 
+if __name__ == '__main__':
+  main()

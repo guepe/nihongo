@@ -12,6 +12,7 @@ fi
 
 python/bin/python cardgen/generate_vocabulary_deck.py | tail -n 2
 python/bin/python cardgen/generate_verb_deck.py | grep -v '^Loading' || true
+python/bin/python cardgen/export_json.py | grep -E '^(Version|Output)'
 
 echo
 echo "Terminé. Importez dans Anki (Fichier > Importer) :"

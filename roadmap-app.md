@@ -96,21 +96,64 @@ et passé, puis les autres). Les nouvelles cartes sont limitées par jour.
 
 ---
 
-## Phase A : export des données
+## Phase A : export des données ✅
 
 But : un fichier `deck.json` que l'app peut lire, généré depuis les TOML.
 
-- [ ] `cardgen/export_json.py`, qui réutilise le code de `generate_*.py` : notes, types
-      de cartes, kanji, kana, romaji, français, niveau, tags, fréquences ; formes
-      conjuguées (kanji, kana, romaji, français) pour chaque verbe.
-- [ ] Mêmes règles que les decks Anki : `config/kanji-only-vocab.txt` et
-      `config/suspended.txt` respectés, verbes sans `french-conjugated` complet ignorés.
-- [ ] Un numéro de version (hash du contenu) en tête du fichier, pour que l'app voie
-      qu'il a changé.
-- [ ] `generer.sh` produit aussi `deck.json`.
+- [x] `cardgen/export_json.py` réutilise les notes des générateurs Anki
+      (`generate_vocabulary_deck.load_notes()`, `generate_verb_deck.VERB_HASH`) : mêmes
+      règles `config/*.txt`, mêmes traductions, mêmes romaji. Contrôlé : les 28 368
+      champs de conjugaison sont identiques à ceux du deck Anki.
+- [x] Identifiant de note = le GUID Anki (hash de kanji + kana, ou de kanji + kana +
+      groupe pour les verbes). Une carte = (note, type de carte).
+- [x] `version` = hash du contenu : elle ne change que si les cartes changent.
+- [x] `generer.sh` et `generer.bat` produisent aussi `app/public/deck.json` (ignoré par git).
+- [x] Résultat : 3 174 notes de vocabulaire (6 348 cartes) et 197 verbes (18 912 cartes) ;
+      2,2 Mo, **306 Ko compressé**.
+- [x] Corrigé au passage : niveau `n4study` → `n4` (理由) ; fichiers TOML lus dans
+      l'ordre alphabétique, pour que deux générations donnent le même résultat.
+- [ ] **23 mots en double** (même kanji + kana dans deux fichiers : 船 trois fois, 方, 理由,
+      明るい…). Anki n'en garde qu'un, l'export aussi (le premier), et `export_json.py`
+      les liste. À fusionner dans les TOML.
 
-**Terminé quand** : `deck.json` contient toutes les notes des deux decks et pèse un poids
-raisonnable (objectif : moins de 3 Mo compressé).
+Format de `deck.json` :
+
+```jsonc
+{
+  "format": 1,                 // structure du fichier
+  "version": "618c21c9ac69",   // hash du contenu
+  "decks": {
+    "vocabulary": {
+      "name": "Japonais généré",
+      "card_types": [{"id": "fr-jp", "label": "Français → Japonais"}, …],
+      "notes": [{
+        "id": "IyV$E?.Kg&", "kanji": "嘴", "kana": "くちばし", "romaji": "kuchibashi",
+        "french": "bec", "level": "n1", "tags": ["birds", "common", "noun"],
+        "frequency": {"score": 26989, "source": "anime"}, "suspended": false,
+        "cards": ["fr-jp", "furigana"]
+      }, …]
+    },
+    "conjugation": {
+      "name": "Japonais généré - conjugaison",
+      "directions": ["fr-jp", "jp-fr"],
+      "conjugations": [{"id": "present_indicative", "label": "Présent", "hint": null,
+                        "forms": ["plain.positive", "plain.negative", …]}, …],
+      "notes": [{
+        "id": "@4@ydyZ&j", "kanji": "会う", "kana": "あう", "romaji": "au",
+        "french": "rencontrer; voir (quelqu'un)", "group": "godan-u", "level": "n5",
+        "forms": {
+          "present_indicative.plain.negative":
+            {"kanji": "会わない", "kana": "あわない", "romaji": "awanai", "french": "ne rencontre pas"},
+          …
+        }
+      }, …]
+    }
+  }
+}
+```
+
+Chaque forme d'un verbe donne deux cartes, une par direction :
+`present_indicative.plain.negative.fr-jp` et `….jp-fr`.
 
 ## Phase B : révision en local
 
