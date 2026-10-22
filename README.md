@@ -1,12 +1,86 @@
 日本語
 ======
-Notes et outils pour apprendre le japonais, avec des decks Anki **français → japonais**.
+Notes et outils pour apprendre le japonais en **français → japonais**, avec deux façons
+de réviser le même vocabulaire :
+
+- **hachi (蜂)**, notre application de révision, sur [hachi.guepe.com](https://hachi.guepe.com) :
+  iPhone, Mac et navigateur, progression synchronisée, accès sur invitation (voir
+  [Application hachi](#application-hachi-蜂)) ;
+- des **decks Anki** à télécharger, pour qui préfère Anki (voir
+  [Démarrage rapide](#démarrage-rapide-débutants)).
 
 Ce dépôt est un fork de [echelon/nihongo](https://github.com/echelon/nihongo), dont le
 vocabulaire et les scripts ont été adaptés en français. Les gloses anglaises d'origine
 sont conservées (champ `english`) comme référence et pour faciliter la reprise des
 nouveautés du projet d'origine. L'avancement de l'adaptation est suivi dans
-[roadmap.md](roadmap.md).
+[roadmap.md](roadmap.md), celui de l'application dans [roadmap-app.md](roadmap-app.md).
+
+Application hachi (蜂)
+---------------------
+hachi est une application de révision faite pour ce dépôt : mêmes mots, mêmes traductions,
+mêmes romaji que les decks Anki, avec la même méthode de révision espacée (FSRS, l'algorithme
+d'Anki). Elle est gratuite et privée : on y entre sur invitation.
+
+### Commencer
+
+1. Ouvrez [hachi.guepe.com](https://hachi.guepe.com).
+2. Créez votre compte avec le **lien d'invitation** reçu (valable 14 jours, pour un seul
+   compte), ou connectez-vous si vous en avez déjà un.
+3. Installez l'application, pour l'avoir en plein écran et hors-ligne :
+   - **iPhone / iPad** : dans **Safari**, bouton Partager → **Sur l'écran d'accueil** ;
+   - **Mac** : dans Safari, **Fichier → Ajouter au Dock** ; dans Chrome ou Arc, l'icône
+     d'installation dans la barre d'adresse ;
+   - **Android** : dans Chrome, menu ⋮ → **Installer l'application**.
+
+### Ce qu'elle fait
+
+- **Deux sens** pour chaque mot : français → japonais, puis japonais → français le
+  lendemain (les deux cartes d'un mot ne tombent jamais le même jour).
+- **Conjugaison** : 13 formes, neutre et poli, affirmatif et négatif. Seuls le présent et
+  le passé sont activés au départ ; ajoutez les autres dans les réglages au fil du temps.
+- **Réglages** : nouvelles cartes par jour (15 en vocabulaire, 5 en conjugaison), niveaux
+  JLPT, formes de conjugaison, rétention visée, furigana au-dessus des kanji, lecture
+  automatique.
+- **Audio** : le mot est lu avec la voix japonaise de l'appareil (bouton haut-parleur ou
+  touche **R**). Sur iPhone, une voix de meilleure qualité s'installe dans Réglages →
+  Accessibilité → Contenu énoncé → Voix → Japonais.
+- **Recherche** d'un mot (kanji, kana, romaji ou français), avec son avancement ; on peut
+  l'écouter ou le **suspendre** pour ne plus le voir.
+- **Statistiques** : jours d'affilée, révisions par jour, taux de réussite, cartes à
+  revoir dans les 14 jours.
+- **Hors-ligne** : on révise sans réseau ; les réponses partent au serveur au retour de la
+  connexion.
+- **Synchro** entre tous vos appareils, connectés au même compte.
+- **Mises à jour** : une bannière « Nouvelle version disponible » propose de recharger ;
+  rien n'est interrompu en pleine révision.
+
+Sur Mac, les raccourcis clavier vont plus vite : **espace** pour montrer la réponse,
+**1** à **4** pour répondre (espace = « Bien »), **⌘Z** pour annuler la dernière réponse.
+
+L'administrateur (le premier compte créé) invite les autres personnes depuis **Réglages →
+Compte → Créer une invitation**. Hachi et Anki sont indépendants : la progression de l'un
+n'est pas reprise dans l'autre.
+
+### Développer et mettre en ligne
+
+| Partie | Où | Détails |
+|---|---|---|
+| Application (Svelte, TypeScript, PWA) | `app/` | [app/README.md](app/README.md) |
+| API (PHP 8, MySQL) : comptes, invitations, synchro | `api/` | [roadmap-app.md](roadmap-app.md), phase D |
+| Cartes de l'application | `app/public/deck.json` | produit par `cardgen/export_json.py` (lancé par `generer.sh`) |
+| Mise en ligne sur OVH | `deploy.sh` | voir ci-dessous |
+
+```bash
+./generer.sh                  # decks Anki + deck.json de l'application
+cd app && npm run dev         # application en local (http://localhost:5173)
+./deploy.sh                   # tests, build et mise en ligne sur hachi.guepe.com
+```
+
+`deploy.sh` lit `deploy.env` (accès SSH, non versionné, voir `deploy.env.example`). Sur le
+serveur, `api/config.php` (identifiants MySQL) n'existe qu'en un exemplaire, créé à la main
+d'après `api/config.example.php` ; le script n'y touche jamais. Après une modification du
+vocabulaire, `./deploy.sh` suffit : les nouveaux mots arrivent dans l'application comme
+nouvelles cartes, sans toucher à la progression.
 
 Démarrage rapide (débutants)
 ----------------------------
@@ -109,6 +183,14 @@ Organisation des fichiers
 
 - `book/` : notes de cours (pronoms, verbes, adjectifs, conjonctions, météo).
 
+- `app/` : l'application hachi (voir [Application hachi](#application-hachi-蜂)).
+
+- `api/` : son API PHP (comptes, invitations, synchro) et le schéma de la base MySQL.
+
+- `deploy.sh`, `deploy.env.example` : mise en ligne de l'application sur OVH.
+
+- `roadmap.md`, `roadmap-app.md` : suivi de l'adaptation en français et de l'application.
+
 Installation
 ------------
 Les scripts sont écrits en Python 3. Les dépendances s'installent dans un environnement
@@ -206,7 +288,9 @@ installent l'environnement Python au premier lancement.
 
 ### Fichiers produits
 
-Les deux fichiers sont créés à la racine du dépôt et remplacés à chaque génération.
+Les deux decks sont créés à la racine du dépôt et remplacés à chaque génération.
+`generer.sh` produit aussi les cartes de l'application hachi (`app/public/deck.json`, avec
+`cardgen/export_json.py`).
 
 | Fichier | Script | Deck dans Anki | Contenu |
 |---|---|---|---|
@@ -218,6 +302,7 @@ Les deux fichiers sont créés à la racine du dépôt et remplacés à chaque g
 Refaites les étapes 2 à 6. Réimporter un deck **conserve votre progression** dans Anki,
 tant que le `kanji` et le `kana` des mots ne changent pas (voir
 [Régénérer sans perdre sa progression](#régénérer-sans-perdre-sa-progression)).
+Pour l'application hachi, lancez `./deploy.sh` ; la même règle s'applique.
 
 ### En cas de problème
 
