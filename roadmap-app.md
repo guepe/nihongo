@@ -208,8 +208,10 @@ But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
 - [x] `deploy.sh` (+ `deploy.env`, non versionné) et `.htaccess` (HTTPS forcé, cache,
       compression). Garde-fou : refuse d'envoyer dans un dossier qui contient autre chose
       que l'app.
-- [ ] Première mise en ligne sur `hachi.guepe.com` (accès SSH à renseigner dans
-      `deploy.env`).
+- [x] Mise en ligne sur `hachi.guepe.com` (utilisateur SSH dédié : son dossier personnel
+      est la racine du site ; `rsync` ne supprime jamais les fichiers cachés comme `.ssh`).
+      Vérifié en ligne : redirection HTTPS, compression (`deck.json` : 305 Ko), cache,
+      fonctionnement hors-ligne.
 - [ ] Test sur l'iPhone (Safari → Partager → « Sur l'écran d'accueil ») et le Mac.
 
 **Terminé quand** : l'app installée sur l'iPhone fonctionne en mode avion.
