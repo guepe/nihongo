@@ -218,7 +218,7 @@ But : installer l'app sur l'iPhone et le Mac, et réviser hors-ligne.
 
 > ⚠️ Sans synchro, chaque appareil a sa propre progression pendant cette phase.
 
-## Phase D : comptes et synchro
+## Phase D : comptes et synchro ✅
 
 But : plusieurs utilisateurs, et la même progression sur tous les appareils.
 
@@ -262,7 +262,7 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
       révisions hors-ligne envoyées au retour du réseau, déconnexion).
 - [x] Mise en ligne : base MySQL OVH `npeqdqqhachi`, `api/config.php` sur le serveur (droits
       604, jamais touché par `deploy.sh`). Tables créées automatiquement.
-- [ ] Création du compte administrateur, puis test sur l'iPhone et le Mac.
+- [x] Compte administrateur créé ; synchro validée entre l'iPhone et le Mac.
 
 **Terminé quand** : deux utilisateurs ont chacun leur progression, et une révision faite
 sur l'iPhone apparaît sur le Mac.
