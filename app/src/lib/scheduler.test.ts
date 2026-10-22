@@ -146,3 +146,39 @@ describe('Scheduler', () => {
     expect(scheduler.next(s, NOW)).toBeNull()
   })
 })
+
+describe('statistics', () => {
+  it('counts answers per day, the streak and the retention', async () => {
+    const { computeStats } = await import('./stats')
+    const s = settings()
+    const scheduler = new Scheduler(cards, [], s.retention)
+    let now = NOW
+    for (let day = 0; day < 5; day++) {
+      for (let card = scheduler.next(s, now); card; card = scheduler.next(s, now)) {
+        // Fail some reviews, but never a card being relearnt (it would come back forever).
+        const reviewing = scheduler.state(card)?.state === State.Review
+        scheduler.answer(card, reviewing && card.order % 4 === 0 ? Rating.Again : Rating.Good, now, DEVICE)
+        now += MINUTE
+      }
+      now = startOfStudyDay(now) + DAY + 6 * 60 * MINUTE
+    }
+    const stats = computeStats(scheduler, s, now)
+    expect(stats.perDay).toHaveLength(30)
+    expect(stats.perDay.slice(-6, -1).every((d) => d.count > 0)).toBe(true)
+    expect(stats.reviewsToday).toBe(0)
+    expect(stats.streak).toBe(5) // nothing yet today: the streak still counts
+    expect(stats.retention).toBeGreaterThan(0)
+    expect(stats.retention).toBeLessThan(1)
+    expect(stats.learned).toBeGreaterThan(0)
+    expect(stats.learning + stats.learned).toBeLessThanOrEqual(stats.seen)
+    expect(stats.forecast).toHaveLength(14)
+    expect(stats.forecast.reduce((sum, d) => sum + d.count, 0)).toBeGreaterThan(0)
+  })
+
+  it('ignores answers to cards removed from the deck', () => {
+    const removed: ReviewEvent = { id: '00000000-0000-4000-8000-000000000000', kind: 'review', at: NOW, device: DEVICE, deck: 'vocabulary', note: 'gone', card: 'fr-jp', rating: 3 }
+    const scheduler = new Scheduler(cards, [removed], 0.9)
+    expect(scheduler.history().size).toBe(0)
+    expect(scheduler.undo(NOW, DEVICE)).toBeNull()
+  })
+})

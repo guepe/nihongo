@@ -8,6 +8,7 @@
   import { formatInterval } from '../lib/format'
   import type { DeckCounts, Scheduler } from '../lib/scheduler'
   import type { Settings } from '../lib/settings'
+  import { canSpeak, speak, stopSpeaking } from '../lib/speech'
   import type { DeckId } from '../lib/types'
 
   let { scheduler, settings, device, onexit, onsaved }: {
@@ -43,7 +44,23 @@
     return Object.fromEntries(BUTTONS.map((b) => [b.rating, formatInterval(dues[b.rating].getTime() - previewAt)]))
   })
 
+  function japaneseOf(c: ReviewCard): string {
+    return c.deck === 'vocabulary' ? c.note.kana : c.form.kana
+  }
+
+  function speakCard() {
+    if (card) speak(japaneseOf(card))
+  }
+
+  // Called from a tap or a key press, so that iOS allows the speech.
+  function reveal() {
+    if (!card || revealed) return
+    revealed = true
+    if (settings.autoplay) speakCard()
+  }
+
   function showNext() {
+    stopSpeaking()
     const at = Date.now()
     card = scheduler.next(settings, at)
     revealed = false
@@ -92,8 +109,12 @@
     if (!card) return
     if (!revealed && (event.key === ' ' || event.key === 'Enter')) {
       event.preventDefault()
-      revealed = true
+      reveal()
     } else if (revealed) {
+      if (event.key === 'r') {
+        speakCard()
+        return
+      }
       const button = BUTTONS.find((b) => b.key === event.key)
       if (button) answer(button.rating)
       else if (event.key === ' ' || event.key === 'Enter') {
@@ -104,7 +125,10 @@
   }
 
   showNext()
-  onDestroy(() => clearInterval(timer))
+  onDestroy(() => {
+    clearInterval(timer)
+    stopSpeaking()
+  })
 </script>
 
 <svelte:window {onkeydown} />
@@ -123,15 +147,16 @@
   {#if card}
     <!-- Tapping the card shows the answer, like the button. -->
     <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_noninteractive_element_interactions -->
-    <main class="card" onclick={() => (revealed = true)}>
+    <main class="card" onclick={reveal}>
       {#key card.key}
-        <CardFace {card} {revealed} />
+        <CardFace {card} {revealed} showFurigana={settings.furigana}
+          onspeak={canSpeak() ? speakCard : undefined} />
       {/key}
     </main>
 
     <nav class="actions">
       {#if !revealed}
-        <button class="reveal" onclick={() => (revealed = true)}>Montrer la réponse</button>
+        <button class="reveal" onclick={reveal}>Montrer la réponse</button>
       {:else}
         {#each BUTTONS as button (button.rating)}
           <button class="grade grade-{button.rating}" onclick={() => answer(button.rating)}>

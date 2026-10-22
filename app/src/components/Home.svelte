@@ -4,12 +4,14 @@
   import type { SyncStatus } from '../lib/sync'
   import type { DeckId } from '../lib/types'
 
-  let { counts, settings, status, onstart, onsettings }: {
+  let { counts, settings, status, onstart, onsettings, onstats, onbrowse }: {
     counts: Record<DeckId, DeckCounts>
     settings: Settings
     status: SyncStatus
     onstart: () => void
     onsettings: () => void
+    onstats: () => void
+    onbrowse: () => void
   } = $props()
 
   const DECKS: { id: DeckId; label: string }[] = [
@@ -57,6 +59,11 @@
   {:else}
     <p class="rest"><span lang="ja">おつかれさま！</span> Rien à réviser pour aujourd'hui.</p>
   {/if}
+
+  <nav>
+    <button onclick={onstats}>Statistiques</button>
+    <button onclick={onbrowse}>Rechercher un mot</button>
+  </nav>
 
   <p class="sync" class:warning={status.pending > 0 && !status.syncing}>
     {#if status.syncing}
@@ -137,6 +144,21 @@
   .start {
     min-height: 3.5rem;
     font-size: 1.1rem;
+  }
+
+  nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.6rem;
+    margin-top: -0.75rem;
+  }
+
+  nav button {
+    padding: 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: var(--surface);
+    color: var(--text);
   }
 
   .sync {

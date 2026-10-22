@@ -1,9 +1,11 @@
 <script lang="ts">
   import Account from './components/Account.svelte'
+  import Browse from './components/Browse.svelte'
   import Home from './components/Home.svelte'
   import Login from './components/Login.svelte'
   import Review from './components/Review.svelte'
   import SettingsForm from './components/SettingsForm.svelte'
+  import Stats from './components/Stats.svelte'
   import UpdateBanner from './components/UpdateBanner.svelte'
   import { ApiError, type Session } from './lib/api'
   import { buildCards, type ReviewCard } from './lib/cards'
@@ -16,14 +18,14 @@
   import { pendingCount, sync, type SyncStatus } from './lib/sync'
   import { DECK_FORMAT, type DeckFile } from './lib/types'
 
-  type Screen = 'home' | 'review' | 'settings'
+  type Screen = 'home' | 'review' | 'settings' | 'stats' | 'browse'
 
   const SYNC_DELAY = 3000 // after an answer, wait for the next ones before sending
   const SYNC_EVERY = 5 * 60 * 1000
 
   let screen = $state<Screen>('home')
   let deck = $state.raw<DeckFile | null>(null)
-  let cards: ReviewCard[] = []
+  let cards = $state.raw<ReviewCard[]>([])
   let scheduler = $state.raw<Scheduler | null>(null)
   let settings = $state<Settings | null>(null)
   let session = $state.raw<Session | null>(null)
@@ -102,12 +104,12 @@
   }
 
   async function login(next: Session) {
+    screen = 'home'
     session = next
     await saveSession(next)
-    // Reviews made on this device before logging in are sent to the account.
+    // Reviews made on this device before logging in are sent to the account, and those of
+    // the other devices arrive (the scheduler is rebuilt if the home screen is shown).
     await runSync()
-    await rebuild()
-    screen = 'home'
   }
 
   async function logout() {
@@ -132,6 +134,13 @@
     await saveSettings(next)
     await rebuild()
     screen = 'home'
+    scheduleSync()
+  }
+
+  async function suspend(suspended: string[]) {
+    const next = { ...$state.snapshot(settings!), suspended }
+    settings = next
+    await saveSettings(next)
     scheduleSync()
   }
 
@@ -171,8 +180,14 @@
     <SettingsForm {settings} conjugations={deck.decks.conjugation.conjugations}
       onsave={save} oncancel={() => (screen = 'home')} />
     <Account {session} {status} onsync={runSync} onlogout={logout} />
+  {:else if screen === 'stats'}
+    <Stats {scheduler} {settings} onback={goHome} />
+  {:else if screen === 'browse'}
+    <Browse {deck} {cards} {scheduler} {settings} onsuspend={suspend} onback={goHome} />
   {:else}
-    <Home {counts} {settings} {status} onstart={() => (screen = 'review')} onsettings={() => (screen = 'settings')} />
+    <Home {counts} {settings} {status} onstart={() => (screen = 'review')}
+      onsettings={() => (screen = 'settings')} onstats={() => (screen = 'stats')}
+      onbrowse={() => (screen = 'browse')} />
   {/if}
 </div>
 

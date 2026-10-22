@@ -75,6 +75,8 @@ export class Scheduler {
     for (const event of sorted) {
       if (this.undone.has(event.id)) continue
       const key = cardKey(event.note!, event.card!)
+      // A card removed from the deck: its history is kept on the server, but ignored here.
+      if (!this.cards.has(key)) continue
       const list = this.reviews.get(key) ?? []
       list.push(event)
       this.reviews.set(key, list)
@@ -91,6 +93,15 @@ export class Scheduler {
     let card = createEmptyCard(events[0].at)
     for (const event of events) card = this.fsrs.next(card, event.at, event.rating!).card
     this.states.set(key, card)
+  }
+
+  /** Active answers (undone ones excluded) of each card still in the deck, oldest first. */
+  history(): ReadonlyMap<string, readonly ReviewEvent[]> {
+    return this.reviews
+  }
+
+  studiedCards(settings: Settings): ReviewCard[] {
+    return [...this.cards.values()].filter((card) => isStudied(card, settings))
   }
 
   state(card: ReviewCard): Card | undefined {

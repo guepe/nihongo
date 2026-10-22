@@ -83,6 +83,23 @@
   </section>
 
   <section>
+    <h2>Affichage et son</h2>
+    <div class="row">
+      <label class="check">
+        <input type="checkbox" bind:checked={draft.furigana} />
+        Furigana au-dessus des kanji
+      </label>
+    </div>
+    <div class="row">
+      <label class="check">
+        <input type="checkbox" bind:checked={draft.autoplay} />
+        Lire le japonais en montrant la réponse
+      </label>
+    </div>
+    <p class="hint">Le bouton haut-parleur (ou la touche R) relit le mot à tout moment.</p>
+  </section>
+
+  <section>
     <h2>Rétention visée</h2>
     <label class="range">
       <input type="range" min="0.75" max="0.97" step="0.01" bind:value={draft.retention} />

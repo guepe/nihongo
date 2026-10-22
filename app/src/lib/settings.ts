@@ -6,6 +6,9 @@ export interface Settings {
   levels: string[] // studied levels, including NO_LEVEL
   conjugations: string[] // ids of the enabled conjugations
   retention: number // FSRS desired retention, 0.7 – 0.97
+  autoplay: boolean // read the Japanese aloud when the answer is shown
+  furigana: boolean // kana above the kanji instead of on their own line
+  suspended: string[] // ids of the notes whose cards are never shown
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -16,6 +19,9 @@ export const DEFAULT_SETTINGS: Settings = {
   levels: [...LEVELS, NO_LEVEL],
   conjugations: ['present_indicative', 'past_indicative'],
   retention: 0.9,
+  autoplay: true,
+  furigana: false,
+  suspended: [],
 }
 
 /** Fills in settings saved by an older version of the app. */
@@ -30,6 +36,7 @@ export function withDefaults(saved: Partial<Settings> | undefined): Settings {
 export function isStudied(card: ReviewCard, settings: Settings): boolean {
   if (!settings.decks[card.deck].enabled) return false
   if (!settings.levels.includes(card.level)) return false
+  if (settings.suspended.includes(card.noteId)) return false
   if (card.deck === 'conjugation' && !settings.conjugations.includes(card.conjugation.id)) {
     return false
   }

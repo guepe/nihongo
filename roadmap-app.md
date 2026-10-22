@@ -280,23 +280,23 @@ sur l'iPhone apparaît sur le Mac.
 - [x] Routes `/api/*` dans `api/.htaccess` ; `config.php`, `lib.php`, `schema.sql` interdits.
 - [ ] Sauvegarde : export régulier de `review_events` (c'est toute la progression).
 
-## Phase F : confort
+## Phase F : confort ✅
 
-- [ ] Statistiques : révisions par jour, série de jours, rétention, prévisions des
-      prochains jours.
-- [ ] Audio : lecture du mot avec la synthèse vocale japonaise du navigateur.
-- [ ] Furigana au-dessus des kanji (option).
-- [ ] Mise à jour du deck : nouveaux mots ajoutés comme nouvelles cartes, mots retirés
-      masqués (leur historique est gardé).
-- [ ] Recherche dans le vocabulaire, suspension manuelle d'une carte.
+- [x] Statistiques : série de jours, révisions du jour, réussite sur 30 jours (révisions
+      espacées d'au moins 20 h), cartes apprises ; révisions des 30 derniers jours et
+      cartes à revoir dans les 14 jours (barres, valeur au survol ou au toucher, tableau
+      « Voir les chiffres ») ; cartes en apprentissage, apprises, maîtrisées (≥ 21 jours).
+      Couleurs des barres validées (contraste 3:1) en clair et en sombre.
+- [x] Audio : synthèse vocale japonaise de l'appareil (voix de meilleure qualité si
+      installée). Lecture automatique en montrant la réponse (réglage), bouton
+      haut-parleur, touche R ; « Écouter » dans la recherche.
+- [x] Furigana au-dessus des kanji (réglage) : la lecture ne couvre que les kanji, pas
+      les okurigana (食べる → た au-dessus de 食). Jamais sur le recto d'une carte
+      « Kanji seul ».
+- [x] Mise à jour du deck : les nouveaux mots arrivent comme nouvelles cartes ; les
+      révisions des mots retirés sont ignorées (et gardées sur le serveur).
+- [x] Recherche dans le vocabulaire et les verbes (kanji, kana, romaji ou français, sans
+      tenir compte des accents) ; suspension d'un mot ou d'un verbe, synchronisée avec les
+      réglages.
 - [ ] Optimisation des paramètres FSRS sur l'historique de chacun (après quelques
       milliers de révisions).
-
----
-
-## Décisions
-
-- Sous-domaine : `hachi.guepe.com`.
-- Hébergement : OVH Web Cloud, PHP 8.4, accès SSH et FTP.
-- Le dépôt reste **la seule source** des cartes : on ne modifie pas une carte depuis l'app.
-  Pour corriger une carte, on édite le TOML, on régénère `deck.json` et on redéploie.

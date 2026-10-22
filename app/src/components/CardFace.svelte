@@ -1,8 +1,14 @@
 <script lang="ts">
   import type { ReviewCard } from '../lib/cards'
   import { LEVEL_LABELS } from '../lib/format'
+  import { furigana } from '../lib/furigana'
 
-  let { card, revealed }: { card: ReviewCard; revealed: boolean } = $props()
+  let { card, revealed, showFurigana = false, onspeak }: {
+    card: ReviewCard
+    revealed: boolean
+    showFurigana?: boolean
+    onspeak?: () => void // reads the Japanese aloud; no button when absent
+  } = $props()
 
   const GROUPS: Record<string, string> = {
     ichidan: 'ichidan (ru)', irregular: 'irrégulier', 'suru-verb': 'verbe en する',
@@ -12,6 +18,25 @@
     GROUPS[group] ?? group.replace(/^godan-(.+)$/, 'godan ($1)')
 </script>
 
+<!-- A word in kanji with its reading: above it (furigana) or on the next line. -->
+{#snippet japanese(text: string, kana: string, question: boolean)}
+  {@const segments = showFurigana ? furigana(text, kana) : [{ text, reading: undefined }]}
+  {@const ruby = segments.some((s) => s.reading)}
+  <p class="japanese" class:question lang="ja">
+    {#each segments as segment, i (i)}{#if segment.reading}<ruby>{segment.text}<rt>{segment.reading}</rt></ruby>{:else}{segment.text}{/if}{/each}
+  </p>
+  {#if !ruby && kana !== text}<p class="kana" lang="ja">{kana}</p>{/if}
+{/snippet}
+
+{#snippet speakButton()}
+  {#if onspeak}
+    <button class="speak" aria-label="Écouter" title="Écouter (R)"
+      onclick={(event) => { event.stopPropagation(); onspeak() }}>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" /><path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" fill="none" /></svg>
+    </button>
+  {/if}
+{/snippet}
+
 {#if card.deck === 'vocabulary'}
   {@const note = card.note}
   {@const kanaDiffers = note.kana !== note.kanji}
@@ -19,8 +44,7 @@
     {#if card.type === 'fr-jp'}
       <p class="french question">{note.french}</p>
     {:else if card.type === 'furigana'}
-      <p class="japanese question" lang="ja">{note.kanji}</p>
-      {#if kanaDiffers}<p class="kana" lang="ja">{note.kana}</p>{/if}
+      {@render japanese(note.kanji, note.kana, true)}
     {:else if card.type === 'kanji'}
       <p class="japanese question" lang="ja">{note.kanji}</p>
     {:else}
@@ -29,9 +53,9 @@
 
     {#if revealed}
       <hr />
+      {@render speakButton()}
       {#if card.type === 'fr-jp'}
-        <p class="japanese" lang="ja">{note.kanji}</p>
-        {#if kanaDiffers}<p class="kana" lang="ja">{note.kana}</p>{/if}
+        {@render japanese(note.kanji, note.kana, false)}
         <p class="romaji">{note.romaji}</p>
       {:else if card.type === 'furigana'}
         <p class="romaji">{note.romaji}</p>
@@ -62,15 +86,14 @@
       <p class="french question">{card.form.french}</p>
       <p class="register">({details})</p>
     {:else}
-      <p class="japanese question" lang="ja">{card.form.kanji}</p>
-      <p class="kana" lang="ja">{card.form.kana}</p>
+      {@render japanese(card.form.kanji, card.form.kana, true)}
     {/if}
 
     {#if revealed}
       <hr />
+      {@render speakButton()}
       {#if card.direction === 'fr-jp'}
-        <p class="japanese" lang="ja">{card.form.kanji}</p>
-        <p class="kana" lang="ja">{card.form.kana}</p>
+        {@render japanese(card.form.kanji, card.form.kana, false)}
         <p class="romaji">{card.form.romaji}</p>
       {:else}
         <p class="romaji">{card.form.romaji}</p>
@@ -149,6 +172,35 @@
   .register {
     color: var(--muted);
     font-size: 0.95rem;
+  }
+
+  rt {
+    font-size: 0.4em;
+    color: var(--kana);
+    letter-spacing: 0.05em;
+  }
+
+  .speak {
+    align-self: flex-end;
+    display: grid;
+    place-items: center;
+    width: 2.75rem;
+    height: 2.75rem;
+    margin: -0.5rem 0 -2.25rem;
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    background: var(--surface);
+    color: var(--accent);
+  }
+
+  .speak svg {
+    width: 1.35rem;
+    height: 1.35rem;
+    fill: currentColor;
+    stroke: currentColor;
+    stroke-width: 1.6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
   }
 
   hr {
