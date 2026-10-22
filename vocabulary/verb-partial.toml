@@ -79,16 +79,6 @@ tags = ['common']
 frequency_scores = { anime = 2736, leeds = 3915, novels = 927, wikipedia = 5106 }
 
 [[cards]]
-kanji = '張る'
-kana = 'はる'
-english = 'to affix ~; to paste ~'
-french = 'coller ~; fixer ~'
-source = 'wiki-n5'
-level = 'n5'
-tags = ['common']
-frequency_scores = { anime = 1191, leeds = 2811, novels = 1188, wikipedia = 2649 }
-
-[[cards]]
 kanji = '弾く'
 kana = 'ひく'
 english = 'to play ~ (stringed instrument)'

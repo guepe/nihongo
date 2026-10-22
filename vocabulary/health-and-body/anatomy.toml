@@ -35,15 +35,6 @@ tags = ['anatomy', 'body', 'common', 'noun']
 frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
 
 [[cards]]
-kanji = '腕'
-kana = 'うで'
-english = 'arm'
-french = 'bras'
-level = 'n4'
-tags = ['body', 'noun']
-frequency_scores = { anime = 584, leeds = 2557, novels = 295, wikipedia = 2952 }
-
-[[cards]]
 kanji = 'お腹'
 kana = 'おなか'
 english = 'stomach'

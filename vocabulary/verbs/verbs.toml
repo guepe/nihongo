@@ -579,20 +579,6 @@ kanji = '終わる'
 kana = 'おわる'
 english = 'to end; to finish'
 french = 'se terminer; finir'
-english-conjugated = { base = 'end', past = 'ended', continuous = 'ending', plural = 'ends' }
-french-conjugated = { infinitif = 'terminer', present = 'termine', participe = 'terminé', auxiliaire = 'avoir', imperatif = 'termine', nous = 'terminons', pronominal = true }
-verb-type = 'godan-ru'
-transitive = false
-source = 'irasshai'
-level = 'n5'
-tags = ['common']
-frequency_scores = { anime = 129, leeds = 385, novels = 328, wikipedia = 492 }
-
-[[cards]]
-kanji = '終わる'
-kana = 'おわる'
-english = 'to finish; to end'
-french = 'finir; se terminer'
 english-conjugated = { past = 'finished', continuous = 'finishing', plural = 'finishes', base = 'finish' }
 french-conjugated = { infinitif = 'finir', present = 'finit', participe = 'fini', auxiliaire = 'avoir', imperatif = 'finis', nous = 'finissons' }
 verb-type = 'godan-ru'
@@ -1930,26 +1916,13 @@ frequency_scores = { anime = 1125, leeds = 2054, novels = 1104, wikipedia = 4689
 [[cards]]
 kanji = '曲がる'
 kana = 'まがる'
-english = 'to bend'
-french = 'se plier; se courber'
-english-conjugated = { plural = 'bends', base = 'bend', continuous = 'bending', past = 'bent' }
-french-conjugated = { infinitif = 'courber', present = 'courbe', participe = 'courbé', auxiliaire = 'avoir', imperatif = 'courbe', nous = 'courbons', pronominal = true }
-verb-type = 'godan-ru'
-transitive = false
-source = 'wanikani; wiki-n5'
-level = 'n5'
-tags = ['common']
-frequency_scores = { anime = 4430, leeds = 5622, wikipedia = 8402 }
-
-[[cards]]
-kanji = '曲がる'
-kana = 'まがる'
 english = 'to bend; to twist; to turn'
 french = 'se plier; se tordre; tourner'
 english-conjugated = { base = 'twist', past = 'twisted', plural = 'twists', continuous = 'twising' }
 french-conjugated = { infinitif = 'tordre', present = 'tord', participe = 'tordu', auxiliaire = 'avoir', imperatif = 'tords', nous = 'tordons', pronominal = true }
 verb-type = 'godan-ru'
 transitive = false
+source = 'wanikani; wiki-n5'
 level = 'n5'
 tags = ['common']
 frequency_scores = { anime = 4430, leeds = 5622, wikipedia = 8402 }

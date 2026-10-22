@@ -39,16 +39,6 @@ tags = ['alternate', 'common', 'formal', 'temporal-noun']
 frequency_scores = { anime = 205, leeds = 746, novels = 875, wikipedia = 5183 }
 
 [[cards]]
-kanji = '安心'
-kana = 'あんしん'
-english = 'relief'
-french = 'soulagement'
-level = 'n4'
-source = 'jlptstudy.net'
-tags = ['common', 'na-adjective', 'noun', 'suru-verb']
-frequency_scores = { anime = 589, leeds = 1465, novels = 1143 }
-
-[[cards]]
 kanji = '安全'
 kana = 'あんぜん'
 english = 'safety; security'
@@ -314,16 +304,6 @@ tags = ['common', 'language', 'noun', 'speaking', 'suru-verb']
 frequency_scores = { anime = 10684, leeds = 3383, wikipedia = 3089 }
 
 [[cards]]
-kanji = '船'
-kana = 'ふね'
-english = 'boat'
-french = 'bateau; navire'
-source = 'irasshai'
-level = 'n4'
-tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
-frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
-
-[[cards]]
 kanji = '不便'
 kana = 'ふべん'
 english = 'inconvenience'
@@ -372,26 +352,6 @@ source = 'n4-wikipedia'
 level = 'n4'
 tags = ['common', 'noun']
 frequency_scores = { anime = 2035, leeds = 7093 }
-
-[[cards]]
-kanji = '理由'
-kana = 'りゆう'
-english = 'reason; motive'
-french = 'raison; motif'
-source = 'n4'
-level = 'n4'
-tags = ['common', 'noun']
-frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
-
-[[cards]]
-kanji = '両方'
-kana = 'りょうほう'
-english = 'both; both sides'
-french = 'les deux; les deux côtés'
-source = 'n4study'
-level = 'n4'
-tags = ['common', 'no-adjective', 'noun']
-frequency_scores = { anime = 3150, leeds = 2161, novels = 2839, wikipedia = 2536 }
 
 [[cards]]
 kanji = '留守'

@@ -383,16 +383,6 @@ tags = ['adverbial-noun', 'common', 'temporal-noun', 'time']
 frequency_scores = { anime = 16679 }
 
 [[cards]]
-kanji = '再来週'
-kana = 'さらいしゅう'
-english = 'week after next'
-french = 'dans deux semaines'
-source = 'irasshai'
-level = 'n4'
-tags = ['adverbial-noun', 'common', 'temporal-noun']
-frequency_scores = { anime = 16679 }
-
-[[cards]]
 kanji = '再来年'
 kana = 'さらいねん'
 english = 'year after next'

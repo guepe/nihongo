@@ -55,16 +55,6 @@ tags = ['common', 'food', 'i-adjective', 'taste']
 frequency_scores = { anime = 10741 }
 
 [[cards]]
-kanji = '苦い'
-kana = 'にがい'
-english = 'bitter'
-french = 'amer'
-source = 'wanikani'
-level = 'n4'
-tags = ['common', 'food', 'i-adjective', 'taste']
-frequency_scores = { anime = 4185, leeds = 10763 }
-
-[[cards]]
 kanji = '不味い'
 kana = 'まずい'
 english = 'unappetising; unpleasant taste'

@@ -137,15 +137,6 @@ tags = []
 frequency_scores = { anime = 580, leeds = 599, novels = 1467, wikipedia = 981 }
 
 [[cards]]
-kanji = '方'
-kana = 'かた'
-english = 'person (sonkeigo); method or way of'
-french = 'personne (respectueux); façon de ~'
-level = 'n5'
-tags = []
-frequency_scores = { anime = 88, leeds = 116, novels = 108, wikipedia = 800 }
-
-[[cards]]
 kanji = '金持ち'
 kana = 'かねもち'
 english = 'rich person'
@@ -153,14 +144,6 @@ french = 'riche (personne)'
 tags = ['common', 'noun', 'people']
 level = 'n4'
 frequency_scores = { anime = 5006, leeds = 3937 }
-
-[[cards]]
-kanji = '看護師'
-kana = 'かんごし'
-english = 'hospital nurse'
-french = 'infirmier, infirmière (hôpital)'
-level = 'n4'
-tags = ['common']
 
 [[cards]]
 kanji = '外国人'
@@ -321,16 +304,6 @@ french = 'habitants de la ville'
 source = 'wanikani'
 tags = ['common', 'people', 'town']
 frequency_scores = { anime = 25459, leeds = 12512 }
-
-[[cards]]
-kanji = '天才'
-kana = 'てんさい'
-english = 'genius'
-french = 'génie'
-level = 'n1'
-source = 'wanikani'
-tags = ['common', 'noun']
-frequency_scores = { anime = 1373, leeds = 4307, wikipedia = 6371 }
 
 [[cards]]
 kanji = 'とこや'

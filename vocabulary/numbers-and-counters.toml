@@ -181,14 +181,6 @@ level = 'n5'
 tags = []
 
 [[cards]]
-kanji = '電話番号'
-kana = 'でんわばんごう'
-english = 'phone number'
-french = 'numéro de téléphone'
-source = 'irasshai'
-tags = ['common', 'noun']
-
-[[cards]]
 kanji = '十'
 kana = 'とお'
 english = 'ten (things)'

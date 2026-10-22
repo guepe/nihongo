@@ -63,7 +63,7 @@ kana = 'あんしん'
 english = 'relief; peace of mind'
 french = "soulagement; tranquillité d'esprit"
 level = 'n4'
-source = 'wanikani'
+source = 'wanikani; jlptstudy.net'
 tags = ['common', 'na-adjective', 'noun', 'suru-verb']
 frequency_scores = { anime = 589, leeds = 1465, novels = 1143 }
 
@@ -448,8 +448,8 @@ frequency_scores = { anime = 5726, leeds = 8837, wikipedia = 9392 }
 [[cards]]
 kanji = '方'
 kana = 'かた'
-english = '(1.) direction; way; person (2.) side; type'
-french = 'direction; façon; personne; côté'
+english = '(1.) direction; way; person (sonkeigo) (2.) side; type; method or way of'
+french = 'direction; façon (de ~); personne (respectueux); côté'
 level = 'n5'
 explain = 'https://thejapanesepage.com/tjpforum/viewtopic.php?t=15824'
 tags = ['common', 'noun']
@@ -557,16 +557,6 @@ french = 'tuyau; tube'
 level = 'n3'
 tags = ['common', 'noun', 'noun-suffix']
 frequency_scores = { anime = 6359, leeds = 4395, novels = 353, wikipedia = 1059 }
-
-[[cards]]
-kanji = '完成'
-kana = 'かんせい'
-english = 'complete; completion'
-french = 'achèvement; achevé'
-level = 'n3'
-source = 'wanikani'
-tags = ['common', 'noun', 'suru-verb']
-frequency_scores = { anime = 943, leeds = 1583, wikipedia = 560 }
 
 [[cards]]
 kanji = '完成'
@@ -1261,8 +1251,8 @@ kanji = '心理学'
 kana = 'しんりがく'
 english = 'psychology'
 french = 'psychologie'
-source = 'jisho'
-tags = ['common', 'degree', 'noun', 'profession', 'subject']
+source = 'jisho; wanikani'
+tags = ['common', 'degree', 'noun', 'profession', 'school', 'subject']
 
 [[cards]]
 kanji = '字'
@@ -1579,15 +1569,6 @@ tags = ['common', 'noun']
 frequency_scores = { anime = 4522, leeds = 4859, novels = 2814, wikipedia = 2354 }
 
 [[cards]]
-kanji = '正しい'
-kana = 'ただしい'
-english = 'correct'
-french = 'correct; juste'
-level = 'n4'
-tags = ['common', 'i-adjective']
-frequency_scores = { anime = 1095, leeds = 1002, novels = 1280, wikipedia = 3330 }
-
-[[cards]]
 kanji = '盾'
 kana = 'たて'
 english = 'shield'
@@ -1688,16 +1669,6 @@ frequency_scores = { anime = 178, leeds = 1106, novels = 792 }
 kanji = '中古'
 kana = 'ちゅうこ'
 english = 'used; secondhand'
-french = "d'occasion"
-level = 'n3'
-source = 'wanikani'
-tags = ['common', 'no-adjective', 'temporal-noun']
-frequency_scores = { anime = 15754, leeds = 3338, wikipedia = 7584 }
-
-[[cards]]
-kanji = '中古'
-kana = 'ちゅうこ'
-english = 'used; second-hand'
 french = "d'occasion"
 level = 'n3'
 source = 'wanikani'
@@ -1850,6 +1821,7 @@ french = 'génie; prodige'
 level = 'n1'
 tags = ['common', 'noun']
 frequency_scores = { anime = 1373, leeds = 4307, wikipedia = 6371 }
+source = 'wanikani'
 
 [[cards]]
 kanji = '伝説'
@@ -2294,15 +2266,6 @@ tags = ['common', 'noun', 'ocean', 'transportation', 'vehicle']
 frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
 
 [[cards]]
-kanji = '船'
-kana = 'ふね'
-english = 'boat'
-french = 'bateau; navire'
-level = 'n4'
-tags = ['common', 'noun', 'transportation']
-frequency_scores = { anime = 675, leeds = 1735, novels = 398, wikipedia = 327 }
-
-[[cards]]
 kanji = '不明'
 kana = 'ふめい'
 english = 'unclear'
@@ -2478,16 +2441,6 @@ tags = ['common', 'noun']
 frequency_scores = { anime = 457, leeds = 1290, novels = 1108 }
 
 [[cards]]
-kanji = '全く'
-kana = 'まったく'
-english = 'completely'
-french = 'complètement'
-source = 'wanikani'
-level = 'n3'
-tags = ['adverb', 'common', 'no-adjective']
-frequency_scores = { anime = 824, leeds = 610, novels = 1102, wikipedia = 1075 }
-
-[[cards]]
 kanji = '祭'
 kana = 'まつり'
 english = 'festival'
@@ -2546,17 +2499,7 @@ frequency_scores = { anime = 15707 }
 [[cards]]
 kanji = '名字'
 kana = 'みょうじ'
-english = 'family name (surname)'
-french = 'nom de famille'
-level = 'n2'
-source = 'wanikani'
-tags = ['common', 'noun']
-frequency_scores = { anime = 6671, wikipedia = 7599 }
-
-[[cards]]
-kanji = '名字'
-kana = 'みょうじ'
-english = 'family name'
+english = 'family name; surname'
 french = 'nom de famille'
 level = 'n2'
 source = 'wanikani'
@@ -2888,7 +2831,7 @@ kanji = '理由'
 kana = 'りゆう'
 english = 'reason; pretext; motive'
 french = 'raison; motif; prétexte'
-source = 'wanikani'
+source = 'wanikani; n4'
 level = 'n4'
 tags = ['common', 'noun']
 frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
@@ -2896,9 +2839,9 @@ frequency_scores = { anime = 396, leeds = 456, novels = 565, wikipedia = 586 }
 [[cards]]
 kanji = '両方'
 kana = 'りょうほう'
-english = 'both'
-french = 'les deux'
-source = 'wanikani'
+english = 'both; both sides'
+french = 'les deux; les deux côtés'
+source = 'wanikani; n4study'
 level = 'n4'
 tags = ['common', 'no-adjective', 'noun']
 frequency_scores = { anime = 3150, leeds = 2161, novels = 2839, wikipedia = 2536 }

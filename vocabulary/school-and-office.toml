@@ -138,14 +138,6 @@ tags = ['common', 'noun', 'people', 'student']
 frequency_scores = { anime = 2739, leeds = 3057, wikipedia = 5289 }
 
 [[cards]]
-kanji = '心理学'
-kana = 'しんりがく'
-english = 'psychology'
-french = 'psychologie'
-source = 'wanikani'
-tags = ['common', 'noun', 'school', 'subject']
-
-[[cards]]
 kanji = '辞書'
 kana = 'じしょ'
 english = 'dictionary'
@@ -262,16 +254,7 @@ kana = 'ちゅうがくせい'
 english = 'middle school student'
 french = 'collégien'
 source = 'irasshai'
-tags = ['common', 'noun', 'people', 'student']
-frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
-
-[[cards]]
-kanji = '中学生'
-kana = 'ちゅうがくせい'
-english = 'middle school student'
-french = 'collégien'
-source = 'irasshai'
-tags = ['common', 'noun', 'people', 'school']
+tags = ['common', 'noun', 'people', 'school', 'student']
 frequency_scores = { anime = 3038, leeds = 3884, wikipedia = 5069 }
 
 [[cards]]

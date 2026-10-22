@@ -112,9 +112,11 @@ But : un fichier `deck.json` que l'app peut lire, généré depuis les TOML.
       2,2 Mo, **306 Ko compressé**.
 - [x] Corrigé au passage : niveau `n4study` → `n4` (理由) ; fichiers TOML lus dans
       l'ordre alphabétique, pour que deux générations donnent le même résultat.
-- [ ] **23 mots en double** (même kanji + kana dans deux fichiers : 船 trois fois, 方, 理由,
-      明るい…). Anki n'en garde qu'un, l'export aussi (le premier), et `export_json.py`
-      les liste. À fusionner dans les TOML.
+- [x] **23 mots en double** (même kanji + kana dans deux fichiers : 船 trois fois, 方, 理由,
+      明るい…) fusionnés dans les TOML : la première entrée est gardée, avec les tags et
+      sources des autres et la traduction la plus complète. Pour 張る, 終わる et 曲がる,
+      les formes conjuguées du deck de conjugaison sont conservées. `export_json.py`
+      signale tout nouveau doublon.
 
 Format de `deck.json` :
 

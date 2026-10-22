@@ -1,18 +1,9 @@
 [[cards]]
 kanji = '明るい'
 kana = 'あかるい'
-english = 'bright; well-lit'
-french = 'lumineux; bien éclairé'
+english = 'bright; well-lit; light; cheerful'
+french = 'lumineux; clair; gai'
 source = 'irasshai'
-level = 'n5'
-tags = ['common', 'i-adjective']
-frequency_scores = { anime = 2574, leeds = 1980, novels = 1005, wikipedia = 3602 }
-
-[[cards]]
-kanji = '明るい'
-kana = 'あかるい'
-english = 'light; bright; well-lit; cheerful'
-french = 'clair; lumineux; gai'
 level = 'n5'
 tags = ['appearance', 'common', 'i-adjective', 'mood']
 frequency_scores = { anime = 2574, leeds = 1980, novels = 1005, wikipedia = 3602 }
@@ -370,7 +361,7 @@ english = 'bitter-tasting'
 french = 'amer'
 source = 'wanikani'
 level = 'n4'
-tags = ['common', 'flavor', 'food', 'i-adjective', 'sense']
+tags = ['common', 'flavor', 'food', 'i-adjective', 'sense', 'taste']
 frequency_scores = { anime = 4185, leeds = 10763 }
 
 [[cards]]
