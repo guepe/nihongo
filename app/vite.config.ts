@@ -4,6 +4,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // In development, the API runs with: php -S 127.0.0.1:8787 api/index.php (see app/README.md)
+  server: { proxy: { '/api': 'http://127.0.0.1:8787' } },
+  preview: { proxy: { '/api': 'http://127.0.0.1:8787' } },
   plugins: [
     svelte(),
     VitePWA({

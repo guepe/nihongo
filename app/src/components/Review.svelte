@@ -10,11 +10,12 @@
   import type { Settings } from '../lib/settings'
   import type { DeckId } from '../lib/types'
 
-  let { scheduler, settings, device, onexit }: {
+  let { scheduler, settings, device, onexit, onsaved }: {
     scheduler: Scheduler
     settings: Settings
     device: string
     onexit: () => void
+    onsaved: () => void // an event was saved locally: time to sync
   } = $props()
 
   const BUTTONS: { rating: Grade; label: string; key: string }[] = [
@@ -64,6 +65,7 @@
     canUndo = true
     showNext()
     await saveEvent(event)
+    onsaved()
   }
 
   async function undo() {
@@ -76,6 +78,7 @@
     clearInterval(timer)
     canUndo = false
     await saveEvent(result.event)
+    onsaved()
   }
 
   function onkeydown(event: KeyboardEvent) {

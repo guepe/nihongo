@@ -11,6 +11,11 @@ npm install           # la première fois (voir la note ci-dessous)
 npm run dev           # puis ouvrir http://localhost:5173
 ```
 
+Pour la connexion et la synchro, lancer aussi l'API (PHP 8 et une base MySQL, voir
+`api/config.example.php`) : `php -S 127.0.0.1:8787 api/index.php` à la racine du dépôt.
+Vite lui transmet les requêtes `/api/`. Tests de l'API sur une base vide :
+`node api/tests/api.test.mjs http://127.0.0.1:8787 <setup_code>`.
+
 - `npm test` : tests de la planification (FSRS, rejeu des révisions, annulation…).
 - `npm run check` : vérification des types.
 - `npm run build` : version de production dans `dist/`.
@@ -36,7 +41,9 @@ sur SSH. Il refuse d'envoyer dans un dossier qui contient autre chose que l'app.
 | `src/lib/cards.ts` | Liste des cartes et ordre des nouvelles cartes |
 | `src/lib/scheduler.ts` | Planification FSRS, recalculée à partir du journal des révisions |
 | `src/lib/settings.ts` | Réglages et valeurs par défaut |
-| `src/lib/db.ts` | Stockage local (IndexedDB) : révisions, réglages, identifiant de l'appareil |
+| `src/lib/db.ts` | Stockage local (IndexedDB) : révisions, réglages, session, identifiant de l'appareil |
+| `src/lib/api.ts`, `src/lib/sync.ts` | Appels à l'API PHP ; envoi et récupération des révisions, réglages |
+| `../api/` | API PHP (comptes, invitations, journal des révisions) et schéma MySQL |
 | `src/components/` | Écrans : accueil, révision, réglages ; bannière de mise à jour |
 | `public/.htaccess` | Configuration Apache d'OVH : HTTPS, cache, compression |
 

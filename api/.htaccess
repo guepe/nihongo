@@ -1,0 +1,10 @@
+# Every /api/* request goes to index.php.
+RewriteEngine On
+RewriteOptions Inherit
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+
+# Only index.php may be called directly.
+<FilesMatch "^(?!index\.php$).*">
+  Require all denied
+</FilesMatch>

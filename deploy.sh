@@ -26,9 +26,11 @@ fi
 ./generer.sh
 (cd app && npm test && npm run build)
 
-# api/ (phase D) et config.php sont gérés à part, et les fichiers cachés du serveur (.ssh…)
-# ne sont jamais supprimés : rsync ne touche à rien de tout ça.
-rsync -rlptvz --delete --filter='P /.*' --exclude /api/ --exclude /config.php \
+# Les fichiers cachés du serveur (.ssh…) ne sont jamais supprimés.
+rsync -rlptvz --delete --filter='P /.*' --exclude /api/ \
   app/dist/ "$HACHI_SSH:$HACHI_DIR/"
+# L'API ; api/config.php (identifiants MySQL) n'existe que sur le serveur et n'est jamais touché.
+rsync -rlptvz --delete --exclude /config.php --exclude /config.example.php --exclude /tests/ \
+  api/ "$HACHI_SSH:$HACHI_DIR/api/"
 echo
 echo "En ligne : https://hachi.guepe.com"

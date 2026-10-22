@@ -243,15 +243,24 @@ But : plusieurs utilisateurs, et la même progression sur tous les appareils.
 | `GET` / `PUT /api/settings` | Réglages de l'utilisateur |
 | `POST /api/invitations` | Crée un code d'invitation (admin) |
 
-- [ ] Mots de passe : `password_hash` / `password_verify`. Jetons aléatoires, stockés
+- [x] Mots de passe : `password_hash` / `password_verify`. Jetons aléatoires, stockés
       hachés en base, envoyés dans l'en-tête `Authorization`.
-- [ ] Requêtes préparées (PDO) partout ; limite de tentatives de login.
-- [ ] Fichier `config.php` (identifiants MySQL) hors du dépôt git.
-- [ ] Écrans login / inscription dans l'app ; la session reste ouverte sur l'appareil.
-- [ ] Synchro au démarrage, après chaque réponse (si réseau), et au retour en ligne.
+- [x] Requêtes préparées (PDO) partout ; limite de 10 échecs par quart d'heure et par IP.
+- [x] Fichier `api/config.php` (identifiants MySQL, code de création du premier compte)
+      hors du dépôt git ; modèle dans `api/config.example.php`. Tables créées
+      automatiquement à la première requête (`api/schema.sql`).
+- [x] Écrans login / inscription dans l'app ; la session reste ouverte sur l'appareil.
+      Lien d'invitation `https://hachi.guepe.com/#invitation=<code>`, valable 14 jours.
+- [x] Synchro au démarrage, 3 s après une réponse, au retour sur l'accueil, au retour en
+      ligne et toutes les 5 min.
       Indicateur discret : « synchronisé », « 3 révisions en attente ».
-- [ ] La première connexion sur un appareil déjà utilisé hors-ligne envoie ses révisions
+- [x] La première connexion sur un appareil déjà utilisé hors-ligne envoie ses révisions
       locales au compte.
+
+- [x] Tests : `node api/tests/api.test.mjs` (API contre MySQL 8 dans Docker) ; scénario
+      à plusieurs appareils dans Chromium (même compte sur iPhone et Mac, invitation,
+      révisions hors-ligne envoyées au retour du réseau, déconnexion).
+- [ ] Mise en ligne : base MySQL OVH et `api/config.php` sur le serveur.
 
 **Terminé quand** : deux utilisateurs ont chacun leur progression, et une révision faite
 sur l'iPhone apparaît sur le Mac.

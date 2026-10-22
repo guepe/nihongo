@@ -1,11 +1,13 @@
 <script lang="ts">
   import type { DeckCounts } from '../lib/scheduler'
   import type { Settings } from '../lib/settings'
+  import type { SyncStatus } from '../lib/sync'
   import type { DeckId } from '../lib/types'
 
-  let { counts, settings, onstart, onsettings }: {
+  let { counts, settings, status, onstart, onsettings }: {
     counts: Record<DeckId, DeckCounts>
     settings: Settings
+    status: SyncStatus
     onstart: () => void
     onsettings: () => void
   } = $props()
@@ -55,6 +57,18 @@
   {:else}
     <p class="rest"><span lang="ja">おつかれさま！</span> Rien à réviser pour aujourd'hui.</p>
   {/if}
+
+  <p class="sync" class:warning={status.pending > 0 && !status.syncing}>
+    {#if status.syncing}
+      Synchronisation…
+    {:else if status.pending}
+      {status.pending} révision{status.pending > 1 ? 's' : ''} à envoyer{status.error ? ` (${status.error.toLowerCase()})` : ''}
+    {:else if status.error}
+      {status.error}
+    {:else}
+      Synchronisé
+    {/if}
+  </p>
 </div>
 
 <style>
@@ -123,6 +137,17 @@
   .start {
     min-height: 3.5rem;
     font-size: 1.1rem;
+  }
+
+  .sync {
+    margin: 0;
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.85rem;
+  }
+
+  .sync.warning {
+    color: var(--hard);
   }
 
   .rest {
