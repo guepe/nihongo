@@ -157,23 +157,35 @@ Format de `deck.json` :
 Chaque forme d'un verbe donne deux cartes, une par direction :
 `present_indicative.plain.negative.fr-jp` et `….jp-fr`.
 
-## Phase B : révision en local
+## Phase B : révision en local ✅
 
 But : réviser dans le navigateur, sans compte ni serveur. **L'app devient utile ici.**
 
-- [ ] Projet `app/` (Vite + Svelte + TypeScript), lancé avec `npm run dev`.
-- [ ] Chargement de `deck.json` dans IndexedDB.
-- [ ] Écran d'accueil : cartes à réviser aujourd'hui, nouvelles cartes du jour, bouton
-      « Commencer ».
-- [ ] Écran de révision : recto → « Montrer la réponse » → 4 boutons avec le prochain
-      intervalle affiché (« 10 min », « 3 j »…). Raccourcis clavier sur Mac
-      (espace, 1 à 4).
-- [ ] Mise en page des cartes reprise des decks Anki : kanji, kana en bleu, romaji en
-      gris italique au verso, niveau et fréquence en bas.
-- [ ] FSRS avec les paramètres par défaut ; rétention visée réglable (90 % par défaut).
-- [ ] Réglages : decks et niveaux étudiés, formes de conjugaison activées, nouvelles
-      cartes par jour (20 par défaut).
-- [ ] Bouton « Annuler la dernière réponse ».
+- [x] Projet `app/` (Vite 8 + Svelte 5 + TypeScript), lancé avec `npm run dev` (voir
+      `app/README.md`).
+- [x] `deck.json` chargé au démarrage ; les révisions et réglages sont dans IndexedDB
+      (Dexie). L'état FSRS de chaque carte est recalculé en rejouant ses révisions.
+- [x] Écran d'accueil : nouvelles cartes, cartes en cours et à réviser, par deck.
+- [x] Écran de révision : recto → « Montrer la réponse » (ou toucher la carte) → 4 boutons
+      avec le prochain intervalle (« 10 min », « 7 j »…). Raccourcis : espace / Entrée,
+      1 à 4, ⌘Z pour annuler.
+- [x] Cartes reprises des decks Anki : kanji, kana en bleu, romaji en gris italique,
+      niveau et fréquence ; pour la conjugaison, tableau forme / verbe / sens / groupe.
+- [x] FSRS (`ts-fsrs` 5) avec le « fuzz » activé : il est calculé à partir de la date et
+      de l'état de la carte, donc identique sur tous les appareils.
+- [x] Ordre : cartes en apprentissage échues, révisions, nouvelles cartes (en alternant
+      les decks), puis apprentissage en avance de 20 min. Journée qui commence à 4 h,
+      comme dans Anki.
+- [x] Nouvelles cartes : vocabulaire du N5 au N1 puis sans niveau, du mot le plus
+      fréquent au moins fréquent ; conjugaison verbe par verbe, des plus faciles aux
+      plus difficiles.
+- [x] Réglages : decks, nouvelles cartes par jour (15 vocabulaire, 5 conjugaison),
+      niveaux JLPT, formes de conjugaison (présent et passé au départ), rétention visée
+      (90 %).
+- [x] Bouton « Annuler la dernière réponse », qui fonctionne aussi après un rechargement.
+- [x] Mode sombre ; mise en page testée en largeur iPhone et Mac.
+- [x] Tests (`npm test`) : liste des cartes, journée à 4 h, limites quotidiennes, carte
+      ratée qui revient, rejeu dans le désordre identique, annulation, filtres.
 
 **Terminé quand** : on peut faire une vraie session de révision sur Mac, fermer le
 navigateur, revenir le lendemain et retrouver les bonnes cartes à réviser.
