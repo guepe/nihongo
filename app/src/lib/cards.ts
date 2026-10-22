@@ -13,6 +13,9 @@ interface BaseCard {
   deck: DeckId
   noteId: string
   type: string
+  // Cards of the same group are not shown on the same day: the second one would be too
+  // easy right after the first. One group per word, and per conjugated form for verbs.
+  sibling: string
   level: string // 'n5'…'n1', or NO_LEVEL
   order: number // position among new cards of its deck
 }
@@ -57,7 +60,7 @@ export function buildCards(deck: DeckFile): ReviewCard[] {
     if (note.suspended) continue
     for (const type of note.cards) {
       cards.push({
-        key: cardKey(note.id, type), deck: 'vocabulary', noteId: note.id, type,
+        key: cardKey(note.id, type), deck: 'vocabulary', noteId: note.id, type, sibling: note.id,
         level: note.level ?? NO_LEVEL, order: order++, note,
       })
     }
@@ -78,6 +81,7 @@ export function buildCards(deck: DeckFile): ReviewCard[] {
           const type = `${conjugation.id}.${formId}.${direction}`
           cards.push({
             key: cardKey(note.id, type), deck: 'conjugation', noteId: note.id, type,
+            sibling: cardKey(note.id, `${conjugation.id}.${formId}`),
             level: note.level ?? NO_LEVEL, order: order++, note, conjugation, form, register,
             polarity, direction,
           })

@@ -138,6 +138,26 @@ export class Scheduler {
     return { event: { id: uuid(), kind: 'undo', at: now, device, target: latest.id }, card }
   }
 
+  /** Cards answered today, grouped by sibling group. */
+  private reviewedToday(now: number): Map<string, Set<string>> {
+    const start = startOfStudyDay(now)
+    const groups = new Map<string, Set<string>>()
+    for (const [key, events] of this.reviews) {
+      const card = this.cards.get(key)
+      if (!card || !events.length || events[events.length - 1].at < start) continue
+      const keys = groups.get(card.sibling) ?? new Set()
+      keys.add(key)
+      groups.set(card.sibling, keys)
+    }
+    return groups
+  }
+
+  /** A new or review card waits for tomorrow when a sibling was answered today. */
+  private static buried(card: ReviewCard, reviewedToday: Map<string, Set<string>>): boolean {
+    const keys = reviewedToday.get(card.sibling)
+    return !!keys && (keys.size > 1 || !keys.has(card.key))
+  }
+
   /** Number of cards of each deck seen for the first time today. */
   private introducedToday(now: number): Record<DeckId, number> {
     const start = startOfStudyDay(now)
@@ -163,13 +183,18 @@ export class Scheduler {
       vocabulary: { learning: 0, review: 0, new: 0 },
       conjugation: { learning: 0, review: 0, new: 0 },
     }
+    const reviewedToday = this.reviewedToday(now)
     for (const card of this.cards.values()) {
       if (!isStudied(card, settings)) continue
       const state = this.states.get(card.key)
-      if (!state) counts[card.deck].new++
-      else if (state.due.getTime() < end) {
-        if (isLearning(state)) counts[card.deck].learning++
-        else counts[card.deck].review++
+      if (state && isLearning(state)) {
+        if (state.due.getTime() < end) counts[card.deck].learning++
+      } else if (Scheduler.buried(card, reviewedToday)) {
+        continue
+      } else if (!state) {
+        counts[card.deck].new++
+      } else if (state.due.getTime() < end) {
+        counts[card.deck].review++
       }
     }
     const remaining = this.newRemaining(settings, now)
@@ -191,10 +216,12 @@ export class Scheduler {
     let review: ReviewCard | null = null
     let reviewDue = Infinity
     const fresh: Partial<Record<DeckId, ReviewCard>> = {}
+    const reviewedToday = this.reviewedToday(now)
 
     for (const card of this.cards.values()) {
       if (!isStudied(card, settings)) continue
       const state = this.states.get(card.key)
+      if (!(state && isLearning(state)) && Scheduler.buried(card, reviewedToday)) continue
       if (!state) {
         const best = fresh[card.deck]
         if (remaining[card.deck] > 0 && (!best || card.order < best.order)) fresh[card.deck] = card

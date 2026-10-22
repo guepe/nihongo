@@ -183,6 +183,8 @@ But : réviser dans le navigateur, sans compte ni serveur. **L'app devient utile
       niveaux JLPT, formes de conjugaison (présent et passé au départ), rétention visée
       (90 %).
 - [x] Bouton « Annuler la dernière réponse », qui fonctionne aussi après un rechargement.
+- [x] Cartes sœurs repoussées au lendemain, comme dans Anki : un seul sens par mot et par
+      jour (FR → JP aujourd'hui, JP → FR demain), et par forme pour la conjugaison.
 - [x] Mode sombre ; mise en page testée en largeur iPhone et Mac.
 - [x] Tests (`npm test`) : liste des cartes, journée à 4 h, limites quotidiennes, carte
       ratée qui revient, rejeu dans le désordre identique, annulation, filtres.

@@ -113,6 +113,25 @@ describe('Scheduler', () => {
     expect(reloaded.counts(s, NOW).vocabulary.new).toBe(15)
   })
 
+  it('shows the other direction of a word on the next day', () => {
+    const s = settings()
+    const scheduler = new Scheduler(cards, [], s.retention)
+    const shown: string[] = []
+    let now = NOW
+    for (let card = scheduler.next(s, now); card; card = scheduler.next(s, now)) {
+      shown.push(card.key)
+      scheduler.answer(card, Rating.Easy, now, DEVICE)
+      now += MINUTE
+    }
+    const firstDay = shown.map((key) => cards.find((c) => c.key === key)!)
+    expect(new Set(firstDay.map((c) => c.sibling)).size).toBe(firstDay.length)
+
+    const tomorrow = startOfStudyDay(now) + DAY + 6 * 60 * MINUTE
+    const next = scheduler.next(s, tomorrow)!
+    expect(next.sibling).toBe(firstDay[0].sibling)
+    expect(next.key).not.toBe(firstDay[0].key)
+  })
+
   it('only studies the enabled decks, levels and conjugations', () => {
     const s = settings({ levels: ['n5'], conjugations: ['potential'] })
     s.decks.vocabulary.enabled = false
