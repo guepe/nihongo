@@ -16,6 +16,11 @@ fi
 # Vide : le dossier personnel de l'utilisateur SSH est la racine du site.
 HACHI_DIR=${HACHI_DIR:-.}
 
+if ! ssh -o BatchMode=yes -o ConnectTimeout=15 "$HACHI_SSH" true; then
+  echo "Connexion SSH impossible à $HACHI_SSH. Clé SSH chargée ? Essayez : ssh-add"
+  exit 1
+fi
+
 # rsync --delete efface ce qui n'est pas dans l'app : on vérifie d'abord que le dossier
 # distant ne contient rien d'autre que l'app (fichier .hachi) ou des fichiers cachés.
 if ! ssh "$HACHI_SSH" "mkdir -p '$HACHI_DIR' && cd '$HACHI_DIR' && { [ -f .hachi ] || [ -z \"\$(ls)\" ]; }"; then
