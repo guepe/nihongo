@@ -4,6 +4,7 @@
   import { LEVELS, NO_LEVEL } from '../lib/cards'
   import { LEVEL_LABELS } from '../lib/format'
   import type { Settings } from '../lib/settings'
+  import { canSpeak, japaneseVoices, speak, type SpeechOutcome } from '../lib/speech'
   import type { Conjugation, DeckId } from '../lib/types'
 
   let { settings, conjugations, onsave, oncancel }: {
@@ -21,6 +22,32 @@
     { id: 'conjugation', label: 'Conjugaison' },
   ]
   const levels = [...LEVELS, NO_LEVEL]
+
+  // Sound test: shows what the device does, to understand a silent iPhone.
+  let soundReport = $state<string[]>([])
+
+  async function testSound() {
+    if (!canSpeak()) {
+      soundReport = ['Ce navigateur ne sait pas lire de texte à voix haute.']
+      return
+    }
+    let started = false
+    soundReport = ['Lecture demandée…']
+    // Spoken right away, still inside the tap: iOS only allows speech started by the user.
+    speak('こんにちは', (outcome: SpeechOutcome) => {
+      if (outcome === 'start') started = true
+      soundReport[0] = outcome === 'start' ? 'Lecture en cours…'
+        : outcome === 'end' ? 'Lecture terminée.'
+        : `Erreur de lecture (${outcome.slice(7)}).`
+    })
+    const voices = await japaneseVoices()
+    soundReport[1] = voices.length
+      ? `Voix japonaises : ${voices.map((v) => v.name).join(', ')}.`
+      : 'Aucune voix japonaise sur cet appareil.'
+    setTimeout(() => {
+      if (!started) soundReport[0] = 'La lecture n\'a pas démarré.'
+    }, 3000)
+  }
 
   function toggle(list: string[], value: string) {
     const index = list.indexOf(value)
@@ -97,6 +124,20 @@
       </label>
     </div>
     <p class="hint">Le bouton haut-parleur (ou la touche R) relit le mot à tout moment.</p>
+    <div class="row">
+      <span>Vous n'entendez rien ?</span>
+      <button class="link" onclick={testSound}>Tester le son</button>
+    </div>
+    {#if soundReport.length}
+      <div class="report" role="status">
+        {#each soundReport as line, i (i)}<p>{line}</p>{/each}
+        <p class="hint">
+          Sur iPhone et iPad : désactivez le mode silencieux (bouton ou réglage « Silencieux ») et
+          montez le volume. Pour changer de voix : Réglages → Accessibilité → Contenu énoncé →
+          Voix → Japonais.
+        </p>
+      </div>
+    {/if}
   </section>
 
   <section>
@@ -220,6 +261,14 @@
     width: 3.5rem;
     text-align: right;
     font-variant-numeric: tabular-nums;
+  }
+
+  .report {
+    padding: 0.75rem 0 0;
+  }
+
+  .report p {
+    margin: 0 0 0.3rem;
   }
 
   .hint {

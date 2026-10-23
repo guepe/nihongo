@@ -1,17 +1,9 @@
 // Reads Japanese aloud with the voices of the device (Kyoko, O-Ren… on Apple devices).
-
-let voice: SpeechSynthesisVoice | null | undefined
-
-function japaneseVoice(): SpeechSynthesisVoice | null {
-  if (voice !== undefined) return voice
-  const voices = speechSynthesis.getVoices().filter((v) => v.lang.replace('_', '-').startsWith('ja'))
-  if (!voices.length) return null // the list may not be loaded yet: try again next time
-  // Prefer the higher-quality voices when the device has them.
-  voice = voices.find((v) => /premium|enhanced|amélioré/i.test(v.name))
-    ?? voices.find((v) => v.localService)
-    ?? voices[0]
-  return voice
-}
+//
+// Two iOS pitfalls: the voice is never forced (iOS lists "enhanced" voices that aren't
+// downloaded, and choosing one gives silence: with only the language set, the device uses
+// the voice chosen in its settings), and speak() never directly follows cancel() (Safari
+// then drops the new utterance).
 
 export function canSpeak(): boolean {
   return typeof speechSynthesis !== 'undefined'
@@ -22,18 +14,44 @@ export function speakable(kana: string): string {
   return kana.replace(/[～~]/g, '').replace(/\s*\/\s*/g, '、').replace(/[()（）]/g, '、').trim()
 }
 
+export type SpeechOutcome = 'start' | 'end' | `error: ${string}`
+
+function utterance(kana: string, onoutcome?: (outcome: SpeechOutcome) => void): SpeechSynthesisUtterance {
+  const u = new SpeechSynthesisUtterance(speakable(kana))
+  u.lang = 'ja-JP'
+  u.rate = 0.9
+  if (onoutcome) {
+    u.onstart = () => onoutcome('start')
+    u.onend = () => onoutcome('end')
+    u.onerror = (e) => onoutcome(`error: ${e.error}`)
+  }
+  return u
+}
+
 /** Must first be called from a tap or a key press: iOS refuses speech otherwise. */
-export function speak(kana: string): void {
+export function speak(kana: string, onoutcome?: (outcome: SpeechOutcome) => void): void {
   if (!canSpeak()) return
-  speechSynthesis.cancel()
-  const utterance = new SpeechSynthesisUtterance(speakable(kana))
-  utterance.lang = 'ja-JP'
-  utterance.rate = 0.9
-  const v = japaneseVoice()
-  if (v) utterance.voice = v
-  speechSynthesis.speak(utterance)
+  const u = utterance(kana, onoutcome)
+  if (speechSynthesis.speaking || speechSynthesis.pending) {
+    speechSynthesis.cancel()
+    setTimeout(() => speechSynthesis.speak(u), 100)
+  } else {
+    speechSynthesis.speak(u)
+  }
 }
 
 export function stopSpeaking(): void {
-  if (canSpeak()) speechSynthesis.cancel()
+  if (canSpeak() && (speechSynthesis.speaking || speechSynthesis.pending)) speechSynthesis.cancel()
+}
+
+/** Japanese voices known to the device (the list may load a moment after the page). */
+export function japaneseVoices(): Promise<SpeechSynthesisVoice[]> {
+  const list = () => speechSynthesis.getVoices().filter((v) => v.lang.replace('_', '-').startsWith('ja'))
+  if (!canSpeak()) return Promise.resolve([])
+  if (speechSynthesis.getVoices().length) return Promise.resolve(list())
+  return new Promise((resolve) => {
+    const done = () => resolve(list())
+    speechSynthesis.addEventListener('voiceschanged', done, { once: true })
+    setTimeout(done, 1500)
+  })
 }
